@@ -5,7 +5,7 @@ const root=path.join(__dirname,'..');
  assert(laya.available(root),'Prepare the embedded Laya runtime first.');
  const unicode=await laya.choose(root,{brief:'Wishes '+String.fromCharCode(0xD800)},[{id:'wish',description:'Wish granting'},{id:'poison',description:'Poisoning'}],'Choose the matching mechanic.');assert(unicode.choice);
  const kb=load(root,{includeUnowned:true});
- const p=await engine.create(kb,{mode:'create',title:'Embedded wish smoke',complexity:'high',mechanicalBrief:'Wizard wishes with alchemist wishes, plague doctor for storyteller wishes and other ways to make wishes.',size:{townsfolk:2,outsider:1,minion:2,demon:1}},root);
+ const p=await engine.create(kb,{mode:'create',title:'Embedded wish smoke',complexity:'high',requiredBotcRoles:'Wizard, Alchemist, Plague Doctor',mechanicalBrief:'Wizard wishes with alchemist wishes, plague doctor for storyteller wishes and other ways to make wishes.',size:{townsfolk:2,outsider:1,minion:2,demon:1}},root);
  for(const id of ['wizard','alchemist','plague-doctor'])assert(p.entries.some(e=>e.botcRole.id===id));
  assert(p.designTrace.length&&p.designTrace.every(x=>x.laya&&x.chosen.id===x.laya.choice));
  const review=await engine.review(kb,p,'How do these wishes work?', 'wizard',root);assert.equal(review.engine,'embedded Laya + corpus review');

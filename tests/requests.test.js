@@ -1,8 +1,8 @@
 const {test}=require('node:test');const assert=require('node:assert/strict');const path=require('node:path');
 const engine=require('../lib/engine');const {load}=require('../lib/knowledge');const laya=require('../lib/laya');
 const root=path.join(__dirname,'..'),kb=load(root,{includeUnowned:true});
-const request={mode:'create',complexity:'high',mechanicalBrief:'Wizard wishes with alchemist wishes, plague doctor for storyteller wishes and other ways to make wishes.',size:{townsfolk:2,outsider:1,minion:2,demon:1}};
-test('the wish brief retains Wizard, Alchemist and Plague Doctor, including the bespoke caution',async()=>{
+const request={mode:'create',complexity:'high',requiredBotcRoles:'Wizard, Alchemist, Plague Doctor',mechanicalBrief:'Wizard wishes with alchemist wishes, plague doctor for storyteller wishes and other ways to make wishes.',size:{townsfolk:2,outsider:1,minion:2,demon:1}};
+test('dedicated required roles retain Wizard, Alchemist and Plague Doctor, including the bespoke caution',async()=>{
  const p=await engine.create(kb,request,root);for(const id of ['wizard','alchemist','plague-doctor'])assert(p.entries.some(e=>e.botcRole.id===id));
  assert(p.analysis.warnings.some(w=>w.includes('Wizard')));for(const e of p.entries)assert.equal(e.ability,kb.botc.find(r=>r.id===e.botcRole.id).ability);
 });
@@ -10,7 +10,14 @@ test('requirements reject capacity conflicts, unavailable roles and exclusions',
  await assert.rejects(engine.create(kb,{...request,size:{...request.size,minion:0}},root),/exceed/);
  await assert.rejects(engine.create(kb,{...request,excludedBotcRoles:'Wizard'},root),/both requested and excluded/);
  await assert.rejects(engine.create(kb,{...request,requiredBotcRoles:'Imaginary role'},root),/not available|not in|unknown/i);
- const p=await engine.create(kb,{...request,mechanicalBrief:'poisoning without Poisoner'},root);assert(!p.entries.some(e=>e.botcRole.id==='poisoner'));
+ const p=await engine.create(kb,{...request,mechanicalBrief:'poisoning',excludedBotcRoles:'Poisoner'},root);assert(!p.entries.some(e=>e.botcRole.id==='poisoner'));
+});
+test('brief mentions and negations never become required or excluded roles at 15 Townsfolk',async()=>{
+ const p=await engine.create(kb,{mode:'create',mechanicalBrief:'Townsfolk become drunk; Wizard wishes without Poisoner',size:{townsfolk:15,outsider:4,minion:4,demon:4}},root);
+ assert.deepEqual(p.goals.requiredRoles,[]);assert.deepEqual(p.goals.excludedRoles,[]);
+ assert.equal(p.entries[0].team,'townsfolk');assert.equal(p.entries.filter(e=>e.team==='townsfolk').length,15);
+ const explicit=await engine.create(kb,{mode:'create',mechanicalBrief:'Townsfolk become drunk; avoid Drunk',requiredBotcRoles:'Drunk',size:{townsfolk:15,outsider:4,minion:4,demon:4}},root);
+ assert.deepEqual(explicit.goals.requiredRoles,['drunk']);assert.deepEqual(explicit.goals.excludedRoles,[]);assert.equal(explicit.entries.find(e=>e.botcRole.id==='drunk').team,'outsider');
 });
 test('Laya choices are bounded by the eligible shortlist and leave required roles intact',async(t)=>{
  const original=laya.choose;t.after(()=>{laya.choose=original;});let calls=0;
