@@ -6,6 +6,7 @@ const engine=require('./lib/engine');
 const model=require('./lib/model');
 const {Store,atomic}=require('./lib/storage');
 const {markdown}=require('./lib/export');
+const {scriptText}=require('./lib/script-text');
 const settings=require('./lib/settings');
 const ROOT=process.env.STUDIO_ROOT||__dirname;
 let kb=knowledge.load(ROOT);const store=new Store(ROOT);
@@ -49,6 +50,7 @@ async function route(req,res) {
     if(name==='parse')return send(res,200,knowledge.parseScript(String(b.text||''),kb));
     if(name==='create'){const p=await engine.create(kb,b.request,ROOT,b.roleIds,b.supplementalRoleIds);return send(res,200,store.save(p,'Created '+b.request.mode+' project'));}
     const p=engine.adopt(store.current(b.id),kb);
+    if(name==='text'){if(b.version!==p.version)throw Error('Reopen the current project first.');return send(res,200,scriptText(p));}
     if(name==='export') {
       if(b.version!==p.version)throw Error('Reopen the current project before export.');
       const text=markdown(p,b.options);res.writeHead(200,{'Content-Type':'text/markdown; charset=utf-8','Content-Disposition':'attachment; filename="'+p.title.replace(/[^a-z0-9-]/gi,'-')+'.md"','Cache-Control':'no-store'});return res.end(text);

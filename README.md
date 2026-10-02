@@ -6,6 +6,14 @@ The BOTC database now contains **181 released characters** from the 2 October 20
 
 ## Launch
 
+### One-off webpage
+
+The GitHub Pages version runs entirely in your browser, without accounts or a server database. Projects exist only for the current page session. Use **Export TXT** before closing the tab and import the file next time. TXT preserves BOTC roles, supplemental entries and optional identity choices; choose whether to restore those choices after confirming imported mechanics. Markdown export remains available after approval. Desktop projects are not uploaded or synchronized to the website.
+
+Build with `npm run build:web`, then preview with `node scripts/preview-web.js`. The Pages workflow deploys `dist/web` from `main`. No credentials, local settings, saved projects or runtime binaries are included in the website.
+
+Character fits compare BOTC mechanic concepts against explicit character themes, personality, narrative-function and archetype tags, with lower weight for factual descriptions. Common words are removed from both mechanical and brief matches. Names, source titles, URLs, factions, alignment labels and importance metadata never count as overlap evidence. The explanation names the field behind each matched concept; this is editorial assistance, not a claim that a narrative role reproduces a BOTC rule.
+
 ### Windows executable
 
 Download the Windows ZIP from this repository's Releases page, extract the whole folder to a writable location, and double-click **Clocktower Studio.exe**. Node.js is bundled. The browser opens automatically; the tray icon can reopen the app or stop its server. Keep the executable with the rest of the extracted folder. Existing source installations keep their projects in place.
