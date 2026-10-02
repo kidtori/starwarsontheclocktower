@@ -20,6 +20,7 @@ def clean(value):
 with contextlib.redirect_stdout(sys.stderr):
     import torch
     import laya
+    from laya.common import build_sequence
     torch.set_num_threads(min(4, os.cpu_count() or 1))
     model = laya.load(str(Path(__file__).resolve().parents[1] / "runtime" / "laya-model"), device="cpu")
 
@@ -30,7 +31,17 @@ for line in sys.stdin:
             state = request["state"]
             if not isinstance(state, str):
                 state = json.dumps(state, ensure_ascii=False)
+            max_len = model.cfg.get("max_len", 512)
+            head_max_len = model.cfg.get("head_max_len", 192)
+            context = {}
+            for key, question in request["questions"].items():
+                internal = model._to_internal(question)
+                prefix, _ = build_sequence(model.tok, "", internal, max_len, head_max_len)
+                budget = max_len - len(prefix)
+                tokens = len(model.tok(state.replace(model.tok.mask_token, " "), add_special_tokens=False)["input_ids"])
+                context[key] = {"tokens": tokens, "budget": budget, "truncated": tokens > budget}
             result = model.predict(state=state, questions=request["questions"])
+            result["context"] = context.get("selection", next(iter(context.values()), {}))
         print(json.dumps({"id": request["id"], "result": result}), flush=True)
     except Exception as exc:
         traceback.print_exc(file=sys.stderr)

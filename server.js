@@ -72,7 +72,7 @@ async function route(req,res) {
     throw Error('Unknown API operation.');
   }
   if(req.method!=='GET')return send(res,405,{error:'Method not allowed.'});
-  const names={'/':'index.html','/app.js':'app.js','/connections.js':'connections.js','/styles.css':'styles.css'};const file=names[url.pathname];if(!file)return send(res,404,{error:'Not found.'});
+  const names={'/':'index.html','/app.js':'app.js','/connections.js':'connections.js','/casting.js':'casting.js','/styles.css':'styles.css'};const file=names[url.pathname];if(!file)return send(res,404,{error:'Not found.'});
   res.writeHead(200,{'Content-Type':file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'",'X-Content-Type-Options':'nosniff'});res.end(fs.readFileSync(path.join(__dirname,'public',file)));
 }
 function describe(a){return a.type==='mapping'?`Changed ${a.roleId} identity to ${a.characterId}`:a.type==='role'?`Explicit mechanical replacement ${a.roleId} → ${a.newRoleId}`:a.type==='swap'?`Swapped identities on ${a.roleId} and ${a.otherRoleId}`:a.type==='locks'?`Updated ${a.roleId} locks: BOTC ${a.botcRole}, identity ${a.starWarsCharacter}`:a.type==='approve'?'Explicitly approved current script':a.type;}

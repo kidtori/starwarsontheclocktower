@@ -39,6 +39,7 @@ test('HTTP session workflow rejects bad imports and stale edits, preserves group
   try{
     await Promise.race([new Promise((resolve,reject)=>{child.stdout.on('data',d=>{if(String(d).includes('Clocktower Studio:'))resolve();});child.once('exit',code=>reject(Error('Server exited '+code)));}),new Promise((_,reject)=>setTimeout(()=>reject(Error('Server startup timeout')),10000))]);
     const base=`http://127.0.0.1:${port}`;
+    const castingScript=await fetch(base+'/casting.js');assert.equal(castingScript.status,200);assert.match(await castingScript.text(),/CharacterCasting/);
     const post=async(name,payload,headers={})=>{const response=await fetch(base+'/api/'+name,{method:'POST',headers:{'Content-Type':'application/json',...headers},body:JSON.stringify(payload)});const content=await response.text();return {status:response.status,value:response.headers.get('content-type').startsWith('application/json')?JSON.parse(content):content};};
     let p=(await post('create',{request:req})).value;assert.equal(p.state,'DRAFT');assert.equal((await post('export',{id:p.id,version:p.version})).status,400);
     const parsed=(await post('parse',{text:'Empath\nFortuneteller\nImp'})).value;assert.equal(parsed.unresolved.length,1);
