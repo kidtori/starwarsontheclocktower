@@ -1,6 +1,6 @@
 {
   "name": "star-wars-clocktower-studio",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "private": true,
   "description": "Local, corpus-backed BOTC script design and Star Wars retheming",
   "scripts": {
