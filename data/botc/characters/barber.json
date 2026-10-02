@@ -1,0 +1,62 @@
+{
+  "id": "barber",
+  "name": "Barber",
+  "officialId": "barber",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+  "mechanics": {
+    "deathInteraction": 2,
+    "demonSurvivability": 1,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "demonSurvivability",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Death enables the Demon to offer a character swap between two non-Demons."
+  ],
+  "explanation": "Death enables the Demon to offer a character swap between two non-Demons.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Barber died today or tonight, show the Demon the *THIS CHARACTER SELECTED YOU* & Barber tokens. If the Demon chose 2 players, wake one at a time. Show the *YOU ARE* token & their new character token."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 26
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

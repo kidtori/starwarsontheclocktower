@@ -1,0 +1,60 @@
+{
+  "id": "tinker",
+  "name": "Tinker",
+  "officialId": "tinker",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "You might die at any time.",
+  "mechanics": {
+    "deathInteraction": 1,
+    "bluffability": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "bluffability"
+  ],
+  "designRole": [
+    "May die at any time, adding discretionary death uncertainty."
+  ],
+  "explanation": "May die at any time, adding discretionary death uncertainty.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Tinker might die. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "gossip"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 25
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

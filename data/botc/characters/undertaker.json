@@ -1,0 +1,68 @@
+{
+  "id": "undertaker",
+  "name": "Undertaker",
+  "officialId": "undertaker",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "Each night*, you learn which character died by execution today.",
+  "mechanics": {
+    "recurringInformation": 2,
+    "characterInformation": 3,
+    "executionInteraction": 1,
+    "playerAgency": 1,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "characterInformation",
+    "executionInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Learns the character of yesterday's executed player; makes execution an information investment."
+  ],
+  "explanation": "Learns the character of yesterday's executed player; makes execution an information investment.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If a player was executed today, show their character token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "empath",
+      "poisoner",
+      "spy"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 70
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

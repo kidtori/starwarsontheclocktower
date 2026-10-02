@@ -1,0 +1,55 @@
+{
+  "url": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious",
+  "title": "Emperor Palpatine (Darth Sidious) | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "afbf290bf4627c2b4bf8793df5dc3893307d95fe97048025211cfae7b6badf82",
+  "appearances": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars: Tales of the Jedi",
+    "Star Wars: Maul – Shadow Lord",
+    "Jedi Mind Match"
+  ],
+  "affiliations": [
+    "Galactic Empire",
+    "Galactic Republic",
+    "Galactic Senate",
+    "Sith"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "emperor-palpatine-darth-sidious",
+    "galactic-empire",
+    "galactic-republic",
+    "galactic-senate",
+    "sith",
+    "naboo",
+    "death-star-ii",
+    "force-lightning",
+    "lightsaber",
+    "palpatines-lightsaber",
+    "mandalore",
+    "ahsoka-tano",
+    "clone-troopers",
+    "kamino",
+    "vice-admiral-rampart",
+    "exegol",
+    "the-new-republic",
+    "the-first-order",
+    "luke-skywalker",
+    "supreme-leader-snoke",
+    "kylo-ren",
+    "rey",
+    "jakku"
+  ]
+}

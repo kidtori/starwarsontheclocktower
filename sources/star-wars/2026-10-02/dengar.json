@@ -1,0 +1,17 @@
+{
+  "url": "https://www.starwars.com/databank/dengar",
+  "title": "Dengar | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "6eb66f5fa945f482db63773420ddb66a208b834b6e60d0e120cf8c08a0d7593a",
+  "appearances": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "dengar",
+    "blaster-rifle"
+  ]
+}

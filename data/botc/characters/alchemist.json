@@ -1,0 +1,115 @@
+{
+  "id": "alchemist",
+  "name": "Alchemist",
+  "officialId": "alchemist",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
+  "mechanics": {
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "A Townsfolk with a Minion ability; requires careful ability selection and relevant jinx handling."
+  ],
+  "explanation": "A Townsfolk with a Minion ability; requires careful ability selection and relevant jinx handling.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Show the *YOU ARE* info token and a Minion token.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "List the possible Minion abilities and consult all relevant jinxes before running."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "boffin",
+      "reason": "If the Alchemist has the Boffin ability, the Alchemist does not learn what ability the Demon has.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "marionette",
+      "reason": "An Alchemist-Marionette has no Marionette ability & the Marionette is in play.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "mastermind",
+      "reason": "An Alchemist-Mastermind has no Mastermind ability & the Mastermind is not-in-play.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "organ-grinder",
+      "reason": "If the Alchemist has the Organ Grinder ability, the Organ Grinder is in play. If both are sober, both are drunk.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "spy",
+      "reason": "An Alchemist-Spy has no Spy ability & a Spy is in play. After each execution, a living Alchemist-Spy may publicly guess a living player as the Spy. If correct, the Demon must choose the Spy tonight.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "summoner",
+      "reason": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "widow",
+      "reason": "An Alchemist-Widow has no Widow ability & a Widow is in play. After each execution, a living Alchemist-Widow may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "wraith",
+      "reason": "An Alchemist-Wraith has no Wraith ability & a Wraith is in play. After each execution, a living Alchemist-Wraith may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 186
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

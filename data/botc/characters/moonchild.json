@@ -1,0 +1,62 @@
+{
+  "id": "moonchild",
+  "name": "Moonchild",
+  "officialId": "moonchild",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+  "mechanics": {
+    "deathInteraction": 2,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "When learning they died, publicly chooses an alive player; a good choice dies tonight."
+  ],
+  "explanation": "When learning they died, publicly chooses an alive player; a good choice dies tonight.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Moonchild is due to kill a good player, they die. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "goon"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 24
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "id": "marionette",
+  "name": "Marionette",
+  "officialId": "marionette",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]",
+  "mechanics": {
+    "misinformation": 1,
+    "setupManipulation": 2,
+    "evilUtility": 2
+  },
+  "tags": [
+    "misinformation",
+    "setupManipulation",
+    "evilUtility"
+  ],
+  "designRole": [
+    "An evil Minion believes they are good; the Demon knows their identity and they neighbour the Demon."
+  ],
+  "explanation": "An evil Minion believes they are good; the Demon knows their identity and they neighbour the Demon.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "Wake the Demon. Show the *THIS PLAYER IS* & Marionette tokens. Point to the Marionette.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "snitch"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "alchemist",
+      "reason": "An Alchemist-Marionette has no Marionette ability & the Marionette is in play.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "magician",
+      "reason": "If the Magician is alive, the Demon doesn't know which neighbor is the Marionette.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "balloonist",
+      "reason": "If the Marionette thinks that they are the Balloonist, an Outsider might have been added during setup.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "huntsman",
+      "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added during setup.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "kazali",
+      "reason": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "lil-monsta",
+      "reason": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "summoner",
+      "reason": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "mathematician",
+      "reason": "The Mathematician learns if the Marionette’s ability yielded false info or failed to work properly.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "plague-doctor",
+      "reason": "If the Storyteller would gain the Marionette ability, one of the Demon's good neighbors becomes the Marionette.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 166
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

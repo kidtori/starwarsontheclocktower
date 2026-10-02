@@ -1,0 +1,150 @@
+# id | name | eras (P=Republic/C=Clone Wars/I=Empire/N=New Republic/S=First Order/H=High Republic) | editorial faction groups | editorial alignment | importance 0–3 | editorial casting themes | concise factual paraphrase | aliases
+leia-organa|Leia Organa|I,N,S|Rebel Alliance,Resistance|good|3|leadership,loyalty,perception,political influence,protection|Alderaanian princess and rebel leader who later founded the Resistance.|Leia,Princess Leia,General Organa
+luke-skywalker|Luke Skywalker|I,N,S|Jedi,Rebel Alliance|good|3|intuition,hope,redemption,protection,sacrifice|Tatooine farm boy who became a Jedi and confronted his father Vader.|Luke
+darth-vader|Darth Vader|P,C,I|Sith,Galactic Empire,Jedi|evil,good|3|corruption,hidden identities,betrayal,power,redemption,sacrifice|Anakin Skywalker became Darth Vader after turning against the Jedi.|Anakin Skywalker,Anakin,Lord Vader
+emperor-palpatine|Emperor Palpatine|P,C,I,S|Sith,Galactic Empire|evil|3|manipulation,deception,political influence,control,corruption,secrecy|The Sith Lord Darth Sidious concealed his identity while acquiring political power.|Palpatine,Darth Sidious,Sheev Palpatine,The Emperor
+yoda|Yoda|P,C,I|Jedi|good|3|wisdom,mentorship,perception,knowledge,intuition|Long-serving Jedi Master who trained Luke in exile on Dagobah.|
+obi-wan-kenobi|Obi-Wan Kenobi|P,C,I|Jedi|good|3|mentorship,loyalty,protection,sacrifice,secrecy|Jedi Master who trained Anakin and later watched over Luke on Tatooine.|Ben Kenobi,Obi-Wan
+han-solo|Han Solo|I,N,S|Rebel Alliance,Resistance|good|3|recklessness,initiative,loyalty,survival,deception|Smuggler and Millennium Falcon pilot who joined the Rebel Alliance.|Han
+chewbacca|Chewbacca|C,I,N,S|Rebel Alliance,Resistance|good|3|loyalty,protection,friendship,survival|Wookiee warrior and Han Solo's copilot aboard the Millennium Falcon.|Chewie
+r2-d2|R2-D2|P,C,I,N,S|Galactic Republic,Rebel Alliance,Resistance|good|3|knowledge,secrecy,initiative,protection,investigation|Astromech droid who carried vital information and aided multiple generations of heroes.|Artoo,Artoo-Detoo
+c-3po|C-3PO|P,C,I,N,S|Galactic Republic,Rebel Alliance,Resistance|good|3|knowledge,communication,loyalty,danger|Protocol droid built by Anakin, frequently partnered with R2-D2.|Threepio,See-Threepio
+padme-amidala|Padmé Amidala|P,C|Galactic Republic|good|3|political influence,leadership,hidden identities,loyalty,sacrifice|Naboo queen and senator, Anakin's secret wife and the twins' mother.|Padme,Naboo Queen
+qui-gon-jinn|Qui-Gon Jinn|P|Jedi|good|3|intuition,wisdom,mentorship,initiative,sacrifice|Independent-minded Jedi Master who discovered Anakin on Tatooine.|Qui-Gon
+darth-maul|Maul|P,C,I|Sith,Shadow Collective|evil|3|revenge,survival,danger,power,secrecy|Former Sith apprentice who survived defeat and built a criminal power base.|Darth Maul
+count-dooku|Count Dooku|P,C|Sith,Separatist Alliance|evil|3|betrayal,political influence,manipulation,power|Former Jedi who became Darth Tyranus and led the Separatists.|Darth Tyranus,Dooku
+general-grievous|General Grievous|C|Separatist Alliance|evil|3|danger,intimidation,survival,control|Cyborg military commander of the Separatist droid armies.|Grievous
+mace-windu|Mace Windu|P,C|Jedi|good|3|leadership,judgement,perception,power|Senior Jedi Council member who confronted Palpatine at the Republic's end.|Windu
+ahsoka-tano|Ahsoka Tano|C,I,N|Jedi,Rebel Alliance|good|3|intuition,loyalty,independence,mentorship,protection|Anakin's former Padawan who left the Jedi Order and opposed the Empire.|Ahsoka,Fulcrum
+rex|Captain Rex|C,I|Clone Army,Rebel Alliance|good|3|loyalty,leadership,protection,independence|Clone captain who served with Anakin and Ahsoka before aiding the rebellion.|Rex,CT-7567
+commander-cody|Commander Cody|C,I|Clone Army,Galactic Empire|mixed|2|loyalty,obedience,betrayal,control|Clone commander who fought beside Obi-Wan and carried out Order 66.|Cody,CC-2224
+bail-organa|Bail Organa|P,C,I|Galactic Republic,Rebel Alliance|good|2|political influence,secrecy,protection,leadership|Alderaanian senator, Leia's adoptive father, and an early rebel supporter.|
+mon-mothma|Mon Mothma|C,I,N|Rebel Alliance,New Republic|good|3|political influence,leadership,secrecy,sacrifice|Senator who became a leader of the rebellion and the New Republic.|
+lando-calrissian|Lando Calrissian|I,N,S|Rebel Alliance,Resistance|good,mixed|3|deception,betrayal,redemption,leadership,initiative|Cloud City's administrator whose dealings with Vader preceded joining the rebels.|Lando
+grand-moff-tarkin|Grand Moff Tarkin|C,I|Galactic Empire|evil|3|control,intimidation,political influence,danger|Imperial governor who commanded the first Death Star.|Wilhuff Tarkin,Tarkin
+admiral-piett|Admiral Piett|I|Galactic Empire|evil|2|obedience,control,danger,leadership|Imperial officer who commanded Vader's flagship Executor.|Firmus Piett,Piett
+admiral-ackbar|Admiral Ackbar|I,N,S|Rebel Alliance,Resistance|good|2|leadership,perception,protection|Mon Calamari admiral who led the rebel fleet at Endor.|Ackbar
+wedge-antilles|Wedge Antilles|I,N,S|Rebel Alliance,Resistance|good|2|initiative,loyalty,survival,protection|Rebel pilot who fought at both Death Star battles.|Wedge
+biggs-darklighter|Biggs Darklighter|I|Rebel Alliance|good|1|friendship,sacrifice,loyalty|Luke's childhood friend who flew for the rebels at Yavin.|Biggs
+jabba-the-hutt|Jabba the Hutt|P,C,I|Hutt Cartel|evil|3|control,greed,political influence,intimidation|Tatooine crime lord who held Han Solo captive.|Jabba
+boba-fett|Boba Fett|C,I,N|Bounty Hunters|mixed|3|survival,danger,initiative,reputation|Jango's son became a bounty hunter and later claimed power on Tatooine.|Boba
+jango-fett|Jango Fett|P|Bounty Hunters|mixed|2|hidden identities,knowledge,danger,legacy|Bounty hunter whose genetic material supplied the Republic's clone army.|Jango
+bossk|Bossk|C,I|Bounty Hunters|mixed|2|danger,investigation,survival|Trandoshan bounty hunter who pursued targets during the Republic and Empire.|
+dengar|Dengar|C,I|Bounty Hunters|mixed|1|danger,survival,reputation|Bounty hunter summoned by Vader to hunt the Millennium Falcon.|
+ig-88|IG-88|I|Bounty Hunters|evil|2|danger,precision,investigation|Assassin droid employed as a bounty hunter.|
+greedo|Greedo|I|Hutt Cartel|mixed|2|danger,greed,recklessness|Rodian bounty hunter who confronted Han in Mos Eisley.|
+watto|Watto|P|Independent|mixed|2|greed,control,bargaining|Tatooine junk dealer who owned Anakin and Shmi as slaves.|
+sebulba|Sebulba|P|Independent|evil|2|sabotage,recklessness,rivalry,danger|Competitive podracer whose methods included sabotaging opponents.|
+shmi-skywalker|Shmi Skywalker|P|Independent|good|2|sacrifice,loyalty,protection,hope|Anakin's mother lived in slavery before marrying Cliegg Lars.|Shmi
+owen-lars|Owen Lars|P,I|Independent|good|2|protection,secrecy,loyalty|Moisture farmer who raised Luke with his wife Beru.|Owen
+beru-lars|Beru Lars|P,I|Independent|good|2|protection,loyalty,sacrifice|Luke's aunt who helped raise him on Tatooine.|Beru
+jar-jar-binks|Jar Jar Binks|P,C|Galactic Republic|good|3|recklessness,political influence,initiative,unintended consequences|Gungan who aided Naboo and later represented its people in the Senate.|Jar Jar
+captain-panaka|Captain Panaka|P|Naboo|good|1|protection,loyalty,perception|Head of security who guarded Queen Amidala during Naboo's invasion.|Panaka
+nute-gunray|Nute Gunray|P,C|Separatist Alliance,Trade Federation|evil|2|greed,deception,political influence,control|Trade Federation viceroy involved in Naboo's blockade and the Separatist movement.|
+poggle-the-lesser|Poggle the Lesser|C|Separatist Alliance|evil|1|control,production,secrecy|Geonosian leader involved in battle droid production and Separatist leadership.|Poggle
+wat-tambor|Wat Tambor|C|Separatist Alliance|evil|1|control,technology,greed|Techno Union leader and member of the Separatist Council.|
+kit-fisto|Kit Fisto|P,C|Jedi|good|2|initiative,protection,loyalty|Nautolan Jedi Master who served during the Clone Wars.|
+plo-koon|Plo Koon|P,C|Jedi|good|2|protection,wisdom,mentorship|Jedi Council member who discovered Ahsoka as a child.|
+ki-adi-mundi|Ki-Adi-Mundi|P,C|Jedi|good|2|knowledge,judgement,leadership|Cerean Jedi Master and Council member during the Republic's final years.|
+aayla-secura|Aayla Secura|P,C|Jedi|good|2|protection,loyalty,leadership|Twi'lek Jedi who led clone forces during the Clone Wars.|
+barriss-offee|Barriss Offee|C,I|Jedi,Galactic Empire|mixed|2|betrayal,deception,hidden identities,redemption|Former Jedi whose attack on the Temple implicated Ahsoka.|
+luminara-unduli|Luminara Unduli|P,C|Jedi|good|2|wisdom,mentorship,discipline|Jedi Master who trained Barriss Offee.|
+shaak-ti|Shaak Ti|P,C|Jedi|good|2|protection,mentorship,leadership|Jedi Master who oversaw clone training on Kamino.|
+asajj-ventress|Asajj Ventress|C|Separatist Alliance,Nightsisters,Bounty Hunters|mixed|3|betrayal,revenge,survival,independence|Dooku's assassin later pursued her own path after his betrayal.|Ventress
+savage-opress|Savage Opress|C|Sith,Nightsisters|evil|2|corruption,loyalty,power,danger|Maul's brother, transformed by Nightsister magic into a powerful warrior.|Savage
+mother-talzin|Mother Talzin|C|Nightsisters|evil,mixed|2|manipulation,secrecy,power,corruption|Dathomirian Nightsister leader and practitioner of powerful magick.|Talzin
+cad-bane|Cad Bane|C,I,N|Bounty Hunters|evil|3|investigation,deception,danger,survival|Duros bounty hunter known for high-risk jobs and confrontations with Jedi.|
+hondo-ohnaka|Hondo Ohnaka|C,I|Pirates|mixed|2|deception,greed,initiative,loyalty|Pirate captain who alternated between exploiting and helping Jedi and rebels.|Hondo
+aurra-sing|Aurra Sing|P,C|Bounty Hunters|evil|2|danger,secrecy,mentorship|Bounty hunter who worked with the young Boba Fett.|
+embo|Embo|C|Bounty Hunters|mixed|1|protection,danger,initiative|Kyuzo bounty hunter who worked both alongside and against the Jedi.|
+bo-katan-kryze|Bo-Katan Kryze|C,I,N|Mandalorians|mixed,good|3|leadership,loyalty,power,redemption|Mandalorian warrior and leader who sought to reclaim her people's homeworld.|Bo-Katan
+satine-kryze|Satine Kryze|C|Mandalorians|good|2|political influence,peace,leadership,sacrifice|Pacifist duchess who governed Mandalore during the Clone Wars.|Duchess Satine,Satine
+pre-vizsla|Pre Vizsla|C|Death Watch,Mandalorians|evil|2|power,deception,betrayal,political influence|Death Watch leader who opposed Duchess Satine and allied with Maul.|
+lux-bonteri|Lux Bonteri|C|Separatist Alliance,Rebel Alliance|mixed,good|1|betrayal,initiative,loyalty|Son of a Separatist senator who became involved with Onderon's resistance.|
+quinlan-vos|Quinlan Vos|C,I|Jedi|good,mixed|2|investigation,hidden identities,corruption,redemption|Jedi known for unconventional methods and reading memories through touch.|
+fives|Fives|C|Clone Army|good|2|investigation,knowledge,secrecy,sacrifice|Clone trooper who uncovered evidence of the inhibitor-chip conspiracy.|CT-5555
+echo|Echo|C,I|Clone Army,Bad Batch|good|2|survival,knowledge,loyalty,protection|Clone trooper rescued from Separatist captivity who joined the Bad Batch.|
+hunter|Hunter|C,I|Bad Batch|good|2|perception,leadership,protection,loyalty|Bad Batch leader whose enhanced senses aid tracking and reconnaissance.|
+tech|Tech|C,I|Bad Batch|good|2|knowledge,investigation,precision,sacrifice|Bad Batch specialist in technology and problem-solving.|
+wrecker|Wrecker|C,I|Bad Batch|good|2|power,protection,initiative,loyalty|Bad Batch member distinguished by exceptional strength.|
+crosshair|Crosshair|C,I|Bad Batch,Galactic Empire|mixed|2|precision,obedience,betrayal,redemption|Clone marksman whose allegiance to the Empire separated him from his squad.|
+omega|Omega|I|Bad Batch|good|2|intuition,loyalty,hope,protection|Young clone from Kamino who became part of the Bad Batch.|
+nala-se|Nala Se|C,I|Kaminoans|mixed|2|knowledge,secrecy,protection,control|Kaminoan scientist involved in clone production and later Imperial research.|
+admiral-rampart|Vice Admiral Rampart|I|Galactic Empire|evil|1|control,deception,political influence|Imperial officer involved in replacing the Republic's clone forces.|Rampart
+hera-syndulla|Hera Syndulla|I,N|Rebel Alliance,New Republic|good|3|leadership,protection,loyalty,initiative|Twi'lek pilot who led the Ghost crew and became a general.|Hera
+kanan-jarrus|Kanan Jarrus|I|Jedi,Rebel Alliance|good|3|mentorship,hidden identities,protection,sacrifice|Jedi survivor who trained Ezra while fighting alongside the Ghost crew.|Caleb Dume,Kanan
+ezra-bridger|Ezra Bridger|I,N|Jedi,Rebel Alliance|good|3|intuition,initiative,corruption,sacrifice|Lothal orphan trained by Kanan who confronted the Empire and Thrawn.|Ezra
+sabine-wren|Sabine Wren|I,N|Mandalorians,Rebel Alliance|good|3|initiative,creativity,sabotage,loyalty|Mandalorian artist and demolitions expert who served with the Ghost crew.|Sabine
+garazeb-zeb-orrelios|Garazeb Orrelios|I,N|Rebel Alliance,New Republic|good|2|protection,survival,loyalty|Lasat survivor and fighter who joined the Ghost crew.|Zeb,Garazeb Zeb Orrelios
+chopper|Chopper|I,N|Rebel Alliance|good|2|sabotage,initiative,recklessness,loyalty|The Ghost crew's cantankerous astromech droid.|C1-10P
+grand-admiral-thrawn|Grand Admiral Thrawn|I,N|Galactic Empire|evil|3|perception,knowledge,control,leadership|Chiss Imperial admiral known for studying opponents and their cultures.|Thrawn,Mitth'raw'nuruodo
+agent-kallus|Agent Kallus|I|Galactic Empire,Rebel Alliance|mixed,good|2|hidden identities,investigation,betrayal,redemption|Imperial security agent who later secretly aided the rebels.|Alexsandr Kallus,Kallus
+the-grand-inquisitor|The Grand Inquisitor|I|Galactic Empire,Inquisitorius|evil|2|investigation,intimidation,corruption,danger|Former Jedi Temple Guard who hunted survivors for the Empire.|Grand Inquisitor
+jyn-erso|Jyn Erso|I|Rebel Alliance|good|3|initiative,sacrifice,hope,loyalty|Galen Erso's daughter who helped steal the Death Star plans.|Jyn
+cassian-andor|Cassian Andor|I|Rebel Alliance|good,mixed|3|secrecy,deception,investigation,sacrifice|Intelligence operative whose journey led to the mission on Scarif.|Cassian
+k-2so|K-2SO|I|Rebel Alliance|good|2|knowledge,protection,sacrifice,hidden identities|Reprogrammed Imperial security droid who worked with Cassian Andor.|Kaytoo
+chirrut-imwe|Chirrut Îmwe|I|Guardians of the Whills,Rebel Alliance|good|2|intuition,faith,perception,sacrifice|Blind Guardian of the Whills who joined the Scarif mission.|Chirrut
+baze-malbus|Baze Malbus|I|Guardians of the Whills,Rebel Alliance|good|2|protection,loyalty,sacrifice|Heavily armed companion of Chirrut who fought on Scarif.|Baze
+bodhi-rook|Bodhi Rook|I|Galactic Empire,Rebel Alliance|good|2|betrayal,knowledge,redemption,sacrifice|Imperial cargo pilot who defected with Galen Erso's message.|Bodhi
+galen-erso|Galen Erso|I|Galactic Empire|good|2|knowledge,secrecy,sabotage,protection|Scientist forced to help develop the Death Star who concealed a weakness in it.|
+orson-krennic|Director Orson Krennic|I|Galactic Empire|evil|2|control,ambition,political influence,intimidation|Imperial director responsible for the Death Star weapons project.|Krennic,Orson Krennic
+saw-gerrera|Saw Gerrera|C,I|Partisans,Rebel Alliance|mixed|2|paranoia,initiative,recklessness,sacrifice|Rebel extremist whose resistance began on Onderon during the Clone Wars.|Saw
+luthen-rael|Luthen Rael|I|Rebel Alliance|mixed|3|hidden identities,secrecy,manipulation,sacrifice|Antiquities dealer who secretly coordinated resistance against the Empire.|Luthen
+dedra-meero|Dedra Meero|I|Galactic Empire|evil|2|investigation,perception,intimidation,control|Imperial Security Bureau supervisor who investigated coordinated rebel activity.|
+syril-karn|Syril Karn|I|Corporate Security|mixed,evil|2|investigation,obsession,obedience|Former corporate security officer fixated on finding Cassian Andor.|
+bix-caleen|Bix Caleen|I|Rebel Alliance|good|2|knowledge,loyalty,survival,secrecy|Ferrix mechanic with connections to Luthen's clandestine network.|
+maarva-andor|Maarva Andor|I|Rebel Alliance|good|2|leadership,loyalty,resistance,sacrifice|Cassian's adoptive mother and a respected resident of Ferrix.|
+brasso|Brasso|I|Rebel Alliance|good|1|loyalty,protection,solidarity|Ferrix worker and close friend of Cassian Andor.|
+vel-sartha|Vel Sartha|I|Rebel Alliance|good|2|hidden identities,secrecy,initiative,sacrifice|Rebel operative who led the Aldhani heist and is Mon Mothma's cousin.|Vel
+cinta-kaz|Cinta Kaz|I|Rebel Alliance|good,mixed|2|secrecy,precision,sacrifice,loyalty|Rebel operative who took part in the Aldhani mission.|Cinta
+kleya-marki|Kleya Marki|I|Rebel Alliance|good,mixed|2|secrecy,control,loyalty,hidden identities|Luthen's assistant in his shop and clandestine rebel activities.|Kleya
+b2emo|B2EMO|I|Independent|good|1|knowledge,loyalty,communication|Salvage droid belonging to the Andor family.|Bee
+din-djarin|Din Djarin|N|Mandalorians,Bounty Hunters|good,mixed|3|protection,loyalty,hidden identities,survival|Mandalorian bounty hunter who became Grogu's protector.|The Mandalorian,Mando
+grogu|Grogu|C,I,N|Jedi,Mandalorians|good|3|intuition,protection,hope,power|Young Force-sensitive survivor of the Jedi Temple raised under Din's care.|The Child,Baby Yoda
+moff-gideon|Moff Gideon|N|Galactic Empire|evil|3|control,secrecy,knowledge,corruption|Imperial remnant leader who sought Grogu for secret research.|Gideon
+the-armorer|The Armorer|N|Mandalorians|mixed,good|2|wisdom,leadership,knowledge,loyalty|Mandalorian craftswoman and spiritual leader of Din's covert.|Armorer
+paz-vizsla|Paz Vizsla|N|Mandalorians|good,mixed|2|protection,loyalty,sacrifice,power|Mandalorian heavy infantry warrior and member of the covert.|
+greef-karga|Greef Karga|N|Bounty Hunters,Nevarro|mixed,good|2|political influence,bargaining,redemption,leadership|Bounty hunters' guild agent who became Nevarro's magistrate.|
+kuiil|Kuiil|N|Independent|good|2|wisdom,protection,knowledge,sacrifice|Ugnaught who helped Din and restored IG-11.|
+ig-11|IG-11|N|Bounty Hunters|good,mixed|2|protection,precision,redemption,sacrifice|Bounty-hunting droid reprogrammed by Kuiil to protect others.|
+fennec-shand|Fennec Shand|I,N|Bounty Hunters|mixed|2|precision,secrecy,loyalty,survival|Assassin and mercenary who became Boba Fett's trusted partner.|
+peli-motto|Peli Motto|N|Independent|good,mixed|2|knowledge,initiative,bargaining|Tatooine mechanic who repaired ships and cared for Grogu.|
+cobb-vanth|Cobb Vanth|N|Independent|good|2|protection,leadership,hidden identities|Tatooine marshal who used recovered Mandalorian armor to protect his town.|
+dr-pershing|Dr. Pershing|N|Galactic Empire,New Republic|mixed|2|knowledge,corruption,secrecy,control|Scientist involved in Imperial research using Grogu's blood.|Pershing
+morgan-elsbeth|Morgan Elsbeth|I,N|Galactic Empire,Nightsisters|evil|2|power,loyalty,secrecy,revenge|Imperial ally and Nightsister descendant who sought Thrawn's return.|
+baylan-skoll|Baylan Skoll|N|Independent|mixed,evil|2|power,secrecy,mentorship,ambition|Former Jedi who worked as a mercenary alongside his apprentice Shin Hati.|
+shin-hati|Shin Hati|N|Independent|mixed,evil|2|power,danger,mentorship,ambition|Force-wielding apprentice of Baylan Skoll.|
+huyang|Huyang|P,C,I,N|Jedi|good|2|knowledge,wisdom,mentorship,legacy|Ancient droid who instructed Jedi in lightsaber construction.|Professor Huyang
+reva-third-sister|Reva|I|Galactic Empire,Inquisitorius|mixed,evil|2|hidden identities,revenge,investigation,redemption|Inquisitor whose pursuit of Kenobi concealed a personal vendetta against Vader.|Third Sister,Reva Sevander
+tala-durith|Tala Durith|I|Galactic Empire,The Path|good|2|hidden identities,secrecy,protection,sacrifice|Imperial officer who secretly helped Jedi fugitives through the Path.|Tala
+rey|Rey|S|Jedi,Resistance|good|3|intuition,hidden identities,hope,redemption,protection|Jakku scavenger who became a Jedi and confronted the resurrected Palpatine.|Rey Skywalker
+finn|Finn|S|First Order,Resistance|good|3|betrayal,redemption,loyalty,initiative|First Order stormtrooper who defected and joined the Resistance.|FN-2187
+poe-dameron|Poe Dameron|S|Resistance|good|3|initiative,recklessness,leadership,loyalty|Resistance pilot who flew missions against the First Order.|Poe
+kylo-ren|Kylo Ren|N,S|First Order,Jedi|evil,good|3|corruption,hidden identities,conflict,redemption,power|Ben Solo, son of Han and Leia, became Kylo Ren after falling to darkness.|Ben Solo,Kylo
+supreme-leader-snoke|Supreme Leader Snoke|S|First Order|evil|3|manipulation,control,corruption,hidden identities|First Order leader who trained Kylo Ren and was linked to Palpatine's schemes.|Snoke
+general-hux|General Hux|S|First Order|evil|2|control,political influence,betrayal,rivalry|First Order general whose rivalry with Kylo Ren drove him to treachery.|Armitage Hux,Hux
+captain-phasma|Captain Phasma|S|First Order|evil|2|intimidation,obedience,survival,control|Commander of First Order stormtroopers distinguished by chromium armor.|Phasma
+bb-8|BB-8|S|Resistance|good|3|knowledge,loyalty,initiative,secrecy|Poe's astromech droid who carried a clue to Luke's location.|BB8
+maz-kanata|Maz Kanata|S|Independent,Resistance|good|2|wisdom,perception,knowledge,intuition|Ancient proprietor whose castle welcomed travelers and smugglers.|Maz
+rose-tico|Rose Tico|S|Resistance|good|2|protection,initiative,sacrifice,loyalty|Resistance maintenance worker who joined Finn on a mission to Canto Bight.|Rose
+amilyn-holdo|Amilyn Holdo|S|Resistance|good|2|leadership,secrecy,sacrifice,protection|Vice admiral who commanded the Resistance evacuation after Leia was incapacitated.|Holdo
+dj|DJ|S|Independent|mixed|2|betrayal,deception,knowledge,greed|Codebreaker whose help for Finn and Rose ended in betrayal.|
+zorii-bliss|Zorii Bliss|S|Spice Runners|mixed,good|2|hidden identities,loyalty,survival|Kijimi spice runner who shared a past with Poe Dameron.|Zorii
+babu-frik|Babu Frik|S|Independent|good|2|knowledge,initiative,technology|Anzellan droidsmith who helped access C-3PO's restricted memories.|
+enfys-nest|Enfys Nest|I|Cloud-Riders|good|2|hidden identities,initiative,rebellion|Masked leader of the Cloud-Riders who fought criminal syndicates.|
+qira|Qi'ra|I|Crimson Dawn|mixed|2|hidden identities,betrayal,power,secrecy|Han's childhood companion who rose within Crimson Dawn.|Qi'ra
+dryden-vos|Dryden Vos|I|Crimson Dawn|evil|2|intimidation,control,greed|High-ranking Crimson Dawn crime lord who employed Tobias Beckett.|
+tobias-beckett|Tobias Beckett|I|Independent|mixed|2|mentorship,betrayal,survival,greed|Professional thief who recruited Han into a dangerous heist.|Beckett
+l3-37|L3-37|I|Independent|good|2|independence,knowledge,initiative|Self-modified droid and Lando's copilot who championed droid freedom.|
+sol|Sol|H|Jedi|good,mixed|2|mentorship,secrecy,guilt,protection|Jedi Master whose past on Brendok affected his former pupil Osha.|
+osha|Osha Aniseya|H|Jedi|mixed|2|hidden identities,conflict,corruption,loyalty|Former Jedi apprentice drawn into a mystery involving her twin Mae.|Osha Aniseya
+mae|Mae Aniseya|H|Independent|mixed|2|hidden identities,revenge,loyalty,deception|Osha's twin, involved in attacks on Jedi tied to Brendok.|Mae Aniseya
+qimir|Qimir|H|Independent|evil,mixed|2|hidden identities,deception,corruption,power|A mysterious associate of Mae whose concealed identity threatens the Jedi.|The Stranger
+vernestra-rwoh|Vernestra Rwoh|H|Jedi|good,mixed|2|leadership,secrecy,knowledge,political influence|Jedi Master involved in investigating the deaths of fellow Jedi.|Vernestra
+wim|Wim|N|Independent|good|1|initiative,curiosity,hope|Child from At Attin swept into an adventure far from home.|
+fern|Fern|N|Independent|good|1|leadership,initiative,loyalty|At Attin child who takes a leading role among her stranded friends.|
+kb|KB|N|Independent|good|1|knowledge,perception,loyalty|Fern's friend whose cybernetic enhancements assist the children's adventure.|
+neel|Neel|N|Independent|good|1|loyalty,protection,compassion|Wim's friend who joins the voyage away from At Attin.|
+jod-na-nawood|Jod Na Nawood|N|Pirates|mixed,evil|2|hidden identities,deception,greed,manipulation|Force-wielding pirate who offers to help the stranded children return home.|Jod,Crimson Jack
+sm-33|SM-33|N|Pirates|mixed|1|loyalty,knowledge,hidden identities|Droid first mate aboard the Onyx Cinder.|Thirty-Three
+

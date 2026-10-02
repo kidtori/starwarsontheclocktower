@@ -1,0 +1,23 @@
+{
+  "importedAt": "2026-10-02",
+  "total": 162,
+  "coverage": "Curated named people and droids across the saga films, animated and live-action television. Not an exhaustive index of every Star Wars or Legends character.",
+  "source": "https://www.starwars.com/databank",
+  "countsByEra": {
+    "Fall of the Republic": 40,
+    "Clone Wars": 55,
+    "Reign of the Empire": 82,
+    "New Republic": 47,
+    "Rise of the First Order": 24,
+    "High Republic": 5
+  },
+  "relationshipPairs": 42,
+  "verifiedSources": 160,
+  "editorialStatus": "Draft casting metadata; 0–3 importance signals are subjective, not measured popularity.",
+  "identityPolicy": "Alternate names such as Anakin/Vader and Ben Solo/Kylo Ren share one record.",
+  "galacticRacerContexts": 5,
+  "backup": "backups\\star-wars-before-import-1790954376103",
+  "coreCatalogueTotal": 148,
+  "racingSupplement": "data/racing-catalogue.json",
+  "coreVerifiedSources": 149
+}

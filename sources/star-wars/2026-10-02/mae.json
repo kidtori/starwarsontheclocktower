@@ -1,0 +1,30 @@
+{
+  "url": "https://www.starwars.com/databank/mae",
+  "title": "Mae Aniseya - The Acolyte | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "ef36f1e36e57edd773228ce6f40ff546d4068de120f220ec4126f5c5f3d68f4c",
+  "appearances": [
+    "Star Wars: The Acolyte"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "mae",
+    "mae-s-knives",
+    "brendok",
+    "mother-aniseya",
+    "osha-s-journal",
+    "qimir",
+    "sith",
+    "ueda",
+    "indara",
+    "olega",
+    "jedi-temple",
+    "torbin",
+    "khofar",
+    "wookiee",
+    "kelnacca",
+    "sol",
+    "lightsaber"
+  ]
+}

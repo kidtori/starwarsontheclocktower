@@ -1,0 +1,29 @@
+{
+  "url": "https://www.starwars.com/databank/syril-karn",
+  "title": "Syril Karn - Andor | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "bbf403553c1dfb9b82c8b12a8063722967ff44aec0fb426487b43eabb6229937",
+  "appearances": [
+    "Andor A Star Wars Story"
+  ],
+  "affiliations": [
+    "Galactic Empire",
+    "Preox-Morlana Corporation (Pre-Mor)"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "syril-karn",
+    "galactic-empire",
+    "preox-morlana-corporation-pre-mor",
+    "coruscant",
+    "morlana-one",
+    "ferrix",
+    "cassian-andor",
+    "luthen-rael",
+    "imperial-security-bureau",
+    "dedra-meero",
+    "Ghorman",
+    "Ghorman-Front",
+    "Carro-Rylanz"
+  ]
+}

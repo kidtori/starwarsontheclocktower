@@ -1,0 +1,51 @@
+{
+  "url": "https://www.starwars.com/databank/r2-d2",
+  "title": "R2-D2",
+  "accessedAt": "2026-10-02",
+  "sha256": "0efb6c7928adc7980248767835b4eab2a6bf9eb80cd84d03e0ac576093275d5d",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Rogue One: A Star Wars Story",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars: The Clone Wars",
+    "Star Wars Rebels",
+    "Star Wars: The Mandalorian",
+    "Star Wars Arcade",
+    "Yoda's Jedi Training - Star Wars Arcade",
+    "A Sticker Book Far, Far Away",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Rebel Alliance",
+    "The Resistance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "r2-d2",
+    "galactic-republic",
+    "rebel-alliance",
+    "the-resistance",
+    "naboo",
+    "havoc-outpost",
+    "astromech-droid",
+    "x-wing-starfighter",
+    "poe-dameron-s-x-wing-fighter",
+    "restraining-bolt",
+    "crait",
+    "leia-organa",
+    "pasaana",
+    "kef-bir",
+    "poe-dameron",
+    "exegol"
+  ]
+}

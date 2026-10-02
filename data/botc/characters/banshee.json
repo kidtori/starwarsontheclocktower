@@ -1,0 +1,93 @@
+{
+  "id": "banshee",
+  "name": "Banshee",
+  "officialId": "banshee",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination.",
+  "mechanics": {
+    "confirmation": 2,
+    "nominationInteraction": 1,
+    "votingInteraction": 1,
+    "deathInteraction": 2,
+    "playerAgency": 1,
+    "bluffability": 1
+  },
+  "tags": [
+    "confirmation",
+    "nominationInteraction",
+    "votingInteraction",
+    "deathInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "A Demon kill is publicly announced and grants extra nominations and votes after death."
+  ],
+  "explanation": "A Demon kill is publicly announced and grants extra nominations and votes after death.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Banshee was killed by the Demon tonight, announce that the Banshee has died. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "imp"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "leviathan",
+      "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Banshee dies & gains their ability.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "riot",
+      "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Banshee dies & gains their ability.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vortox",
+      "reason": "If the Vortox kills the Banshee, all players learn that the Banshee has died.",
+      "sourceOwner": "vortox",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 191
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

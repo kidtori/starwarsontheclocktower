@@ -1,0 +1,70 @@
+{
+  "id": "brasso",
+  "name": "Brasso",
+  "aliases": [],
+  "summary": "Ferrix worker and close friend of Cassian Andor.",
+  "source": [
+    "Andor A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Brasso - Andor | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "loyalty",
+    "protection",
+    "solidarity"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: protection",
+    "Narrative metaphor: solidarity"
+  ],
+  "narrativeFunctions": [
+    "loyalty",
+    "protection",
+    "solidarity"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Brasso - Andor | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/brasso",
+      "accessedAt": "2026-10-02",
+      "sha256": "db7a96e562162a53447a1ba55562e2d41117a8e66c7883435a17b326177d2224"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

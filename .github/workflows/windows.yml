@@ -1,0 +1,29 @@
+name: Test and build Windows package
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  windows:
+    runs-on: windows-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.7.0'
+      - run: npm test
+      - name: Build portable executable
+        shell: pwsh
+        run: ./scripts/build-windows.ps1
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Clocktower-Studio-Windows
+          path: dist/Clocktower-Studio-*-windows-x64.zip*
+      - name: Publish tagged Windows release
+        if: startsWith(github.ref, 'refs/tags/')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: pwsh
+        run: gh release create "${{ github.ref_name }}" dist/Clocktower-Studio-*-windows-x64.zip* --title "Clocktower Studio ${{ github.ref_name }}" --notes-file packaging/RELEASE-NOTES.md

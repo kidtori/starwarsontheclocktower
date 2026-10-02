@@ -1,0 +1,162 @@
+{
+  "description": "Editable heuristic design vocabulary. These are editorial signals, not mathematical balance guarantees.",
+  "themeMechanics": {
+    "manipulation": [
+      "misinformation",
+      "poisoning",
+      "evilUtility"
+    ],
+    "sith": [
+      "misinformation",
+      "poisoning",
+      "registration"
+    ],
+    "loyalty": [
+      "alignmentInformation",
+      "confirmation"
+    ],
+    "betrayal": [
+      "registration",
+      "misinformation"
+    ],
+    "identities": [
+      "characterInformation",
+      "registration"
+    ],
+    "sabotage": [
+      "poisoning",
+      "deathInteraction"
+    ],
+    "racing": [
+      "playerAgency",
+      "executionInteraction"
+    ],
+    "sacrifice": [
+      "deathInteraction",
+      "protection"
+    ],
+    "unreliable": [
+      "misinformation",
+      "drunkenness",
+      "poisoning"
+    ],
+    "order 66": [
+      "deathInteraction",
+      "registration",
+      "misinformation"
+    ],
+    "information": [
+      "startingInformation",
+      "recurringInformation"
+    ],
+    "poisoning": [
+      "poisoning"
+    ],
+    "drunkenness": [
+      "drunkenness"
+    ],
+    "registration": [
+      "registration"
+    ],
+    "execution": [
+      "executionInteraction"
+    ],
+    "voting": [
+      "votingInteraction"
+    ],
+    "death": [
+      "deathInteraction"
+    ],
+    "protection": [
+      "protection"
+    ],
+    "outsiders": [
+      "setupManipulation"
+    ],
+    "confirmation": [
+      "confirmation"
+    ],
+    "bluffing": [
+      "bluffability"
+    ],
+    "alignment": [
+      "alignmentInformation"
+    ]
+  },
+  "mechanicThemes": {
+    "alignmentInformation": [
+      "intuition",
+      "loyalty",
+      "perception",
+      "leadership"
+    ],
+    "characterInformation": [
+      "investigation",
+      "secrecy",
+      "identities"
+    ],
+    "recurringInformation": [
+      "wisdom",
+      "perception",
+      "mentorship"
+    ],
+    "startingInformation": [
+      "knowledge",
+      "investigation"
+    ],
+    "poisoning": [
+      "corruption",
+      "manipulation",
+      "sabotage"
+    ],
+    "misinformation": [
+      "deception",
+      "manipulation",
+      "secrecy"
+    ],
+    "registration": [
+      "hidden identities",
+      "deception",
+      "betrayal"
+    ],
+    "protection": [
+      "protection",
+      "loyalty",
+      "sacrifice"
+    ],
+    "deathInteraction": [
+      "survival",
+      "sacrifice",
+      "danger"
+    ],
+    "evilUtility": [
+      "power",
+      "control",
+      "manipulation"
+    ],
+    "playerAgency": [
+      "recklessness",
+      "initiative",
+      "intuition"
+    ],
+    "executionInteraction": [
+      "political influence",
+      "danger",
+      "sacrifice"
+    ],
+    "votingInteraction": [
+      "leadership",
+      "political influence"
+    ],
+    "setupManipulation": [
+      "control",
+      "secrecy"
+    ]
+  },
+  "warningThresholds": {
+    "hardConfirmation": 7,
+    "misinformation": 8,
+    "information": 15,
+    "complexity": 12
+  }
+}

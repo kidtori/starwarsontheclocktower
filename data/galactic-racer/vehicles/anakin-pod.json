@@ -1,0 +1,18 @@
+{
+  "id": "anakin-pod",
+  "name": "Anakin Skywalker's podracer",
+  "kind": "vehicle",
+  "vehicleClass": "podracer",
+  "summary": "Anakin's homemade twin-engine pod carried him to victory and freedom at Boonta Eve.",
+  "confirmedGame": false,
+  "scope": "Film vehicle; specific model not confirmed for Galactic Racer",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Anakin Skywalker's Podracer | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/anakin-skywalkers-podracer",
+      "accessedAt": "2026-10-02",
+      "sha256": "1520a504e982add32cbae2812c6dd8bb64960301c7d6c97ec23dba492ad769da"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "exorcist",
+  "name": "Exorcist",
+  "officialId": "exorcist",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+  "mechanics": {
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "A correct Demon choice prevents its wake that night and gives the Demon information about the Exorcist."
+  ],
+  "explanation": "A correct Demon choice prevents its wake that night and gives the Demon information about the Exorcist.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Exorcist chooses a player. :reminder: Put the Exorcist to sleep. If the Exorcist chose the Demon: Wake the Demon. Show the *THIS CHARACTER SELECTED YOU* & Exorcist tokens. Point to the Exorcist."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "leviathan",
+      "reason": "If the Leviathan nominates and executes the Exorcist-chosen player, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "riot",
+      "reason": "If Riot nominates and executes the Exorcist-chosen player, good wins.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "yaggababble",
+      "reason": "If the Exorcist chooses the Yaggababble, the Yaggababble does not kill tonight.",
+      "sourceOwner": "yaggababble",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 36
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

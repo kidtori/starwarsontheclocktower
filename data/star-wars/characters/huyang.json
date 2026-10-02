@@ -1,0 +1,81 @@
+{
+  "id": "huyang",
+  "name": "Huyang",
+  "aliases": [
+    "Professor Huyang"
+  ],
+  "summary": "Ancient droid who instructed Jedi in lightsaber construction.",
+  "source": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: Ahsoka"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Jedi"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Professor Huyang | Star Wars Databank",
+    "affiliations": [
+      "Jedi Order"
+    ],
+    "species": []
+  },
+  "themes": [
+    "knowledge",
+    "wisdom",
+    "mentorship",
+    "legacy"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [
+    "wisdom"
+  ],
+  "behaviours": [
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: wisdom",
+    "Narrative metaphor: mentorship",
+    "Narrative metaphor: legacy"
+  ],
+  "narrativeFunctions": [
+    "knowledge",
+    "wisdom",
+    "mentorship",
+    "legacy"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Professor Huyang | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/professor-huyang",
+      "accessedAt": "2026-10-02",
+      "sha256": "b7b5d08242c5a6457bc61b2d2e702c011c7932b40782a7a91ef7ae62d6ab8f6a"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

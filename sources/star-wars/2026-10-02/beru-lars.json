@@ -1,0 +1,18 @@
+{
+  "url": "https://www.starwars.com/databank/beru-lars",
+  "title": "Beru Lars | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "c4b0b7815dc9acc86fd3b8ebec43c96763d672826db76b60d294e1e38a13eb2a",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: Obi-Wan Kenobi"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "beru-lars",
+    "tatooine"
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "spy",
+  "name": "Spy",
+  "officialId": "spy",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+  "mechanics": {
+    "registration": 3,
+    "misinformation": 2,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "registration",
+    "misinformation",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Grimoire knowledge supports evil planning; optional good registration supports false confirmation."
+  ],
+  "explanation": "Grimoire knowledge supports evil planning; optional good registration supports false confirmation.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Show the Grimoire for as long as the Spy needs.",
+    "otherNights": "Show the Grimoire for as long as the Spy needs."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "empath",
+      "washerwoman",
+      "undertaker",
+      "virgin"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "alchemist",
+      "reason": "An Alchemist-Spy has no Spy ability & a Spy is in play. After each execution, a living Alchemist-Spy may publicly guess a living player as the Spy. If correct, the Demon must choose the Spy tonight.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "heretic",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "magician",
+      "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "plague-doctor",
+      "reason": "If the Storyteller would gain the Spy ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "damsel",
+      "reason": "If the Spy is (or has been) in play, the Damsel is poisoned.",
+      "sourceOwner": "spy",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "ogre",
+      "reason": "The Spy registers as evil to the Ogre.",
+      "sourceOwner": "spy",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "poppy-grower",
+      "reason": "If the Poppy Grower has their ability, the Spy does not see the Grimoire.",
+      "sourceOwner": "spy",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 21
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ],
+  "informationDistortion": {
+    "scope": "others",
+    "description": "Optional character/alignment registration can affect relevant information abilities; inspect each test."
+  }
+}

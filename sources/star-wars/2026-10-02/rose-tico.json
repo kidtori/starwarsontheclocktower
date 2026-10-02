@@ -1,0 +1,35 @@
+{
+  "url": "https://www.starwars.com/databank/rose-tico",
+  "title": "Rose Tico | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "a3da31327b654af96bf156e4396eb6cabc1a14d866fde8738e90ba74fac956b9",
+  "appearances": [
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)"
+  ],
+  "affiliations": [
+    "The Resistance"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "rose-tico",
+    "the-resistance",
+    "otomok-medallion",
+    "electro-shock-prod",
+    "resistance-transport-pod",
+    "finn",
+    "the-first-order",
+    "master-codebreaker",
+    "canto-bight",
+    "canto-bight-police",
+    "fathier",
+    "crait",
+    "resistance-ski-speeder",
+    "battering-ram-cannon",
+    "millennium-falcon",
+    "leia-organa",
+    "emperor-palpatine-darth-sidious"
+  ]
+}

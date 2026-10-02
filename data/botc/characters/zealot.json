@@ -1,0 +1,83 @@
+{
+  "id": "zealot",
+  "name": "Zealot",
+  "officialId": "zealot",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+  "mechanics": {
+    "votingInteraction": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "votingInteraction",
+    "bluffability"
+  ],
+  "designRole": [
+    "Must vote for every nomination while enough players are alive."
+  ],
+  "explanation": "Must vote for every nomination while enough players are alive.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "cannibal",
+      "reason": "If the Cannibal gains the Zealot ability, the Cannibal learns this.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "legion",
+      "reason": "The Zealot might register as evil to Legion.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vizier",
+      "reason": "The Zealot might register as evil to the Vizier.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 184
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

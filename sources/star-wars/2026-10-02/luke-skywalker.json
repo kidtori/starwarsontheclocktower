@@ -1,0 +1,58 @@
+{
+  "url": "https://www.starwars.com/databank/luke-skywalker",
+  "title": "Luke Skywalker | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "8e616f8f41fc09389ced071f41ff5337d99de8892790dac05c823d75b6058c44",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars: The Mandalorian",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: Tiny Death Star",
+    "Star Wars: Tiny Death Star (SEA)",
+    "Star Wars Arcade",
+    "Yoda's Jedi Training - Star Wars Arcade",
+    "Disney Infinity 3.0 - Character Quest",
+    "A Sticker Book Far, Far Away",
+    "Star Wars: Battlefront",
+    "Star Wars: Rivals",
+    "Jedi Mind Match"
+  ],
+  "affiliations": [
+    "Jedi Order",
+    "Rebel Alliance"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "luke-skywalker",
+    "jedi-order",
+    "rebel-alliance",
+    "lars-moisture-farm",
+    "polis-massa",
+    "tatooine",
+    "blaster-pistol",
+    "lightsaber",
+    "luke-skywalkers-lightsaber",
+    "anakin-luke-and-reys-lightsaber",
+    "snowspeeder",
+    "t-16-skyhopper",
+    "x-wing-starfighter",
+    "x-34-landspeeder",
+    "bacta-tank",
+    "ahch-to",
+    "yoda",
+    "kylo-ren",
+    "crait",
+    "the-resistance",
+    "the-first-order"
+  ]
+}

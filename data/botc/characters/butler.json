@@ -1,0 +1,79 @@
+{
+  "id": "butler",
+  "name": "Butler",
+  "officialId": "butler",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+  "mechanics": {
+    "votingInteraction": 2,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "votingInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Voting restriction tied to a chosen master; changes public voting discipline."
+  ],
+  "explanation": "Voting restriction tied to a chosen master; changes public voting discipline.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Butler chooses a player. :reminder:",
+    "otherNights": "The Butler chooses a player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "organ-grinder",
+      "reason": "If the Organ Grinder is causing eyes closed voting, the Butler may raise their hand to vote but their vote is only counted if their master voted too.",
+      "sourceOwner": "butler",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "cannibal",
+      "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 30
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

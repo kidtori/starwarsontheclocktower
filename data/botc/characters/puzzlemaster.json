@@ -1,0 +1,62 @@
+{
+  "id": "puzzlemaster",
+  "name": "Puzzlemaster",
+  "officialId": "puzzlemaster",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+  "mechanics": {
+    "misinformation": 2,
+    "drunkenness": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "drunkenness",
+    "bluffability"
+  ],
+  "designRole": [
+    "Makes one player drunk; one correct identification of that player reveals the Demon, otherwise produces false Demon information."
+  ],
+  "explanation": "Makes one player drunk; one correct identification of that player reveals the Demon, otherwise produces false Demon information.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "village-idiot"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 182
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

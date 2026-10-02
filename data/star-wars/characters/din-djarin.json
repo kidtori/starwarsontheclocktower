@@ -1,0 +1,92 @@
+{
+  "id": "din-djarin",
+  "name": "Din Djarin",
+  "aliases": [
+    "The Mandalorian",
+    "Mando"
+  ],
+  "summary": "Mandalorian bounty hunter who became Grogu's protector.",
+  "source": [
+    "Star Wars: The Mandalorian and Grogu",
+    "Star Wars: The Mandalorian",
+    "Star Wars: The Book of Boba Fett"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Mandalorians",
+    "Bounty Hunters"
+  ],
+  "alignment": [
+    "good",
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "The Mandalorian (Din Djarin) - Databank",
+    "affiliations": [],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "protection",
+    "loyalty",
+    "hidden identities",
+    "survival"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: protection",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: survival"
+  ],
+  "narrativeFunctions": [
+    "protection",
+    "loyalty",
+    "hidden identities",
+    "survival"
+  ],
+  "relationships": [
+    {
+      "characterId": "grogu",
+      "type": "guardian / foundling",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/the-mandalorian",
+        "https://www.starwars.com/databank/grogu"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: The Mandalorian (Din Djarin) - Databank",
+      "url": "https://www.starwars.com/databank/the-mandalorian",
+      "accessedAt": "2026-10-02",
+      "sha256": "e8b1f25a3775d39add656835b491e6be59292f86604e9e26db7c9354eca34bbc"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

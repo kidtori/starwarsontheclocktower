@@ -1,0 +1,58 @@
+{
+  "id": "saint",
+  "name": "Saint",
+  "officialId": "saint",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "If you die by execution, your team loses.",
+  "mechanics": {
+    "executionInteraction": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "executionInteraction",
+    "bluffability"
+  ],
+  "designRole": [
+    "Execution creates an immediate good loss, making the claim a high-stakes social decision."
+  ],
+  "explanation": "Execution creates an immediate good loss, making the claim a high-stakes social decision.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 33
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

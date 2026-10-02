@@ -1,0 +1,62 @@
+{
+  "id": "snitch",
+  "name": "Snitch",
+  "officialId": "snitch",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each Minion gets 3 bluffs.",
+  "mechanics": {
+    "setupManipulation": 2,
+    "evilUtility": 1,
+    "bluffability": 3
+  },
+  "tags": [
+    "setupManipulation",
+    "evilUtility",
+    "bluffability"
+  ],
+  "designRole": [
+    "Gives Minions three not-in-play characters, broadening coordinated evil bluffs."
+  ],
+  "explanation": "Gives Minions three not-in-play characters, broadening coordinated evil bluffs.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Wake each Minion. Show the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play character tokens.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "marionette"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 183
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "dud-bolt",
+  "name": "Dud Bolt",
+  "aliases": [],
+  "summary": "Podracer who competed against Anakin, Sebulba and Gasgano in the Boonta Eve Classic.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "era": [
+    "Fall of the Republic"
+  ],
+  "factions": [
+    "Podracing competitors"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "themes": [
+    "competition",
+    "danger",
+    "initiative"
+  ],
+  "archetypes": [
+    "racer"
+  ],
+  "personality": [
+    "competition",
+    "danger",
+    "initiative"
+  ],
+  "narrativeFunctions": [
+    "competition",
+    "danger",
+    "initiative"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft. Factual summary from cited primary sources; casting themes, alignment and importance are interpretation.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "25 Wonderfully Weird Star Wars Character Names | StarWars.com",
+      "url": "https://www.starwars.com/news/25-weird-star-wars-character-names",
+      "accessedAt": "2026-10-02",
+      "sha256": "716e89a3d6a5c0d3651d291f8dad6ff4aa7765e7db7bdeea348dc95383ad9b95"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable narrative casting signals; not official BOTC mappings or popularity ratings."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "podracing"
+    ],
+    "confirmedGalacticRacer": false,
+    "vehicleIds": [],
+    "notes": "Film racing/piloting history; Galactic Racer roster membership is not confirmed."
+  }
+}

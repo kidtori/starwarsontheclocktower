@@ -1,0 +1,65 @@
+{
+  "id": "fool",
+  "name": "Fool",
+  "officialId": "fool",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "The 1st time you die, you don't.",
+  "mechanics": {
+    "confirmation": 2,
+    "protection": 2,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "confirmation",
+    "protection",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Survives the first death event; survival complicates the interpretation of executions and attacks."
+  ],
+  "explanation": "Survives the first death event; survival complicates the interpretation of executions and attacks.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "devils-advocate",
+      "assassin"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 37
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

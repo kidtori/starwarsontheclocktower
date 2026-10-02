@@ -1,0 +1,36 @@
+{
+  "url": "https://www.starwars.com/databank/kleya-marki",
+  "title": "Kleya Marki | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "2746634158c3aa0231d2ec1d1181005ae865cc298476eff6750f0760ae616151",
+  "appearances": [
+    "Andor A Star Wars Story"
+  ],
+  "affiliations": [
+    "Rebel Alliance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "kleya-marki",
+    "rebel-alliance",
+    "coruscant",
+    "luthen-rael",
+    "aldhani",
+    "vel-sartha",
+    "cassian-andor",
+    "ferrix",
+    "mon-mothma",
+    "Mina-Rau",
+    "davo-sculdun",
+    "Lonni-Jung",
+    "director-orson-krennic",
+    "Axis-network-safehouse",
+    "Ghorman",
+    "jedha",
+    "galen-erso",
+    "dedra-meero",
+    "k-2so-kay-tuesso",
+    "ruescott-melshi",
+    "yavin-4"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "url": "https://www.starwars.com/databank/aayla-secura",
+  "title": "Aayla Secura | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "a4b3e72c06587d138106a48123ee91f52a890aaa2d366816aeb040a49e470ffa",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Jedi Order"
+  ],
+  "species": [
+    "Twi'lek"
+  ],
+  "linkedEntries": [
+    "aayla-secura",
+    "jedi-order",
+    "ryloth",
+    "twi-lek",
+    "lightsaber"
+  ]
+}

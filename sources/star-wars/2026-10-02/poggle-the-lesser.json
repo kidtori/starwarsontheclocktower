@@ -1,0 +1,24 @@
+{
+  "url": "https://www.starwars.com/databank/poggle-the-lesser",
+  "title": "Poggle the Lesser | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "c055c0c39082f513ea19c9d156ec3b09bec05caee96eb89131d07ed80f97a93f",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Confederacy of Independent Systems"
+  ],
+  "species": [
+    "Geonosian"
+  ],
+  "linkedEntries": [
+    "poggle-the-lesser",
+    "confederacy-of-independent-systems",
+    "geonosis",
+    "geonosian",
+    "geonosian-sonic-blaster"
+  ]
+}

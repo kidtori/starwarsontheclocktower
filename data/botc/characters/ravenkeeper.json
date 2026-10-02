@@ -1,0 +1,83 @@
+{
+  "id": "ravenkeeper",
+  "name": "Ravenkeeper",
+  "officialId": "ravenkeeper",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "If you die at night, you are woken to choose a player: you learn their character.",
+  "mechanics": {
+    "characterInformation": 3,
+    "deathInteraction": 3,
+    "playerAgency": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "characterInformation",
+    "deathInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Rewards dying at night with a chosen character-information check."
+  ],
+  "explanation": "Rewards dying at night with a chosen character-information check.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Ravenkeeper died tonight, the Ravenkeeper chooses a player. Show that player's character token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "imp"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "leviathan",
+      "reason": "Each night*, the Leviathan chooses an alive player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "riot",
+      "reason": "Each night*, Riot chooses an alive good player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 67
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

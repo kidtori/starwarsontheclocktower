@@ -1,0 +1,11 @@
+{
+  "id": "empath", "name": "Empath", "team": "townsfolk", "edition": "Trouble Brewing", "fixture": true,
+  "ability": "Each night, you learn how many of your 2 alive neighbors are evil.",
+  "complexity": "low",
+  "mechanics": { "recurringInformation": 2, "alignmentInformation": 3, "bluffability": 2, "playerAgency": 1 },
+  "tags": ["perception", "loyalty", "intuition", "neighbour information"],
+  "designRole": ["recurring alignment information", "social trust around living neighbours"],
+  "interactions": { "synergisesWith": ["poisoner"], "conflictsWith": [], "dangerousCombinations": [], "storytellerNotes": ["Poisoning creates an alternative world for an Empath result; a result does not identify which neighbour is evil."] },
+  "explanation": "A sustained claim must stay consistent as living neighbours change. A false count can divide trust between neighbours.",
+  "sources": [ { "type": "canonical", "title": "BOTC Wiki: Empath", "url": "https://wiki.bloodontheclocktower.com/Empath" }, { "type": "design", "description": "Sample design annotations; subjective 0–3 signals, not canonical balance ratings." } ]
+}

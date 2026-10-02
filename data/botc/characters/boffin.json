@@ -1,0 +1,115 @@
+{
+  "id": "boffin",
+  "name": "Boffin",
+  "officialId": "boffin",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which.",
+  "mechanics": {
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Gives the Demon a not-in-play good ability; demands detailed ability and jinx review."
+  ],
+  "explanation": "Gives the Demon a not-in-play good ability; demands detailed ability and jinx review.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Wake the Boffin and the Demon. Show the *THIS CHARACTER SELECTED YOU* & Boffin tokens, then the not-in-play good character token.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "List plausible not-in-play good abilities and consult all relevant jinxes before running."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "alchemist",
+      "reason": "If the Alchemist has the Boffin ability, the Alchemist does not learn what ability the Demon has.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "cult-leader",
+      "reason": "If the Demon has the Cult Leader ability, they can’t turn good due to this ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "drunk",
+      "reason": "The Demon cannot have the Drunk ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "goon",
+      "reason": "If the Demon has the Goon ability, they can’t turn good due to this ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "heretic",
+      "reason": "The Demon cannot have the Heretic ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "ogre",
+      "reason": "The Demon cannot have the Ogre ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "politician",
+      "reason": "The Demon cannot have the Politician ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "village-idiot",
+      "reason": "If there is a spare token, the Boffin can give the Demon the Village Idiot ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 161
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

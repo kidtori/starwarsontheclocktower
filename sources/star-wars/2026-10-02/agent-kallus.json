@@ -1,0 +1,20 @@
+{
+  "url": "https://www.starwars.com/databank/agent-kallus",
+  "title": "Alexsandr Kallus",
+  "accessedAt": "2026-10-02",
+  "sha256": "c9a54842aef819928ab9bf3beb2c20e8a1a6ded79dc8d71b4487f74625048177",
+  "appearances": [
+    "Star Wars Rebels"
+  ],
+  "affiliations": [
+    "Imperial Security Bureau"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "alexsandr-kallus",
+    "imperial-security-bureau",
+    "coruscant",
+    "bonzami",
+    "lasan-honor-guard-ab-75-bo-rifle"
+  ]
+}

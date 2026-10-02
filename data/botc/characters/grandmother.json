@@ -1,0 +1,81 @@
+{
+  "id": "grandmother",
+  "name": "Grandmother",
+  "officialId": "grandmother",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+  "mechanics": {
+    "startingInformation": 2,
+    "characterInformation": 2,
+    "deathInteraction": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "startingInformation",
+    "characterInformation",
+    "deathInteraction",
+    "bluffability"
+  ],
+  "designRole": [
+    "Starts knowing a good player and their character; a Demon kill of that player can cause a linked death."
+  ],
+  "explanation": "Starts knowing a good player and their character; a Demon kill of that player can cause a linked death.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Point to the grandchild player & show their character token.",
+    "otherNights": "If the grandchild was killed by the Demon, the Grandmother dies too. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "leviathan",
+      "reason": "If the Leviathan is in play and the Grandchild dies by execution, evil wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "riot",
+      "reason": "If Riot is in play and the Grandchild dies by execution, evil wins.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 40
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

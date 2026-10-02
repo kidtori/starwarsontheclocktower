@@ -1,0 +1,82 @@
+{
+  "id": "jabba-the-hutt",
+  "name": "Jabba the Hutt",
+  "aliases": [
+    "Jabba"
+  ],
+  "summary": "Tatooine crime lord who held Han Solo captive.",
+  "source": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Hutt Cartel"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Jabba the Hutt | Star Wars Databank",
+    "affiliations": [],
+    "species": [
+      "Hutt"
+    ]
+  },
+  "themes": [
+    "control",
+    "greed",
+    "political influence",
+    "intimidation"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "greed"
+  ],
+  "behaviours": [
+    "Narrative metaphor: control",
+    "Narrative metaphor: greed",
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: intimidation"
+  ],
+  "narrativeFunctions": [
+    "control",
+    "greed",
+    "political influence",
+    "intimidation"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Jabba the Hutt | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/jabba-the-hutt",
+      "accessedAt": "2026-10-02",
+      "sha256": "dcd08514adef785d5e09798bf9e4ba9e630f3ff373b63c749706b8010ae07ab2"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

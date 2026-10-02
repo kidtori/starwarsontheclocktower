@@ -1,0 +1,86 @@
+{
+  "id": "mon-mothma",
+  "name": "Mon Mothma",
+  "aliases": [],
+  "summary": "Senator who became a leader of the rebellion and the New Republic.",
+  "source": [
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Rogue One: A Star Wars Story",
+    "Andor A Star Wars Story",
+    "Star Wars: The Clone Wars",
+    "Star Wars Rebels",
+    "Star Wars: Ahsoka"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Rebel Alliance",
+    "New Republic"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Mon Mothma | Star Wars Databank",
+    "affiliations": [
+      "Galactic Republic",
+      "Galactic Senate",
+      "Rebel Alliance"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "political influence",
+    "leadership",
+    "secrecy",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: secrecy",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "political influence",
+    "leadership",
+    "secrecy",
+    "sacrifice"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Mon Mothma | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/mon-mothma",
+      "accessedAt": "2026-10-02",
+      "sha256": "14e624b06c8976145014eebe728bd0be03879eae75d1d06b8c4faac3836aee27"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

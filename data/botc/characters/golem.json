@@ -1,0 +1,62 @@
+{
+  "id": "golem",
+  "name": "Golem",
+  "officialId": "golem",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+  "mechanics": {
+    "nominationInteraction": 3,
+    "executionInteraction": 2,
+    "playerAgency": 3,
+    "bluffability": 1
+  },
+  "tags": [
+    "nominationInteraction",
+    "executionInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "One nomination that kills the nominee unless they are the Demon."
+  ],
+  "explanation": "One nomination that kills the nominee unless they are the Demon.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 176
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

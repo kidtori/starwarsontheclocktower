@@ -1,0 +1,77 @@
+{
+  "id": "evil-twin",
+  "name": "Evil Twin",
+  "officialId": "eviltwin",
+  "aliases": [
+    "eviltwin"
+  ],
+  "team": "minion",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+  "mechanics": {
+    "confirmation": 3,
+    "executionInteraction": 3,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "confirmation",
+    "executionInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Two players know opposing-alignment counterparts; executing the good twin loses and blocks normal good victory while both live."
+  ],
+  "explanation": "Two players know opposing-alignment counterparts; executing the good twin loses and blocks normal good victory while both live.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Wake both twins. Allow eye contact. Show the good twin's character token to the Evil Twin & vice versa.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "plague-doctor",
+      "reason": "If the Storyteller would gain the Evil Twin ability, a player becomes the Evil Twin.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 15
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "id": "orson-krennic",
+  "name": "Director Orson Krennic",
+  "aliases": [
+    "Krennic",
+    "Orson Krennic"
+  ],
+  "summary": "Imperial director responsible for the Death Star weapons project.",
+  "source": [
+    "Rogue One: A Star Wars Story",
+    "Andor A Star Wars Story",
+    "Star Wars: Rivals"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Galactic Empire"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Director Orson Krennic | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "control",
+    "ambition",
+    "political influence",
+    "intimidation"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "ambition"
+  ],
+  "behaviours": [
+    "Narrative metaphor: control",
+    "Narrative metaphor: ambition",
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: intimidation"
+  ],
+  "narrativeFunctions": [
+    "control",
+    "ambition",
+    "political influence",
+    "intimidation"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Director Orson Krennic | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/director-orson-krennic",
+      "accessedAt": "2026-10-02",
+      "sha256": "1a3421ba89c99f2335c0aaea2b3b99b91bb9f6e931127cfccd59f7142b6332ca"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

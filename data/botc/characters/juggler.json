@@ -1,0 +1,73 @@
+{
+  "id": "juggler",
+  "name": "Juggler",
+  "officialId": "juggler",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+  "mechanics": {
+    "characterInformation": 2,
+    "playerAgency": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "characterInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Public first-day character guesses produce a count of correct guesses tonight."
+  ],
+  "explanation": "Public first-day character guesses produce a count of correct guesses tonight.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "Give a finger signal."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "cannibal",
+      "reason": "If the Juggler guesses on their first day and dies by execution, tonight the living Cannibal learns how many guesses the Juggler got correct.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 51
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

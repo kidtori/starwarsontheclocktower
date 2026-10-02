@@ -1,0 +1,44 @@
+{
+  "id": "duchess",
+  "name": "Duchess",
+  "officialId": "duchess",
+  "aliases": [],
+  "team": "fabled",
+  "edition": "Fabled",
+  "officialEdition": "fabled",
+  "ability": "Each day, 3 players may choose to visit you. At night*, each visitor learns how many visitors are evil, but 1 gets false info.",
+  "mechanics": {},
+  "tags": [],
+  "designRole": [
+    "Storyteller rule supporting accessibility or resolving a game-running issue."
+  ],
+  "explanation": "Storyteller rule supporting accessibility or resolving a game-running issue.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": true,
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "One at a time: Wake each player marked *VISITOR* or *FALSE INFO*. Show the *THIS CHARACTER SELECTED YOU* & Duchess tokens, then give a finger signal."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "id": "sabine-wren",
+  "name": "Sabine Wren",
+  "aliases": [
+    "Sabine"
+  ],
+  "summary": "Mandalorian artist and demolitions expert who served with the Ghost crew.",
+  "source": [
+    "Star Wars Rebels",
+    "Star Wars: Ahsoka",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Rebels: Special Ops",
+    "Disney Infinity 3.0 - Character Quest",
+    "Star Wars Rebels - Strike Missions",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "era": [
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Mandalorians",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Sabine Wren | Databank",
+    "affiliations": [
+      "Rebel Alliance",
+      "Clan Wren",
+      "Mandalorians"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "initiative",
+    "creativity",
+    "sabotage",
+    "loyalty"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: creativity",
+    "Narrative metaphor: sabotage",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "initiative",
+    "creativity",
+    "sabotage",
+    "loyalty"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Sabine Wren | Databank",
+      "url": "https://www.starwars.com/databank/sabine-wren",
+      "accessedAt": "2026-10-02",
+      "sha256": "19559214e3b25d155e7abeabd375e58f38cac17306cb35b4dce7dd636eb7a9f5"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

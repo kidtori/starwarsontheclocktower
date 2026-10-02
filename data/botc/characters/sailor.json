@@ -1,0 +1,69 @@
+{
+  "id": "sailor",
+  "name": "Sailor",
+  "officialId": "sailor",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",
+  "mechanics": {
+    "misinformation": 2,
+    "drunkenness": 2,
+    "confirmation": 2,
+    "protection": 2,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "drunkenness",
+    "confirmation",
+    "protection",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Chooses an alive player; one becomes drunk, and the sober Sailor cannot die."
+  ],
+  "explanation": "Chooses an alive player; one becomes drunk, and the sober Sailor cannot die.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Sailor chooses a living player. :reminder:",
+    "otherNights": "The Sailor chooses a living player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "devils-advocate",
+      "assassin"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 45
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

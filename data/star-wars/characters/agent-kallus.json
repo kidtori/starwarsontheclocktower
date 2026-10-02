@@ -1,0 +1,78 @@
+{
+  "id": "agent-kallus",
+  "name": "Agent Kallus",
+  "aliases": [
+    "Alexsandr Kallus",
+    "Kallus"
+  ],
+  "summary": "Imperial security agent who later secretly aided the rebels.",
+  "source": [
+    "Star Wars Rebels"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Galactic Empire",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "mixed",
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Alexsandr Kallus",
+    "affiliations": [
+      "Imperial Security Bureau"
+    ],
+    "species": []
+  },
+  "themes": [
+    "hidden identities",
+    "investigation",
+    "betrayal",
+    "redemption"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: investigation",
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: redemption"
+  ],
+  "narrativeFunctions": [
+    "hidden identities",
+    "investigation",
+    "betrayal",
+    "redemption"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Alexsandr Kallus",
+      "url": "https://www.starwars.com/databank/agent-kallus",
+      "accessedAt": "2026-10-02",
+      "sha256": "c9a54842aef819928ab9bf3beb2c20e8a1a6ded79dc8d71b4487f74625048177"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

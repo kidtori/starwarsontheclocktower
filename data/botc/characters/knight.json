@@ -1,0 +1,60 @@
+{
+  "id": "knight",
+  "name": "Knight",
+  "officialId": "knight",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You start knowing 2 players that are not the Demon.",
+  "mechanics": {
+    "startingInformation": 2,
+    "alignmentInformation": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "startingInformation",
+    "alignmentInformation",
+    "bluffability"
+  ],
+  "designRole": [
+    "Starts knowing two non-Demons, creating a bounded Demon-elimination clue."
+  ],
+  "explanation": "Starts knowing two non-Demons, creating a bounded Demon-elimination clue.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Point to the 2 players marked *KNOW*.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 203
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

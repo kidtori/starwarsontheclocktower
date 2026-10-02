@@ -1,0 +1,23 @@
+{
+  "url": "https://www.starwars.com/databank/shaak-ti",
+  "title": "Shaak Ti",
+  "accessedAt": "2026-10-02",
+  "sha256": "d9ccb8f510db83035ba244437db8b06d9f26294050a0d3053c4b97e559ac87d5",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Jedi Order"
+  ],
+  "species": [
+    "Togruta"
+  ],
+  "linkedEntries": [
+    "shaak-ti",
+    "jedi-order",
+    "togruta",
+    "lightsaber"
+  ]
+}

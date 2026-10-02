@@ -1,0 +1,73 @@
+{
+  "id": "psychopath",
+  "name": "Psychopath",
+  "officialId": "psychopath",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+  "mechanics": {
+    "confirmation": 2,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "confirmation",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Daytime public kills and a roshambo condition for death by execution."
+  ],
+  "explanation": "Daytime public kills and a roshambo condition for death by execution.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "lil-monsta",
+      "reason": "If the Psychopath is babysitting Lil' Monsta, they die when executed.",
+      "sourceOwner": "lil-monsta",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 169
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

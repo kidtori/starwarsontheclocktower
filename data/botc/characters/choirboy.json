@@ -1,0 +1,62 @@
+{
+  "id": "choirboy",
+  "name": "Choirboy",
+  "officialId": "choirboy",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]",
+  "mechanics": {
+    "deathInteraction": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "deathInteraction",
+    "bluffability"
+  ],
+  "designRole": [
+    "After a Demon kill of the King, learns the Demon; depends on King being on the script."
+  ],
+  "explanation": "After a Demon kill of the King, learns the Demon; depends on King being on the script.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Demon killed the King, point to the Demon player."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "king"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [
+    "king"
+  ],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 194
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

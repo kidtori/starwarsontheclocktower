@@ -1,0 +1,153 @@
+{
+  "id": "summoner",
+  "name": "Summoner",
+  "officialId": "summoner",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+  "mechanics": {
+    "setupManipulation": 3,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "setupManipulation",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Creates an evil Demon on the third night; starts with no Demon and requires compatible setup and jinx handling."
+  ],
+  "explanation": "Creates an evil Demon on the third night; starts with no Demon and requires compatible setup and jinx handling.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "Show the *THESE CHARACTERS ARE NOT IN PLAY* token. Show 3 not-in-play good character tokens.",
+    "otherNights": "Change the Summoner reminder token to the relevant night. :reminder: If it is night 3, the Summoner chooses a player & a Demon character. Put the Summoner to sleep. Wake the target. Show the *YOU ARE* and Demon tokens & give a thumbs-down."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Starts with no Demon in play. The listed Demons are candidates for creation, not ordinary starting Demon choices."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "alchemist",
+      "reason": "The Alchemist-Summoner does not get bluffs, and chooses which Demon but not which player. If they die before this happens, evil wins. [No Demon]",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "legion",
+      "reason": "If Legion is summoned, all evil players become Legion. ",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "marionette",
+      "reason": "If there would be a Marionette in play, they enter play after the Demon & must start as their neighbor.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "clockmaker",
+      "reason": "The Summoner registers as the Demon to the Clockmaker.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "courtier",
+      "reason": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "engineer",
+      "reason": "If the living Summoner is removed from play, the Storyteller has the Summoner ability.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "hatter",
+      "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "kazali",
+      "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "lord-of-typhon",
+      "reason": "If a Lord of Typhon is summoned, they must neighbor a Minion & their other neighbor becomes an evil Minion.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "pit-hag",
+      "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "poppy-grower",
+      "reason": "If the Poppy Grower is alive on the 3rd night, the Summoner chooses which Demon but not which player.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "preacher",
+      "reason": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "pukka",
+      "reason": "The Summoner may summon a Pukka on the 2nd night instead of the 3rd.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "zombuul",
+      "reason": "If the Summoner summons a dead player into the Zombuul, the Zombuul has already \"died once\".",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 170
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

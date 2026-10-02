@@ -1,0 +1,22 @@
+{
+  "url": "https://www.starwars.com/databank/jyn-erso",
+  "title": "Jyn Erso",
+  "accessedAt": "2026-10-02",
+  "sha256": "c009eb992d169b3c61b8b5d90343684545041b538fc3d353e72c14f3507d5ba8",
+  "appearances": [
+    "Rogue One: A Star Wars Story",
+    "Star Wars: Forces of Destiny",
+    "Rogue One: Boots on the Ground - Star Wars Arcade",
+    "Star Wars: Rivals"
+  ],
+  "affiliations": [],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "jyn-erso",
+    "lah-mu",
+    "jyn-ersos-blastech-a-180-blaster",
+    "tooka-doll"
+  ]
+}

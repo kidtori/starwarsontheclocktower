@@ -1,0 +1,81 @@
+{
+  "id": "godfather",
+  "name": "Godfather",
+  "officialId": "godfather",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+  "mechanics": {
+    "executionInteraction": 2,
+    "deathInteraction": 2,
+    "outsiderManipulation": 2,
+    "setupManipulation": 2,
+    "evilUtility": 2,
+    "playerAgency": 2
+  },
+  "tags": [
+    "executionInteraction",
+    "deathInteraction",
+    "outsiderManipulation",
+    "setupManipulation",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Learns in-play Outsiders and gains kills following Outsider deaths; changes the setup count."
+  ],
+  "explanation": "Learns in-play Outsiders and gains kills following Outsider deaths; changes the setup count.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "Show the character tokens of all in-play Outsiders.",
+    "otherNights": "If an Outsider died today, the Godfather chooses a player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "minstrel"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "heretic",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 12
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

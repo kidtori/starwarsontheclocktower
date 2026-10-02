@@ -1,0 +1,20 @@
+{
+  "url": "https://www.starwars.com/databank/pre-vizsla",
+  "title": "Pre Vizsla | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "93da3d5bf4136d5be21b1fbd7aef1a0edc3c65915afc523f224094e962ecbf2c",
+  "appearances": [
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Death Watch"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "pre-vizsla",
+    "death-watch",
+    "mandalore",
+    "blaster-pistol",
+    "darksaber"
+  ]
+}

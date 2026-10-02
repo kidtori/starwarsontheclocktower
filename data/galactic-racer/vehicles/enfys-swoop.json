@@ -1,0 +1,18 @@
+{
+  "id": "enfys-swoop",
+  "name": "Enfys Nest's swoop bike",
+  "kind": "vehicle",
+  "vehicleClass": "speeder bike",
+  "summary": "High-speed swoop bike used by the leader of the Cloud-Riders.",
+  "confirmedGame": false,
+  "scope": "Film vehicle; specific model not confirmed for Galactic Racer",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Enfys Nest's swoop bike | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/enfys-nests-swoop-bike",
+      "accessedAt": "2026-10-02",
+      "sha256": "b20dd0641f31e041cec10f1c73512fd64f3147330f4f9bc37a2bb7ddf1c3dca2"
+    }
+  ]
+}

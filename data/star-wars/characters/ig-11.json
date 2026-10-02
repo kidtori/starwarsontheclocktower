@@ -1,0 +1,82 @@
+{
+  "id": "ig-11",
+  "name": "IG-11",
+  "aliases": [],
+  "summary": "Bounty-hunting droid reprogrammed by Kuiil to protect others.",
+  "source": [
+    "Star Wars: The Mandalorian"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Bounty Hunters"
+  ],
+  "alignment": [
+    "good",
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "IG-11 | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "protection",
+    "precision",
+    "redemption",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: protection",
+    "Narrative metaphor: precision",
+    "Narrative metaphor: redemption",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "protection",
+    "precision",
+    "redemption",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "kuiil",
+      "type": "reprogrammed droid / restorer",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/ig-11",
+        "https://www.starwars.com/databank/kuiil"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: IG-11 | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/ig-11",
+      "accessedAt": "2026-10-02",
+      "sha256": "8676497c1bee1e89124a3904dc8696b340b0ab32aa31bba198ecb34f3c675772"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

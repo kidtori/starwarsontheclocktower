@@ -1,0 +1,46 @@
+{
+  "url": "https://www.starwars.com/databank/echo",
+  "title": "Echo | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "3c6f6d3d2a232b91026e998c518a198542d2d7f3b29f1c9f215766e48d7b3fc9",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [
+    "Clone Troopers",
+    "Galactic Republic",
+    "Clone Force 99 \"The Bad Batch\""
+  ],
+  "species": [],
+  "linkedEntries": [
+    "echo",
+    "clone-troopers",
+    "galactic-republic",
+    "clone-force-99-bad-batch",
+    "kamino",
+    "blaster-pistol",
+    "clone-captain-rex",
+    "anakin-skywalker",
+    "skako-minor",
+    "fort-anaxes",
+    "emperor-palpatine-darth-sidious",
+    "onderon",
+    "omega",
+    "crosshair",
+    "tech",
+    "ordo-moon",
+    "pantora",
+    "inhibitor-chip",
+    "bracca",
+    "galactic-empire",
+    "serenno",
+    "coruscant",
+    "balmorra",
+    "dr-royce-hemlock",
+    "eriadu",
+    "hunter",
+    "wrecker",
+    "ahsoka-tano"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "id": "vel-sartha",
+  "name": "Vel Sartha",
+  "aliases": [
+    "Vel"
+  ],
+  "summary": "Rebel operative who led the Aldhani heist and is Mon Mothma's cousin.",
+  "source": [
+    "Andor A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Vel Sartha | Star Wars Databank",
+    "affiliations": [
+      "Rebel Alliance"
+    ],
+    "species": []
+  },
+  "themes": [
+    "hidden identities",
+    "secrecy",
+    "initiative",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: secrecy",
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "hidden identities",
+    "secrecy",
+    "initiative",
+    "sacrifice"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Vel Sartha | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/vel-sartha",
+      "accessedAt": "2026-10-02",
+      "sha256": "240000ede2db45f4a8f36dddfa431788ce41402c2c7d28d849362baa9a719d5d"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

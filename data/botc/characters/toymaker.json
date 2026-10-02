@@ -1,0 +1,44 @@
+{
+  "id": "toymaker",
+  "name": "Toymaker",
+  "officialId": "toymaker",
+  "aliases": [],
+  "team": "fabled",
+  "edition": "Fabled",
+  "officialEdition": "fabled",
+  "ability": "The Demon may choose not to attack & must do this at least once per game. Evil players get normal starting info.",
+  "mechanics": {},
+  "tags": [],
+  "designRole": [
+    "Storyteller rule supporting accessibility or resolving a game-running issue."
+  ],
+  "explanation": "Storyteller rule supporting accessibility or resolving a game-running issue.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": true,
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Resolve Minion Info and Demon Info, even though there are fewer than 7 players.",
+    "otherNights": "If a Demon attack could end the game, and the Demon is marked *FINAL NIGHT: NO ATTACK*, do not wake the Demon."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

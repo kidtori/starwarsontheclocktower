@@ -1,0 +1,29 @@
+{
+  "url": "https://www.starwars.com/databank/ki-adi-mundi",
+  "title": "Ki-Adi-Mundi | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "9d7605fb13dd19b86e4de70102515793cb501466ee6adcc22f107a1ebfaafc0d",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Acolyte",
+    "Star Wars: Tales of the Jedi"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Jedi Order"
+  ],
+  "species": [
+    "Cerean"
+  ],
+  "linkedEntries": [
+    "ki-adi-mundi",
+    "galactic-republic",
+    "jedi-order",
+    "mygeeto",
+    "cerean",
+    "lightsaber"
+  ]
+}

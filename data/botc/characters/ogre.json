@@ -1,0 +1,89 @@
+{
+  "id": "ogre",
+  "name": "Ogre",
+  "officialId": "ogre",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",
+  "mechanics": {
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Starts choosing a friend and joins their alignment without learning it."
+  ],
+  "explanation": "Starts choosing a friend and joins their alignment without learning it.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Ogre chooses a player. :reminder:",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "boffin",
+      "reason": "The Demon cannot have the Ogre ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "pit-hag",
+      "reason": "If the Pit-Hag turns an evil player into the Ogre, they can't turn good due to their own ability.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "recluse",
+      "reason": "If the Recluse registers as evil to the Ogre, the Ogre learns that they are evil.",
+      "sourceOwner": "recluse",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "spy",
+      "reason": "The Spy registers as evil to the Ogre.",
+      "sourceOwner": "spy",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 179
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

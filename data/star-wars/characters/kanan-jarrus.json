@@ -1,0 +1,104 @@
+{
+  "id": "kanan-jarrus",
+  "name": "Kanan Jarrus",
+  "aliases": [
+    "Caleb Dume",
+    "Kanan"
+  ],
+  "summary": "Jedi survivor who trained Ezra while fighting alongside the Ghost crew.",
+  "source": [
+    "Star Wars: The Bad Batch",
+    "Star Wars Rebels",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Arcade",
+    "Disney Infinity 3.0 - Character Quest",
+    "Star Wars Rebels - Strike Missions",
+    "Star Wars Rebels: Chopper Chase",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Jedi",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Kanan Jarrus / Caleb Dume | Star Wars Databank",
+    "affiliations": [],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "mentorship",
+    "hidden identities",
+    "protection",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: mentorship",
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: protection",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "mentorship",
+    "hidden identities",
+    "protection",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "ezra-bridger",
+      "type": "mentor / apprentice",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/kanan-jarrus",
+        "https://www.starwars.com/databank/ezra-bridger"
+      ]
+    },
+    {
+      "characterId": "hera-syndulla",
+      "type": "partners",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/kanan-jarrus",
+        "https://www.starwars.com/databank/hera-syndulla"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Kanan Jarrus / Caleb Dume | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/kanan-jarrus",
+      "accessedAt": "2026-10-02",
+      "sha256": "5a6d2fb1653f8e0d2906a6277f26a8bbf632b82e8096190b0cec37865ae15b83"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

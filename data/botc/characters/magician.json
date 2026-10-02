@@ -1,0 +1,113 @@
+{
+  "id": "magician",
+  "name": "Magician",
+  "officialId": "magician",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "The Demon thinks you are a Minion. Minions think you are a Demon.",
+  "mechanics": {
+    "misinformation": 2,
+    "setupManipulation": 2,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "setupManipulation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Distorts evil-team starting information, causing uncertainty about allies."
+  ],
+  "explanation": "Distorts evil-team starting information, causing uncertainty about allies.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "During Minion Info, point to the Magician and the Demon. During Demon Info, point to the Magician and the Minions.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "poppy-grower"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "lil-monsta",
+      "reason": "If the Magician is alive, the Storyteller chooses which Minion babysits Lil' Monsta. ",
+      "sourceOwner": "lil-monsta",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "legion",
+      "reason": "If the Magician is in play, during the Demon info step, Legion wake in separate groups. Each group learns which players are good, but does not learn the Magician.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "marionette",
+      "reason": "If the Magician is alive, the Demon doesn't know which neighbor is the Marionette.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "spy",
+      "reason": "When the Spy sees the Grimoire, the Demon and Magician's character tokens are removed.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vizier",
+      "reason": "If the Vizier is in play, the Magician has no ability but is immune to the Vizier's ability.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "widow",
+      "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "wraith",
+      "reason": "After each execution, the living Magician may publicly guess a living player as the Wraith. If correct, the Demon must choose the Wraith tonight.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 205
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

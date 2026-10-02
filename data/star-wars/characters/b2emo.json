@@ -1,0 +1,72 @@
+{
+  "id": "b2emo",
+  "name": "B2EMO",
+  "aliases": [
+    "Bee"
+  ],
+  "summary": "Salvage droid belonging to the Andor family.",
+  "source": [
+    "Andor A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Independent"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "B2EMO | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "knowledge",
+    "loyalty",
+    "communication"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: communication"
+  ],
+  "narrativeFunctions": [
+    "knowledge",
+    "loyalty",
+    "communication"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: B2EMO | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/b2emo",
+      "accessedAt": "2026-10-02",
+      "sha256": "72c301ac044f2e15f057051c4cfd23e23878e69b866d72b8c32b866c85cde9dc"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

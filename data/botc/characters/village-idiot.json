@@ -1,0 +1,93 @@
+{
+  "id": "village-idiot",
+  "name": "Village Idiot",
+  "officialId": "villageidiot",
+  "aliases": [
+    "villageidiot"
+  ],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+  "mechanics": {
+    "recurringInformation": 2,
+    "alignmentInformation": 3,
+    "misinformation": 2,
+    "drunkenness": 1,
+    "setupManipulation": 1,
+    "playerAgency": 3,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "alignmentInformation",
+    "misinformation",
+    "drunkenness",
+    "setupManipulation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Recurring chosen alignment information, with optional extra copies and a drunk extra."
+  ],
+  "explanation": "Recurring chosen alignment information, with optional extra copies and a drunk extra.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "If there are multiple Village Idiots, mark one as *DRUNK*. :reminder: Wake the Village Idiots one at a time to choose a player. Give a thumb signal.",
+    "otherNights": "Wake the Village Idiots one at a time to choose a player. Give a thumb signal."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "puzzlemaster"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Extra Village Idiots may be in play with one extra drunk. Script record count is not an in-play multiplicity simulator."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "boffin",
+      "reason": "If there is a spare token, the Boffin can give the Demon the Village Idiot ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "pit-hag",
+      "reason": "If there is a spare token, the Pit-Hag can create an extra Village Idiot. If so, the drunk Village Idiot might change.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 213
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

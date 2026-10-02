@@ -1,0 +1,257 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "knowledge.schema.json",
+  "$defs": {
+    "slug": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "strings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "signals": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "number",
+        "minimum": 0,
+        "maximum": 3
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "type"
+        ],
+        "properties": {
+          "type": {
+            "enum": [
+              "canonical",
+              "interpretation",
+              "design",
+              "internal",
+              "reference"
+            ]
+          },
+          "title": {
+            "type": "string"
+          },
+          "description": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "botc": {
+      "type": "object",
+      "required": [
+        "id",
+        "name",
+        "team",
+        "ability",
+        "mechanics"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "team": {
+          "enum": [
+            "townsfolk",
+            "outsider",
+            "minion",
+            "demon",
+            "traveller",
+            "fabled",
+            "loric"
+          ]
+        },
+        "ability": {
+          "type": "string",
+          "minLength": 1
+        },
+        "edition": {
+          "type": "string"
+        },
+        "complexity": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ]
+        },
+        "mechanics": {
+          "$ref": "#/$defs/signals"
+        },
+        "tags": {
+          "$ref": "#/$defs/strings"
+        },
+        "designRole": {
+          "$ref": "#/$defs/strings"
+        },
+        "aliases": {
+          "$ref": "#/$defs/strings"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        },
+        "interactions": {
+          "type": "object",
+          "properties": {
+            "synergisesWith": {
+              "$ref": "#/$defs/strings"
+            },
+            "conflictsWith": {
+              "$ref": "#/$defs/strings"
+            },
+            "dangerousCombinations": {
+              "$ref": "#/$defs/strings"
+            },
+            "storytellerNotes": {
+              "$ref": "#/$defs/strings"
+            }
+          }
+        }
+      }
+    },
+    "starWars": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/slug"
+        },
+        "name": {
+          "type": "string",
+          "minLength": 1
+        },
+        "source": {
+          "$ref": "#/$defs/strings"
+        },
+        "era": {
+          "$ref": "#/$defs/strings"
+        },
+        "factions": {
+          "$ref": "#/$defs/strings"
+        },
+        "alignment": {
+          "$ref": "#/$defs/strings"
+        },
+        "archetypes": {
+          "$ref": "#/$defs/strings"
+        },
+        "personality": {
+          "$ref": "#/$defs/strings"
+        },
+        "themes": {
+          "$ref": "#/$defs/strings"
+        },
+        "importance": {
+          "$ref": "#/$defs/signals"
+        },
+        "relationships": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "characterId",
+              "type"
+            ],
+            "properties": {
+              "characterId": {
+                "$ref": "#/$defs/slug"
+              },
+              "type": {
+                "type": "string"
+              },
+              "description": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        }
+      }
+    },
+    "galacticRacer": {
+      "type": "object",
+      "required": [
+        "characterId"
+      ],
+      "properties": {
+        "characterId": {
+          "$ref": "#/$defs/slug"
+        },
+        "roleInGame": {
+          "$ref": "#/$defs/strings"
+        },
+        "personality": {
+          "$ref": "#/$defs/strings"
+        },
+        "motivations": {
+          "$ref": "#/$defs/strings"
+        },
+        "rivalries": {
+          "$ref": "#/$defs/strings"
+        },
+        "allies": {
+          "$ref": "#/$defs/strings"
+        },
+        "gameplayIdentity": {
+          "$ref": "#/$defs/strings"
+        },
+        "vehicle": {
+          "type": "string"
+        },
+        "racingStyle": {
+          "$ref": "#/$defs/strings"
+        },
+        "strengths": {
+          "$ref": "#/$defs/strings"
+        },
+        "weaknesses": {
+          "$ref": "#/$defs/strings"
+        },
+        "storyImportance": {
+          "type": "string"
+        },
+        "playerPerception": {
+          "$ref": "#/$defs/strings"
+        },
+        "narrativeNotes": {
+          "type": "string"
+        },
+        "sources": {
+          "$ref": "#/$defs/sources"
+        }
+      }
+    }
+  },
+  "anyOf": [
+    {
+      "$ref": "#/$defs/botc"
+    },
+    {
+      "$ref": "#/$defs/starWars"
+    },
+    {
+      "$ref": "#/$defs/galacticRacer"
+    }
+  ]
+}

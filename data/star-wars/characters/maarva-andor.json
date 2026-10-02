@@ -1,0 +1,85 @@
+{
+  "id": "maarva-andor",
+  "name": "Maarva Andor",
+  "aliases": [],
+  "summary": "Cassian's adoptive mother and a respected resident of Ferrix.",
+  "source": [
+    "Andor A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Maarva Andor | Star Wars Databank",
+    "affiliations": [
+      "Daughters of Ferrix"
+    ],
+    "species": []
+  },
+  "themes": [
+    "leadership",
+    "loyalty",
+    "resistance",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: resistance",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "leadership",
+    "loyalty",
+    "resistance",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "cassian-andor",
+      "type": "mother / adopted son",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/maarva-andor",
+        "https://www.starwars.com/databank/cassian-andor"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Maarva Andor | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/maarva-andor",
+      "accessedAt": "2026-10-02",
+      "sha256": "6f64f47c773a6cd63ed016e05d57b4769d0c03e4c2c8d866457f455dcbec306c"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

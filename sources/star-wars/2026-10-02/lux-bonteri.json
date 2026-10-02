@@ -1,0 +1,23 @@
+{
+  "url": "https://www.starwars.com/databank/lux-bonteri",
+  "title": "Lux Bonteri | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "1b345fa40d718584af9d57bfc371cf030bf27ceadad87b47b4f3d263c6a31b71",
+  "appearances": [
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Death Watch",
+    "Onderon Rebels",
+    "Confederacy of Independent Systems"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "lux-bonteri",
+    "death-watch",
+    "onderon-rebels",
+    "confederacy-of-independent-systems",
+    "onderon",
+    "blaster-pistol"
+  ]
+}

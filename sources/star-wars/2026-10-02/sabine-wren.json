@@ -1,0 +1,59 @@
+{
+  "url": "https://www.starwars.com/databank/sabine-wren",
+  "title": "Sabine Wren | Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "19559214e3b25d155e7abeabd375e58f38cac17306cb35b4dce7dd636eb7a9f5",
+  "appearances": [
+    "Star Wars Rebels",
+    "Star Wars: Ahsoka",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Rebels: Special Ops",
+    "Disney Infinity 3.0 - Character Quest",
+    "Star Wars Rebels - Strike Missions",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "affiliations": [
+    "Rebel Alliance",
+    "Clan Wren",
+    "Mandalorians"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "sabine-wren",
+    "rebel-alliance",
+    "clan-wren",
+    "mandalore",
+    "krownest",
+    "wren-stronghold",
+    "blaster-pistol",
+    "smoke-bomb",
+    "mandalorian-vambraces",
+    "jumpspeeder",
+    "ursa-wren",
+    "alrich-wren",
+    "tristan-wren",
+    "the-ghost",
+    "hera-syndulla",
+    "kanan-jarrus",
+    "zeb-orrelios",
+    "chopper",
+    "ezra-bridger",
+    "phoenix-squadron",
+    "mon-mothma",
+    "leia-organa",
+    "ahsoka-tano",
+    "fenn-rau",
+    "grand-admiral-thrawn",
+    "beskar",
+    "bo-katan-kryze",
+    "lothal",
+    "seatos",
+    "peridea",
+    "howler",
+    "noti",
+    "magistrate-morgan-elsbeth"
+  ]
+}

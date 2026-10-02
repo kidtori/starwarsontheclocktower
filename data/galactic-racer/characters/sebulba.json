@@ -1,0 +1,22 @@
+{
+  "characterId": "sebulba",
+  "roleInGame": [
+    "Veteran podracer who can support Shade if his respect is earned."
+  ],
+  "gameplayIdentity": [
+    "Veteran podracer who can support Shade if his respect is earned."
+  ],
+  "rivalries": [],
+  "allies": [],
+  "vehicle": "Specific assigned vehicle not confirmed by the cited announcements.",
+  "narrativeNotes": "Official pre-release announcements checked on 2026-10-02; not a complete roster or a claim of hands-on gameplay verification.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Star Wars: Galactic Racer - Story Trailer | StarWars.com",
+      "url": "https://www.starwars.com/news/star-wars-galactic-racer-story-trailer",
+      "accessedAt": "2026-10-02",
+      "sha256": "6140487888a0b7e5aca716958cc94f56e313c17285e56b1a891449d7b8f6705f"
+    }
+  ]
+}

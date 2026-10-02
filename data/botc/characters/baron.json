@@ -1,0 +1,82 @@
+{
+  "id": "baron",
+  "name": "Baron",
+  "officialId": "baron",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+  "mechanics": {
+    "outsiderManipulation": 3,
+    "setupManipulation": 2,
+    "evilUtility": 2
+  },
+  "tags": [
+    "outsiderManipulation",
+    "setupManipulation",
+    "evilUtility"
+  ],
+  "designRole": [
+    "Adds Outsiders at setup, reshaping the good team's ability mix and plausible Outsider claims."
+  ],
+  "explanation": "Adds Outsiders at setup, reshaping the good team's ability mix and plausible Outsider claims.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "librarian",
+      "drunk"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "heretic",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "plague-doctor",
+      "reason": "If the Storyteller would gain the Baron ability, up to two players become Outsiders.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 18
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "dreamer",
+  "name": "Dreamer",
+  "officialId": "dreamer",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct.",
+  "mechanics": {
+    "recurringInformation": 3,
+    "characterInformation": 3,
+    "playerAgency": 3,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "characterInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Returns a good and an evil character option for a chosen player, including the correct character."
+  ],
+  "explanation": "Returns a good and an evil character option for a chosen player, including the correct character.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Dreamer points to a player. Show 1 good & 1 evil character token, 1 of which is their character.",
+    "otherNights": "The Dreamer points to a player. Show 1 good & 1 evil character token, 1 of which is their character."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "vortox"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 49
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

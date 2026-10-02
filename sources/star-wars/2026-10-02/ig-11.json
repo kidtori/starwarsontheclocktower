@@ -1,0 +1,14 @@
+{
+  "url": "https://www.starwars.com/databank/ig-11",
+  "title": "IG-11 | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "8676497c1bee1e89124a3904dc8696b340b0ab32aa31bba198ecb34f3c675772",
+  "appearances": [
+    "Star Wars: The Mandalorian"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "ig-11"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "url": "https://www.starwars.com/databank/hera-syndulla",
+  "title": "Hera Syndulla | Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "4303127a8f9fef42d355f5d0d01379317e73499fdf2581a9252c0d2c068507e5",
+  "appearances": [
+    "Star Wars Rebels",
+    "Star Wars: The Bad Batch",
+    "Star Wars: Ahsoka",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Arcade",
+    "Star Wars Rebels - Strike Missions",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "affiliations": [
+    "Rebel Alliance"
+  ],
+  "species": [
+    "Twi'lek"
+  ],
+  "linkedEntries": [
+    "hera-syndulla",
+    "rebel-alliance",
+    "ryloth",
+    "twi-lek",
+    "blaster-pistol",
+    "ghost",
+    "the-phantom",
+    "phantom-ii",
+    "cham-syndulla",
+    "eleni-syndulla",
+    "chopper",
+    "gobi-glie",
+    "galactic-empire",
+    "the-ghost",
+    "kanan-jarrus",
+    "zeb-orrelios",
+    "sabine-wren",
+    "ezra-bridger",
+    "ahsoka-tano",
+    "mon-mothma",
+    "lothal",
+    "grand-admiral-thrawn",
+    "leia-organa"
+  ]
+}

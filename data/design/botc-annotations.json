@@ -1,0 +1,1128 @@
+{
+  "status": "Initial editorial annotations, not official ratings or a playtesting certificate.",
+  "scale": "0–3 strength of a design signal. Missing fields remain unannotated.",
+  "groups": {
+    "startingInformation": {
+      "2": [
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "chef",
+        "clockmaker",
+        "grandmother",
+        "noble",
+        "knight",
+        "shugenja",
+        "steward"
+      ],
+      "3": [
+        "bountyhunter"
+      ]
+    },
+    "recurringInformation": {
+      "1": [
+        "highpriestess",
+        "general",
+        "flowergirl",
+        "towncrier",
+        "mathematician"
+      ],
+      "2": [
+        "empath",
+        "undertaker",
+        "chambermaid",
+        "oracle",
+        "balloonist",
+        "king",
+        "villageidiot",
+        "bountyhunter"
+      ],
+      "3": [
+        "fortuneteller",
+        "dreamer",
+        "savant"
+      ]
+    },
+    "alignmentInformation": {
+      "1": [
+        "chef",
+        "clockmaker",
+        "general"
+      ],
+      "2": [
+        "investigator",
+        "flowergirl",
+        "towncrier",
+        "oracle",
+        "noble",
+        "knight",
+        "shugenja",
+        "steward",
+        "bountyhunter"
+      ],
+      "3": [
+        "empath",
+        "seamstress",
+        "villageidiot"
+      ]
+    },
+    "characterInformation": {
+      "1": [
+        "balloonist"
+      ],
+      "2": [
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "fortuneteller",
+        "grandmother",
+        "juggler",
+        "king"
+      ],
+      "3": [
+        "undertaker",
+        "ravenkeeper",
+        "dreamer",
+        "sage",
+        "gambler"
+      ]
+    },
+    "registration": {
+      "1": [
+        "fortuneteller"
+      ],
+      "3": [
+        "recluse",
+        "spy",
+        "zombuul"
+      ]
+    },
+    "misinformation": {
+      "1": [
+        "fortuneteller",
+        "savant",
+        "recluse",
+        "marionette"
+      ],
+      "2": [
+        "poisoner",
+        "drunk",
+        "sweetheart",
+        "innkeeper",
+        "sailor",
+        "philosopher",
+        "puzzlemaster",
+        "villageidiot",
+        "widow",
+        "spy",
+        "minstrel",
+        "magician"
+      ],
+      "3": [
+        "vortox",
+        "nodashii",
+        "lleech",
+        "pukka",
+        "xaan",
+        "lunatic"
+      ]
+    },
+    "poisoning": {
+      "2": [
+        "cannibal"
+      ],
+      "3": [
+        "poisoner",
+        "widow",
+        "pukka",
+        "nodashii",
+        "lleech",
+        "xaan"
+      ]
+    },
+    "drunkenness": {
+      "1": [
+        "villageidiot",
+        "goon"
+      ],
+      "2": [
+        "sweetheart",
+        "innkeeper",
+        "sailor",
+        "philosopher",
+        "puzzlemaster"
+      ],
+      "3": [
+        "drunk",
+        "minstrel",
+        "courtier"
+      ]
+    },
+    "confirmation": {
+      "1": [
+        "nightwatchman",
+        "farmer",
+        "huntsman"
+      ],
+      "2": [
+        "slayer",
+        "gossip",
+        "gambler",
+        "professor",
+        "fool",
+        "sailor",
+        "tealady",
+        "banshee",
+        "vizier",
+        "psychopath"
+      ],
+      "3": [
+        "virgin",
+        "eviltwin"
+      ]
+    },
+    "protection": {
+      "1": [
+        "pacifist",
+        "mayor"
+      ],
+      "2": [
+        "soldier",
+        "fool",
+        "sailor",
+        "tealady"
+      ],
+      "3": [
+        "monk",
+        "innkeeper",
+        "devilsadvocate"
+      ]
+    },
+    "nominationInteraction": {
+      "1": [
+        "towncrier",
+        "banshee"
+      ],
+      "2": [
+        "witch",
+        "riot",
+        "vizier",
+        "princess"
+      ],
+      "3": [
+        "virgin",
+        "golem"
+      ]
+    },
+    "votingInteraction": {
+      "1": [
+        "flowergirl",
+        "fearmonger",
+        "banshee"
+      ],
+      "2": [
+        "butler",
+        "zealot",
+        "legion",
+        "vizier"
+      ],
+      "3": [
+        "organgrinder"
+      ]
+    },
+    "executionInteraction": {
+      "1": [
+        "undertaker",
+        "cannibal",
+        "princess"
+      ],
+      "2": [
+        "virgin",
+        "devilsadvocate",
+        "pacifist",
+        "minstrel",
+        "godfather",
+        "witch",
+        "golem",
+        "harpy",
+        "cerenovus",
+        "fearmonger",
+        "leviathan",
+        "riot"
+      ],
+      "3": [
+        "saint",
+        "eviltwin",
+        "mastermind",
+        "boomdandy",
+        "goblin",
+        "vortox",
+        "mutant",
+        "vizier"
+      ]
+    },
+    "deathInteraction": {
+      "1": [
+        "tinker",
+        "zombuul",
+        "imp",
+        "poisoner"
+      ],
+      "2": [
+        "grandmother",
+        "sweetheart",
+        "barber",
+        "professor",
+        "farmer",
+        "banshee",
+        "acrobat",
+        "lycanthrope",
+        "moonchild",
+        "hatter",
+        "plaguedoctor",
+        "king",
+        "choirboy",
+        "godfather",
+        "gossip",
+        "gambler",
+        "alhadikhia"
+      ],
+      "3": [
+        "ravenkeeper",
+        "sage",
+        "assassin",
+        "shabaloth",
+        "po",
+        "pukka",
+        "yaggababble",
+        "ojo",
+        "boomdandy",
+        "heretic"
+      ]
+    },
+    "outsiderManipulation": {
+      "1": [
+        "balloonist",
+        "huntsman",
+        "sentinel"
+      ],
+      "2": [
+        "fanggu",
+        "godfather",
+        "vigormortis",
+        "kazali",
+        "lordoftyphon"
+      ],
+      "3": [
+        "baron"
+      ]
+    },
+    "setupManipulation": {
+      "1": [
+        "balloonist",
+        "huntsman",
+        "villageidiot"
+      ],
+      "2": [
+        "baron",
+        "godfather",
+        "fanggu",
+        "vigormortis",
+        "bountyhunter",
+        "poppygrower",
+        "magician",
+        "snitch",
+        "marionette",
+        "lunatic"
+      ],
+      "3": [
+        "atheist",
+        "legion",
+        "kazali",
+        "lordoftyphon",
+        "summoner",
+        "lilmonsta"
+      ]
+    },
+    "demonSurvivability": {
+      "1": [
+        "fanggu",
+        "pithag",
+        "barber",
+        "hatter",
+        "pukka"
+      ],
+      "2": [
+        "imp",
+        "zombuul",
+        "mastermind",
+        "devilsadvocate",
+        "legion"
+      ],
+      "3": [
+        "scarletwoman",
+        "lleech",
+        "lilmonsta"
+      ]
+    },
+    "evilUtility": {
+      "1": [
+        "heretic",
+        "snitch",
+        "plaguedoctor",
+        "damsel",
+        "lunatic",
+        "politician"
+      ],
+      "2": [
+        "marionette",
+        "baron",
+        "witch",
+        "cerenovus",
+        "harpy",
+        "fearmonger",
+        "godfather",
+        "mastermind",
+        "goblin",
+        "mezepheles",
+        "boomdandy",
+        "organgrinder",
+        "wraith"
+      ],
+      "3": [
+        "poisoner",
+        "spy",
+        "widow",
+        "scarletwoman",
+        "devilsadvocate",
+        "assassin",
+        "pithag",
+        "eviltwin",
+        "boffin",
+        "summoner",
+        "vizier",
+        "psychopath",
+        "wizard",
+        "xaan",
+        "imp",
+        "fanggu",
+        "vigormortis",
+        "vortox",
+        "nodashii",
+        "zombuul",
+        "shabaloth",
+        "po",
+        "pukka",
+        "alhadikhia",
+        "kazali",
+        "legion",
+        "leviathan",
+        "lilmonsta",
+        "lleech",
+        "lordoftyphon",
+        "ojo",
+        "riot",
+        "yaggababble"
+      ]
+    },
+    "playerAgency": {
+      "1": [
+        "empath",
+        "undertaker",
+        "oracle",
+        "king",
+        "chef",
+        "flowergirl",
+        "towncrier",
+        "mathematician",
+        "banshee",
+        "farmer",
+        "drunk",
+        "recluse"
+      ],
+      "2": [
+        "ravenkeeper",
+        "sage",
+        "savant",
+        "juggler",
+        "gossip",
+        "slayer",
+        "virgin",
+        "soldier",
+        "fool",
+        "pacifist",
+        "nightwatchman",
+        "highpriestess",
+        "general",
+        "cultleader",
+        "alsaahir",
+        "princess",
+        "fisherman",
+        "magician",
+        "poppygrower",
+        "damsel",
+        "heretic",
+        "mutant",
+        "politician",
+        "goblin",
+        "fearmonger",
+        "harpy",
+        "organgrinder",
+        "boffin",
+        "scarletwoman",
+        "godfather",
+        "eviltwin",
+        "mastermind",
+        "boomdandy",
+        "wraith",
+        "xaan",
+        "imp",
+        "vigormortis",
+        "vortox",
+        "nodashii",
+        "fanggu",
+        "zombuul",
+        "shabaloth",
+        "po",
+        "pukka",
+        "alhadikhia",
+        "kazali",
+        "legion",
+        "leviathan",
+        "lilmonsta",
+        "lleech",
+        "lordoftyphon",
+        "ojo",
+        "riot",
+        "yaggababble"
+      ],
+      "3": [
+        "fortuneteller",
+        "dreamer",
+        "chambermaid",
+        "gambler",
+        "artist",
+        "seamstress",
+        "monk",
+        "innkeeper",
+        "sailor",
+        "courtier",
+        "exorcist",
+        "professor",
+        "philosopher",
+        "snakecharmer",
+        "amnesiac",
+        "alchemist",
+        "cannibal",
+        "engineer",
+        "lycanthrope",
+        "preacher",
+        "huntsman",
+        "villageidiot",
+        "acrobat",
+        "golem",
+        "ogre",
+        "butler",
+        "moonchild",
+        "barber",
+        "hatter",
+        "poisoner",
+        "spy",
+        "widow",
+        "devilsadvocate",
+        "assassin",
+        "witch",
+        "cerenovus",
+        "pithag",
+        "psychopath",
+        "mezepheles",
+        "summoner",
+        "vizier",
+        "wizard"
+      ]
+    },
+    "bluffability": {
+      "1": [
+        "virgin",
+        "slayer",
+        "professor",
+        "banshee",
+        "farmer",
+        "nightwatchman",
+        "golem",
+        "damsel",
+        "atheist",
+        "alsaahir"
+      ],
+      "2": [
+        "washerwoman",
+        "librarian",
+        "investigator",
+        "chef",
+        "empath",
+        "fortuneteller",
+        "undertaker",
+        "ravenkeeper",
+        "clockmaker",
+        "dreamer",
+        "flowergirl",
+        "towncrier",
+        "oracle",
+        "savant",
+        "seamstress",
+        "juggler",
+        "chambermaid",
+        "gambler",
+        "gossip",
+        "grandmother",
+        "king",
+        "choirboy",
+        "noble",
+        "knight",
+        "shugenja",
+        "steward",
+        "villageidiot",
+        "balloonist",
+        "bountyhunter",
+        "mathematician"
+      ],
+      "3": [
+        "monk",
+        "soldier",
+        "mayor",
+        "butler",
+        "drunk",
+        "recluse",
+        "saint",
+        "fool",
+        "sailor",
+        "innkeeper",
+        "pacifist",
+        "courtier",
+        "exorcist",
+        "tealady",
+        "minstrel",
+        "snakecharmer",
+        "philosopher",
+        "artist",
+        "sage",
+        "sweetheart",
+        "mutant",
+        "klutz",
+        "barber",
+        "tinker",
+        "goon",
+        "lunatic",
+        "moonchild",
+        "amnesiac",
+        "fisherman",
+        "general",
+        "highpriestess",
+        "poppygrower",
+        "magician",
+        "preacher",
+        "huntsman",
+        "pixie",
+        "acrobat",
+        "cultleader",
+        "cannibal",
+        "alchemist",
+        "engineer",
+        "lycanthrope",
+        "princess",
+        "plaguedoctor",
+        "politician",
+        "puzzlemaster",
+        "snitch",
+        "zealot",
+        "heretic",
+        "hatter",
+        "hermit",
+        "ogre"
+      ]
+    }
+  },
+  "complexity": {
+    "low": [
+      "washerwoman",
+      "librarian",
+      "investigator",
+      "chef",
+      "empath",
+      "monk",
+      "ravenkeeper",
+      "slayer",
+      "soldier",
+      "butler",
+      "saint",
+      "poisoner",
+      "baron",
+      "imp",
+      "clockmaker",
+      "seamstress",
+      "artist",
+      "oracle",
+      "grandmother",
+      "fool",
+      "tinker",
+      "assassin",
+      "steward",
+      "noble",
+      "knight",
+      "shugenja",
+      "nightwatchman",
+      "farmer",
+      "zealot"
+    ],
+    "high": [
+      "amnesiac",
+      "atheist",
+      "alchemist",
+      "cannibal",
+      "philosopher",
+      "snakecharmer",
+      "pithag",
+      "legion",
+      "lilmonsta",
+      "riot",
+      "heretic",
+      "hermit",
+      "boffin",
+      "wizard",
+      "summoner",
+      "kazali",
+      "lordoftyphon",
+      "alhadikhia",
+      "vortox",
+      "pukka",
+      "zombuul",
+      "hatter",
+      "plaguedoctor",
+      "marionette",
+      "magician",
+      "poppygrower",
+      "lunatic",
+      "goon",
+      "organgrinder"
+    ]
+  },
+  "purposes": {
+    "washerwoman": "Starting Townsfolk identity clue that can build a social trust pair.",
+    "librarian": "Starting Outsider identity or absence clue; helps examine the Outsider count.",
+    "investigator": "Starting Minion identity clue and early evil suspicion.",
+    "chef": "Starting count of adjacent evil pairs; supports positional deduction.",
+    "empath": "Recurring alignment count for living neighbours; deaths change the information frontier.",
+    "fortuneteller": "Player-directed recurring Demon detection, with a personal red herring.",
+    "undertaker": "Learns the character of yesterday's executed player; makes execution an information investment.",
+    "monk": "Protects another player from the Demon for one night.",
+    "ravenkeeper": "Rewards dying at night with a chosen character-information check.",
+    "virgin": "First nomination can immediately execute a Townsfolk nominator, creating conditional confirmation.",
+    "slayer": "One public attempt to kill a Demon; success can decisively resolve a suspect.",
+    "soldier": "Passive safety from the Demon; creates explanations for failed night kills.",
+    "mayor": "Alternative good victory at three alive with no execution; possible death redirection complicates attacks.",
+    "butler": "Voting restriction tied to a chosen master; changes public voting discipline.",
+    "drunk": "A hidden Outsider who believes they have a Townsfolk ability, introducing an unreliable claim.",
+    "recluse": "Optional evil and evil-character registration; destabilises character and alignment tests.",
+    "saint": "Execution creates an immediate good loss, making the claim a high-stakes social decision.",
+    "poisoner": "Targeted night-and-day ability disruption creates competing information worlds.",
+    "spy": "Grimoire knowledge supports evil planning; optional good registration supports false confirmation.",
+    "scarletwoman": "Conditional backup Demon when the current Demon dies with enough players alive.",
+    "baron": "Adds Outsiders at setup, reshaping the good team's ability mix and plausible Outsider claims.",
+    "imp": "Night kills with optional self-kill succession into an alive Minion.",
+    "chambermaid": "Checks whether two chosen alive players woke tonight due to their abilities.",
+    "exorcist": "A correct Demon choice prevents its wake that night and gives the Demon information about the Exorcist.",
+    "gambler": "Chosen character guesses risk the Gambler's life; survival supports but does not universally confirm a claim.",
+    "gossip": "Public statements can produce night deaths when true; death attribution is central.",
+    "grandmother": "Starts knowing a good player and their character; a Demon kill of that player can cause a linked death.",
+    "courtier": "Once-per-game choice of a character disables that character through drunkenness for three nights and days.",
+    "innkeeper": "Protects two players from death tonight while making one drunk until dusk.",
+    "minstrel": "A Minion execution makes almost everyone else drunk, changing both information and death patterns.",
+    "pacifist": "Good executed players might survive; a survival is not universal hard confirmation.",
+    "professor": "One resurrection of a dead Townsfolk, producing a strong visible event when it succeeds.",
+    "fool": "Survives the first death event; survival complicates the interpretation of executions and attacks.",
+    "sailor": "Chooses an alive player; one becomes drunk, and the sober Sailor cannot die.",
+    "tealady": "Protects both alive neighbours from death when both are good; makes position and survival informative.",
+    "tinker": "May die at any time, adding discretionary death uncertainty.",
+    "moonchild": "When learning they died, publicly chooses an alive player; a good choice dies tonight.",
+    "goon": "The first ability chooser targeting the Goon becomes drunk, and the Goon changes alignment to theirs.",
+    "lunatic": "Believes they are a Demon, while the real Demon receives information about their identity and choices.",
+    "devilsadvocate": "Chosen alive players survive execution tomorrow, providing evil explanations for survival.",
+    "assassin": "One extra kill that bypasses ordinary inability-to-die protections.",
+    "godfather": "Learns in-play Outsiders and gains kills following Outsider deaths; changes the setup count.",
+    "mastermind": "Continues the game after a Demon execution and makes the next day's execution alignment decisive.",
+    "zombuul": "Conditional kills and a first apparent death while still alive; makes apparent death unreliable.",
+    "pukka": "Poisons a chosen player, then kills its previous target and restores that target's health.",
+    "shabaloth": "Two night-kill choices with possible resurrection of a previously chosen dead player.",
+    "po": "Can skip a kill to enable a three-player attack on the next night.",
+    "clockmaker": "Starting distance between the Demon and nearest Minion; provides positional evil information.",
+    "dreamer": "Returns a good and an evil character option for a chosen player, including the correct character.",
+    "mathematician": "Tracks abnormal ability operation due to another character's ability, rather than directly identifying the affected player.",
+    "flowergirl": "Learns whether a Demon voted today; encourages controlled public vote experiments.",
+    "towncrier": "Learns whether a Minion nominated today; connects nominations to evil possibilities.",
+    "oracle": "Counts dead evil players each night after the first; makes deaths an alignment-information resource.",
+    "savant": "Receives two private statements each day, one true and one false.",
+    "seamstress": "One alignment comparison between two other players.",
+    "juggler": "Public first-day character guesses produce a count of correct guesses tonight.",
+    "artist": "One private yes/no question to the Storyteller.",
+    "philosopher": "Gains a good character's ability; makes an existing holder of that character drunk.",
+    "snakecharmer": "Alignment checks that swap character and alignment with a chosen Demon and poison the former Demon.",
+    "sage": "If killed by the Demon, learns a two-player Demon candidate pair.",
+    "mutant": "Risk of execution if mad about being an Outsider; puts pressure on truthful public identity.",
+    "sweetheart": "Death makes a player drunk, creating an ongoing information-reliability problem.",
+    "barber": "Death enables the Demon to offer a character swap between two non-Demons.",
+    "klutz": "Learning of death triggers a public alive-player choice; choosing evil loses immediately.",
+    "eviltwin": "Two players know opposing-alignment counterparts; executing the good twin loses and blocks normal good victory while both live.",
+    "witch": "Curses a chosen player's next-day nomination to cause death, unless the live-player threshold removes the ability.",
+    "cerenovus": "Forces a player to be mad about a selected good character or risk execution.",
+    "pithag": "Changes a player's character to a not-in-play character; creating a Demon makes tonight's deaths arbitrary.",
+    "fanggu": "The first Outsider kill transfers Demonhood to that Outsider; adds an Outsider at setup.",
+    "vigormortis": "Killed Minions retain their abilities and poison a Townsfolk neighbour; removes an Outsider at setup.",
+    "nodashii": "Night kills plus continuous poisoning of the two nearest Townsfolk neighbours.",
+    "vortox": "Forces false Townsfolk information and requires an execution each day to avoid an evil victory.",
+    "acrobat": "Tests a chosen player's drunk or poisoned state through a conditional self-death.",
+    "alchemist": "A Townsfolk with a Minion ability; requires careful ability selection and relevant jinx handling.",
+    "alsaahir": "Public complete Minion/Demon guesses can create an immediate good win.",
+    "amnesiac": "Unknown Storyteller-specified ability with daily accuracy feedback; this app must not invent that ability.",
+    "atheist": "A no-evil setup and Storyteller-rule-breaking win condition requiring a specially designed script.",
+    "balloonist": "Recurring character-type changes in player information, with optional added Outsider.",
+    "banshee": "A Demon kill is publicly announced and grants extra nominations and votes after death.",
+    "bountyhunter": "Tracks an evil player and refreshes after their death; creates an evil Townsfolk at setup.",
+    "cannibal": "Uses the last execution victim's ability, but an evil victim causes poisoning until a good execution death.",
+    "choirboy": "After a Demon kill of the King, learns the Demon; depends on King being on the script.",
+    "cultleader": "Changes alignment based on an alive neighbour; a cult agreement can produce an immediate win for its alignment.",
+    "engineer": "One opportunity to choose which Minions or Demon are in play, changing the mechanical world.",
+    "farmer": "A night death turns an alive good player into a Farmer, enabling chains of claims.",
+    "fisherman": "One private request for Storyteller advice that helps the good team win.",
+    "general": "Recurring subjective report of which alignment is winning.",
+    "highpriestess": "Recurring Storyteller pointer to a player to talk to; requires contextual guidance.",
+    "huntsman": "One choice to convert the Damsel to a Townsfolk; requires Damsel in setup.",
+    "king": "Learns an alive character when the dead equal or outnumber the living; the Demon knows the King.",
+    "knight": "Starts knowing two non-Demons, creating a bounded Demon-elimination clue.",
+    "lycanthrope": "A successful chosen good-player kill can replace ordinary night deaths, altering death attribution.",
+    "magician": "Distorts evil-team starting information, causing uncertainty about allies.",
+    "nightwatchman": "One other player learns who the Nightwatchman is; creates a private confirmation link.",
+    "noble": "Starts knowing three players of whom exactly one is evil.",
+    "pixie": "Starts knowing an in-play Townsfolk and may gain its ability after their death if sufficiently mad about being it.",
+    "poppygrower": "Prevents evil players learning who each other are until the Poppy Grower dies.",
+    "preacher": "Chosen Minions learn this and lose their abilities, reducing evil utility.",
+    "princess": "A first-day nomination and execution can prevent the Demon's kill tonight.",
+    "shugenja": "Starts knowing the direction of the closest evil player.",
+    "steward": "Starts knowing one good player.",
+    "villageidiot": "Recurring chosen alignment information, with optional extra copies and a drunk extra.",
+    "damsel": "A publicly correct Minion guess of the Damsel loses for good; hidden identity creates social pressure.",
+    "golem": "One nomination that kills the nominee unless they are the Demon.",
+    "hatter": "Death permits Minion and Demon character changes, potentially invalidating earlier worlds.",
+    "heretic": "Reverses which team wins, even if dead, fundamentally changing victory interpretation.",
+    "hermit": "Combines every Outsider ability on the script, introducing many dependencies and possible failure conditions.",
+    "ogre": "Starts choosing a friend and joins their alignment without learning it.",
+    "plaguedoctor": "Death gives the Storyteller a Minion ability; demands specific interaction and jinx review.",
+    "politician": "Can win with evil if most responsible for good losing; creates a personal incentive to undermine good.",
+    "puzzlemaster": "Makes one player drunk; one correct identification of that player reveals the Demon, otherwise produces false Demon information.",
+    "snitch": "Gives Minions three not-in-play characters, broadening coordinated evil bluffs.",
+    "zealot": "Must vote for every nomination while enough players are alive.",
+    "boffin": "Gives the Demon a not-in-play good ability; demands detailed ability and jinx review.",
+    "boomdandy": "Execution kills most players and triggers a timed final decision.",
+    "fearmonger": "Chooses a player; a qualifying nomination, execution and death ends the game in the opposite alignment's favour.",
+    "goblin": "Claiming Goblin when nominated creates an evil execution-win threat.",
+    "harpy": "Madness pressure about an evil accusation can cause deaths if not followed.",
+    "marionette": "An evil Minion believes they are good; the Demon knows their identity and they neighbour the Demon.",
+    "mezepheles": "Knowing and eliciting a secret word turns the first good speaker evil that night.",
+    "organgrinder": "Blind voting and special self-execution vote conditions change public social evidence.",
+    "psychopath": "Daytime public kills and a roshambo condition for death by execution.",
+    "summoner": "Creates an evil Demon on the third night; starts with no Demon and requires compatible setup and jinx handling.",
+    "vizier": "Public Minion identity, daytime immortality, and conditional immediate execution control.",
+    "widow": "Starts with Grimoire knowledge and persistent chosen poisoning; a good player learns a Widow is in play.",
+    "wizard": "One wish whose effects are adjudicated by the Storyteller; this app does not invent wishes or their effects.",
+    "wraith": "Wakes with evil players and may open their eyes at night, exposing evil coordination.",
+    "xaan": "Poisons all Townsfolk on a setup-defined night X; Outsider count defines timing.",
+    "alhadikhia": "Three publicly named players privately choose life or death; all choosing life causes all three deaths.",
+    "kazali": "Chooses Minions at setup and can change the Outsider count freely; requires nonstandard setup review.",
+    "legion": "A majority-evil Legion setup with group kill and voting rules that change the normal game structure.",
+    "leviathan": "A five-day game with execution-dependent evil wins rather than ordinary night kills.",
+    "lilmonsta": "Minions choose a babysitter who counts as the Demon; extra Minion and Storyteller-chosen deaths.",
+    "lleech": "Continuous poisoned host determines the Demon's death; the Demon survives while the host lives.",
+    "lordoftyphon": "Night kills with a fixed evil line, extra Minion and flexible Outsider count.",
+    "ojo": "Chooses a character to kill; absent characters transfer kill control to the Storyteller.",
+    "riot": "Day-three nomination deaths and replacement of evil characters make a distinct endgame.",
+    "yaggababble": "Public repetition of a secret phrase can produce Storyteller-controlled deaths."
+  },
+  "synergies": [
+    [
+      "empath",
+      "undertaker"
+    ],
+    [
+      "empath",
+      "poisoner"
+    ],
+    [
+      "empath",
+      "recluse"
+    ],
+    [
+      "empath",
+      "spy"
+    ],
+    [
+      "fortuneteller",
+      "poisoner"
+    ],
+    [
+      "fortuneteller",
+      "imp"
+    ],
+    [
+      "fortuneteller",
+      "recluse"
+    ],
+    [
+      "washerwoman",
+      "spy"
+    ],
+    [
+      "librarian",
+      "drunk"
+    ],
+    [
+      "investigator",
+      "recluse"
+    ],
+    [
+      "undertaker",
+      "poisoner"
+    ],
+    [
+      "undertaker",
+      "spy"
+    ],
+    [
+      "imp",
+      "scarletwoman"
+    ],
+    [
+      "imp",
+      "poisoner"
+    ],
+    [
+      "baron",
+      "librarian"
+    ],
+    [
+      "baron",
+      "drunk"
+    ],
+    [
+      "ravenkeeper",
+      "imp"
+    ],
+    [
+      "soldier",
+      "monk"
+    ],
+    [
+      "virgin",
+      "spy"
+    ],
+    [
+      "gossip",
+      "innkeeper"
+    ],
+    [
+      "gossip",
+      "tinker"
+    ],
+    [
+      "gambler",
+      "chambermaid"
+    ],
+    [
+      "sailor",
+      "devilsadvocate"
+    ],
+    [
+      "fool",
+      "devilsadvocate"
+    ],
+    [
+      "tealady",
+      "devilsadvocate"
+    ],
+    [
+      "assassin",
+      "tealady"
+    ],
+    [
+      "assassin",
+      "sailor"
+    ],
+    [
+      "assassin",
+      "fool"
+    ],
+    [
+      "minstrel",
+      "godfather"
+    ],
+    [
+      "professor",
+      "shabaloth"
+    ],
+    [
+      "zombuul",
+      "devilsadvocate"
+    ],
+    [
+      "pukka",
+      "chambermaid"
+    ],
+    [
+      "po",
+      "gambler"
+    ],
+    [
+      "moonchild",
+      "goon"
+    ],
+    [
+      "dreamer",
+      "vortox"
+    ],
+    [
+      "savant",
+      "vortox"
+    ],
+    [
+      "mathematician",
+      "sweetheart"
+    ],
+    [
+      "mathematician",
+      "philosopher"
+    ],
+    [
+      "oracle",
+      "fanggu"
+    ],
+    [
+      "seamstress",
+      "snakecharmer"
+    ],
+    [
+      "flowergirl",
+      "organgrinder"
+    ],
+    [
+      "towncrier",
+      "witch"
+    ],
+    [
+      "sage",
+      "vigormortis"
+    ],
+    [
+      "mutant",
+      "cerenovus"
+    ],
+    [
+      "pixie",
+      "cerenovus"
+    ],
+    [
+      "hatter",
+      "engineer"
+    ],
+    [
+      "huntsman",
+      "damsel"
+    ],
+    [
+      "king",
+      "choirboy"
+    ],
+    [
+      "banshee",
+      "imp"
+    ],
+    [
+      "farmer",
+      "imp"
+    ],
+    [
+      "puzzlemaster",
+      "villageidiot"
+    ],
+    [
+      "snitch",
+      "marionette"
+    ],
+    [
+      "highpriestess",
+      "amnesiac"
+    ],
+    [
+      "poppygrower",
+      "magician"
+    ],
+    [
+      "preacher",
+      "poisoner"
+    ]
+  ],
+  "notes": {
+    "amnesiac": [
+      "The app does not create an Amnesiac ability. Import/retheme is supported; bespoke ability design stays with the Storyteller."
+    ],
+    "atheist": [
+      "Requires a specially designed no-evil setup; conventional evil-team analysis is not applicable."
+    ],
+    "wizard": [
+      "The app does not invent a wish or its consequences. Storyteller adjudication is required."
+    ],
+    "heretic": [
+      "Win inversion changes incentives for every team; standard evil/good strategy assumptions need a full review."
+    ],
+    "hermit": [
+      "Every Outsider ability on the script matters; inspect the complete Outsider list and relevant jinxes."
+    ],
+    "summoner": [
+      "Starts with no Demon in play. The listed Demons are candidates for creation, not ordinary starting Demon choices."
+    ],
+    "legion": [
+      "Majority-evil setup and special voting rules invalidate ordinary team-count assumptions."
+    ],
+    "riot": [
+      "Changes the day-three endgame and evil setup. Review nomination chains and applicable jinxes."
+    ],
+    "lilmonsta": [
+      "No ordinary player holds the Demon character. Review babysitting, extra Minion setup and Storyteller kills."
+    ],
+    "kazali": [
+      "Selected Minions and arbitrary Outsider count change normal setup assumptions."
+    ],
+    "lordoftyphon": [
+      "Extra Minion, variable Outsiders and positional evil setup require separate setup review."
+    ],
+    "boffin": [
+      "List plausible not-in-play good abilities and consult all relevant jinxes before running."
+    ],
+    "alchemist": [
+      "List the possible Minion abilities and consult all relevant jinxes before running."
+    ],
+    "villageidiot": [
+      "Extra Village Idiots may be in play with one extra drunk. Script record count is not an in-play multiplicity simulator."
+    ]
+  },
+  "generationExcluded": [
+    "amnesiac",
+    "atheist",
+    "wizard"
+  ],
+  "requiresRoles": {
+    "choirboy": [
+      "king"
+    ],
+    "huntsman": [
+      "damsel"
+    ]
+  }
+}

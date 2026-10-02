@@ -1,0 +1,78 @@
+{
+  "id": "cad-bane",
+  "name": "Cad Bane",
+  "aliases": [],
+  "summary": "Duros bounty hunter known for high-risk jobs and confrontations with Jedi.",
+  "source": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: Tales of the Underworld"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Bounty Hunters"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Cad Bane | Star Wars Databank",
+    "affiliations": [],
+    "species": [
+      "Duros"
+    ]
+  },
+  "themes": [
+    "investigation",
+    "deception",
+    "danger",
+    "survival"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: investigation",
+    "Narrative metaphor: deception",
+    "Narrative metaphor: danger",
+    "Narrative metaphor: survival"
+  ],
+  "narrativeFunctions": [
+    "investigation",
+    "deception",
+    "danger",
+    "survival"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Cad Bane | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/cad-bane",
+      "accessedAt": "2026-10-02",
+      "sha256": "66fff460b06777ddaf9bff4e239bb80330d54c5383fa61a9157c502be6b5df65"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

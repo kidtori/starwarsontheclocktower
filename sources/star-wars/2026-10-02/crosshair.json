@@ -1,0 +1,45 @@
+{
+  "url": "https://www.starwars.com/databank/crosshair",
+  "title": "Crosshair | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "247dd1ff9fca8909e5bef75a682e0b583507e790eb352e8ec7674998721b8d27",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [
+    "Galactic Empire",
+    "Galactic Republic",
+    "Clone Force 99 \"The Bad Batch\""
+  ],
+  "species": [],
+  "linkedEntries": [
+    "crosshair",
+    "galactic-empire",
+    "galactic-republic",
+    "clone-force-99-bad-batch",
+    "kamino",
+    "marauder",
+    "773-firepuncher-rifle",
+    "skako-minor",
+    "anakin-skywalker",
+    "clone-captain-rex",
+    "echo",
+    "kanan-jarrus",
+    "hunter",
+    "onderon",
+    "omega",
+    "grand-moff-tarkin",
+    "inhibitor-chip",
+    "elite-squad",
+    "bracca",
+    "barton-iv",
+    "lt-nolan",
+    "clone-commander-mayday",
+    "mount-tantiss",
+    "wayland",
+    "dr-royce-hemlock",
+    "wrecker",
+    "tech"
+  ]
+}

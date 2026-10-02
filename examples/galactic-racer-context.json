@@ -1,0 +1,8 @@
+{
+  "characterId": "your-existing-character-id",
+  "roleInGame": ["Populate from your supplied material"],
+  "personality": [], "motivations": [], "rivalries": [], "allies": [],
+  "gameplayIdentity": [], "vehicle": "", "racingStyle": [], "strengths": [], "weaknesses": [],
+  "storyImportance": "", "playerPerception": [], "narrativeNotes": "",
+  "sources": [{"type": "internal", "description": "Your Galactic Racer narrative source"}]
+}

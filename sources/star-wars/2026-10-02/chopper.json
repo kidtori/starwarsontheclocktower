@@ -1,0 +1,33 @@
+{
+  "url": "https://www.starwars.com/databank/chopper",
+  "title": "Chopper (C1-10P)",
+  "accessedAt": "2026-10-02",
+  "sha256": "3a740e695656352bed9592c03debbd8365aa5a5c5b8f1902f8b4fae8c22d5399",
+  "appearances": [
+    "Star Wars: The Bad Batch",
+    "Star Wars Rebels",
+    "Star Wars: Ahsoka",
+    "Disney Mix",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Arcade",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "affiliations": [
+    "Rebel Alliance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "chopper",
+    "rebel-alliance",
+    "astromech-droid",
+    "e-xd-infiltrator-droid",
+    "ghost",
+    "the-phantom",
+    "phantom-ii",
+    "tactical-infiltration-pod",
+    "sabacc",
+    "ryloth",
+    "hera-syndulla"
+  ]
+}

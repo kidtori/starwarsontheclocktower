@@ -1,0 +1,39 @@
+{
+  "url": "https://www.starwars.com/databank/bail-organa",
+  "title": "Bail Organa | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "0e026952c47fbb2b81ec7d1e120eed69fbdc973053879919bcd094945927ef4d",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Rogue One: A Star Wars Story",
+    "Andor A Star Wars Story",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars: The Bad Batch",
+    "Star Wars: The Clone Wars",
+    "Star Wars Rebels",
+    "Star Wars: Tales of the Jedi"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Galactic Senate",
+    "Rebel Alliance",
+    "Alderaan Royal Family"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "bail-organa",
+    "galactic-republic",
+    "galactic-senate",
+    "rebel-alliance",
+    "alderaan",
+    "havoc-outpost",
+    "alderaan-cruiser",
+    "blaster-pistol",
+    "Ghorman",
+    "mon-mothma",
+    "yavin-4",
+    "cassian-andor",
+    "general-draven"
+  ]
+}

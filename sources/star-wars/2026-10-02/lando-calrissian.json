@@ -1,0 +1,42 @@
+{
+  "url": "https://www.starwars.com/databank/lando-calrissian",
+  "title": "Lando Calrissian | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "c8b717c3648332edf6d4954308f5c02d60cf86c8bcbc0d065fa85c1397294f95",
+  "appearances": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Solo: A Star Wars Story",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars Pinball: Solo: A Star Wars Story",
+    "Star Wars Arcade"
+  ],
+  "affiliations": [
+    "Rebel Alliance",
+    "The Resistance"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "lando-calrissian",
+    "rebel-alliance",
+    "the-resistance",
+    "bespin",
+    "cloud-city",
+    "numidian-prime",
+    "pasaana",
+    "millennium-falcon",
+    "se-14-blaster-pistol",
+    "vandor",
+    "han-solo",
+    "kessel",
+    "l3-37",
+    "sabacc",
+    "aki-aki",
+    "emperor-palpatine-darth-sidious",
+    "chewbacca",
+    "exegol"
+  ]
+}

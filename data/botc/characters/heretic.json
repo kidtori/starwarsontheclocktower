@@ -1,0 +1,113 @@
+{
+  "id": "heretic",
+  "name": "Heretic",
+  "officialId": "heretic",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead.",
+  "mechanics": {
+    "deathInteraction": 3,
+    "evilUtility": 1,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "evilUtility",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Reverses which team wins, even if dead, fundamentally changing victory interpretation."
+  ],
+  "explanation": "Reverses which team wins, even if dead, fundamentally changing victory interpretation.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Win inversion changes incentives for every team; standard evil/good strategy assumptions need a full review."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "boffin",
+      "reason": "The Demon cannot have the Heretic ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "baron",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "godfather",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "lleech",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "pit-hag",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "spy",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "widow",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 178
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

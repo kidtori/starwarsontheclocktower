@@ -1,0 +1,50 @@
+{
+  "url": "https://www.starwars.com/databank/rey",
+  "title": "Rey",
+  "accessedAt": "2026-10-02",
+  "sha256": "2b0926490cbdd648f658c23787ce85ee993fbf5579c079a412ccaea2e6205f5c",
+  "appearances": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars: Forces of Destiny",
+    "Star Wars: Puzzle Droid",
+    "Jedi Mind Match"
+  ],
+  "affiliations": [],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "rey",
+    "jakku",
+    "goazon-badlands",
+    "rey-s-home",
+    "blaster-pistol",
+    "lightsaber",
+    "anakin-luke-and-reys-lightsaber",
+    "reys-quarterstaff",
+    "rey-s-blaster",
+    "millennium-falcon",
+    "x-wing-starfighter",
+    "reys-speeder",
+    "bb-8",
+    "the-resistance",
+    "astromech-droid",
+    "luke-skywalker",
+    "first-order-stormtroopers",
+    "finn",
+    "ahch-to",
+    "kylo-ren",
+    "supreme-leader-snoke",
+    "crait",
+    "leia-organa",
+    "jedi-texts",
+    "emperor-palpatine-darth-sidious",
+    "sith-wayfinder",
+    "exegol",
+    "kef-bir",
+    "the-force",
+    "tatooine"
+  ]
+}

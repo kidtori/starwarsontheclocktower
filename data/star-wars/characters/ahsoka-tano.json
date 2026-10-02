@@ -1,0 +1,113 @@
+{
+  "id": "ahsoka-tano",
+  "name": "Ahsoka Tano",
+  "aliases": [
+    "Ahsoka",
+    "Fulcrum"
+  ],
+  "summary": "Anakin's former Padawan who left the Jedi Order and opposed the Empire.",
+  "source": [
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: The Clone Wars",
+    "Star Wars Rebels",
+    "Star Wars: The Mandalorian",
+    "Star Wars: Tales of the Jedi",
+    "Star Wars: Ahsoka"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Jedi",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Ahsoka Tano | Databank",
+    "affiliations": [
+      "Jedi Order",
+      "Rebel Alliance"
+    ],
+    "species": [
+      "Togruta"
+    ]
+  },
+  "themes": [
+    "intuition",
+    "loyalty",
+    "independence",
+    "mentorship",
+    "protection"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [
+    "intuition",
+    "loyalty",
+    "independence"
+  ],
+  "behaviours": [
+    "Narrative metaphor: intuition",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: independence",
+    "Narrative metaphor: mentorship",
+    "Narrative metaphor: protection"
+  ],
+  "narrativeFunctions": [
+    "intuition",
+    "loyalty",
+    "independence",
+    "mentorship",
+    "protection"
+  ],
+  "relationships": [
+    {
+      "characterId": "darth-vader",
+      "type": "apprentice / mentor",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/ahsoka-tano",
+        "https://www.starwars.com/databank/darth-vader"
+      ]
+    },
+    {
+      "characterId": "rex",
+      "type": "wartime allies",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/ahsoka-tano",
+        "https://www.starwars.com/databank/clone-captain-rex"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 3
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Ahsoka Tano | Databank",
+      "url": "https://www.starwars.com/databank/ahsoka-tano",
+      "accessedAt": "2026-10-02",
+      "sha256": "08cb6c02ab4e2a0940c999a507cc81898c91390af4a07bc95c9f54f294d186ae"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

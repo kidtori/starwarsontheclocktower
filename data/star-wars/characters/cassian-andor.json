@@ -1,0 +1,97 @@
+{
+  "id": "cassian-andor",
+  "name": "Cassian Andor",
+  "aliases": [
+    "Cassian"
+  ],
+  "summary": "Intelligence operative whose journey led to the mission on Scarif.",
+  "source": [
+    "Rogue One: A Star Wars Story",
+    "Andor A Star Wars Story",
+    "Rogue One: Boots on the Ground - Star Wars Arcade"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good",
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Cassian Andor | Star Wars Databank",
+    "affiliations": [
+      "Rebel Alliance"
+    ],
+    "species": []
+  },
+  "themes": [
+    "secrecy",
+    "deception",
+    "investigation",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: secrecy",
+    "Narrative metaphor: deception",
+    "Narrative metaphor: investigation",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "secrecy",
+    "deception",
+    "investigation",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "k-2so",
+      "type": "partners",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/cassian-andor",
+        "https://www.starwars.com/databank/k-2so-kay-tuesso"
+      ]
+    },
+    {
+      "characterId": "maarva-andor",
+      "type": "adopted son / mother",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/cassian-andor",
+        "https://www.starwars.com/databank/maarva-andor"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Cassian Andor | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/cassian-andor",
+      "accessedAt": "2026-10-02",
+      "sha256": "5d38644b63b28046f996b6823cfb4d721c80c1964b18582d3dd1283409df5157"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

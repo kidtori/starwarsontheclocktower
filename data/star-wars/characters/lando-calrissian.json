@@ -1,0 +1,91 @@
+{
+  "id": "lando-calrissian",
+  "name": "Lando Calrissian",
+  "aliases": [
+    "Lando"
+  ],
+  "summary": "Cloud City's administrator whose dealings with Vader preceded joining the rebels.",
+  "source": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Solo: A Star Wars Story",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars Pinball: Solo: A Star Wars Story",
+    "Star Wars Arcade"
+  ],
+  "era": [
+    "Reign of the Empire",
+    "New Republic",
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Rebel Alliance",
+    "Resistance"
+  ],
+  "alignment": [
+    "good",
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Lando Calrissian | Star Wars Databank",
+    "affiliations": [
+      "Rebel Alliance",
+      "The Resistance"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "deception",
+    "betrayal",
+    "redemption",
+    "leadership",
+    "initiative"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: deception",
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: redemption",
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: initiative"
+  ],
+  "narrativeFunctions": [
+    "deception",
+    "betrayal",
+    "redemption",
+    "leadership",
+    "initiative"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 3
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Lando Calrissian | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/lando-calrissian",
+      "accessedAt": "2026-10-02",
+      "sha256": "c8b717c3648332edf6d4954308f5c02d60cf86c8bcbc0d065fa85c1397294f95"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

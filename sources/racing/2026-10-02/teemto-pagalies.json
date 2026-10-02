@@ -1,0 +1,15 @@
+{
+  "url": "https://www.starwars.com/databank/teemto-pagalies",
+  "title": "Teemto Pagalies | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "f07d344c124e113ff50bbee06fab792cda8b3c86594f01443d08b81363a09735",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "teemto-pagalies",
+    "tatooine"
+  ]
+}

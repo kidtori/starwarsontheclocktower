@@ -1,0 +1,77 @@
+{
+  "id": "balloonist",
+  "name": "Balloonist",
+  "officialId": "balloonist",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
+  "mechanics": {
+    "recurringInformation": 2,
+    "characterInformation": 1,
+    "outsiderManipulation": 1,
+    "setupManipulation": 1,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "characterInformation",
+    "outsiderManipulation",
+    "setupManipulation",
+    "bluffability"
+  ],
+  "designRole": [
+    "Recurring character-type changes in player information, with optional added Outsider."
+  ],
+  "explanation": "Recurring character-type changes in player information, with optional added Outsider.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "Point to any player. :reminder:",
+    "otherNights": "Point to a player with a different character type to the previously shown player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "marionette",
+      "reason": "If the Marionette thinks that they are the Balloonist, an Outsider might have been added during setup.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 190
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "greef-karga",
+  "name": "Greef Karga",
+  "aliases": [],
+  "summary": "Bounty hunters' guild agent who became Nevarro's magistrate.",
+  "source": [
+    "Star Wars: The Mandalorian"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Bounty Hunters",
+    "Nevarro"
+  ],
+  "alignment": [
+    "mixed",
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Greef Karga | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "political influence",
+    "bargaining",
+    "redemption",
+    "leadership"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: bargaining",
+    "Narrative metaphor: redemption",
+    "Narrative metaphor: leadership"
+  ],
+  "narrativeFunctions": [
+    "political influence",
+    "bargaining",
+    "redemption",
+    "leadership"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Greef Karga | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/greef-karga",
+      "accessedAt": "2026-10-02",
+      "sha256": "1b12cdd77c1d79333c3cdfc9b95f144e6d2fe6ca9e6ca27c94be3b9b3366ebf8"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

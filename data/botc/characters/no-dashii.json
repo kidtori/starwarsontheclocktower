@@ -1,0 +1,64 @@
+{
+  "id": "no-dashii",
+  "name": "No Dashii",
+  "officialId": "nodashii",
+  "aliases": [
+    "nodashii"
+  ],
+  "team": "demon",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",
+  "mechanics": {
+    "misinformation": 3,
+    "poisoning": 3,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "misinformation",
+    "poisoning",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Night kills plus continuous poisoning of the two nearest Townsfolk neighbours."
+  ],
+  "explanation": "Night kills plus continuous poisoning of the two nearest Townsfolk neighbours.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The No Dashii chooses a player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 6
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "url": "https://www.starwars.com/databank/arc-trooper-fives",
+  "title": "ARC Trooper Fives | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "946ff1e8e8f5b6f0f2cb75ce773931e98337fde0f24f861aac6777d1b01a11f6",
+  "appearances": [
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Galactic Republic"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "arc-trooper-fives",
+    "galactic-republic",
+    "kamino",
+    "blaster-pistol",
+    "blaster-rifle"
+  ]
+}

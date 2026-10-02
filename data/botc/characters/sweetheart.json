@@ -1,0 +1,64 @@
+{
+  "id": "sweetheart",
+  "name": "Sweetheart",
+  "officialId": "sweetheart",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "When you die, 1 player is drunk from now on.",
+  "mechanics": {
+    "misinformation": 2,
+    "drunkenness": 2,
+    "deathInteraction": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "drunkenness",
+    "deathInteraction",
+    "bluffability"
+  ],
+  "designRole": [
+    "Death makes a player drunk, creating an ongoing information-reliability problem."
+  ],
+  "explanation": "Death makes a player drunk, creating an ongoing information-reliability problem.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Sweetheart died, a player became drunk immediately. If you haven't done this yet, do so now. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "mathematician"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 29
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

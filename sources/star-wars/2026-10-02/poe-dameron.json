@@ -1,0 +1,52 @@
+{
+  "url": "https://www.starwars.com/databank/poe-dameron",
+  "title": "Poe Dameron",
+  "accessedAt": "2026-10-02",
+  "sha256": "2a9a37c0daf9a1169bf4ac7961e448f72b76e0ef06c1bf78c526b3a320d02b59",
+  "appearances": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Resistance",
+    "X-wing Fighter - Star Wars Arcade",
+    "Star Wars: Puzzle Droid"
+  ],
+  "affiliations": [
+    "The Resistance"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "poe-dameron",
+    "the-resistance",
+    "jakku",
+    "d-qar",
+    "crait",
+    "dassal-system",
+    "blaster-pistol",
+    "millennium-falcon",
+    "resistance-x-wing",
+    "black-one",
+    "yavin-4",
+    "kijimi",
+    "the-new-republic",
+    "leia-organa",
+    "lor-san-tekka",
+    "luke-skywalker",
+    "the-fulminatrix",
+    "the-raddus",
+    "amilyn-holdo",
+    "finn",
+    "rose-tico",
+    "resistance-transport",
+    "the-first-order",
+    "resistance-troopers",
+    "sinta-glacier-colony",
+    "rey",
+    "sith-wayfinder",
+    "exegol",
+    "emperor-palpatine-darth-sidious",
+    "zorii-bliss"
+  ]
+}

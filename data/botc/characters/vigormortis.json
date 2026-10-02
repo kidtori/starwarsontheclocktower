@@ -1,0 +1,77 @@
+{
+  "id": "vigormortis",
+  "name": "Vigormortis",
+  "officialId": "vigormortis",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",
+  "mechanics": {
+    "outsiderManipulation": 2,
+    "setupManipulation": 2,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "outsiderManipulation",
+    "setupManipulation",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Killed Minions retain their abilities and poison a Townsfolk neighbour; removes an Outsider at setup."
+  ],
+  "explanation": "Killed Minions retain their abilities and poison a Townsfolk neighbour; removes an Outsider at setup.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Vigormortis chooses a player. :reminder: If that player is a Minion, poison a neighboring Townsfolk. :reminder: :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "sage"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "mastermind",
+      "reason": "A Mastermind that has their ability keeps it if the Vigormortis dies.",
+      "sourceOwner": "mastermind",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 7
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

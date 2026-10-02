@@ -1,0 +1,79 @@
+{
+  "id": "vernestra-rwoh",
+  "name": "Vernestra Rwoh",
+  "aliases": [
+    "Vernestra"
+  ],
+  "summary": "Jedi Master involved in investigating the deaths of fellow Jedi.",
+  "source": [
+    "Star Wars: The High Republic",
+    "Star Wars: The Acolyte"
+  ],
+  "era": [
+    "High Republic"
+  ],
+  "factions": [
+    "Jedi"
+  ],
+  "alignment": [
+    "good",
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Vernestra \"Vern\" Rwoh - The Acolyte | Star Wars Databank",
+    "affiliations": [
+      "Jedi Order"
+    ],
+    "species": [
+      "Mirialan"
+    ]
+  },
+  "themes": [
+    "leadership",
+    "secrecy",
+    "knowledge",
+    "political influence"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: secrecy",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: political influence"
+  ],
+  "narrativeFunctions": [
+    "leadership",
+    "secrecy",
+    "knowledge",
+    "political influence"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Vernestra \"Vern\" Rwoh - The Acolyte | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/vernestra-vern-rwoh",
+      "accessedAt": "2026-10-02",
+      "sha256": "6a5e2ddd1c3613a26c0b309398f3f9ed50c9c90108c14d1360d9fbcb30cddd55"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

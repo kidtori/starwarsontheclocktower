@@ -1,0 +1,99 @@
+{
+  "id": "widow",
+  "name": "Widow",
+  "officialId": "widow",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+  "mechanics": {
+    "misinformation": 2,
+    "poisoning": 3,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "misinformation",
+    "poisoning",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Starts with Grimoire knowledge and persistent chosen poisoning; a good player learns a Widow is in play."
+  ],
+  "explanation": "Starts with Grimoire knowledge and persistent chosen poisoning; a good player learns a Widow is in play.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Show the Grimoire for as long as the Widow needs. The Widow chooses a player. :reminder: Put the Widow to sleep. Wake the player marked *KNOW* & show the Widow token. :reminder:",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "alchemist",
+      "reason": "An Alchemist-Widow has no Widow ability & a Widow is in play. After each execution, a living Alchemist-Widow may publicly guess a living player as the Widow. If correct, the Demon must choose the Widow tonight.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "heretic",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "magician",
+      "reason": "When the Widow sees the Grimoire, the Demon and Magician's character tokens are removed.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "damsel",
+      "reason": "If the Widow is (or has been) in play, the Damsel is poisoned.",
+      "sourceOwner": "widow",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "poppy-grower",
+      "reason": "If the Poppy Grower has their ability, the Widow does not see the Grimoire.",
+      "sourceOwner": "widow",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 172
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

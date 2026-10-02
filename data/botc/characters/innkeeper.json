@@ -1,0 +1,85 @@
+{
+  "id": "innkeeper",
+  "name": "Innkeeper",
+  "officialId": "innkeeper",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+  "mechanics": {
+    "misinformation": 2,
+    "drunkenness": 2,
+    "protection": 3,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "drunkenness",
+    "protection",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Protects two players from death tonight while making one drunk until dusk."
+  ],
+  "explanation": "Protects two players from death tonight while making one drunk until dusk.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Innkeeper chooses 2 players. :reminder: :reminder: :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "gossip"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "leviathan",
+      "reason": "If the Leviathan nominates and executes an Innkeeper-protected player, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "riot",
+      "reason": "If Riot nominates and executes an Innkeeper-protected player, good wins.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 41
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "id": "aurra-sing",
+  "name": "Aurra Sing",
+  "aliases": [],
+  "summary": "Bounty hunter who worked with the young Boba Fett.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars"
+  ],
+  "factions": [
+    "Bounty Hunters"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Aurra Sing | Star Wars Databank",
+    "affiliations": [],
+    "species": [
+      "Palliduvan"
+    ]
+  },
+  "themes": [
+    "danger",
+    "secrecy",
+    "mentorship"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: danger",
+    "Narrative metaphor: secrecy",
+    "Narrative metaphor: mentorship"
+  ],
+  "narrativeFunctions": [
+    "danger",
+    "secrecy",
+    "mentorship"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Aurra Sing | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/aurra-sing",
+      "accessedAt": "2026-10-02",
+      "sha256": "34cd7f519e54726a2ceab6252e184a35dea5917965d149e0083774507e3242b1"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

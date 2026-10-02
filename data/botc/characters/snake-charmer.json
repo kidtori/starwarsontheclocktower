@@ -1,0 +1,62 @@
+{
+  "id": "snake-charmer",
+  "name": "Snake Charmer",
+  "officialId": "snakecharmer",
+  "aliases": [
+    "snakecharmer"
+  ],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+  "mechanics": {
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Alignment checks that swap character and alignment with a chosen Demon and poison the former Demon."
+  ],
+  "explanation": "Alignment checks that swap character and alignment with a chosen Demon and poison the former Demon.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Snake Charmer chooses a player. If they chose the Demon: Show the *YOU ARE* & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the *YOU ARE* and Snake Charmer tokens & give a thumbs up. :reminder:",
+    "otherNights": "The Snake Charmer chooses a player. If they chose the Demon: Show the *YOU ARE* & Demon tokens. Give a thumbs down. Swap the Snake Charmer & Demon tokens. Put the old Snake Charmer to sleep. Wake the old Demon. Show the *YOU ARE* and Snake Charmer tokens & give a thumbs up. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "seamstress"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 58
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

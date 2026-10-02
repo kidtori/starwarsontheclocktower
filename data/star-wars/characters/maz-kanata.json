@@ -1,0 +1,79 @@
+{
+  "id": "maz-kanata",
+  "name": "Maz Kanata",
+  "aliases": [
+    "Maz"
+  ],
+  "summary": "Ancient proprietor whose castle welcomed travelers and smugglers.",
+  "source": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)"
+  ],
+  "era": [
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Independent",
+    "Resistance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Maz Kanata",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "wisdom",
+    "perception",
+    "knowledge",
+    "intuition"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "wisdom",
+    "intuition"
+  ],
+  "behaviours": [
+    "Narrative metaphor: wisdom",
+    "Narrative metaphor: perception",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: intuition"
+  ],
+  "narrativeFunctions": [
+    "wisdom",
+    "perception",
+    "knowledge",
+    "intuition"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Maz Kanata",
+      "url": "https://www.starwars.com/databank/maz-kanata",
+      "accessedAt": "2026-10-02",
+      "sha256": "1d84e01e772b04ca389092fd92e6de3da03b92fd1ebb88f7c19cd5d03bea1987"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

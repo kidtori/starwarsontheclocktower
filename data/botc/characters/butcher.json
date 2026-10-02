@@ -1,0 +1,51 @@
+{
+  "id": "butcher",
+  "name": "Butcher",
+  "officialId": "butcher",
+  "aliases": [],
+  "team": "traveller",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each day, after the 1st execution, you may nominate again.",
+  "mechanics": {},
+  "tags": [],
+  "designRole": [
+    "Publicly known Traveller identity with independently assigned good or evil alignment; supplemental to the core script."
+  ],
+  "explanation": "Publicly known Traveller identity with independently assigned good or evil alignment; supplemental to the core script.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": true,
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 80
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

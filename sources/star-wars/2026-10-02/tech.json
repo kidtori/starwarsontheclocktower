@@ -1,0 +1,47 @@
+{
+  "url": "https://www.starwars.com/databank/tech",
+  "title": "Tech | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "28d5ad3e9cad097329fd4de84846893252a7526794ff845990215e583ebdd30d",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Clone Force 99 \"The Bad Batch\""
+  ],
+  "species": [],
+  "linkedEntries": [
+    "tech",
+    "galactic-republic",
+    "clone-force-99-bad-batch",
+    "marauder",
+    "skako-minor",
+    "anakin-skywalker",
+    "clone-captain-rex",
+    "echo",
+    "poletec",
+    "separatist-dreadnought",
+    "inhibitor-chip",
+    "kamino",
+    "galactic-empire",
+    "onderon",
+    "omega",
+    "crosshair",
+    "emperor-palpatine-darth-sidious",
+    "grand-moff-tarkin",
+    "chain-code",
+    "cut-lawquane",
+    "ord-mantell",
+    "bracca",
+    "serenno",
+    "pabu",
+    "phee-genoa",
+    "eriadu",
+    "saw-gerrera",
+    "hunter",
+    "wrecker",
+    "fort-anaxes"
+  ]
+}

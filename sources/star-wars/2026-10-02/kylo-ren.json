@@ -1,0 +1,48 @@
+{
+  "url": "https://www.starwars.com/databank/kylo-ren",
+  "title": "Kylo Ren",
+  "accessedAt": "2026-10-02",
+  "sha256": "11a01b14dc97aed34cedfe11b929b00afaebd5707d70cfb7dd913359a6df2a69",
+  "appearances": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Resistance",
+    "X-wing Fighter - Star Wars Arcade"
+  ],
+  "affiliations": [
+    "The First Order"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "kylo-ren",
+    "the-first-order",
+    "kylo-rens-command-shuttle",
+    "finalizer",
+    "tie-silencer",
+    "the-supremacy",
+    "kylo-rens-lightsaber",
+    "the-resistance",
+    "luke-skywalker",
+    "astromech-droid",
+    "supreme-leader-snoke",
+    "rey",
+    "jakku",
+    "starkiller-base",
+    "han-solo",
+    "lightsaber",
+    "leia-organa",
+    "ahch-to",
+    "anakin-luke-and-reys-lightsaber",
+    "general-hux",
+    "crait",
+    "emperor-palpatine-darth-sidious",
+    "death-star-ii",
+    "kef-bir",
+    "the-force",
+    "exegol",
+    "anakin-skywalker"
+  ]
+}

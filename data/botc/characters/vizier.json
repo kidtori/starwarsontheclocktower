@@ -1,0 +1,127 @@
+{
+  "id": "vizier",
+  "name": "Vizier",
+  "officialId": "vizier",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately.",
+  "mechanics": {
+    "confirmation": 2,
+    "nominationInteraction": 2,
+    "votingInteraction": 2,
+    "executionInteraction": 3,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "confirmation",
+    "nominationInteraction",
+    "votingInteraction",
+    "executionInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Public Minion identity, daytime immortality, and conditional immediate execution control."
+  ],
+  "explanation": "Public Minion identity, daytime immortality, and conditional immediate execution control.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Announce which player is the Vizier.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "lil-monsta",
+      "reason": "If the Vizier is babysitting Lil' Monsta, they die when executed.",
+      "sourceOwner": "lil-monsta",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "magician",
+      "reason": "If the Vizier is in play, the Magician has no ability but is immune to the Vizier's ability.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "alsaahir",
+      "reason": "The Storyteller doesn't declare the Vizier is in play.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "courtier",
+      "reason": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "fearmonger",
+      "reason": "The Vizier wakes with the Fearmonger, learns who they choose and cannot choose to immediately execute that player.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "investigator",
+      "reason": "The Storyteller doesn't declare the Vizier is in play.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "politician",
+      "reason": "The Politician might register as evil to the Vizier.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "preacher",
+      "reason": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "zealot",
+      "reason": "The Zealot might register as evil to the Vizier.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 171
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

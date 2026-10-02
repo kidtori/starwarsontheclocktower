@@ -1,0 +1,42 @@
+{
+  "url": "https://www.starwars.com/databank/darth-maul",
+  "title": "Maul | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "1a4cf8af7d0eddd43ef5e2d1efb274e8524ce543aa6a54eab8dcb6463607e809",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Solo: A Star Wars Story",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Maul – Shadow Lord",
+    "Disney Infinity 3.0 - Character Quest",
+    "Jedi Mind Match"
+  ],
+  "affiliations": [
+    "Sith"
+  ],
+  "species": [
+    "Dathomirian",
+    "Zabrak"
+  ],
+  "linkedEntries": [
+    "maul",
+    "sith",
+    "dathomir",
+    "dathomirian",
+    "gauntlet-fighter",
+    "sith-infiltrator",
+    "sith-speeder",
+    "the-nightbrother",
+    "darth-mauls-lightsaber",
+    "sith-holocron",
+    "mandalore",
+    "anakin-skywalker",
+    "obi-wan-kenobi",
+    "ahsoka-tano",
+    "clone-captain-rex",
+    "crimson-dawn",
+    "dryden-vos",
+    "qi-ra"
+  ]
+}

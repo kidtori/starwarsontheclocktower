@@ -1,0 +1,18 @@
+{
+  "url": "https://www.starwars.com/databank/mawhonic",
+  "title": "Mawhonic | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "7e56312d1d66e5cc1ab4ff849631fec66ec64ac6d24c553e3abfae24de3f8c3b",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "affiliations": [],
+  "species": [
+    "Gran"
+  ],
+  "linkedEntries": [
+    "mawhonic",
+    "gran",
+    "podracer"
+  ]
+}

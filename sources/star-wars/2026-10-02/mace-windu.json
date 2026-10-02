@@ -1,0 +1,23 @@
+{
+  "url": "https://www.starwars.com/databank/mace-windu",
+  "title": "Mace Windu | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "ce0658a2a51d36580951685b5c817fb874dff383aaad00d50a46d42a03a3330b",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Tales of the Jedi",
+    "Jedi Mind Match"
+  ],
+  "affiliations": [
+    "Jedi Order"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "mace-windu",
+    "jedi-order",
+    "lightsaber",
+    "mace-windus-lightsaber"
+  ]
+}

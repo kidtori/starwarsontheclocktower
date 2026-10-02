@@ -1,0 +1,45 @@
+{
+  "url": "https://www.starwars.com/databank/hunter",
+  "title": "Hunter | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "889c0a3e67ea9e61c72bc45e08aa1404e579a1420a7d8fdf6084a129888c022e",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Clone Force 99 \"The Bad Batch\""
+  ],
+  "species": [],
+  "linkedEntries": [
+    "hunter",
+    "galactic-republic",
+    "clone-force-99-bad-batch",
+    "kamino",
+    "marauder",
+    "dc-17-blaster",
+    "skako-minor",
+    "anakin-skywalker",
+    "clone-captain-rex",
+    "echo",
+    "emperor-palpatine-darth-sidious",
+    "kaller",
+    "kanan-jarrus",
+    "crosshair",
+    "omega",
+    "galactic-empire",
+    "cut-lawquane",
+    "ord-mantell",
+    "cid",
+    "inhibitor-chip",
+    "serenno",
+    "clone-x",
+    "zillo-beast",
+    "pabu",
+    "eriadu",
+    "clone-x-trooper",
+    "tech",
+    "wrecker"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "kit-fisto",
+  "name": "Kit Fisto",
+  "aliases": [],
+  "summary": "Nautolan Jedi Master who served during the Clone Wars.",
+  "source": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars"
+  ],
+  "factions": [
+    "Jedi"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Kit Fisto | Star Wars Databank",
+    "affiliations": [
+      "Jedi Order"
+    ],
+    "species": [
+      "Nautolan"
+    ]
+  },
+  "themes": [
+    "initiative",
+    "protection",
+    "loyalty"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: protection",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "initiative",
+    "protection",
+    "loyalty"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Kit Fisto | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/kit-fisto",
+      "accessedAt": "2026-10-02",
+      "sha256": "aa6a8bcdcca93f452977e2fc047e7f42267ba309efcdb7f7ba243801f0f4a2c9"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

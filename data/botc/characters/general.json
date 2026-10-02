@@ -1,0 +1,62 @@
+{
+  "id": "general",
+  "name": "General",
+  "officialId": "general",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+  "mechanics": {
+    "recurringInformation": 1,
+    "alignmentInformation": 1,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "recurringInformation",
+    "alignmentInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Recurring subjective report of which alignment is winning."
+  ],
+  "explanation": "Recurring subjective report of which alignment is winning.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Give a thumb signal.",
+    "otherNights": "Give a thumb signal."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 199
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

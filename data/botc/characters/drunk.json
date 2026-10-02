@@ -1,0 +1,84 @@
+{
+  "id": "drunk",
+  "name": "Drunk",
+  "officialId": "drunk",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+  "mechanics": {
+    "misinformation": 2,
+    "drunkenness": 3,
+    "playerAgency": 1,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "drunkenness",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "A hidden Outsider who believes they have a Townsfolk ability, introducing an unreliable claim."
+  ],
+  "explanation": "A hidden Outsider who believes they have a Townsfolk ability, introducing an unreliable claim.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "librarian",
+      "baron"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "boffin",
+      "reason": "The Demon cannot have the Drunk ability.",
+      "sourceOwner": "boffin",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "mathematician",
+      "reason": "The Mathematician learns if the Drunk’s ability yielded false info or failed to work properly.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 31
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

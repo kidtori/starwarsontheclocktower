@@ -1,0 +1,9 @@
+TOWNSFOLK
+- Empath
+2. Fortune Teller
+
+MINIONS
+Poisoner
+
+DEMONS
+Imp

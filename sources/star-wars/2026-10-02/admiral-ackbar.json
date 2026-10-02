@@ -1,0 +1,32 @@
+{
+  "url": "https://www.starwars.com/databank/admiral-ackbar",
+  "title": "Admiral Ackbar",
+  "accessedAt": "2026-10-02",
+  "sha256": "37ff19be51198fbd82da6c6725afc6764f468bf6d775e753cfa8354e47808400",
+  "appearances": [
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Rebel Alliance",
+    "The Resistance",
+    "The New Republic"
+  ],
+  "species": [
+    "Mon Calamari"
+  ],
+  "linkedEntries": [
+    "admiral-ackbar",
+    "galactic-republic",
+    "rebel-alliance",
+    "the-resistance",
+    "the-new-republic",
+    "mon-cala",
+    "mon-calamari",
+    "blaster-pistol",
+    "mon-calamari-star-cruiser"
+  ]
+}

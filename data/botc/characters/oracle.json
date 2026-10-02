@@ -1,0 +1,64 @@
+{
+  "id": "oracle",
+  "name": "Oracle",
+  "officialId": "oracle",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night*, you learn how many dead players are evil.",
+  "mechanics": {
+    "recurringInformation": 2,
+    "alignmentInformation": 2,
+    "playerAgency": 1,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "alignmentInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Counts dead evil players each night after the first; makes deaths an alignment-information resource."
+  ],
+  "explanation": "Counts dead evil players each night after the first; makes deaths an alignment-information resource.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "Give a finger signal."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "fang-gu"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 53
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

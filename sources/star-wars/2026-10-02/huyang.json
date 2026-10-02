@@ -1,0 +1,18 @@
+{
+  "url": "https://www.starwars.com/databank/professor-huyang",
+  "title": "Professor Huyang | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "b7b5d08242c5a6457bc61b2d2e702c011c7932b40782a7a91ef7ae62d6ab8f6a",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: Ahsoka"
+  ],
+  "affiliations": [
+    "Jedi Order"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "professor-huyang",
+    "jedi-order"
+  ]
+}

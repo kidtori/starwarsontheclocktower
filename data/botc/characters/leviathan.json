@@ -1,0 +1,145 @@
+{
+  "id": "leviathan",
+  "name": "Leviathan",
+  "officialId": "leviathan",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins.",
+  "mechanics": {
+    "executionInteraction": 2,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "executionInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "A five-day game with execution-dependent evil wins rather than ordinary night kills."
+  ],
+  "explanation": "A five-day game with execution-dependent evil wins rather than ordinary night kills.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Announce that the Leviathan is in play. :reminder:",
+    "otherNights": "Change the Leviathan reminder token to the relevant day. :reminder: You may announce that the Leviathan is in play."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "banshee",
+      "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Banshee dies & gains their ability.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "exorcist",
+      "reason": "If the Leviathan nominates and executes the Exorcist-chosen player, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "farmer",
+      "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Farmer uses their ability but does not die.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "grandmother",
+      "reason": "If the Leviathan is in play and the Grandchild dies by execution, evil wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "hatter",
+      "reason": "The Leviathan cannot enter play after day 5.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "innkeeper",
+      "reason": "If the Leviathan nominates and executes an Innkeeper-protected player, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "king",
+      "reason": "If the Leviathan is in play, and at least 1 player is dead, the King learns an alive character each night.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "mayor",
+      "reason": "If the Leviathan and the Mayor are alive on day 5 & no execution occurs, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "monk",
+      "reason": "If the Leviathan nominates and executes the Monk-protected player, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "pit-hag",
+      "reason": "The Leviathan cannot enter play after day 5.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "ravenkeeper",
+      "reason": "Each night*, the Leviathan chooses an alive player (different to previous nights): a chosen Ravenkeeper uses their ability but does not die.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "sage",
+      "reason": "Each night*, the Leviathan chooses an alive good player (different to previous nights): a chosen Sage uses their ability but does not die.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "soldier",
+      "reason": "If the Leviathan nominates and executes the Soldier, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 154
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

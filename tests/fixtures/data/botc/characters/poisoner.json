@@ -1,0 +1,11 @@
+{
+  "id": "poisoner", "name": "Poisoner", "team": "minion", "edition": "Trouble Brewing", "fixture": true,
+  "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+  "complexity": "medium",
+  "mechanics": { "poisoning": 3, "misinformation": 2, "evilUtility": 3, "playerAgency": 3 },
+  "tags": ["corruption", "manipulation", "sabotage"],
+  "designRole": ["targeted disruption", "false information worlds", "evil counterplay"],
+  "interactions": { "synergisesWith": ["empath", "fortune-teller", "imp"], "storytellerNotes": ["Poisoning can compromise an information source. Poisoner and Imp should coordinate targets; killing a poisoned source can waste the disruption opportunity."] },
+  "explanation": "Poisoning provides evil a way to challenge good information, but does not itself provide a safe public bluff.",
+  "sources": [ { "type": "canonical", "title": "BOTC Wiki: Poisoner", "url": "https://wiki.bloodontheclocktower.com/Poisoner" }, { "type": "design", "description": "Sample design interpretation." } ]
+}

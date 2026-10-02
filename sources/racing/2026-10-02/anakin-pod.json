@@ -1,0 +1,18 @@
+{
+  "url": "https://www.starwars.com/databank/anakin-skywalkers-podracer",
+  "title": "Anakin Skywalker's Podracer | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "1520a504e982add32cbae2812c6dd8bb64960301c7d6c97ec23dba492ad769da",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "affiliations": [
+    "Boonta Eve Classic Podracer Pilots"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "anakin-skywalkers-podracer",
+    "boonta-eve-classic-podracer-pilots",
+    "tatooine"
+  ]
+}

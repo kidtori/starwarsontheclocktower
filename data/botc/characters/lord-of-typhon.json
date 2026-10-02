@@ -1,0 +1,79 @@
+{
+  "id": "lord-of-typhon",
+  "name": "Lord of Typhon",
+  "officialId": "lordoftyphon",
+  "aliases": [
+    "lordoftyphon"
+  ],
+  "team": "demon",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]",
+  "mechanics": {
+    "outsiderManipulation": 2,
+    "setupManipulation": 3,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "outsiderManipulation",
+    "setupManipulation",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Night kills with a fixed evil line, extra Minion and flexible Outsider count."
+  ],
+  "explanation": "Night kills with a fixed evil line, extra Minion and flexible Outsider count.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "Wake the Lord of Typhon's neighbors. Show the *YOU ARE* and Minion tokens & give a thumbs-down.",
+    "otherNights": "The Lord of Typhon chooses a player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Extra Minion, variable Outsiders and positional evil setup require separate setup review."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "summoner",
+      "reason": "If a Lord of Typhon is summoned, they must neighbor a Minion & their other neighbor becomes an evil Minion.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 157
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

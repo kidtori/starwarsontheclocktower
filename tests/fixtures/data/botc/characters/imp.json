@@ -1,0 +1,11 @@
+{
+  "id": "imp", "name": "Imp", "team": "demon", "edition": "Trouble Brewing", "fixture": true,
+  "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+  "complexity": "low",
+  "mechanics": { "deathInteraction": 3, "evilUtility": 3, "playerAgency": 2, "demonSurvivability": 2 },
+  "tags": ["survival", "control", "power", "succession"],
+  "designRole": ["night kills", "Demon succession through a living Minion"],
+  "interactions": { "synergisesWith": ["poisoner", "fortune-teller"], "storytellerNotes": ["Succession changes which living player is the Demon. Re-evaluate previously safe Fortune Teller pair results in that world."] },
+  "explanation": "An Imp may abandon its original identity through self-killing at night, trading Minion utility for a new Demon.",
+  "sources": [ { "type": "canonical", "title": "BOTC Wiki: Imp", "url": "https://wiki.bloodontheclocktower.com/Imp" }, { "type": "design", "description": "Sample design interpretation." } ]
+}

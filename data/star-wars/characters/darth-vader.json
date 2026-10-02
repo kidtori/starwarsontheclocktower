@@ -1,0 +1,200 @@
+{
+  "id": "darth-vader",
+  "name": "Darth Vader",
+  "aliases": [
+    "Anakin Skywalker",
+    "Anakin",
+    "Lord Vader"
+  ],
+  "summary": "Anakin Skywalker became Darth Vader after turning against the Jedi.",
+  "source": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Rogue One: A Star Wars Story",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars Rebels",
+    "Star Wars: Maul – Shadow Lord",
+    "Star Wars: Tiny Death Star",
+    "X-wing Fighter - Star Wars Arcade",
+    "Star Wars: Tiny Death Star (SEA)",
+    "Star Wars Arcade",
+    "Yoda's Jedi Training - Star Wars Arcade",
+    "Star Wars Rebels: Special Ops",
+    "Rogue One: Boots on the Ground - Star Wars Arcade",
+    "Disney Infinity 3.0 - Character Quest",
+    "Star Wars: Battlefront",
+    "Star Wars: Commander",
+    "Team Tactics - Star Wars Arcade",
+    "Star Wars: Rivals",
+    "Jedi Mind Match",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Ahsoka",
+    "Star Wars: Tales of the Jedi",
+    "Galactic Spy"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Sith",
+    "Galactic Empire",
+    "Jedi"
+  ],
+  "alignment": [
+    "evil",
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Darth Vader",
+    "affiliations": [
+      "Galactic Empire",
+      "Sith",
+      "Jedi Order"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "corruption",
+    "hidden identities",
+    "betrayal",
+    "power",
+    "redemption",
+    "sacrifice",
+    "competition"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: corruption",
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: power",
+    "Narrative metaphor: redemption",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "corruption",
+    "hidden identities",
+    "betrayal",
+    "power",
+    "redemption",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "luke-skywalker",
+      "type": "father / son",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/luke-skywalker"
+      ]
+    },
+    {
+      "characterId": "leia-organa",
+      "type": "father / daughter",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/leia-organa"
+      ]
+    },
+    {
+      "characterId": "padme-amidala",
+      "type": "spouses",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/padme-amidala"
+      ]
+    },
+    {
+      "characterId": "obi-wan-kenobi",
+      "type": "student / mentor",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/obi-wan-kenobi"
+      ]
+    },
+    {
+      "characterId": "emperor-palpatine",
+      "type": "apprentice / master",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/emperor-palpatine-darth-sidious"
+      ]
+    },
+    {
+      "characterId": "ahsoka-tano",
+      "type": "mentor / apprentice",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/ahsoka-tano"
+      ]
+    },
+    {
+      "characterId": "shmi-skywalker",
+      "type": "son / mother",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/darth-vader",
+        "https://www.starwars.com/databank/shmi-skywalker-lars"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 3
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Darth Vader",
+      "url": "https://www.starwars.com/databank/darth-vader",
+      "accessedAt": "2026-10-02",
+      "sha256": "93e365f86cabdb70b8698b3812dcc9ca78257594b1041fb9c421d15b01da79d6"
+    },
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Anakin Skywalker",
+      "url": "https://www.starwars.com/databank/anakin-skywalker",
+      "accessedAt": "2026-10-02",
+      "sha256": "831314387509a13566d847abf3130ce1a9f244d37487a8978d62747e08ee1689"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "podracing"
+    ],
+    "confirmedGalacticRacer": false,
+    "vehicleIds": [
+      "anakin-pod"
+    ],
+    "notes": "Film racing/piloting history; Galactic Racer roster membership is not confirmed."
+  }
+}

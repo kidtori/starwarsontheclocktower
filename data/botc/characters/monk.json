@@ -1,0 +1,81 @@
+{
+  "id": "monk",
+  "name": "Monk",
+  "officialId": "monk",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+  "mechanics": {
+    "protection": 3,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "protection",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Protects another player from the Demon for one night."
+  ],
+  "explanation": "Protects another player from the Demon for one night.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Monk chooses a player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "soldier"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "leviathan",
+      "reason": "If the Leviathan nominates and executes the Monk-protected player, good wins.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "riot",
+      "reason": "If Riot nominates and executes the Monk-protected player, good wins.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 66
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

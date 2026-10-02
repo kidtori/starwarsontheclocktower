@@ -1,0 +1,69 @@
+{
+  "id": "darius-pax",
+  "name": "Darius Pax",
+  "aliases": [],
+  "summary": "Founder of the Galactic League who recruits Shade to challenge Kestar Bool's dominance.",
+  "source": [
+    "Star Wars: Galactic Racer"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Galactic League"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "themes": [
+    "political influence",
+    "leadership",
+    "control",
+    "initiative"
+  ],
+  "archetypes": [
+    "organiser"
+  ],
+  "personality": [
+    "political influence",
+    "leadership",
+    "control",
+    "initiative"
+  ],
+  "narrativeFunctions": [
+    "political influence",
+    "leadership",
+    "control",
+    "initiative"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 1,
+    "storyImportance": 2,
+    "thematicImportance": 2,
+    "galacticRacerImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft. Factual summary from cited primary sources; casting themes, alignment and importance are interpretation.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Official Star Wars: Galactic Racer™   Story Trailer – Star Wars: Galactic Racer™",
+      "url": "https://starwarsgalacticracer.com/news/official-star-wars-galactic-racer-story-trailer/",
+      "accessedAt": "2026-10-02",
+      "sha256": "60def49a2d76db9afbb909a936b4b9d8d06688544fd178ca505f7a4a2ba226bc"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable narrative casting signals; not official BOTC mappings or popularity ratings."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "Galactic League cast"
+    ],
+    "confirmedGalacticRacer": true,
+    "vehicleIds": [],
+    "notes": "Game narrative role announced in official material. Individual vehicle assignments and unannounced statistics are not inferred."
+  }
+}

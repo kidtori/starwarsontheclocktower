@@ -1,0 +1,117 @@
+{
+  "id": "padme-amidala",
+  "name": "Padmé Amidala",
+  "aliases": [
+    "Padme",
+    "Naboo Queen"
+  ],
+  "summary": "Naboo queen and senator, Anakin's secret wife and the twins' mother.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Tales of the Jedi"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars"
+  ],
+  "factions": [
+    "Galactic Republic"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Padmé Amidala | Star Wars Databank",
+    "affiliations": [
+      "Galactic Republic",
+      "Galactic Senate"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "political influence",
+    "leadership",
+    "hidden identities",
+    "loyalty",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "political influence",
+    "leadership",
+    "hidden identities",
+    "loyalty",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "luke-skywalker",
+      "type": "mother / son",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/padme-amidala",
+        "https://www.starwars.com/databank/luke-skywalker"
+      ]
+    },
+    {
+      "characterId": "leia-organa",
+      "type": "mother / daughter",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/padme-amidala",
+        "https://www.starwars.com/databank/leia-organa"
+      ]
+    },
+    {
+      "characterId": "darth-vader",
+      "type": "spouses",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/padme-amidala",
+        "https://www.starwars.com/databank/darth-vader"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 3
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Padmé Amidala | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/padme-amidala",
+      "accessedAt": "2026-10-02",
+      "sha256": "9f7c32e7a8b74c74415d9df2e34ec96d86f8075bc3a638f7bbf0b3c1bda513e8"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

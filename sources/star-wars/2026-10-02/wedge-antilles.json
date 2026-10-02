@@ -1,0 +1,25 @@
+{
+  "url": "https://www.starwars.com/databank/wedge-antilles",
+  "title": "Wedge Antilles",
+  "accessedAt": "2026-10-02",
+  "sha256": "3be334c83f83ca534b69610535f8a97574b5aa31f96edb4bbee506d5b8119cfe",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels"
+  ],
+  "affiliations": [
+    "Rebel Alliance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "wedge-antilles",
+    "rebel-alliance",
+    "corellia",
+    "skystrike-academy",
+    "snowspeeder",
+    "x-wing-starfighter"
+  ]
+}

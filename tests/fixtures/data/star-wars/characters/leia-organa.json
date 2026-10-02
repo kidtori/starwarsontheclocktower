@@ -1,0 +1,10 @@
+{
+  "id": "leia-organa", "name": "Leia Organa", "aliases": ["Leia"], "fixture": true,
+  "source": ["Original trilogy"], "era": ["Galactic Civil War"], "factions": ["Rebel Alliance"], "alignment": ["good"],
+  "archetypes": ["leader", "rebel"], "personality": ["perceptive", "resolute", "loyal"], "strengths": ["leadership", "political judgement"],
+  "behaviours": ["assessing loyalty", "coordinating allies"], "narrativeFunctions": ["leadership", "loyalty", "resistance"],
+  "themes": ["loyalty", "perception", "intuition", "leadership", "political influence"],
+  "relationships": [ { "characterId": "darth-vader", "type": "family conflict", "description": "Sample relationship metadata for thematic juxtaposition." } ],
+  "importance": { "overall": 3, "recognisability": 3, "storyImportance": 3, "thematicImportance": 2 },
+  "sources": [ { "type": "interpretation", "description": "Illustrative character interpretation; replace or enrich with your curated notes." } ]
+}

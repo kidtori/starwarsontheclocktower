@@ -1,0 +1,121 @@
+{
+  "id": "legion",
+  "name": "Legion",
+  "officialId": "legion",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+  "mechanics": {
+    "votingInteraction": 2,
+    "setupManipulation": 3,
+    "demonSurvivability": 2,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "votingInteraction",
+    "setupManipulation",
+    "demonSurvivability",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "A majority-evil Legion setup with group kill and voting rules that change the normal game structure."
+  ],
+  "explanation": "A majority-evil Legion setup with group kill and voting rules that change the normal game structure.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "A player might die. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Majority-evil setup and special voting rules invalidate ordinary team-count assumptions."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "engineer",
+      "reason": "If Legion is created, all evil players become Legion. If Legion is in play, the Engineer starts knowing this but has no ability.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "hatter",
+      "reason": "If Legion is created, all evil players become Legion. If Legion is in play, the Hatter has no ability.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "minstrel",
+      "reason": "If Legion died by execution today, Legion keeps their ability, but the Minstrel might learn they are Legion.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "politician",
+      "reason": "The Politician might register as evil to Legion.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "preacher",
+      "reason": "If the Preacher chooses Legion, Legion keeps their ability, but the Preacher might learn they are Legion.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "summoner",
+      "reason": "If Legion is summoned, all evil players become Legion. ",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "zealot",
+      "reason": "The Zealot might register as evil to Legion.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "magician",
+      "reason": "If the Magician is in play, during the Demon info step, Legion wake in separate groups. Each group learns which players are good, but does not learn the Magician.",
+      "sourceOwner": "magician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 153
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "gossip",
+  "name": "Gossip",
+  "officialId": "gossip",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+  "mechanics": {
+    "confirmation": 2,
+    "deathInteraction": 2,
+    "playerAgency": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "confirmation",
+    "deathInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Public statements can produce night deaths when true; death attribution is central."
+  ],
+  "explanation": "Public statements can produce night deaths when true; death attribution is central.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Gossip is due to kill a player, they die. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "innkeeper",
+      "tinker"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 39
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

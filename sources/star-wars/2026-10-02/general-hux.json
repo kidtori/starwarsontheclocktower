@@ -1,0 +1,33 @@
+{
+  "url": "https://www.starwars.com/databank/general-hux",
+  "title": "General Hux",
+  "accessedAt": "2026-10-02",
+  "sha256": "c0f64999d8fcb65904e3f3191c4d354bd00409069ee275170dd767dc71eaa0ef",
+  "appearances": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Resistance"
+  ],
+  "affiliations": [
+    "The First Order"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "general-hux",
+    "the-first-order",
+    "blaster-pistol",
+    "finalizer",
+    "the-supremacy",
+    "starkiller-base",
+    "the-resistance",
+    "d-qar",
+    "supreme-leader-snoke",
+    "kylo-ren",
+    "crait",
+    "commander-pyre",
+    "general-pryde"
+  ]
+}

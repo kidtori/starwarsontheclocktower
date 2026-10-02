@@ -1,0 +1,71 @@
+{
+  "id": "dengar",
+  "name": "Dengar",
+  "aliases": [],
+  "summary": "Bounty hunter summoned by Vader to hunt the Millennium Falcon.",
+  "source": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Bounty Hunters"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Dengar | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "danger",
+    "survival",
+    "reputation"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: danger",
+    "Narrative metaphor: survival",
+    "Narrative metaphor: reputation"
+  ],
+  "narrativeFunctions": [
+    "danger",
+    "survival",
+    "reputation"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Dengar | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/dengar",
+      "accessedAt": "2026-10-02",
+      "sha256": "6eb66f5fa945f482db63773420ddb66a208b834b6e60d0e120cf8c08a0d7593a"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

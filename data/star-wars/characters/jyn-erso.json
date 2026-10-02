@@ -1,0 +1,90 @@
+{
+  "id": "jyn-erso",
+  "name": "Jyn Erso",
+  "aliases": [
+    "Jyn"
+  ],
+  "summary": "Galen Erso's daughter who helped steal the Death Star plans.",
+  "source": [
+    "Rogue One: A Star Wars Story",
+    "Star Wars: Forces of Destiny",
+    "Rogue One: Boots on the Ground - Star Wars Arcade",
+    "Star Wars: Rivals"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Jyn Erso",
+    "affiliations": [],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "initiative",
+    "sacrifice",
+    "hope",
+    "loyalty"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: sacrifice",
+    "Narrative metaphor: hope",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "initiative",
+    "sacrifice",
+    "hope",
+    "loyalty"
+  ],
+  "relationships": [
+    {
+      "characterId": "galen-erso",
+      "type": "daughter / father",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/jyn-erso",
+        "https://www.starwars.com/databank/galen-erso"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Jyn Erso",
+      "url": "https://www.starwars.com/databank/jyn-erso",
+      "accessedAt": "2026-10-02",
+      "sha256": "c009eb992d169b3c61b8b5d90343684545041b538fc3d353e72c14f3507d5ba8"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

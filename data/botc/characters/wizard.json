@@ -1,0 +1,61 @@
+{
+  "id": "wizard",
+  "name": "Wizard",
+  "officialId": "wizard",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature.",
+  "mechanics": {
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "One wish whose effects are adjudicated by the Storyteller; this app does not invent wishes or their effects."
+  ],
+  "explanation": "One wish whose effects are adjudicated by the Storyteller; this app does not invent wishes or their effects.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Do whatever needs to be done to satisfy the Wizard's ability.",
+    "otherNights": "Do whatever needs to be done to satisfy the Wizard's ability."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "The app does not invent a wish or its consequences. Storyteller adjudication is required."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 173
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ],
+  "generationRestriction": "Reference and imported scripts supported. Automated generation excludes this role because it needs bespoke Storyteller adjudication or a nonstandard no-evil script."
+}

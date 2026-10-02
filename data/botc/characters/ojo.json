@@ -1,0 +1,60 @@
+{
+  "id": "ojo",
+  "name": "Ojo",
+  "officialId": "ojo",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+  "mechanics": {
+    "deathInteraction": 3,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "deathInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Chooses a character to kill; absent characters transfer kill control to the Storyteller."
+  ],
+  "explanation": "Chooses a character to kill; absent characters transfer kill control to the Storyteller.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Ojo chooses a character. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 158
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

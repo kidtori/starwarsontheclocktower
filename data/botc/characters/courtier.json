@@ -1,0 +1,79 @@
+{
+  "id": "courtier",
+  "name": "Courtier",
+  "officialId": "courtier",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+  "mechanics": {
+    "drunkenness": 3,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "drunkenness",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Once-per-game choice of a character disables that character through drunkenness for three nights and days."
+  ],
+  "explanation": "Once-per-game choice of a character disables that character through drunkenness for three nights and days.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Courtier might choose a character. :reminder: :reminder:",
+    "otherNights": "The Courtier might choose a character. :reminder: :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "summoner",
+      "reason": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vizier",
+      "reason": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 35
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

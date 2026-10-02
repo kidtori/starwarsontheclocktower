@@ -1,0 +1,30 @@
+{
+  "url": "https://www.starwars.com/databank/yoda",
+  "title": "Yoda",
+  "accessedAt": "2026-10-02",
+  "sha256": "094f55412ffa9e35870bc16bc9bc4a791f287ec8d52d203c1ec9de7a759bcf74",
+  "appearances": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Acolyte"
+  ],
+  "affiliations": [
+    "Jedi Order"
+  ],
+  "species": [
+    "Unknown"
+  ],
+  "linkedEntries": [
+    "yoda",
+    "jedi-order",
+    "yodas-hut",
+    "lightsaber",
+    "yoda-s-lightsaber",
+    "yoda-s-fighter"
+  ]
+}

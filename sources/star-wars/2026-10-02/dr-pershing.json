@@ -1,0 +1,14 @@
+{
+  "url": "https://www.starwars.com/databank/dr-pershing",
+  "title": "Dr. Pershing | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "a078cfa8d6cc36fa6a34f25f16d18490d86e11f4745168b403c502235ab47113",
+  "appearances": [
+    "Star Wars: The Mandalorian"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "dr-pershing"
+  ]
+}

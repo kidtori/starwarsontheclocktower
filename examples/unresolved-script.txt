@@ -1,0 +1,9 @@
+# Import resolver demonstration
+TOWNSFOLK
+Empath
+Fortuneteller
+Empath
+MINIONS
+Poisoner
+DEMONS
+Imp

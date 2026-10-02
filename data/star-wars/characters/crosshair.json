@@ -1,0 +1,78 @@
+{
+  "id": "crosshair",
+  "name": "Crosshair",
+  "aliases": [],
+  "summary": "Clone marksman whose allegiance to the Empire separated him from his squad.",
+  "source": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Bad Batch",
+    "Galactic Empire"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Crosshair | Star Wars Databank",
+    "affiliations": [
+      "Galactic Empire",
+      "Galactic Republic",
+      "Clone Force 99 \"The Bad Batch\""
+    ],
+    "species": []
+  },
+  "themes": [
+    "precision",
+    "obedience",
+    "betrayal",
+    "redemption"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: precision",
+    "Narrative metaphor: obedience",
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: redemption"
+  ],
+  "narrativeFunctions": [
+    "precision",
+    "obedience",
+    "betrayal",
+    "redemption"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Crosshair | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/crosshair",
+      "accessedAt": "2026-10-02",
+      "sha256": "247dd1ff9fca8909e5bef75a682e0b583507e790eb352e8ec7674998721b8d27"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

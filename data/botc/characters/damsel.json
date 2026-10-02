@@ -1,0 +1,87 @@
+{
+  "id": "damsel",
+  "name": "Damsel",
+  "officialId": "damsel",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "All Minions know a Damsel is in play. If a Minion publicly guesses you (once), your team loses.",
+  "mechanics": {
+    "evilUtility": 1,
+    "playerAgency": 2,
+    "bluffability": 1
+  },
+  "tags": [
+    "evilUtility",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "A publicly correct Minion guess of the Damsel loses for good; hidden identity creates social pressure."
+  ],
+  "explanation": "A publicly correct Minion guess of the Damsel loses for good; hidden identity creates social pressure.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "During Minion Info, show the Minions the Damsel token. If you haven't done this yet, do so now. If the Damsel was chosen by the Huntsman, show the *YOU ARE* info token & their new character token.",
+    "otherNights": "If the Damsel was chosen by the Huntsman, show the *YOU ARE* info token & their new character token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "huntsman"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "pit-hag",
+      "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "spy",
+      "reason": "If the Spy is (or has been) in play, the Damsel is poisoned.",
+      "sourceOwner": "spy",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "widow",
+      "reason": "If the Widow is (or has been) in play, the Damsel is poisoned.",
+      "sourceOwner": "widow",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 175
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

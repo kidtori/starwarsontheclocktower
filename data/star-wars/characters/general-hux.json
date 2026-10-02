@@ -1,0 +1,81 @@
+{
+  "id": "general-hux",
+  "name": "General Hux",
+  "aliases": [
+    "Armitage Hux",
+    "Hux"
+  ],
+  "summary": "First Order general whose rivalry with Kylo Ren drove him to treachery.",
+  "source": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Resistance"
+  ],
+  "era": [
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "First Order"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "General Hux",
+    "affiliations": [
+      "The First Order"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "control",
+    "political influence",
+    "betrayal",
+    "rivalry"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: control",
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: rivalry"
+  ],
+  "narrativeFunctions": [
+    "control",
+    "political influence",
+    "betrayal",
+    "rivalry"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: General Hux",
+      "url": "https://www.starwars.com/databank/general-hux",
+      "accessedAt": "2026-10-02",
+      "sha256": "c0f64999d8fcb65904e3f3191c4d354bd00409069ee275170dd767dc71eaa0ef"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

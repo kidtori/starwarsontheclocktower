@@ -1,0 +1,24 @@
+{
+  "url": "https://www.starwars.com/databank/fennec-shand",
+  "title": "Fennec Shand | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "f363e93a6b7c7910ef8e927bd25e4a2340808adb10a28615cadf5f3707f90f50",
+  "appearances": [
+    "Star Wars: The Mandalorian",
+    "Star Wars: The Bad Batch",
+    "Star Wars: The Book of Boba Fett"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "fennec-shand",
+    "boba-fett-s-palace",
+    "boba-fetts-starship",
+    "nala-se",
+    "omega",
+    "cad-bane",
+    "toro-calican",
+    "the-mandalorian",
+    "boba-fett"
+  ]
+}

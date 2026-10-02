@@ -1,0 +1,15 @@
+{
+  "url": "https://www.starwars.com/databank/the-armorer",
+  "title": "The Armorer | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "26a8f8e555001d5e92c38d774c3987f9d30592b3e05a6d58f1e4082502b006e4",
+  "appearances": [
+    "Star Wars: The Mandalorian",
+    "Star Wars: The Book of Boba Fett"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "the-armorer"
+  ]
+}

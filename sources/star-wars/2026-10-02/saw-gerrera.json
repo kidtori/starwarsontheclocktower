@@ -1,0 +1,33 @@
+{
+  "url": "https://www.starwars.com/databank/saw-gerrera",
+  "title": "Saw Gerrera | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "9602cfe868270a219fa727727d2e4312db2de07ce0f9c5c3913312fa1f2c7caa",
+  "appearances": [
+    "Rogue One: A Star Wars Story",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Andor A Star Wars Story"
+  ],
+  "affiliations": [
+    "Onderon Rebels",
+    "Rebel Alliance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "saw-gerrera",
+    "onderon-rebels",
+    "rebel-alliance",
+    "onderon",
+    "blaster-rifle",
+    "lyra-erso",
+    "luthen-rael",
+    "wilmon-paak",
+    "rhydonium",
+    "yavin-4",
+    "death-star",
+    "jyn-erso",
+    "jedha"
+  ]
+}

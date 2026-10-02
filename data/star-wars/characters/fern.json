@@ -1,0 +1,70 @@
+{
+  "id": "fern",
+  "name": "Fern",
+  "aliases": [],
+  "summary": "At Attin child who takes a leading role among her stranded friends.",
+  "source": [
+    "Star Wars: Skeleton Crew"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Independent"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Fern - Skeleton Crew | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "leadership",
+    "initiative",
+    "loyalty"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "leadership",
+    "initiative",
+    "loyalty"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Fern - Skeleton Crew | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/fern",
+      "accessedAt": "2026-10-02",
+      "sha256": "b926e64c186af8f74cf8f92f9d78826c70d3abb6e2b38284ac81a97114518b5b"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

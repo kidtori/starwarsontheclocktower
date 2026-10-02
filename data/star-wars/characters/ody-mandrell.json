@@ -1,0 +1,66 @@
+{
+  "id": "ody-mandrell",
+  "name": "Ody Mandrell",
+  "aliases": [],
+  "summary": "Tatooine thrill-seeker whose Boonta Eve attempt ended after a pit droid damaged his engine.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "era": [
+    "Fall of the Republic"
+  ],
+  "factions": [
+    "Podracing competitors"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "themes": [
+    "recklessness",
+    "unintended consequences",
+    "danger",
+    "competition"
+  ],
+  "archetypes": [
+    "racer"
+  ],
+  "personality": [
+    "recklessness",
+    "unintended consequences",
+    "danger"
+  ],
+  "narrativeFunctions": [
+    "recklessness",
+    "unintended consequences",
+    "danger"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft. Factual summary from cited primary sources; casting themes, alignment and importance are interpretation.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Ody Mandrell | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/ody-mandrell",
+      "accessedAt": "2026-10-02",
+      "sha256": "648ae82427776ddc4c5b1482becb5736701e07a77f88fe3ef8f0810ce208bb13"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable narrative casting signals; not official BOTC mappings or popularity ratings."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "podracing"
+    ],
+    "confirmedGalacticRacer": false,
+    "vehicleIds": [],
+    "notes": "Film racing/piloting history; Galactic Racer roster membership is not confirmed."
+  }
+}

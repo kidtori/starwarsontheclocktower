@@ -1,0 +1,29 @@
+{
+  "url": "https://www.starwars.com/databank/padme-amidala",
+  "title": "Padmé Amidala | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "9f7c32e7a8b74c74415d9df2e34ec96d86f8075bc3a638f7bbf0b3c1bda513e8",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Tales of the Jedi"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Galactic Senate"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "padme-amidala",
+    "galactic-republic",
+    "galactic-senate",
+    "naboo",
+    "naboo-royal-starship",
+    "naboo-n-1-starfighter",
+    "naboo-royal-cruiser"
+  ]
+}

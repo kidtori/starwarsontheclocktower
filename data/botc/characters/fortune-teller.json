@@ -1,0 +1,79 @@
+{
+  "id": "fortune-teller",
+  "name": "Fortune Teller",
+  "officialId": "fortuneteller",
+  "aliases": [
+    "fortuneteller"
+  ],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+  "mechanics": {
+    "recurringInformation": 3,
+    "characterInformation": 2,
+    "registration": 1,
+    "misinformation": 1,
+    "playerAgency": 3,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "characterInformation",
+    "registration",
+    "misinformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Player-directed recurring Demon detection, with a personal red herring."
+  ],
+  "explanation": "Player-directed recurring Demon detection, with a personal red herring.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Fortune Teller chooses 2 players. Nod if either is the Demon (or the *RED HERRING*).",
+    "otherNights": "The Fortune Teller chooses 2 players. Nod if either is the Demon (or the *RED HERRING*)."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "poisoner",
+      "imp",
+      "recluse"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 62
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ],
+  "informationDistortion": {
+    "scope": "self",
+    "affectsRoleIds": [
+      "fortune-teller"
+    ],
+    "description": "The fixed red herring registers as a Demon to the Fortune Teller only."
+  }
+}

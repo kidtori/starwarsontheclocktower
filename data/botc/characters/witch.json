@@ -1,0 +1,64 @@
+{
+  "id": "witch",
+  "name": "Witch",
+  "officialId": "witch",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+  "mechanics": {
+    "nominationInteraction": 2,
+    "executionInteraction": 2,
+    "evilUtility": 2,
+    "playerAgency": 3
+  },
+  "tags": [
+    "nominationInteraction",
+    "executionInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Curses a chosen player's next-day nomination to cause death, unless the live-player threshold removes the ability."
+  ],
+  "explanation": "Curses a chosen player's next-day nomination to cause death, unless the live-player threshold removes the ability.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Witch chooses a player. :reminder:",
+    "otherNights": "The Witch chooses a player. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "town-crier"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 17
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

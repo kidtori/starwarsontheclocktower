@@ -1,0 +1,36 @@
+{
+  "url": "https://www.starwars.com/databank/boba-fett",
+  "title": "Boba Fett | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "4cef6d77f7b4b09fcb4093443b7e0c6174a0fae00415fa82a0d5db22c355771d",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Mandalorian",
+    "A Sticker Book Far, Far Away",
+    "Star Wars: Battlefront",
+    "Star Wars: Rivals"
+  ],
+  "affiliations": [],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "boba-fett",
+    "kamino",
+    "boba-fett-s-palace",
+    "blaster-rifle",
+    "z-6-jetpack",
+    "boba-fetts-starship",
+    "razor-crest",
+    "the-mandalorian",
+    "grogu",
+    "fennec-shand",
+    "bib-fortuna",
+    "jabba-the-hutt"
+  ]
+}

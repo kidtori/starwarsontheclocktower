@@ -1,0 +1,22 @@
+{
+  "url": "https://www.starwars.com/databank/maz-kanata",
+  "title": "Maz Kanata",
+  "accessedAt": "2026-10-02",
+  "sha256": "1d84e01e772b04ca389092fd92e6de3da03b92fd1ebb88f7c19cd5d03bea1987",
+  "appearances": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "maz-kanata",
+    "takodana",
+    "blaster-pistol",
+    "finn",
+    "leia-organa",
+    "the-resistance",
+    "the-force"
+  ]
+}

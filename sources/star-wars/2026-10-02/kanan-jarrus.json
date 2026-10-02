@@ -1,0 +1,27 @@
+{
+  "url": "https://www.starwars.com/databank/kanan-jarrus",
+  "title": "Kanan Jarrus / Caleb Dume | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "5a6d2fb1653f8e0d2906a6277f26a8bbf632b82e8096190b0cec37865ae15b83",
+  "appearances": [
+    "Star Wars: The Bad Batch",
+    "Star Wars Rebels",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Arcade",
+    "Disney Infinity 3.0 - Character Quest",
+    "Star Wars Rebels - Strike Missions",
+    "Star Wars Rebels: Chopper Chase",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "affiliations": [],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "kanan-jarrus",
+    "blaster-pistol",
+    "kanans-lightsaber",
+    "kanans-speeder-bike"
+  ]
+}

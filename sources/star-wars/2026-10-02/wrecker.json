@@ -1,0 +1,49 @@
+{
+  "url": "https://www.starwars.com/databank/wrecker",
+  "title": "Wrecker | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "62b2637124c25321f9b4f5053c6ef501d59265e98e6c7a66fa55e4d14f50212d",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [
+    "Galactic Republic",
+    "Clone Force 99 \"The Bad Batch\""
+  ],
+  "species": [],
+  "linkedEntries": [
+    "wrecker",
+    "galactic-republic",
+    "clone-force-99-bad-batch",
+    "kamino",
+    "tooka-doll",
+    "marauder",
+    "skako-minor",
+    "anakin-skywalker",
+    "clone-captain-rex",
+    "echo",
+    "inhibitor-chip",
+    "kaller",
+    "kanan-jarrus",
+    "onderon",
+    "omega",
+    "crosshair",
+    "grand-moff-tarkin",
+    "cid",
+    "old-ord-mantell-city",
+    "muchi",
+    "droid-decommissioning-facility",
+    "bracca",
+    "serenno",
+    "pabu",
+    "shep-hazard",
+    "lyana",
+    "saw-gerrera",
+    "eriadu",
+    "clone-x-trooper",
+    "tech",
+    "hunter",
+    "clone-troopers"
+  ]
+}

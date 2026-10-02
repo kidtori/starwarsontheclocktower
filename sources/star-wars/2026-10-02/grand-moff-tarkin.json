@@ -1,0 +1,27 @@
+{
+  "url": "https://www.starwars.com/databank/grand-moff-tarkin",
+  "title": "Grand Moff Tarkin",
+  "accessedAt": "2026-10-02",
+  "sha256": "27d363a709437ab9e57c2b9f58cfe0a49e1b844294307b1d934eefd62f7498d1",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Rogue One: A Star Wars Story",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [
+    "Galactic Empire",
+    "Galactic Republic"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "grand-moff-tarkin",
+    "galactic-empire",
+    "galactic-republic",
+    "death-star",
+    "kamino",
+    "clone-force-99-bad-batch"
+  ]
+}

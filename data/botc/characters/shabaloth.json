@@ -1,0 +1,62 @@
+{
+  "id": "shabaloth",
+  "name": "Shabaloth",
+  "officialId": "shabaloth",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+  "mechanics": {
+    "deathInteraction": 3,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "deathInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Two night-kill choices with possible resurrection of a previously chosen dead player."
+  ],
+  "explanation": "Two night-kill choices with possible resurrection of a previously chosen dead player.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "A previously chosen player might be resurrected. :reminder: The Shabaloth chooses 2 players. :reminder: :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "professor"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 3
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

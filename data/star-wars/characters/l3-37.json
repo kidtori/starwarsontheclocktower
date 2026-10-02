@@ -1,0 +1,70 @@
+{
+  "id": "l3-37",
+  "name": "L3-37",
+  "aliases": [],
+  "summary": "Self-modified droid and Lando's copilot who championed droid freedom.",
+  "source": [
+    "Solo: A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Independent"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "L3-37 | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "independence",
+    "knowledge",
+    "initiative"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "independence"
+  ],
+  "behaviours": [
+    "Narrative metaphor: independence",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: initiative"
+  ],
+  "narrativeFunctions": [
+    "independence",
+    "knowledge",
+    "initiative"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: L3-37 | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/l3-37",
+      "accessedAt": "2026-10-02",
+      "sha256": "b3e30dc1504d808bc0ebc58f44ec3c875fdf2b364303d95698ed5843742f612d"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

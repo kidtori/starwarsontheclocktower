@@ -1,0 +1,94 @@
+{
+  "id": "grogu",
+  "name": "Grogu",
+  "aliases": [
+    "The Child",
+    "Baby Yoda"
+  ],
+  "summary": "Young Force-sensitive survivor of the Jedi Temple raised under Din's care.",
+  "source": [
+    "Star Wars: The Mandalorian and Grogu",
+    "Star Wars: The Mandalorian",
+    "Star Wars: The Book of Boba Fett"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Jedi",
+    "Mandalorians"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Grogu - Databank",
+    "affiliations": [
+      "Jedi Order",
+      "Mandalorians"
+    ],
+    "species": []
+  },
+  "themes": [
+    "intuition",
+    "protection",
+    "hope",
+    "power"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [
+    "intuition"
+  ],
+  "behaviours": [
+    "Narrative metaphor: intuition",
+    "Narrative metaphor: protection",
+    "Narrative metaphor: hope",
+    "Narrative metaphor: power"
+  ],
+  "narrativeFunctions": [
+    "intuition",
+    "protection",
+    "hope",
+    "power"
+  ],
+  "relationships": [
+    {
+      "characterId": "din-djarin",
+      "type": "foundling / guardian",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/grogu",
+        "https://www.starwars.com/databank/the-mandalorian"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Grogu - Databank",
+      "url": "https://www.starwars.com/databank/grogu",
+      "accessedAt": "2026-10-02",
+      "sha256": "94c467774bd57d4d8ba584e772989f7a802396a2b96034069a13bd87cebf8b5a"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

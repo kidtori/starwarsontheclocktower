@@ -1,0 +1,8 @@
+{
+  "id": "emperor-palpatine", "name": "Emperor Palpatine", "aliases": ["Palpatine", "Darth Sidious"], "fixture": true,
+  "source": ["Original trilogy", "Prequel trilogy"], "era": ["Clone Wars", "Galactic Civil War"], "factions": ["Sith", "Empire"], "alignment": ["evil"],
+  "archetypes": ["mastermind"], "personality": ["calculating", "secretive"], "behaviours": ["deception", "manipulation", "survival"],
+  "narrativeFunctions": ["control", "power", "corruption", "succession"], "themes": ["sith", "manipulation", "secrecy", "survival", "power", "control"],
+  "importance": { "overall": 3, "recognisability": 3, "storyImportance": 3, "thematicImportance": 3 },
+  "sources": [ { "type": "interpretation", "description": "Illustrative narrative interpretation; replace with your curated knowledge." } ]
+}

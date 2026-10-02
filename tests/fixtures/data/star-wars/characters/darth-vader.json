@@ -1,0 +1,9 @@
+{
+  "id": "darth-vader", "name": "Darth Vader", "aliases": ["Vader"], "fixture": true,
+  "source": ["Original trilogy"], "era": ["Galactic Civil War"], "factions": ["Sith", "Empire"], "alignment": ["evil"],
+  "archetypes": ["enforcer"], "personality": ["intimidating", "controlling"], "behaviours": ["coercion", "corruption"],
+  "narrativeFunctions": ["corruption", "manipulation", "sabotage", "danger"], "themes": ["corruption", "control", "loyalty", "betrayal"],
+  "relationships": [ { "characterId": "emperor-palpatine", "type": "apprentice", "description": "Control and eventual betrayal offer a thematic succession metaphor." }, { "characterId": "leia-organa", "type": "family conflict" } ],
+  "importance": { "overall": 3, "recognisability": 3, "storyImportance": 3, "thematicImportance": 3 },
+  "sources": [ { "type": "interpretation", "description": "Illustrative interpretation; thematic corruption does not change Poisoner mechanics." } ]
+}

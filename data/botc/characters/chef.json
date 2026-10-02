@@ -1,0 +1,62 @@
+{
+  "id": "chef",
+  "name": "Chef",
+  "officialId": "chef",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "You start knowing how many pairs of evil players there are.",
+  "mechanics": {
+    "startingInformation": 2,
+    "alignmentInformation": 1,
+    "playerAgency": 1,
+    "bluffability": 2
+  },
+  "tags": [
+    "startingInformation",
+    "alignmentInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Starting count of adjacent evil pairs; supports positional deduction."
+  ],
+  "explanation": "Starting count of adjacent evil pairs; supports positional deduction.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Give a finger signal.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 60
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

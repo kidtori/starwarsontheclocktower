@@ -1,0 +1,78 @@
+{
+  "id": "quinlan-vos",
+  "name": "Quinlan Vos",
+  "aliases": [],
+  "summary": "Jedi known for unconventional methods and reading memories through touch.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Jedi"
+  ],
+  "alignment": [
+    "good",
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Quinlan Vos | Star Wars Databank",
+    "affiliations": [
+      "Jedi Order"
+    ],
+    "species": [
+      "Kiffar"
+    ]
+  },
+  "themes": [
+    "investigation",
+    "hidden identities",
+    "corruption",
+    "redemption"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: investigation",
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: corruption",
+    "Narrative metaphor: redemption"
+  ],
+  "narrativeFunctions": [
+    "investigation",
+    "hidden identities",
+    "corruption",
+    "redemption"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Quinlan Vos | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/quinlan-vos",
+      "accessedAt": "2026-10-02",
+      "sha256": "8e04d81612a95ea8c3b6025e807fdd01182c38960019fc887a930180a99fb1cf"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "url": "https://www.starwars.com/databank/paz-vizsla",
+  "title": "Paz Vizsla | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "0c939d6e1ea58e317ae646e298502b27c465ddd9fc652bad485551a2b483e9fd",
+  "appearances": [
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: The Mandalorian"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "paz-vizsla"
+  ]
+}

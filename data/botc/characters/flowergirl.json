@@ -1,0 +1,66 @@
+{
+  "id": "flowergirl",
+  "name": "Flowergirl",
+  "officialId": "flowergirl",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night*, you learn if a Demon voted today.",
+  "mechanics": {
+    "recurringInformation": 1,
+    "alignmentInformation": 2,
+    "votingInteraction": 1,
+    "playerAgency": 1,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "alignmentInformation",
+    "votingInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Learns whether a Demon voted today; encourages controlled public vote experiments."
+  ],
+  "explanation": "Learns whether a Demon voted today; encourages controlled public vote experiments.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "Either nod or shake your head."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "organ-grinder"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 50
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "url": "https://www.starwars.com/databank/tobias-beckett",
+  "title": "Tobias Beckett | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "3f57ffc67c9e52d0d15ecfc6b0d8c08bc991f33396b76ff6d1462f01ddc8a3ff",
+  "appearances": [
+    "Solo: A Star Wars Story",
+    "Star Wars Pinball: Solo: A Star Wars Story"
+  ],
+  "affiliations": [],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "tobias-beckett",
+    "rskf-44-heavy-blaster-pistol",
+    "dg-29-heavy-blaster-pistol",
+    "coaxium",
+    "imperial-conveyex-transport",
+    "vandor",
+    "val",
+    "rio-durant",
+    "at-hauler",
+    "mimban",
+    "mudtroopers",
+    "han-solo",
+    "chewbacca",
+    "enfys-nest",
+    "dryden-vos",
+    "kessel",
+    "millennium-falcon",
+    "savareen",
+    "tobias-beckett-biography-gallery"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "hermit",
+  "name": "Hermit",
+  "officialId": "hermit",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You have all Outsider abilities. [-0 or -1 Outsider]",
+  "mechanics": {
+    "bluffability": 3
+  },
+  "tags": [
+    "bluffability"
+  ],
+  "designRole": [
+    "Combines every Outsider ability on the script, introducing many dependencies and possible failure conditions."
+  ],
+  "explanation": "Combines every Outsider ability on the script, introducing many dependencies and possible failure conditions.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Every Outsider ability on the script matters; inspect the complete Outsider list and relevant jinxes."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 215
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

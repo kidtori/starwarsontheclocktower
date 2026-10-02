@@ -1,0 +1,66 @@
+{
+  "id": "ratts-tyerell",
+  "name": "Ratts Tyerell",
+  "aliases": [],
+  "summary": "Small Boonta Eve competitor killed when his large-engined pod crashed in the Laguna Caves.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "era": [
+    "Fall of the Republic"
+  ],
+  "factions": [
+    "Podracing competitors"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "themes": [
+    "danger",
+    "loss",
+    "recklessness",
+    "competition"
+  ],
+  "archetypes": [
+    "racer"
+  ],
+  "personality": [
+    "danger",
+    "loss",
+    "recklessness"
+  ],
+  "narrativeFunctions": [
+    "danger",
+    "loss",
+    "recklessness"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft. Factual summary from cited primary sources; casting themes, alignment and importance are interpretation.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Ratts Tyerell | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/ratts-tyerell",
+      "accessedAt": "2026-10-02",
+      "sha256": "a1072cb529a1717006aae36683758b41f9d64f9f93083b8f0e68fd41f562dace"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable narrative casting signals; not official BOTC mappings or popularity ratings."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "podracing"
+    ],
+    "confirmedGalacticRacer": false,
+    "vehicleIds": [],
+    "notes": "Film racing/piloting history; Galactic Racer roster membership is not confirmed."
+  }
+}

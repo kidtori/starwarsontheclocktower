@@ -1,0 +1,84 @@
+{
+  "id": "saw-gerrera",
+  "name": "Saw Gerrera",
+  "aliases": [
+    "Saw"
+  ],
+  "summary": "Rebel extremist whose resistance began on Onderon during the Clone Wars.",
+  "source": [
+    "Rogue One: A Star Wars Story",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Andor A Star Wars Story"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Partisans",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Saw Gerrera | Star Wars Databank",
+    "affiliations": [
+      "Onderon Rebels",
+      "Rebel Alliance"
+    ],
+    "species": []
+  },
+  "themes": [
+    "paranoia",
+    "initiative",
+    "recklessness",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "recklessness"
+  ],
+  "behaviours": [
+    "Narrative metaphor: paranoia",
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: recklessness",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "paranoia",
+    "initiative",
+    "recklessness",
+    "sacrifice"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Saw Gerrera | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/saw-gerrera",
+      "accessedAt": "2026-10-02",
+      "sha256": "9602cfe868270a219fa727727d2e4312db2de07ce0f9c5c3913312fa1f2c7caa"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

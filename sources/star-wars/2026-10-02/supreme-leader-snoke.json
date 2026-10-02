@@ -1,0 +1,27 @@
+{
+  "url": "https://www.starwars.com/databank/supreme-leader-snoke",
+  "title": "Supreme Leader Snoke",
+  "accessedAt": "2026-10-02",
+  "sha256": "e2d89b1e3ae01ff51342db2ed6b2c2f663c7e2dbbec024b488499e4a296d48a4",
+  "appearances": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)"
+  ],
+  "affiliations": [
+    "The First Order"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "supreme-leader-snoke",
+    "the-first-order",
+    "snokes-throne-room",
+    "the-supremacy",
+    "kylo-ren",
+    "luke-skywalker",
+    "jedi-order",
+    "the-new-republic",
+    "hosnian-prime",
+    "rey",
+    "anakin-luke-and-reys-lightsaber"
+  ]
+}

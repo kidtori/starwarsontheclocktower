@@ -1,0 +1,21 @@
+{
+  "url": "https://www.starwars.com/databank/nala-se",
+  "title": "Nala Se | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "c19c1e21dde5bfa2f6ebc8213dde13cc65573715cc8bbfd98eaf9160f494096a",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "affiliations": [],
+  "species": [
+    "Kaminoan"
+  ],
+  "linkedEntries": [
+    "nala-se",
+    "kamino",
+    "nala-se-s-private-lab",
+    "kaminoan",
+    "medical-capsules"
+  ]
+}

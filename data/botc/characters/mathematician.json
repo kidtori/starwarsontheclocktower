@@ -1,0 +1,94 @@
+{
+  "id": "mathematician",
+  "name": "Mathematician",
+  "officialId": "mathematician",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night, you learn how many players’ abilities worked abnormally (since dawn) due to another character's ability.",
+  "mechanics": {
+    "recurringInformation": 1,
+    "playerAgency": 1,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Tracks abnormal ability operation due to another character's ability, rather than directly identifying the affected player."
+  ],
+  "explanation": "Tracks abnormal ability operation due to another character's ability, rather than directly identifying the affected player.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Give a finger signal.",
+    "otherNights": "Give a finger signal."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "sweetheart",
+      "philosopher"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "chambermaid",
+      "reason": "The Chambermaid can detect if the Mathematician will wake tonight.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "drunk",
+      "reason": "The Mathematician learns if the Drunk’s ability yielded false info or failed to work properly.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "lunatic",
+      "reason": "The Mathematician learns if the Lunatic attacks a different player than the real Demon attacked.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "marionette",
+      "reason": "The Mathematician learns if the Marionette’s ability yielded false info or failed to work properly.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 52
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

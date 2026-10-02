@@ -1,0 +1,123 @@
+{
+  "id": "pit-hag",
+  "name": "Pit-Hag",
+  "officialId": "pithag",
+  "aliases": [
+    "pithag"
+  ],
+  "team": "minion",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary.",
+  "mechanics": {
+    "demonSurvivability": 1,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "demonSurvivability",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Changes a player's character to a not-in-play character; creating a Demon makes tonight's deaths arbitrary."
+  ],
+  "explanation": "Changes a player's character to a not-in-play character; creating a Demon makes tonight's deaths arbitrary.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Pit-Hag chooses a player & a character. If they chose a character that is not in play: Put the Pit-Hag to sleep. Wake the target. Show the *YOU ARE* token & their new character token."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "heretic",
+      "reason": "Only 1 jinxed character can be in play.",
+      "sourceOwner": "heretic",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "leviathan",
+      "reason": "The Leviathan cannot enter play after day 5.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "cult-leader",
+      "reason": "If the Pit-Hag turns an evil player into the Cult Leader, they can't turn good due to their own ability.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "damsel",
+      "reason": "If a Pit-Hag creates a Damsel, the Storyteller chooses which player it is.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "goon",
+      "reason": "If the Pit-Hag turns an evil player into the Goon, they can't turn good due to their own ability.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "ogre",
+      "reason": "If the Pit-Hag turns an evil player into the Ogre, they can't turn good due to their own ability.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "politician",
+      "reason": "If the Pit-Hag turns an evil player into the Politician, they can't turn good due to their own ability.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "village-idiot",
+      "reason": "If there is a spare token, the Pit-Hag can create an extra Village Idiot. If so, the drunk Village Idiot might change.",
+      "sourceOwner": "pit-hag",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "summoner",
+      "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 16
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

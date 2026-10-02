@@ -1,0 +1,34 @@
+{
+  "url": "https://www.starwars.com/databank/grand-admiral-thrawn",
+  "title": "Grand Admiral Thrawn | Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "b6145e8d6d63ee0ae2238cceb77c4af1f87167be9aab1969b2c2240bd2746a98",
+  "appearances": [
+    "Star Wars Rebels",
+    "Star Wars: Ahsoka"
+  ],
+  "affiliations": [
+    "Galactic Empire"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "grand-admiral-thrawn",
+    "galactic-empire",
+    "thrawns-office",
+    "kalikori",
+    "emperor-palpatine-darth-sidious",
+    "ryloth",
+    "hera-syndulla",
+    "cham-syndulla",
+    "lothal",
+    "the-ghost",
+    "alexsandr-kallus",
+    "chopper",
+    "rukh",
+    "kanan-jarrus",
+    "ezra-bridger",
+    "purrgil",
+    "peridea",
+    "dathomir"
+  ]
+}

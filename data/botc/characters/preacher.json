@@ -1,0 +1,85 @@
+{
+  "id": "preacher",
+  "name": "Preacher",
+  "officialId": "preacher",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+  "mechanics": {
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Chosen Minions learn this and lose their abilities, reducing evil utility."
+  ],
+  "explanation": "Chosen Minions learn this and lose their abilities, reducing evil utility.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Preacher chooses a player. :reminder: If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Preacher tokens.",
+    "otherNights": "The Preacher chooses a player. :reminder: If they chose a Minion: Put the Preacher to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* & Preacher tokens."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "poisoner"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "legion",
+      "reason": "If the Preacher chooses Legion, Legion keeps their ability, but the Preacher might learn they are Legion.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "summoner",
+      "reason": "If the living Summoner has no ability, the Storyteller has the Summoner ability.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vizier",
+      "reason": "If the Vizier loses their ability, they learn this, and cannot die during the day.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 210
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

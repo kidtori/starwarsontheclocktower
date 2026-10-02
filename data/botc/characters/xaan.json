@@ -1,0 +1,62 @@
+{
+  "id": "xaan",
+  "name": "Xaan",
+  "officialId": "xaan",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]",
+  "mechanics": {
+    "misinformation": 3,
+    "poisoning": 3,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "misinformation",
+    "poisoning",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Poisons all Townsfolk on a setup-defined night X; Outsider count defines timing."
+  ],
+  "explanation": "Poisons all Townsfolk on a setup-defined night X; Outsider count defines timing.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "If X is 1, mark the Xaan with the *X* reminder token. :reminder: :reminder:",
+    "otherNights": "Change the Xaan reminder token to the relevant night. If it is night X, mark the Xaan with the *X* reminder token. :reminder: :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 174
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

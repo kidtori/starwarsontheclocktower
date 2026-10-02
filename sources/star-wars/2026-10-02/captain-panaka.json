@@ -1,0 +1,19 @@
+{
+  "url": "https://www.starwars.com/databank/captain-panaka",
+  "title": "Captain Panaka | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "ae3e68d10113577d5fc918cadcd09c7b4cfaf17c54a63505e63792d39fd117c1",
+  "appearances": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "affiliations": [
+    "Naboo Royal Guards"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "captain-panaka",
+    "naboo-royal-guards",
+    "naboo",
+    "blaster-pistol"
+  ]
+}

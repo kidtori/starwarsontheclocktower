@@ -1,0 +1,64 @@
+{
+  "id": "high-priestess",
+  "name": "High Priestess",
+  "officialId": "highpriestess",
+  "aliases": [
+    "highpriestess"
+  ],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night, learn which player the Storyteller believes you should talk to most.",
+  "mechanics": {
+    "recurringInformation": 1,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "recurringInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Recurring Storyteller pointer to a player to talk to; requires contextual guidance."
+  ],
+  "explanation": "Recurring Storyteller pointer to a player to talk to; requires contextual guidance.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Point to a player.",
+    "otherNights": "Point to a player."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "amnesiac"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 200
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

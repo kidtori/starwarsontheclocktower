@@ -1,0 +1,46 @@
+{
+  "id": "god-of-ug",
+  "name": "God of Ug",
+  "officialId": "godofug",
+  "aliases": [
+    "godofug"
+  ],
+  "team": "loric",
+  "edition": "Loric",
+  "officialEdition": "loric",
+  "ability": "One Ug hat. When wear Ug hat, must speak one sound at a time but vote twice. If fail, pass Ug hat.",
+  "mechanics": {},
+  "tags": [],
+  "designRole": [
+    "Optional Storyteller rule that changes the structure of the game."
+  ],
+  "explanation": "Optional Storyteller rule that changes the structure of the game.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": true,
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

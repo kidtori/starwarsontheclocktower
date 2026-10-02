@@ -1,0 +1,77 @@
+{
+  "id": "investigator",
+  "name": "Investigator",
+  "officialId": "investigator",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+  "mechanics": {
+    "startingInformation": 2,
+    "alignmentInformation": 2,
+    "characterInformation": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "startingInformation",
+    "alignmentInformation",
+    "characterInformation",
+    "bluffability"
+  ],
+  "designRole": [
+    "Starting Minion identity clue and early evil suspicion."
+  ],
+  "explanation": "Starting Minion identity clue and early evil suspicion.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Show the Minion character token. Point to both the *MINION* and *WRONG* players.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "recluse"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "vizier",
+      "reason": "The Storyteller doesn't declare the Vizier is in play.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 63
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

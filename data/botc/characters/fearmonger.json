@@ -1,0 +1,81 @@
+{
+  "id": "fearmonger",
+  "name": "Fearmonger",
+  "officialId": "fearmonger",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player.",
+  "mechanics": {
+    "votingInteraction": 1,
+    "executionInteraction": 2,
+    "evilUtility": 2,
+    "playerAgency": 2
+  },
+  "tags": [
+    "votingInteraction",
+    "executionInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Chooses a player; a qualifying nomination, execution and death ends the game in the opposite alignment's favour."
+  ],
+  "explanation": "Chooses a player; a qualifying nomination, execution and death ends the game in the opposite alignment's favour.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Fearmonger chooses a player. :reminder: Announce that the Fearmonger has chosen a player.",
+    "otherNights": "The Fearmonger chooses a player. :reminder: If the target is different to last night, announce that the Fearmonger has chosen a player."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "plague-doctor",
+      "reason": "If the Storyteller would gain the Fearmonger ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vizier",
+      "reason": "The Vizier wakes with the Fearmonger, learns who they choose and cannot choose to immediately execute that player.",
+      "sourceOwner": "vizier",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 163
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "tea-lady",
+  "name": "Tea Lady",
+  "officialId": "tealady",
+  "aliases": [
+    "tealady"
+  ],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "If both your alive neighbors are good, they can't die.",
+  "mechanics": {
+    "confirmation": 2,
+    "protection": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "confirmation",
+    "protection",
+    "bluffability"
+  ],
+  "designRole": [
+    "Protects both alive neighbours from death when both are good; makes position and survival informative."
+  ],
+  "explanation": "Protects both alive neighbours from death when both are good; makes position and survival informative.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "devils-advocate",
+      "assassin"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 46
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

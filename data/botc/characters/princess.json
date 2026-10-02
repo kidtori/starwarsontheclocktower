@@ -1,0 +1,81 @@
+{
+  "id": "princess",
+  "name": "Princess",
+  "officialId": "princess",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight.",
+  "mechanics": {
+    "nominationInteraction": 2,
+    "executionInteraction": 1,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "nominationInteraction",
+    "executionInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "A first-day nomination and execution can prevent the Demon's kill tonight."
+  ],
+  "explanation": "A first-day nomination and execution can prevent the Demon's kill tonight.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Princess nominated the player who was executed today, wake the Demon as normal, but no one dies to the Demon's ability. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "al-hadikhia",
+      "reason": "If the Princess nominated & executed a player on their 1st day, no one dies to the Al-Hadikhia tonight.",
+      "sourceOwner": "al-hadikhia",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "cannibal",
+      "reason": "If the Cannibal nominated, executed, & killed the Princess today, the Demon doesn’t kill tonight.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 216
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

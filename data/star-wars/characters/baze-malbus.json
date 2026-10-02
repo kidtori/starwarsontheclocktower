@@ -1,0 +1,84 @@
+{
+  "id": "baze-malbus",
+  "name": "Baze Malbus",
+  "aliases": [
+    "Baze"
+  ],
+  "summary": "Heavily armed companion of Chirrut who fought on Scarif.",
+  "source": [
+    "Rogue One: A Star Wars Story",
+    "Rogue One: Boots on the Ground - Star Wars Arcade"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Guardians of the Whills",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Baze Malbus",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "protection",
+    "loyalty",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: protection",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "protection",
+    "loyalty",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "chirrut-imwe",
+      "type": "companions",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/baze-malbus",
+        "https://www.starwars.com/databank/chirrut-imwe"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Baze Malbus",
+      "url": "https://www.starwars.com/databank/baze-malbus",
+      "accessedAt": "2026-10-02",
+      "sha256": "45172ca2eaba5bcaa5e5a33691cf7cda542d8bb8f0328fd1a0469bf899af4f22"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

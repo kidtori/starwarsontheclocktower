@@ -1,0 +1,93 @@
+{
+  "id": "cannibal",
+  "name": "Cannibal",
+  "officialId": "cannibal",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+  "mechanics": {
+    "poisoning": 2,
+    "executionInteraction": 1,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "poisoning",
+    "executionInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Uses the last execution victim's ability, but an evil victim causes poisoning until a good execution death."
+  ],
+  "explanation": "Uses the last execution victim's ability, but an evil victim causes poisoning until a good execution death.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "butler",
+      "reason": "If the Cannibal gains the Butler ability, the Cannibal learns this.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "juggler",
+      "reason": "If the Juggler guesses on their first day and dies by execution, tonight the living Cannibal learns how many guesses the Juggler got correct.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "princess",
+      "reason": "If the Cannibal nominated, executed, & killed the Princess today, the Demon doesn’t kill tonight.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "zealot",
+      "reason": "If the Cannibal gains the Zealot ability, the Cannibal learns this.",
+      "sourceOwner": "cannibal",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 193
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

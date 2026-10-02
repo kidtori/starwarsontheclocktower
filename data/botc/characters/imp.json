@@ -1,0 +1,69 @@
+{
+  "id": "imp",
+  "name": "Imp",
+  "officialId": "imp",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+  "mechanics": {
+    "deathInteraction": 1,
+    "demonSurvivability": 2,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "deathInteraction",
+    "demonSurvivability",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Night kills with optional self-kill succession into an alive Minion."
+  ],
+  "explanation": "Night kills with optional self-kill succession into an alive Minion.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Imp chooses a player. :reminder: If the Imp chose themselves: Replace 1 alive Minion token with a spare Imp token. Put the old Imp to sleep. Wake the new Imp. Show the *YOU ARE* token, then show the Imp token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "fortune-teller",
+      "scarlet-woman",
+      "poisoner",
+      "ravenkeeper",
+      "banshee",
+      "farmer"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 9
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

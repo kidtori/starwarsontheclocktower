@@ -1,0 +1,76 @@
+{
+  "id": "chambermaid",
+  "name": "Chambermaid",
+  "officialId": "chambermaid",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+  "mechanics": {
+    "recurringInformation": 2,
+    "playerAgency": 3,
+    "bluffability": 2
+  },
+  "tags": [
+    "recurringInformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Checks whether two chosen alive players woke tonight due to their abilities."
+  ],
+  "explanation": "Checks whether two chosen alive players woke tonight due to their abilities.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Chambermaid chooses 2 living players. Give a finger signal.",
+    "otherNights": "The Chambermaid chooses 2 living players. Give a finger signal."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "gambler",
+      "pukka"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "mathematician",
+      "reason": "The Chambermaid can detect if the Mathematician will wake tonight.",
+      "sourceOwner": "mathematician",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 34
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+projects/*/
+!projects/.gitkeep
+config.local.json
+output/
+backups/
+runtime/
+dist/
+*.exe
+data/app-settings.json
+*.log

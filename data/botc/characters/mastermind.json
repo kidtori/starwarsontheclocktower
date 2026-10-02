@@ -1,0 +1,93 @@
+{
+  "id": "mastermind",
+  "name": "Mastermind",
+  "officialId": "mastermind",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+  "mechanics": {
+    "executionInteraction": 3,
+    "demonSurvivability": 2,
+    "evilUtility": 2,
+    "playerAgency": 2
+  },
+  "tags": [
+    "executionInteraction",
+    "demonSurvivability",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Continues the game after a Demon execution and makes the next day's execution alignment decisive."
+  ],
+  "explanation": "Continues the game after a Demon execution and makes the next day's execution alignment decisive.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "alchemist",
+      "reason": "An Alchemist-Mastermind has no Mastermind ability & the Mastermind is not-in-play.",
+      "sourceOwner": "alchemist",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "al-hadikhia",
+      "reason": "If the Al-Hadikhia dies by execution, and the Mastermind is alive, the Al-Hadikhia chooses 3 good players tonight: if all 3 choose to live, evil wins. Otherwise, good wins.",
+      "sourceOwner": "al-hadikhia",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "lleech",
+      "reason": "If the Mastermind is alive and the Lleech host dies by execution, the Lleech lives but loses their ability.",
+      "sourceOwner": "lleech",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "vigormortis",
+      "reason": "A Mastermind that has their ability keeps it if the Vigormortis dies.",
+      "sourceOwner": "mastermind",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 13
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

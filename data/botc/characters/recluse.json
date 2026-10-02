@@ -1,0 +1,89 @@
+{
+  "id": "recluse",
+  "name": "Recluse",
+  "officialId": "recluse",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+  "mechanics": {
+    "registration": 3,
+    "misinformation": 1,
+    "playerAgency": 1,
+    "bluffability": 3
+  },
+  "tags": [
+    "registration",
+    "misinformation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Optional evil and evil-character registration; destabilises character and alignment tests."
+  ],
+  "explanation": "Optional evil and evil-character registration; destabilises character and alignment tests.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "empath",
+      "fortune-teller",
+      "investigator"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "ogre",
+      "reason": "If the Recluse registers as evil to the Ogre, the Ogre learns that they are evil.",
+      "sourceOwner": "recluse",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "sage",
+      "reason": "The Recluse might register as the Demon to the Sage.",
+      "sourceOwner": "recluse",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 32
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ],
+  "informationDistortion": {
+    "scope": "others",
+    "description": "Optional character/alignment registration can affect relevant information abilities; inspect each test."
+  }
+}

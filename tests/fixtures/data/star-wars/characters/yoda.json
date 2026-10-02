@@ -1,0 +1,9 @@
+{
+  "id": "yoda", "name": "Yoda", "fixture": true,
+  "source": ["Original trilogy", "Prequel trilogy"], "era": ["Clone Wars", "Galactic Civil War"], "factions": ["Jedi"], "alignment": ["good"],
+  "archetypes": ["mentor"], "personality": ["patient", "reflective"], "strengths": ["wisdom", "intuition"],
+  "narrativeFunctions": ["mentorship", "wisdom", "investigation"], "themes": ["intuition", "wisdom", "perception", "mentorship"],
+  "abilitiesOrTraits": ["Force perception"], "weaknesses": ["fallible foresight"],
+  "importance": { "overall": 3, "recognisability": 3, "storyImportance": 3, "thematicImportance": 3 },
+  "sources": [ { "type": "interpretation", "description": "Illustrative character interpretation, not an exhaustive canon record." } ]
+}

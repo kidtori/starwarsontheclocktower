@@ -1,0 +1,27 @@
+{
+  "url": "https://www.starwars.com/databank/dryden-vos",
+  "title": "Dryden Vos | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "903df6fd141e2cdec4b02253284e042ad21b947041ace64320fb108493d0b6fd",
+  "appearances": [
+    "Solo: A Star Wars Story",
+    "Star Wars: Maul – Shadow Lord"
+  ],
+  "affiliations": [
+    "Crimson Dawn"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "dryden-vos",
+    "crimson-dawn",
+    "first-light",
+    "kyuzo-petars",
+    "vandor",
+    "tobias-beckett",
+    "han-solo",
+    "coaxium",
+    "qi-ra",
+    "kessel",
+    "savareen"
+  ]
+}

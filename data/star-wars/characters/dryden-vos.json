@@ -1,0 +1,73 @@
+{
+  "id": "dryden-vos",
+  "name": "Dryden Vos",
+  "aliases": [],
+  "summary": "High-ranking Crimson Dawn crime lord who employed Tobias Beckett.",
+  "source": [
+    "Solo: A Star Wars Story",
+    "Star Wars: Maul – Shadow Lord"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Crimson Dawn"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Dryden Vos | Star Wars Databank",
+    "affiliations": [
+      "Crimson Dawn"
+    ],
+    "species": []
+  },
+  "themes": [
+    "intimidation",
+    "control",
+    "greed"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "greed"
+  ],
+  "behaviours": [
+    "Narrative metaphor: intimidation",
+    "Narrative metaphor: control",
+    "Narrative metaphor: greed"
+  ],
+  "narrativeFunctions": [
+    "intimidation",
+    "control",
+    "greed"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Dryden Vos | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/dryden-vos",
+      "accessedAt": "2026-10-02",
+      "sha256": "903df6fd141e2cdec4b02253284e042ad21b947041ace64320fb108493d0b6fd"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

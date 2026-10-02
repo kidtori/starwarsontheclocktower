@@ -1,0 +1,22 @@
+{
+  "url": "https://www.starwars.com/databank/mother-talzin",
+  "title": "Mother Talzin | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "55033fcb3cd607c335cea130fad25d5887ec301ee021af38c89362414697ff82",
+  "appearances": [
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Nightsisters"
+  ],
+  "species": [
+    "Dathomirian"
+  ],
+  "linkedEntries": [
+    "mother-talzin",
+    "nightsisters",
+    "dathomir",
+    "dathomirian",
+    "nightsister-crystal-ball"
+  ]
+}

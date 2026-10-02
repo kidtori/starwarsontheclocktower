@@ -1,0 +1,62 @@
+{
+  "id": "washerwoman",
+  "name": "Washerwoman",
+  "officialId": "washerwoman",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Trouble Brewing",
+  "officialEdition": "tb",
+  "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+  "mechanics": {
+    "startingInformation": 2,
+    "characterInformation": 2,
+    "bluffability": 2
+  },
+  "tags": [
+    "startingInformation",
+    "characterInformation",
+    "bluffability"
+  ],
+  "designRole": [
+    "Starting Townsfolk identity clue that can build a social trust pair."
+  ],
+  "explanation": "Starting Townsfolk identity clue that can build a social trust pair.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Show the Townsfolk character token. Point to both the *TOWNSFOLK* and *WRONG* players.",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "spy"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 72
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

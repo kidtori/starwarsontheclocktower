@@ -1,0 +1,29 @@
+{
+  "url": "https://www.starwars.com/databank/count-dooku",
+  "title": "Count Dooku | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "84fed4f54bf14dea96bda857aef4e86576746964cfadec29bd5c63c160bcf5ca",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Tales of the Jedi"
+  ],
+  "affiliations": [
+    "Jedi Order",
+    "Confederacy of Independent Systems",
+    "Sith"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "count-dooku",
+    "jedi-order",
+    "confederacy-of-independent-systems",
+    "sith",
+    "serenno",
+    "solar-sailer",
+    "count-dookus-speeder",
+    "lightsaber",
+    "the-box"
+  ]
+}

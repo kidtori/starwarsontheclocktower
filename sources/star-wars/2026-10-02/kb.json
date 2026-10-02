@@ -1,0 +1,14 @@
+{
+  "url": "https://www.starwars.com/databank/kb",
+  "title": "KB - Skeleton Crew | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "4f86e333ef9ffcecca1f199f4b47625ca4d23eecbac5b6898324bc5d6bd9bb55",
+  "appearances": [
+    "Star Wars: Skeleton Crew"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "kb"
+  ]
+}

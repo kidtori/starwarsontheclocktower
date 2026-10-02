@@ -1,0 +1,13 @@
+{
+  "id": "fortune-teller", "name": "Fortune Teller", "team": "townsfolk", "edition": "Trouble Brewing", "fixture": true,
+  "ability": "Each night, choose 2 players: learn whether either is a Demon. One good player registers as a Demon to you.",
+  "abilityTextStatus": "Mechanically faithful paraphrase for this sample. Supply your authorised original wording in the curated corpus before presentation export.",
+  "informationDistortion": { "scope": "self", "affectsRoleIds": ["fortune-teller"], "description": "The red herring registers as a Demon to the Fortune Teller only." },
+  "complexity": "medium",
+  "mechanics": { "recurringInformation": 3, "characterInformation": 2, "registration": 1, "misinformation": 1, "bluffability": 2, "playerAgency": 3 },
+  "tags": ["intuition", "wisdom", "investigation", "red herring"],
+  "designRole": ["Demon hunting", "player-directed recurring investigation"],
+  "interactions": { "synergisesWith": ["poisoner", "imp"], "storytellerNotes": ["The red herring is fixed during setup. A positive result is not certain Demon confirmation. Imp succession means a formerly safe alive player can later become a Demon."] },
+  "explanation": "A false claim can be tested by comparing pair choices. Poisoning and the red herring give evil competing explanations.",
+  "sources": [ { "type": "reference", "title": "BOTC Wiki: Fortune Teller (sample paraphrase)", "url": "https://wiki.bloodontheclocktower.com/Fortune_Teller" }, { "type": "design", "description": "Sample 0–3 design annotations, not canonical ratings." } ]
+}

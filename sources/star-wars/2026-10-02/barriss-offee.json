@@ -1,0 +1,26 @@
+{
+  "url": "https://www.starwars.com/databank/barriss-offee",
+  "title": "Barriss Offee | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "ad21c6627b00bf5cb11423383b3cb62910ef4c782b8ed1cb9eeb4c5bcc2b283c",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Tales of the Empire"
+  ],
+  "affiliations": [
+    "Galactic Empire",
+    "Jedi Order",
+    "Inquisitorius"
+  ],
+  "species": [
+    "Mirialan"
+  ],
+  "linkedEntries": [
+    "barriss-offee",
+    "galactic-empire",
+    "jedi-order",
+    "mirialan",
+    "lightsaber"
+  ]
+}

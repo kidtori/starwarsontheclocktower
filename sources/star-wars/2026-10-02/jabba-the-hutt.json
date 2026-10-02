@@ -1,0 +1,23 @@
+{
+  "url": "https://www.starwars.com/databank/jabba-the-hutt",
+  "title": "Jabba the Hutt | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "dcd08514adef785d5e09798bf9e4ba9e630f3ff373b63c749706b8010ae07ab2",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [],
+  "species": [
+    "Hutt"
+  ],
+  "linkedEntries": [
+    "jabba-the-hutt",
+    "jabba-the-hutts-palace",
+    "tatooine",
+    "mos-eisley-spaceport",
+    "hutt"
+  ]
+}

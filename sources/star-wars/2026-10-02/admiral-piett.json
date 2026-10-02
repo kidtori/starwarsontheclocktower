@@ -1,0 +1,19 @@
+{
+  "url": "https://www.starwars.com/databank/admiral-piett",
+  "title": "Admiral Piett | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "b79d5a583adbf55ec2e0b0ac5926c949b1f6a9a553432ae6f0b28077faf12224",
+  "appearances": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)"
+  ],
+  "affiliations": [
+    "Galactic Empire"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "admiral-piett",
+    "galactic-empire",
+    "executor"
+  ]
+}

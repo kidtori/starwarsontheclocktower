@@ -1,0 +1,76 @@
+{
+  "id": "qira",
+  "name": "Qi'ra",
+  "aliases": [
+    "Qi'ra"
+  ],
+  "summary": "Han's childhood companion who rose within Crimson Dawn.",
+  "source": [
+    "Solo: A Star Wars Story",
+    "Star Wars Pinball: Solo: A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Crimson Dawn"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Qi'ra | Star Wars Databank",
+    "affiliations": [],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "hidden identities",
+    "betrayal",
+    "power",
+    "secrecy"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: power",
+    "Narrative metaphor: secrecy"
+  ],
+  "narrativeFunctions": [
+    "hidden identities",
+    "betrayal",
+    "power",
+    "secrecy"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Qi'ra | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/qi-ra",
+      "accessedAt": "2026-10-02",
+      "sha256": "925536428d0cbb05f0b4cf8a42c9d58046e0b387e0e2b59fc5fc2964df2150c1"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "hondo-ohnaka",
+  "name": "Hondo Ohnaka",
+  "aliases": [
+    "Hondo"
+  ],
+  "summary": "Pirate captain who alternated between exploiting and helping Jedi and rebels.",
+  "source": [
+    "Star Wars: The Clone Wars",
+    "Star Wars Rebels",
+    "Star Wars Rebels - Strike Missions"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Pirates"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Hondo Ohnaka",
+    "affiliations": [],
+    "species": [
+      "Weequay"
+    ]
+  },
+  "themes": [
+    "deception",
+    "greed",
+    "initiative",
+    "loyalty"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [
+    "greed",
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: deception",
+    "Narrative metaphor: greed",
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "deception",
+    "greed",
+    "initiative",
+    "loyalty"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Hondo Ohnaka",
+      "url": "https://www.starwars.com/databank/hondo-ohnaka",
+      "accessedAt": "2026-10-02",
+      "sha256": "7ba44f9e4766792187fec5f4cf8473f56ec0ece63a8014223dc0d8c01995355e"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

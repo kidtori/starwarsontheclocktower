@@ -1,0 +1,74 @@
+{
+  "id": "atheist",
+  "name": "Atheist",
+  "officialId": "atheist",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]",
+  "mechanics": {
+    "setupManipulation": 3,
+    "bluffability": 1
+  },
+  "tags": [
+    "setupManipulation",
+    "bluffability"
+  ],
+  "designRole": [
+    "A no-evil setup and Storyteller-rule-breaking win condition requiring a specially designed script."
+  ],
+  "explanation": "A no-evil setup and Storyteller-rule-breaking win condition requiring a specially designed script.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "Requires a specially designed no-evil setup; conventional evil-team analysis is not applicable."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "riot",
+      "reason": "During a riot, if the Storyteller is nominated, players vote. If they are \"about to die\", the game ends. If not, they nominate again.",
+      "sourceOwner": "riot",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 189
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ],
+  "generationRestriction": "Reference and imported scripts supported. Automated generation excludes this role because it needs bespoke Storyteller adjudication or a nonstandard no-evil script."
+}

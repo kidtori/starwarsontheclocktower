@@ -1,0 +1,123 @@
+{
+  "id": "plague-doctor",
+  "name": "Plague Doctor",
+  "officialId": "plaguedoctor",
+  "aliases": [
+    "plaguedoctor"
+  ],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "When you die, the Storyteller gains a Minion ability.",
+  "mechanics": {
+    "deathInteraction": 2,
+    "evilUtility": 1,
+    "bluffability": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "evilUtility",
+    "bluffability"
+  ],
+  "designRole": [
+    "Death gives the Storyteller a Minion ability; demands specific interaction and jinx review."
+  ],
+  "explanation": "Death gives the Storyteller a Minion ability; demands specific interaction and jinx review.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Plague Doctor died, the Storyteller gained a Minion ability. If you haven’t done this yet, do so now. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "baron",
+      "reason": "If the Storyteller would gain the Baron ability, up to two players become Outsiders.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "boomdandy",
+      "reason": "If the Storyteller would gain the Boomdandy ability, a player becomes the Boomdandy.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "evil-twin",
+      "reason": "If the Storyteller would gain the Evil Twin ability, a player becomes the Evil Twin.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "fearmonger",
+      "reason": "If the Storyteller would gain the Fearmonger ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "goblin",
+      "reason": "If the Storyteller would gain the Goblin ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "marionette",
+      "reason": "If the Storyteller would gain the Marionette ability, one of the Demon's good neighbors becomes the Marionette.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "scarlet-woman",
+      "reason": "If the Storyteller would gain the Scarlet Woman ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "spy",
+      "reason": "If the Storyteller would gain the Spy ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "wraith",
+      "reason": "If the Storyteller would gain the Wraith ability, a Minion gains it, and learns this.",
+      "sourceOwner": "plague-doctor",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 180
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

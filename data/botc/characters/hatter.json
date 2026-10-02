@@ -1,0 +1,95 @@
+{
+  "id": "hatter",
+  "name": "Hatter",
+  "officialId": "hatter",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be.",
+  "mechanics": {
+    "deathInteraction": 2,
+    "demonSurvivability": 1,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "demonSurvivability",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Death permits Minion and Demon character changes, potentially invalidating earlier worlds."
+  ],
+  "explanation": "Death permits Minion and Demon character changes, potentially invalidating earlier worlds.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "If the Hatter died, wake the Minions & Demons. Each may choose a new character. If they do, show the *YOU ARE* token & their new character token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "engineer"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "legion",
+      "reason": "If Legion is created, all evil players become Legion. If Legion is in play, the Hatter has no ability.",
+      "sourceOwner": "legion",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "leviathan",
+      "reason": "The Leviathan cannot enter play after day 5.",
+      "sourceOwner": "leviathan",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "lil-monsta",
+      "reason": "If the Hatter dies & the Demon chooses Lil' Monsta, they also choose a Minion to become.",
+      "sourceOwner": "lil-monsta",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    },
+    {
+      "characterId": "summoner",
+      "reason": "If the Summoner creates a second living Demon, deaths tonight are arbitrary.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 177
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

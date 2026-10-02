@@ -1,0 +1,83 @@
+{
+  "id": "jango-fett",
+  "name": "Jango Fett",
+  "aliases": [
+    "Jango"
+  ],
+  "summary": "Bounty hunter whose genetic material supplied the Republic's clone army.",
+  "source": [
+    "Star Wars: Attack of the Clones (Episode II)"
+  ],
+  "era": [
+    "Fall of the Republic"
+  ],
+  "factions": [
+    "Bounty Hunters"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Jango Fett | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "hidden identities",
+    "knowledge",
+    "danger",
+    "legacy"
+  ],
+  "archetypes": [
+    "scoundrel"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: danger",
+    "Narrative metaphor: legacy"
+  ],
+  "narrativeFunctions": [
+    "hidden identities",
+    "knowledge",
+    "danger",
+    "legacy"
+  ],
+  "relationships": [
+    {
+      "characterId": "boba-fett",
+      "type": "father / son",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/jango-fett",
+        "https://www.starwars.com/databank/boba-fett"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Jango Fett | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/jango-fett",
+      "accessedAt": "2026-10-02",
+      "sha256": "b37196335888c59b315ff0df29da15c87dfaac26697a7be9145d170bd77c9696"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

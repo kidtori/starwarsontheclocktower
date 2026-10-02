@@ -1,0 +1,23 @@
+{
+  "url": "https://www.starwars.com/databank/kit-fisto",
+  "title": "Kit Fisto | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "aa6a8bcdcca93f452977e2fc047e7f42267ba309efcdb7f7ba243801f0f4a2c9",
+  "appearances": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "affiliations": [
+    "Jedi Order"
+  ],
+  "species": [
+    "Nautolan"
+  ],
+  "linkedEntries": [
+    "kit-fisto",
+    "jedi-order",
+    "nautolan",
+    "lightsaber"
+  ]
+}

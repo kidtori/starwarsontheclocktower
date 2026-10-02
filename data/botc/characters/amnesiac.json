@@ -1,0 +1,63 @@
+{
+  "id": "amnesiac",
+  "name": "Amnesiac",
+  "officialId": "amnesiac",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+  "mechanics": {
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Unknown Storyteller-specified ability with daily accuracy feedback; this app must not invent that ability."
+  ],
+  "explanation": "Unknown Storyteller-specified ability with daily accuracy feedback; this app must not invent that ability.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Do whatever needs to be done to satisfy the Amnesiac's ability.",
+    "otherNights": "Do whatever needs to be done to satisfy the Amnesiac's ability."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "high-priestess"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": [
+      "The app does not create an Amnesiac ability. Import/retheme is supported; bespoke ability design stays with the Storyteller."
+    ]
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 188
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ],
+  "generationRestriction": "Reference and imported scripts supported. Automated generation excludes this role because it needs bespoke Storyteller adjudication or a nonstandard no-evil script."
+}

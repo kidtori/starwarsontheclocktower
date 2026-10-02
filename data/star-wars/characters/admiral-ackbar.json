@@ -1,0 +1,83 @@
+{
+  "id": "admiral-ackbar",
+  "name": "Admiral Ackbar",
+  "aliases": [
+    "Ackbar"
+  ],
+  "summary": "Mon Calamari admiral who led the rebel fleet at Endor.",
+  "source": [
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Reign of the Empire",
+    "New Republic",
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Rebel Alliance",
+    "Resistance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Admiral Ackbar",
+    "affiliations": [
+      "Galactic Republic",
+      "Rebel Alliance",
+      "The Resistance",
+      "The New Republic"
+    ],
+    "species": [
+      "Mon Calamari"
+    ]
+  },
+  "themes": [
+    "leadership",
+    "perception",
+    "protection"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: perception",
+    "Narrative metaphor: protection"
+  ],
+  "narrativeFunctions": [
+    "leadership",
+    "perception",
+    "protection"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Admiral Ackbar",
+      "url": "https://www.starwars.com/databank/admiral-ackbar",
+      "accessedAt": "2026-10-02",
+      "sha256": "37ff19be51198fbd82da6c6725afc6764f468bf6d775e753cfa8354e47808400"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

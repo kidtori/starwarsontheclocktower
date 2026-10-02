@@ -1,0 +1,76 @@
+{
+  "id": "general-grievous",
+  "name": "General Grievous",
+  "aliases": [
+    "Grievous"
+  ],
+  "summary": "Cyborg military commander of the Separatist droid armies.",
+  "source": [
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Clone Wars"
+  ],
+  "factions": [
+    "Separatist Alliance"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "General Grievous | Star Wars Databank",
+    "affiliations": [
+      "Confederacy of Independent Systems"
+    ],
+    "species": []
+  },
+  "themes": [
+    "danger",
+    "intimidation",
+    "survival",
+    "control"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: danger",
+    "Narrative metaphor: intimidation",
+    "Narrative metaphor: survival",
+    "Narrative metaphor: control"
+  ],
+  "narrativeFunctions": [
+    "danger",
+    "intimidation",
+    "survival",
+    "control"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: General Grievous | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/general-grievous",
+      "accessedAt": "2026-10-02",
+      "sha256": "bb846e5da4df05620b42c95cd7d2f86a4cdece67c3746c5650a5d4ea6f8ba8cb"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

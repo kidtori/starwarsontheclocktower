@@ -1,0 +1,40 @@
+{
+  "url": "https://www.starwars.com/databank/c-3po",
+  "title": "C-3PO (See-Threepio)",
+  "accessedAt": "2026-10-02",
+  "sha256": "82697d94116978e4a4d1c4f2469bf780e1d055bb865df7b0b46bf7bb8f9aef1d",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Rogue One: A Star Wars Story",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: Ahsoka",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars Arcade",
+    "A Sticker Book Far, Far Away"
+  ],
+  "affiliations": [
+    "Rebel Alliance",
+    "The Resistance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "c-3po",
+    "rebel-alliance",
+    "the-resistance",
+    "tatooine",
+    "protocol-droid",
+    "restraining-bolt",
+    "pasaana",
+    "exegol",
+    "r2-d2"
+  ]
+}

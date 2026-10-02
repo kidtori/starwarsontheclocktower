@@ -1,0 +1,67 @@
+{
+  "id": "gambler",
+  "name": "Gambler",
+  "officialId": "gambler",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+  "mechanics": {
+    "characterInformation": 3,
+    "confirmation": 2,
+    "deathInteraction": 2,
+    "playerAgency": 3,
+    "bluffability": 2
+  },
+  "tags": [
+    "characterInformation",
+    "confirmation",
+    "deathInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Chosen character guesses risk the Gambler's life; survival supports but does not universally confirm a claim."
+  ],
+  "explanation": "Chosen character guesses risk the Gambler's life; survival supports but does not universally confirm a claim.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Gambler chooses a player & a character. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "chambermaid",
+      "po"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 38
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "tor",
+  "name": "Tor",
+  "officialId": "tor",
+  "aliases": [],
+  "team": "loric",
+  "edition": "Loric",
+  "officialEdition": "loric",
+  "ability": "Players don't know their character or alignment. They learn them when they die.",
+  "mechanics": {},
+  "tags": [],
+  "designRole": [
+    "Optional Storyteller rule that changes the structure of the game."
+  ],
+  "explanation": "Optional Storyteller rule that changes the structure of the game.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": true,
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "Skip Minion Info and Demon Info.",
+    "otherNights": "If a player died tonight, show the *YOU ARE* info token, their character token, & give a thumb signal."
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

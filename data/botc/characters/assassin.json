@@ -1,0 +1,64 @@
+{
+  "id": "assassin",
+  "name": "Assassin",
+  "officialId": "assassin",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+  "mechanics": {
+    "deathInteraction": 3,
+    "evilUtility": 3,
+    "playerAgency": 3
+  },
+  "tags": [
+    "deathInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "One extra kill that bypasses ordinary inability-to-die protections."
+  ],
+  "explanation": "One extra kill that bypasses ordinary inability-to-die protections.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "low",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": "The Assassin might choose a player. :reminder: :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "tea-lady",
+      "sailor",
+      "fool"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 10
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

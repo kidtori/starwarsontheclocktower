@@ -1,0 +1,81 @@
+{
+  "id": "pukka",
+  "name": "Pukka",
+  "officialId": "pukka",
+  "aliases": [],
+  "team": "demon",
+  "edition": "Bad Moon Rising",
+  "officialEdition": "bmr",
+  "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+  "mechanics": {
+    "misinformation": 3,
+    "poisoning": 3,
+    "deathInteraction": 3,
+    "demonSurvivability": 1,
+    "evilUtility": 3,
+    "playerAgency": 2
+  },
+  "tags": [
+    "misinformation",
+    "poisoning",
+    "deathInteraction",
+    "demonSurvivability",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Poisons a chosen player, then kills its previous target and restores that target's health."
+  ],
+  "explanation": "Poisons a chosen player, then kills its previous target and restores that target's health.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Pukka chooses a player. :reminder:",
+    "otherNights": "The Pukka chooses a player. :reminder: The previously poisoned player dies then becomes healthy. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "chambermaid"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "summoner",
+      "reason": "The Summoner may summon a Pukka on the 2nd night instead of the 3rd.",
+      "sourceOwner": "summoner",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 2
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

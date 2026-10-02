@@ -1,0 +1,124 @@
+{
+  "id": "emperor-palpatine",
+  "name": "Emperor Palpatine",
+  "aliases": [
+    "Palpatine",
+    "Darth Sidious",
+    "Sheev Palpatine",
+    "The Emperor"
+  ],
+  "summary": "The Sith Lord Darth Sidious concealed his identity while acquiring political power.",
+  "source": [
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: The Phantom Menace (Episode I)",
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars: Tales of the Jedi",
+    "Star Wars: Maul – Shadow Lord",
+    "Jedi Mind Match"
+  ],
+  "era": [
+    "Fall of the Republic",
+    "Clone Wars",
+    "Reign of the Empire",
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Sith",
+    "Galactic Empire"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Emperor Palpatine (Darth Sidious) | Star Wars Databank",
+    "affiliations": [
+      "Galactic Empire",
+      "Galactic Republic",
+      "Galactic Senate",
+      "Sith"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "manipulation",
+    "deception",
+    "political influence",
+    "control",
+    "corruption",
+    "secrecy"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: manipulation",
+    "Narrative metaphor: deception",
+    "Narrative metaphor: political influence",
+    "Narrative metaphor: control",
+    "Narrative metaphor: corruption",
+    "Narrative metaphor: secrecy"
+  ],
+  "narrativeFunctions": [
+    "manipulation",
+    "deception",
+    "political influence",
+    "control",
+    "corruption",
+    "secrecy"
+  ],
+  "relationships": [
+    {
+      "characterId": "darth-vader",
+      "type": "master / apprentice",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/emperor-palpatine-darth-sidious",
+        "https://www.starwars.com/databank/darth-vader"
+      ]
+    },
+    {
+      "characterId": "count-dooku",
+      "type": "master / apprentice",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/emperor-palpatine-darth-sidious",
+        "https://www.starwars.com/databank/count-dooku"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 3
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Emperor Palpatine (Darth Sidious) | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious",
+      "accessedAt": "2026-10-02",
+      "sha256": "afbf290bf4627c2b4bf8793df5dc3893307d95fe97048025211cfae7b6badf82"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

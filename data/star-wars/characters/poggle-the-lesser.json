@@ -1,0 +1,76 @@
+{
+  "id": "poggle-the-lesser",
+  "name": "Poggle the Lesser",
+  "aliases": [
+    "Poggle"
+  ],
+  "summary": "Geonosian leader involved in battle droid production and Separatist leadership.",
+  "source": [
+    "Star Wars: Attack of the Clones (Episode II)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Clone Wars"
+  ],
+  "era": [
+    "Clone Wars"
+  ],
+  "factions": [
+    "Separatist Alliance"
+  ],
+  "alignment": [
+    "evil"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Poggle the Lesser | Star Wars Databank",
+    "affiliations": [
+      "Confederacy of Independent Systems"
+    ],
+    "species": [
+      "Geonosian"
+    ]
+  },
+  "themes": [
+    "control",
+    "production",
+    "secrecy"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: control",
+    "Narrative metaphor: production",
+    "Narrative metaphor: secrecy"
+  ],
+  "narrativeFunctions": [
+    "control",
+    "production",
+    "secrecy"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Poggle the Lesser | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/poggle-the-lesser",
+      "accessedAt": "2026-10-02",
+      "sha256": "c055c0c39082f513ea19c9d156ec3b09bec05caee96eb89131d07ed80f97a93f"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

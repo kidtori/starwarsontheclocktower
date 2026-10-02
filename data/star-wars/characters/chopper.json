@@ -1,0 +1,86 @@
+{
+  "id": "chopper",
+  "name": "Chopper",
+  "aliases": [
+    "C1-10P"
+  ],
+  "summary": "The Ghost crew's cantankerous astromech droid.",
+  "source": [
+    "Star Wars: The Bad Batch",
+    "Star Wars Rebels",
+    "Star Wars: Ahsoka",
+    "Disney Mix",
+    "Star Wars Rebels - Rebel Strike",
+    "Star Wars Arcade",
+    "Star Wars Rebels: Ghost Raid",
+    "Team Tactics - Star Wars Arcade"
+  ],
+  "era": [
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Chopper (C1-10P)",
+    "affiliations": [
+      "Rebel Alliance"
+    ],
+    "species": []
+  },
+  "themes": [
+    "sabotage",
+    "initiative",
+    "recklessness",
+    "loyalty"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "recklessness",
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: sabotage",
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: recklessness",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "sabotage",
+    "initiative",
+    "recklessness",
+    "loyalty"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Chopper (C1-10P)",
+      "url": "https://www.starwars.com/databank/chopper",
+      "accessedAt": "2026-10-02",
+      "sha256": "3a740e695656352bed9592c03debbd8365aa5a5c5b8f1902f8b4fae8c22d5399"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

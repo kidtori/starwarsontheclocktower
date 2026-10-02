@@ -1,0 +1,80 @@
+{
+  "id": "enfys-nest",
+  "name": "Enfys Nest",
+  "aliases": [],
+  "summary": "Masked leader of the Cloud-Riders who fought criminal syndicates.",
+  "source": [
+    "Solo: A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Cloud-Riders"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Enfys Nest | Star Wars Databank",
+    "affiliations": [
+      "Cloud-Riders"
+    ],
+    "species": []
+  },
+  "themes": [
+    "hidden identities",
+    "initiative",
+    "rebellion"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: hidden identities",
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: rebellion"
+  ],
+  "narrativeFunctions": [
+    "hidden identities",
+    "initiative",
+    "rebellion"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Enfys Nest | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/enfys-nest",
+      "accessedAt": "2026-10-02",
+      "sha256": "30fcb072416cd3aa38cb927f6b4a862d0263685b535c0097b5f3da1d6c402196"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "speeder piloting"
+    ],
+    "confirmedGalacticRacer": false,
+    "vehicleIds": [
+      "enfys-swoop"
+    ],
+    "notes": "Film racing/piloting history; Galactic Racer roster membership is not confirmed."
+  }
+}

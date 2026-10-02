@@ -1,0 +1,95 @@
+{
+  "id": "poe-dameron",
+  "name": "Poe Dameron",
+  "aliases": [
+    "Poe"
+  ],
+  "summary": "Resistance pilot who flew missions against the First Order.",
+  "source": [
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Resistance",
+    "X-wing Fighter - Star Wars Arcade",
+    "Star Wars: Puzzle Droid"
+  ],
+  "era": [
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Resistance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Poe Dameron",
+    "affiliations": [
+      "The Resistance"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "initiative",
+    "recklessness",
+    "leadership",
+    "loyalty"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [
+    "recklessness",
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: initiative",
+    "Narrative metaphor: recklessness",
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "initiative",
+    "recklessness",
+    "leadership",
+    "loyalty"
+  ],
+  "relationships": [
+    {
+      "characterId": "bb-8",
+      "type": "pilot / astromech",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/poe-dameron",
+        "https://www.starwars.com/databank/bb-8"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Poe Dameron",
+      "url": "https://www.starwars.com/databank/poe-dameron",
+      "accessedAt": "2026-10-02",
+      "sha256": "2a9a37c0daf9a1169bf4ac7961e448f72b76e0ef06c1bf78c526b3a320d02b59"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

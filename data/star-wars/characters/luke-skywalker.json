@@ -1,0 +1,151 @@
+{
+  "id": "luke-skywalker",
+  "name": "Luke Skywalker",
+  "aliases": [
+    "Luke"
+  ],
+  "summary": "Tatooine farm boy who became a Jedi and confronted his father Vader.",
+  "source": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars Rebels",
+    "Star Wars: The Mandalorian",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: Tiny Death Star",
+    "Star Wars: Tiny Death Star (SEA)",
+    "Star Wars Arcade",
+    "Yoda's Jedi Training - Star Wars Arcade",
+    "Disney Infinity 3.0 - Character Quest",
+    "A Sticker Book Far, Far Away",
+    "Star Wars: Battlefront",
+    "Star Wars: Rivals",
+    "Jedi Mind Match"
+  ],
+  "era": [
+    "Reign of the Empire",
+    "New Republic",
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Jedi",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Luke Skywalker | Star Wars Databank",
+    "affiliations": [
+      "Jedi Order",
+      "Rebel Alliance"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "intuition",
+    "hope",
+    "redemption",
+    "protection",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "Force user"
+  ],
+  "personality": [
+    "intuition"
+  ],
+  "behaviours": [
+    "Narrative metaphor: intuition",
+    "Narrative metaphor: hope",
+    "Narrative metaphor: redemption",
+    "Narrative metaphor: protection",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "intuition",
+    "hope",
+    "redemption",
+    "protection",
+    "sacrifice"
+  ],
+  "relationships": [
+    {
+      "characterId": "darth-vader",
+      "type": "son / father",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/luke-skywalker",
+        "https://www.starwars.com/databank/darth-vader"
+      ]
+    },
+    {
+      "characterId": "padme-amidala",
+      "type": "son / mother",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/luke-skywalker",
+        "https://www.starwars.com/databank/padme-amidala"
+      ]
+    },
+    {
+      "characterId": "leia-organa",
+      "type": "siblings",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/luke-skywalker",
+        "https://www.starwars.com/databank/leia-organa"
+      ]
+    },
+    {
+      "characterId": "yoda",
+      "type": "student / mentor",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/luke-skywalker",
+        "https://www.starwars.com/databank/yoda"
+      ]
+    },
+    {
+      "characterId": "owen-lars",
+      "type": "nephew / guardian",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/luke-skywalker",
+        "https://www.starwars.com/databank/owen-lars"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 3
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Luke Skywalker | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/luke-skywalker",
+      "accessedAt": "2026-10-02",
+      "sha256": "8e616f8f41fc09389ced071f41ff5337d99de8892790dac05c823d75b6058c44"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

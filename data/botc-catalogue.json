@@ -1,0 +1,222 @@
+{
+  "importedAt": "2026-10-02",
+  "total": 181,
+  "scriptRoles": 138,
+  "referenceCharacters": 43,
+  "counts": {
+    "townsfolk": 69,
+    "outsider": 23,
+    "minion": 27,
+    "demon": 19,
+    "traveller": 18,
+    "fabled": 14,
+    "loric": 11
+  },
+  "trackerCount": 156,
+  "trackerMissingFromOfficial": [],
+  "officialOnly": [
+    {
+      "id": "angel",
+      "name": "Angel",
+      "team": "fabled"
+    },
+    {
+      "id": "big-wig",
+      "name": "Big Wig",
+      "team": "loric"
+    },
+    {
+      "id": "bootlegger",
+      "name": "Bootlegger",
+      "team": "loric"
+    },
+    {
+      "id": "buddhist",
+      "name": "Buddhist",
+      "team": "fabled"
+    },
+    {
+      "id": "deus-ex-fiasco",
+      "name": "Deus ex Fiasco",
+      "team": "fabled"
+    },
+    {
+      "id": "djinn",
+      "name": "Djinn",
+      "team": "fabled"
+    },
+    {
+      "id": "doomsayer",
+      "name": "Doomsayer",
+      "team": "fabled"
+    },
+    {
+      "id": "duchess",
+      "name": "Duchess",
+      "team": "fabled"
+    },
+    {
+      "id": "ferryman",
+      "name": "Ferryman",
+      "team": "fabled"
+    },
+    {
+      "id": "fibbin",
+      "name": "Fibbin",
+      "team": "fabled"
+    },
+    {
+      "id": "fiddler",
+      "name": "Fiddler",
+      "team": "fabled"
+    },
+    {
+      "id": "gardener",
+      "name": "Gardener",
+      "team": "loric"
+    },
+    {
+      "id": "god-of-ug",
+      "name": "God of Ug",
+      "team": "loric"
+    },
+    {
+      "id": "hells-librarian",
+      "name": "Hell's Librarian",
+      "team": "fabled"
+    },
+    {
+      "id": "hindu",
+      "name": "Hindu",
+      "team": "loric"
+    },
+    {
+      "id": "knaves",
+      "name": "Knaves",
+      "team": "loric"
+    },
+    {
+      "id": "pope",
+      "name": "Pope",
+      "team": "loric"
+    },
+    {
+      "id": "revolutionary",
+      "name": "Revolutionary",
+      "team": "fabled"
+    },
+    {
+      "id": "sentinel",
+      "name": "Sentinel",
+      "team": "fabled"
+    },
+    {
+      "id": "spirit-of-ivory",
+      "name": "Spirit of Ivory",
+      "team": "fabled"
+    },
+    {
+      "id": "storm-catcher",
+      "name": "Storm Catcher",
+      "team": "loric"
+    },
+    {
+      "id": "tor",
+      "name": "Tor",
+      "team": "loric"
+    },
+    {
+      "id": "toymaker",
+      "name": "Toymaker",
+      "team": "fabled"
+    },
+    {
+      "id": "ventriloquist",
+      "name": "Ventriloquist",
+      "team": "loric"
+    },
+    {
+      "id": "zenomancer",
+      "name": "Zenomancer",
+      "team": "loric"
+    }
+  ],
+  "jinxCount": 131,
+  "wordingDifferences": [
+    {
+      "id": "mathematician",
+      "name": "Mathematician",
+      "trackerAbility": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+      "officialAbility": "Each night, you learn how many players’ abilities worked abnormally (since dawn) due to another character's ability.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "town-crier",
+      "name": "Town Crier",
+      "trackerAbility": "Each night*, you learn if a Minion nominated today",
+      "officialAbility": "Each night*, you learn if a Minion nominated today.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "princess",
+      "name": "Princess",
+      "trackerAbility": "On your 1st day, if you nominated & executed a player, the Demon doesn’t kill tonight.",
+      "officialAbility": "On your 1st day, if you nominated & executed a player, the Demon doesn't kill tonight.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "minstrel",
+      "name": "Minstrel",
+      "trackerAbility": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow",
+      "officialAbility": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "mutant",
+      "name": "Mutant",
+      "trackerAbility": "If you are \"mad\" about being an Outsider, you might be executed.",
+      "officialAbility": "If you are “mad” about being an Outsider, you might be executed.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "cerenovus",
+      "name": "Cerenovus",
+      "trackerAbility": "Each night, choose a player & a good character: they are \"mad\" they are this character tomorrow, or might be executed.",
+      "officialAbility": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "boffin",
+      "name": "Boffin",
+      "trackerAbility": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which.",
+      "officialAbility": "The Demon (even if drunk or poisoned) has a not-in-play good character’s ability. You both know which.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "apprentice",
+      "name": "Apprentice",
+      "trackerAbility": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil).",
+      "officialAbility": "On your 1st night, you gain a Townsfolk ability (if good), or a Minion ability (if evil).",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    },
+    {
+      "id": "beggar",
+      "name": "Beggar",
+      "trackerAbility": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy.",
+      "officialAbility": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober & healthy.",
+      "resolution": "Official feed wording retained; original tracker wording preserved in this report."
+    }
+  ],
+  "sources": {
+    "tracker": "https://botc-tracker.com/characters/",
+    "roles": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+    "jinxes": "https://release.botc.app/resources/data/jinxes.json"
+  },
+  "annotationStatus": "Initial editorial annotations, not official ratings or a playtesting certificate.",
+  "backup": "backups\\botc-before-import-1790951620179",
+  "checksums": {
+    "official-roles.json": "3b4482b120bc64962423bc11200bddca311aab0f51109b6d1344aed4294001e2",
+    "tracker-payload.json": "1403506886302a7813f7264a184242a6f1262c298c14fb70595dd9c5ee92c667",
+    "official-jinxes.json": "be942d41785b346f8552d273d4e7aa573ba8a3fa6bc45f8b8b1e84d3df0cc80c"
+  }
+}

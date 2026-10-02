@@ -1,0 +1,80 @@
+{
+  "id": "echo",
+  "name": "Echo",
+  "aliases": [],
+  "summary": "Clone trooper rescued from Separatist captivity who joined the Bad Batch.",
+  "source": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Clone Army",
+    "Bad Batch"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Echo | Star Wars Databank",
+    "affiliations": [
+      "Clone Troopers",
+      "Galactic Republic",
+      "Clone Force 99 \"The Bad Batch\""
+    ],
+    "species": []
+  },
+  "themes": [
+    "survival",
+    "knowledge",
+    "loyalty",
+    "protection"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: survival",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: protection"
+  ],
+  "narrativeFunctions": [
+    "survival",
+    "knowledge",
+    "loyalty",
+    "protection"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Echo | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/echo",
+      "accessedAt": "2026-10-02",
+      "sha256": "3c6f6d3d2a232b91026e998c518a198542d2d7f3b29f1c9f215766e48d7b3fc9"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

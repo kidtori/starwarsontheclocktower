@@ -1,0 +1,42 @@
+{
+  "url": "https://www.starwars.com/databank/asajj-ventress",
+  "title": "Asajj Ventress | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "a3fd057341cb022a0a2e26778f625317acb9f575e2b934e25dd9652b487ef3da",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Star Wars: Tales of the Underworld"
+  ],
+  "affiliations": [
+    "Nightsisters",
+    "Sith"
+  ],
+  "species": [
+    "Dathomirian"
+  ],
+  "linkedEntries": [
+    "asajj-ventress",
+    "nightsisters",
+    "sith",
+    "dathomir",
+    "dathomirian",
+    "asajj-ventress-lightsabers",
+    "count-dooku",
+    "general-grievous",
+    "kamino",
+    "emperor-palpatine-darth-sidious",
+    "mother-talzin",
+    "savage-opress",
+    "boba-fett",
+    "ahsoka-tano",
+    "anakin-skywalker",
+    "quinlan-vos",
+    "fennec-shand",
+    "hunter",
+    "wrecker",
+    "crosshair",
+    "omega",
+    "obi-wan-kenobi"
+  ]
+}

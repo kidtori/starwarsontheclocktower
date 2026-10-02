@@ -1,0 +1,25 @@
+{
+  "url": "https://www.starwars.com/databank/cad-bane",
+  "title": "Cad Bane | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "66fff460b06777ddaf9bff4e239bb80330d54c5383fa61a9157c502be6b5df65",
+  "appearances": [
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Bad Batch",
+    "Star Wars: The Book of Boba Fett",
+    "Star Wars: Tales of the Underworld"
+  ],
+  "affiliations": [],
+  "species": [
+    "Duros"
+  ],
+  "linkedEntries": [
+    "cad-bane",
+    "duros",
+    "blaster-pistol",
+    "justifier",
+    "kaminoan",
+    "omega",
+    "clone-force-99-bad-batch"
+  ]
+}

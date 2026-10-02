@@ -1,0 +1,11 @@
+const fs=require('node:fs'),path=require('node:path'),crypto=require('node:crypto');
+const{parsePage}=require('./import-star-wars');
+const dir=path.join(__dirname,'..','sources','racing','2026-10-02');
+const urls={
+ 'anakin-pod':'https://www.starwars.com/databank/anakin-skywalkers-podracer', 'han-speeder':'https://www.starwars.com/databank/han-solos-landspeeder','enfys-swoop':'https://www.starwars.com/databank/enfys-nests-swoop-bike','boonta-pilots':'https://www.starwars.com/databank/boonta-eve-classic-podracer-pilots','names':'https://www.starwars.com/news/25-weird-star-wars-character-names',
+ home:'https://starwarsgalacticracer.com/',story:'https://www.starwars.com/news/star-wars-galactic-racer-story-trailer',league:'https://starwarsgalacticracer.com/news/official-star-wars-galactic-racer-story-trailer/',vehicles:'https://starwarsgalacticracer.com/news/feel-the-speed-game-feel-in-star-wars-galactic-racer/',deluxe:'https://starwarsgalacticracer.com/news/official-gameplay-trailer/',hibi:'https://starwarsgalacticracer.com/news/sounds-of-the-galactic-league-hibi/',podracing:'https://www.starwars.com/news/star-wars-inside-intel-podracing',
+ ...Object.fromEntries(['gasgano','ben-quadinaros','teemto-pagalies','ratts-tyerell','mawhonic','ody-mandrell','clegg-holdfast','sebulbas-podracer','rey-s-speeder'].map(id=>[id,'https://www.starwars.com/databank/'+id]))
+};
+async function run(){fs.mkdirSync(dir,{recursive:true});const entries=Object.entries(urls);let cursor=0;const failed=[];async function worker(){while(cursor<entries.length){const[id,url]=entries[cursor++];const file=path.join(dir,id+'.json');if(fs.existsSync(file))continue;try{const r=await fetch(url,{signal:AbortSignal.timeout(25000)});if(!r.ok)throw Error('HTTP '+r.status);const h=await r.text();let meta=url.includes('/databank/')?parsePage(h,url):{url,title:(h.match(/<title>([\s\S]*?)<\/title>/i)?.[1]||id).replace(/<[^>]*>/g,''),accessedAt:'2026-10-02',sha256:crypto.createHash('sha256').update(h).digest('hex')};fs.writeFileSync(file,JSON.stringify(meta,null,2)+'\n');console.log(id+': '+meta.title);}catch(e){failed.push({id,url,error:e.message});}}}await Promise.all([worker(),worker(),worker()]);console.log(JSON.stringify({failed},null,2));}
+if(require.main===module)run();
+module.exports={urls};

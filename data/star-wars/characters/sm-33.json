@@ -1,0 +1,72 @@
+{
+  "id": "sm-33",
+  "name": "SM-33",
+  "aliases": [
+    "Thirty-Three"
+  ],
+  "summary": "Droid first mate aboard the Onyx Cinder.",
+  "source": [
+    "Star Wars: Skeleton Crew"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Pirates"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "SM-33 - Skeleton Crew | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "loyalty",
+    "knowledge",
+    "hidden identities"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: hidden identities"
+  ],
+  "narrativeFunctions": [
+    "loyalty",
+    "knowledge",
+    "hidden identities"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: SM-33 - Skeleton Crew | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/sm-33",
+      "accessedAt": "2026-10-02",
+      "sha256": "4e638f78647d80cedad11f43438b3aec1dc8aed9841698205478cc0512b3ddf6"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

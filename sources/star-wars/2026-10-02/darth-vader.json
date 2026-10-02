@@ -1,0 +1,88 @@
+{
+  "url": "https://www.starwars.com/databank/darth-vader",
+  "title": "Darth Vader",
+  "accessedAt": "2026-10-02",
+  "sha256": "93e365f86cabdb70b8698b3812dcc9ca78257594b1041fb9c421d15b01da79d6",
+  "appearances": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Rogue One: A Star Wars Story",
+    "Star Wars: Obi-Wan Kenobi",
+    "Star Wars Rebels",
+    "Star Wars: Maul – Shadow Lord",
+    "Star Wars: Tiny Death Star",
+    "X-wing Fighter - Star Wars Arcade",
+    "Star Wars: Tiny Death Star (SEA)",
+    "Star Wars Arcade",
+    "Yoda's Jedi Training - Star Wars Arcade",
+    "Star Wars Rebels: Special Ops",
+    "Rogue One: Boots on the Ground - Star Wars Arcade",
+    "Disney Infinity 3.0 - Character Quest",
+    "Star Wars: Battlefront",
+    "Star Wars: Commander",
+    "Team Tactics - Star Wars Arcade",
+    "Star Wars: Rivals",
+    "Jedi Mind Match"
+  ],
+  "affiliations": [
+    "Galactic Empire",
+    "Sith"
+  ],
+  "species": [
+    "Human"
+  ],
+  "linkedEntries": [
+    "darth-vader",
+    "galactic-empire",
+    "sith",
+    "death-star",
+    "death-star-ii",
+    "darth-vader-s-tie-fighter",
+    "darth-vaders-lightsaber",
+    "emperor-palpatine-darth-sidious",
+    "general-grievous",
+    "obi-wan-kenobi",
+    "mapuzo",
+    "grand-moff-tarkin"
+  ],
+  "variants": [
+    {
+      "url": "https://www.starwars.com/databank/anakin-skywalker",
+      "title": "Anakin Skywalker",
+      "accessedAt": "2026-10-02",
+      "sha256": "831314387509a13566d847abf3130ce1a9f244d37487a8978d62747e08ee1689",
+      "appearances": [
+        "Star Wars: Return of the Jedi (Episode VI)",
+        "Star Wars: The Phantom Menace (Episode I)",
+        "Star Wars: Attack of the Clones (Episode II)",
+        "Star Wars: Revenge of the Sith (Episode III)",
+        "Star Wars Rebels",
+        "Star Wars: The Clone Wars",
+        "Star Wars: Ahsoka",
+        "Star Wars: Obi-Wan Kenobi",
+        "Star Wars: Tales of the Jedi",
+        "Galactic Spy",
+        "Disney Infinity 3.0 - Character Quest"
+      ],
+      "affiliations": [
+        "Jedi Order"
+      ],
+      "species": [],
+      "linkedEntries": [
+        "anakin-skywalker",
+        "jedi-order",
+        "tatooine",
+        "lightsaber",
+        "anakin-luke-and-reys-lightsaber",
+        "delta-7-jedi-starfighter",
+        "ahsoka-tano",
+        "mandalore",
+        "bo-katan-kryze",
+        "darth-maul",
+        "clone-captain-rex"
+      ]
+    }
+  ]
+}

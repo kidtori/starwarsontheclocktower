@@ -1,0 +1,95 @@
+{
+  "id": "bo-katan-kryze",
+  "name": "Bo-Katan Kryze",
+  "aliases": [
+    "Bo-Katan"
+  ],
+  "summary": "Mandalorian warrior and leader who sought to reclaim her people's homeworld.",
+  "source": [
+    "Star Wars Rebels",
+    "Star Wars: The Clone Wars",
+    "Star Wars: The Mandalorian"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic"
+  ],
+  "factions": [
+    "Mandalorians"
+  ],
+  "alignment": [
+    "mixed",
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Bo-Katan Kryze - Databank",
+    "affiliations": [
+      "Death Watch",
+      "Mandalorians"
+    ],
+    "species": [
+      "Human"
+    ]
+  },
+  "themes": [
+    "leadership",
+    "loyalty",
+    "power",
+    "redemption"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: power",
+    "Narrative metaphor: redemption"
+  ],
+  "narrativeFunctions": [
+    "leadership",
+    "loyalty",
+    "power",
+    "redemption"
+  ],
+  "relationships": [
+    {
+      "characterId": "satine-kryze",
+      "type": "sisters",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/bo-katan-kryze",
+        "https://www.starwars.com/databank/duchess-satine-kryze"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Bo-Katan Kryze - Databank",
+      "url": "https://www.starwars.com/databank/bo-katan-kryze",
+      "accessedAt": "2026-10-02",
+      "sha256": "ad1984a83bf7cb90f159ce17add0b4c56398c9e814879ff1206e8d0c5318d2fe"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

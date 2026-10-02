@@ -1,0 +1,77 @@
+{
+  "id": "philosopher",
+  "name": "Philosopher",
+  "officialId": "philosopher",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+  "mechanics": {
+    "misinformation": 2,
+    "drunkenness": 2,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "misinformation",
+    "drunkenness",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Gains a good character's ability; makes an existing holder of that character drunk."
+  ],
+  "explanation": "Gains a good character's ability; makes an existing holder of that character drunk.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "high",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Philosopher might choose a character. If necessary, swap their character token. :reminder:",
+    "otherNights": "The Philosopher might choose a character. If necessary, swap their character token. :reminder:"
+  },
+  "interactions": {
+    "synergisesWith": [
+      "mathematician"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "bounty-hunter",
+      "reason": "If the Philosopher gains the Bounty Hunter ability, a Townsfolk might turn evil.",
+      "sourceOwner": "bounty-hunter",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 54
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "id": "huntsman",
+  "name": "Huntsman",
+  "officialId": "huntsman",
+  "aliases": [],
+  "team": "townsfolk",
+  "edition": "Experimental",
+  "officialEdition": "carousel",
+  "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+  "mechanics": {
+    "confirmation": 1,
+    "outsiderManipulation": 1,
+    "setupManipulation": 1,
+    "playerAgency": 3,
+    "bluffability": 3
+  },
+  "tags": [
+    "confirmation",
+    "outsiderManipulation",
+    "setupManipulation",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "One choice to convert the Damsel to a Townsfolk; requires Damsel in setup."
+  ],
+  "explanation": "One choice to convert the Damsel to a Townsfolk; requires Damsel in setup.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": true,
+  "nightInstructions": {
+    "firstNight": "The Huntsman might choose a player. :reminder: If they chose the Damsel: Put the Huntsman to sleep. Wake the target. Show the *YOU ARE* info token & their new character token.",
+    "otherNights": "The Huntsman might choose a player. :reminder: If they chose the Damsel: Put the Huntsman to sleep. Wake the target. Show the *YOU ARE* info token & their new character token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "damsel"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [
+    "damsel"
+  ],
+  "jinxes": [
+    {
+      "characterId": "marionette",
+      "reason": "If the Marionette thinks that they are the Huntsman, the Damsel was added during setup.",
+      "sourceOwner": "marionette",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 201
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}

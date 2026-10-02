@@ -1,0 +1,45 @@
+{
+  "url": "https://www.starwars.com/databank/cassian-andor",
+  "title": "Cassian Andor | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "5d38644b63b28046f996b6823cfb4d721c80c1964b18582d3dd1283409df5157",
+  "appearances": [
+    "Rogue One: A Star Wars Story",
+    "Andor A Star Wars Story",
+    "Rogue One: Boots on the Ground - Star Wars Arcade"
+  ],
+  "affiliations": [
+    "Rebel Alliance"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "captain-cassian-andor",
+    "rebel-alliance",
+    "kenari",
+    "ferrix",
+    "blastech-a280-cfe",
+    "maarva-andor",
+    "clem-andor",
+    "aldhani",
+    "niamos",
+    "narkina-5",
+    "kino-loy",
+    "ruescott-melshi",
+    "imperial-security-bureau",
+    "bix-caleen",
+    "luthen-rael",
+    "Maya-Pei-Brigade",
+    "Mina-Rau",
+    "wilmon-paak",
+    "brasso",
+    "coruscant",
+    "Ghorman-Front",
+    "Ghorman",
+    "dedra-meero",
+    "yavin-4",
+    "k-2so-kay-tuesso",
+    "mon-mothma",
+    "bail-organa",
+    "jyn-erso"
+  ]
+}

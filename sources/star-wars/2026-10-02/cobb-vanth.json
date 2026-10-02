@@ -1,0 +1,18 @@
+{
+  "url": "https://www.starwars.com/databank/cobb-vanth",
+  "title": "Cobb Vanth | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "e558dd1ae7734354e57e0850821d70118929ef12087c58036be57d3b1759b84d",
+  "appearances": [
+    "Star Wars: The Mandalorian",
+    "Star Wars: The Book of Boba Fett"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "cobb-vanth",
+    "tatooine",
+    "freetown-mos-pelgo",
+    "cobb-vanth-s-speeder"
+  ]
+}

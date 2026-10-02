@@ -1,0 +1,107 @@
+{
+  "id": "chewbacca",
+  "name": "Chewbacca",
+  "aliases": [
+    "Chewie"
+  ],
+  "summary": "Wookiee warrior and Han Solo's copilot aboard the Millennium Falcon.",
+  "source": [
+    "Star Wars: A New Hope (Episode IV)",
+    "Star Wars: The Empire Strikes Back (Episode V)",
+    "Star Wars: Return of the Jedi (Episode VI)",
+    "Star Wars: Revenge of the Sith (Episode III)",
+    "Star Wars: The Force Awakens (Episode VII)",
+    "Star Wars: The Last Jedi (Episode VIII)",
+    "Solo: A Star Wars Story",
+    "Star Wars: The Rise of Skywalker (Episode IX)",
+    "Star Wars: The Clone Wars",
+    "Star Wars Pinball: Solo: A Star Wars Story",
+    "X-wing Fighter - Star Wars Arcade",
+    "A Sticker Book Far, Far Away",
+    "Don't Let The Wookiee Win",
+    "Solo Shuffle"
+  ],
+  "era": [
+    "Clone Wars",
+    "Reign of the Empire",
+    "New Republic",
+    "Rise of the First Order"
+  ],
+  "factions": [
+    "Rebel Alliance",
+    "Resistance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Chewbacca",
+    "affiliations": [
+      "Rebel Alliance",
+      "The Resistance"
+    ],
+    "species": [
+      "Wookiee"
+    ]
+  },
+  "themes": [
+    "loyalty",
+    "protection",
+    "friendship",
+    "survival"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: loyalty",
+    "Narrative metaphor: protection",
+    "Narrative metaphor: friendship",
+    "Narrative metaphor: survival"
+  ],
+  "narrativeFunctions": [
+    "loyalty",
+    "protection",
+    "friendship",
+    "survival"
+  ],
+  "relationships": [
+    {
+      "characterId": "han-solo",
+      "type": "partners",
+      "description": "Narrative relationship; does not imply mechanical compatibility.",
+      "sources": [
+        "https://www.starwars.com/databank/chewbacca",
+        "https://www.starwars.com/databank/han-solo"
+      ]
+    }
+  ],
+  "importance": {
+    "overall": 3,
+    "recognisability": 3,
+    "storyImportance": 3,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Chewbacca",
+      "url": "https://www.starwars.com/databank/chewbacca",
+      "accessedAt": "2026-10-02",
+      "sha256": "17c0ddf92ff74c96aae38f62055fdccd438c1c1c8d74cbdb8075e0a08a513c5c"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

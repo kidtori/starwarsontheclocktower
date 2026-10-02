@@ -1,0 +1,65 @@
+{
+  "id": "mawhonic",
+  "name": "Mawhonic",
+  "aliases": [],
+  "summary": "Gran podracer considered a capable challenger before Sebulba knocked him out of the Boonta Eve race.",
+  "source": [
+    "Star Wars: The Phantom Menace (Episode I)"
+  ],
+  "era": [
+    "Fall of the Republic"
+  ],
+  "factions": [
+    "Podracing competitors"
+  ],
+  "alignment": [
+    "mixed"
+  ],
+  "themes": [
+    "competition",
+    "danger",
+    "rivalry"
+  ],
+  "archetypes": [
+    "racer"
+  ],
+  "personality": [
+    "competition",
+    "danger",
+    "rivalry"
+  ],
+  "narrativeFunctions": [
+    "competition",
+    "danger",
+    "rivalry"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 1,
+    "recognisability": 1,
+    "storyImportance": 1,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft. Factual summary from cited primary sources; casting themes, alignment and importance are interpretation.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "Mawhonic | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/mawhonic",
+      "accessedAt": "2026-10-02",
+      "sha256": "7e56312d1d66e5cc1ab4ff849631fec66ec64ac6d24c553e3abfae24de3f8c3b"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable narrative casting signals; not official BOTC mappings or popularity ratings."
+    }
+  ],
+  "racingProfile": {
+    "disciplines": [
+      "podracing"
+    ],
+    "confirmedGalacticRacer": false,
+    "vehicleIds": [],
+    "notes": "Film racing/piloting history; Galactic Racer roster membership is not confirmed."
+  }
+}

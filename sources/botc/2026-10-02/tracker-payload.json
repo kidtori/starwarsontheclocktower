@@ -1,0 +1,2502 @@
+{
+  "characters": [
+    {
+      "id": 185,
+      "name": "Acrobat",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die.",
+      "image": "https://botc-tracker.com/pngs/acrobat.webp"
+    },
+    {
+      "id": 151,
+      "name": "Al-Hadikhia",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+      "image": "https://botc-tracker.com/pngs/alhadikhia.webp"
+    },
+    {
+      "id": 186,
+      "name": "Alchemist",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
+      "image": "https://botc-tracker.com/pngs/alchemist.webp"
+    },
+    {
+      "id": 187,
+      "name": "Alsaahir",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins.",
+      "image": "https://botc-tracker.com/pngs/alsaahir.webp"
+    },
+    {
+      "id": 188,
+      "name": "Amnesiac",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+      "image": "https://botc-tracker.com/pngs/amnesiac.webp"
+    },
+    {
+      "id": 73,
+      "name": "Apprentice",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil).",
+      "image": "https://botc-tracker.com/pngs/apprentice.webp"
+    },
+    {
+      "id": 47,
+      "name": "Artist",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+      "image": "https://botc-tracker.com/pngs/artist.webp"
+    },
+    {
+      "id": 10,
+      "name": "Assassin",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+      "image": "https://botc-tracker.com/pngs/assassin.webp"
+    },
+    {
+      "id": 189,
+      "name": "Atheist",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]",
+      "image": "https://botc-tracker.com/pngs/atheist.webp"
+    },
+    {
+      "id": 190,
+      "name": "Balloonist",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/balloonist.webp"
+    },
+    {
+      "id": 191,
+      "name": "Banshee",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination.",
+      "image": "https://botc-tracker.com/pngs/banshee.webp"
+    },
+    {
+      "id": 26,
+      "name": "Barber",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+      "image": "https://botc-tracker.com/pngs/barber.webp"
+    },
+    {
+      "id": 78,
+      "name": "Barista",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Each night, until dusk, 1) a player becomes sober, healthy & gets true info, or 2) their ability works twice. They learn which.",
+      "image": "https://botc-tracker.com/pngs/barista.webp"
+    },
+    {
+      "id": 18,
+      "name": "Baron",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+      "image": "https://botc-tracker.com/pngs/baron.webp"
+    },
+    {
+      "id": 83,
+      "name": "Beggar",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy.",
+      "image": "https://botc-tracker.com/pngs/beggar.webp"
+    },
+    {
+      "id": 74,
+      "name": "Bishop",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day.",
+      "image": "https://botc-tracker.com/pngs/bishop.webp"
+    },
+    {
+      "id": 161,
+      "name": "Boffin",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which.",
+      "image": "https://botc-tracker.com/pngs/boffin.webp"
+    },
+    {
+      "id": 79,
+      "name": "Bone Collector",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk.",
+      "image": "https://botc-tracker.com/pngs/bonecollector.webp"
+    },
+    {
+      "id": 162,
+      "name": "Boomdandy",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies.",
+      "image": "https://botc-tracker.com/pngs/boomdandy.webp"
+    },
+    {
+      "id": 192,
+      "name": "Bounty Hunter",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+      "image": "https://botc-tracker.com/pngs/bountyhunter.webp"
+    },
+    {
+      "id": 84,
+      "name": "Bureaucrat",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+      "image": "https://botc-tracker.com/pngs/bureaucrat.webp"
+    },
+    {
+      "id": 80,
+      "name": "Butcher",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Each day, after the 1st execution, you may nominate again.",
+      "image": "https://botc-tracker.com/pngs/butcher.webp"
+    },
+    {
+      "id": 30,
+      "name": "Butler",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+      "image": "https://botc-tracker.com/pngs/butler.webp"
+    },
+    {
+      "id": 218,
+      "name": "Cacklejack",
+      "role": "Traveller",
+      "edition": "Experimental",
+      "ability": "Each day, choose a player: a different player changes character tonight.",
+      "image": "https://botc-tracker.com/pngs/cacklejack.webp"
+    },
+    {
+      "id": 193,
+      "name": "Cannibal",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+      "image": "https://botc-tracker.com/pngs/cannibal.webp"
+    },
+    {
+      "id": 14,
+      "name": "Cerenovus",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose a player & a good character: they are \"mad\" they are this character tomorrow, or might be executed.",
+      "image": "https://botc-tracker.com/pngs/cerenovus.webp"
+    },
+    {
+      "id": 34,
+      "name": "Chambermaid",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+      "image": "https://botc-tracker.com/pngs/chambermaid.webp"
+    },
+    {
+      "id": 60,
+      "name": "Chef",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing how many pairs of evil players there are.",
+      "image": "https://botc-tracker.com/pngs/chef.webp"
+    },
+    {
+      "id": 194,
+      "name": "Choirboy",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]",
+      "image": "https://botc-tracker.com/pngs/choirboy.webp"
+    },
+    {
+      "id": 48,
+      "name": "Clockmaker",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+      "image": "https://botc-tracker.com/pngs/clockmaker.webp"
+    },
+    {
+      "id": 35,
+      "name": "Courtier",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+      "image": "https://botc-tracker.com/pngs/courtier.webp"
+    },
+    {
+      "id": 195,
+      "name": "Cult Leader",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, you become the alignment of an alive neighbor. If all good players choose to join your cult, your team wins.",
+      "image": "https://botc-tracker.com/pngs/cultleader.webp"
+    },
+    {
+      "id": 175,
+      "name": "Damsel",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "All Minions know a Damsel is in play. If a Minion publicly guesses you (once), your team loses.",
+      "image": "https://botc-tracker.com/pngs/damsel.webp"
+    },
+    {
+      "id": 81,
+      "name": "Deviant",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "If you were funny today, you cannot die by exile.",
+      "image": "https://botc-tracker.com/pngs/deviant.webp"
+    },
+    {
+      "id": 11,
+      "name": "Devil's Advocate",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+      "image": "https://botc-tracker.com/pngs/devilsadvocate.webp"
+    },
+    {
+      "id": 49,
+      "name": "Dreamer",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct.",
+      "image": "https://botc-tracker.com/pngs/dreamer.webp"
+    },
+    {
+      "id": 31,
+      "name": "Drunk",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+      "image": "https://botc-tracker.com/pngs/drunk.webp"
+    },
+    {
+      "id": 61,
+      "name": "Empath",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, you learn how many of your 2 alive neighbors are evil.",
+      "image": "https://botc-tracker.com/pngs/empath.webp"
+    },
+    {
+      "id": 196,
+      "name": "Engineer",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, at night, choose which Minions or which Demon is in play.",
+      "image": "https://botc-tracker.com/pngs/engineer.webp"
+    },
+    {
+      "id": 15,
+      "name": "Evil Twin",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+      "image": "https://botc-tracker.com/pngs/eviltwin.webp"
+    },
+    {
+      "id": 36,
+      "name": "Exorcist",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+      "image": "https://botc-tracker.com/pngs/exorcist.webp"
+    },
+    {
+      "id": 5,
+      "name": "Fang Gu",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/fanggu.webp"
+    },
+    {
+      "id": 197,
+      "name": "Farmer",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "When you die at night, an alive good player becomes a Farmer.",
+      "image": "https://botc-tracker.com/pngs/farmer.webp"
+    },
+    {
+      "id": 163,
+      "name": "Fearmonger",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player.",
+      "image": "https://botc-tracker.com/pngs/fearmonger.webp"
+    },
+    {
+      "id": 198,
+      "name": "Fisherman",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win.",
+      "image": "https://botc-tracker.com/pngs/fisherman.webp"
+    },
+    {
+      "id": 50,
+      "name": "Flowergirl",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, you learn if a Demon voted today.",
+      "image": "https://botc-tracker.com/pngs/flowergirl.webp"
+    },
+    {
+      "id": 37,
+      "name": "Fool",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "The 1st time you die, you don't.",
+      "image": "https://botc-tracker.com/pngs/fool.webp"
+    },
+    {
+      "id": 62,
+      "name": "Fortune Teller",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+      "image": "https://botc-tracker.com/pngs/fortuneteller.webp"
+    },
+    {
+      "id": 38,
+      "name": "Gambler",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+      "image": "https://botc-tracker.com/pngs/gambler.webp"
+    },
+    {
+      "id": 219,
+      "name": "Gangster",
+      "role": "Traveller",
+      "edition": "Experimental",
+      "ability": "Once per day, you may choose to kill an alive neighbor, if your other alive neighbor agrees.",
+      "image": "https://botc-tracker.com/pngs/gangster.webp"
+    },
+    {
+      "id": 199,
+      "name": "General",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+      "image": "https://botc-tracker.com/pngs/general.webp"
+    },
+    {
+      "id": 220,
+      "name": "Gnome",
+      "role": "Traveller",
+      "edition": "Experimental",
+      "ability": "All players start knowing a player of your alignment. You may choose to kill anyone who nominates them.",
+      "image": "https://botc-tracker.com/pngs/gnome.webp"
+    },
+    {
+      "id": 164,
+      "name": "Goblin",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+      "image": "https://botc-tracker.com/pngs/goblin.webp"
+    },
+    {
+      "id": 12,
+      "name": "Godfather",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/godfather.webp"
+    },
+    {
+      "id": 176,
+      "name": "Golem",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+      "image": "https://botc-tracker.com/pngs/golem.webp"
+    },
+    {
+      "id": 22,
+      "name": "Goon",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+      "image": "https://botc-tracker.com/pngs/goon.webp"
+    },
+    {
+      "id": 39,
+      "name": "Gossip",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+      "image": "https://botc-tracker.com/pngs/gossip.webp"
+    },
+    {
+      "id": 40,
+      "name": "Grandmother",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+      "image": "https://botc-tracker.com/pngs/grandmother.webp"
+    },
+    {
+      "id": 85,
+      "name": "Gunslinger",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+      "image": "https://botc-tracker.com/pngs/gunslinger.webp"
+    },
+    {
+      "id": 82,
+      "name": "Harlot",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+      "image": "https://botc-tracker.com/pngs/harlot.webp"
+    },
+    {
+      "id": 165,
+      "name": "Harpy",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die.",
+      "image": "https://botc-tracker.com/pngs/harpy.webp"
+    },
+    {
+      "id": 177,
+      "name": "Hatter",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be.",
+      "image": "https://botc-tracker.com/pngs/hatter.webp"
+    },
+    {
+      "id": 178,
+      "name": "Heretic",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead.",
+      "image": "https://botc-tracker.com/pngs/heretic.webp"
+    },
+    {
+      "id": 215,
+      "name": "Hermit",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "You have all Outsider abilities. [-0 or -1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/hermit.webp"
+    },
+    {
+      "id": 200,
+      "name": "High Priestess",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, learn which player the Storyteller believes you should talk to most.",
+      "image": "https://botc-tracker.com/pngs/highpriestess.webp"
+    },
+    {
+      "id": 201,
+      "name": "Huntsman",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+      "image": "https://botc-tracker.com/pngs/huntsman.webp"
+    },
+    {
+      "id": 9,
+      "name": "Imp",
+      "role": "Demon",
+      "edition": "Trouble Brewing",
+      "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+      "image": "https://botc-tracker.com/pngs/imp.webp"
+    },
+    {
+      "id": 41,
+      "name": "Innkeeper",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+      "image": "https://botc-tracker.com/pngs/innkeeper.webp"
+    },
+    {
+      "id": 63,
+      "name": "Investigator",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+      "image": "https://botc-tracker.com/pngs/investigator.webp"
+    },
+    {
+      "id": 75,
+      "name": "Judge",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+      "image": "https://botc-tracker.com/pngs/judge.webp"
+    },
+    {
+      "id": 51,
+      "name": "Juggler",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+      "image": "https://botc-tracker.com/pngs/juggler.webp"
+    },
+    {
+      "id": 152,
+      "name": "Kazali",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]",
+      "image": "https://botc-tracker.com/pngs/kazali.webp"
+    },
+    {
+      "id": 202,
+      "name": "King",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, if the dead equal or outnumber the living, you learn 1 alive character. The Demon knows you are the King.",
+      "image": "https://botc-tracker.com/pngs/king.webp"
+    },
+    {
+      "id": 27,
+      "name": "Klutz",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+      "image": "https://botc-tracker.com/pngs/klutz.webp"
+    },
+    {
+      "id": 203,
+      "name": "Knight",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 2 players that are not the Demon.",
+      "image": "https://botc-tracker.com/pngs/knight.webp"
+    },
+    {
+      "id": 153,
+      "name": "Legion",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+      "image": "https://botc-tracker.com/pngs/legion.webp"
+    },
+    {
+      "id": 154,
+      "name": "Leviathan",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins.",
+      "image": "https://botc-tracker.com/pngs/leviathan.webp"
+    },
+    {
+      "id": 64,
+      "name": "Librarian",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+      "image": "https://botc-tracker.com/pngs/librarian.webp"
+    },
+    {
+      "id": 155,
+      "name": "Lil' Monsta",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night, Minions choose who babysits Lil' Monsta & \"is the Demon\". Each night*, a player might die. [+1 Minion]",
+      "image": "https://botc-tracker.com/pngs/lilmonsta.webp"
+    },
+    {
+      "id": 156,
+      "name": "Lleech",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead.",
+      "image": "https://botc-tracker.com/pngs/lleech.webp"
+    },
+    {
+      "id": 157,
+      "name": "Lord of Typhon",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]",
+      "image": "https://botc-tracker.com/pngs/lordoftyphon.webp"
+    },
+    {
+      "id": 23,
+      "name": "Lunatic",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+      "image": "https://botc-tracker.com/pngs/lunatic.webp"
+    },
+    {
+      "id": 204,
+      "name": "Lycanthrope",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil.",
+      "image": "https://botc-tracker.com/pngs/lycanthrope.webp"
+    },
+    {
+      "id": 205,
+      "name": "Magician",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "The Demon thinks you are a Minion. Minions think you are a Demon.",
+      "image": "https://botc-tracker.com/pngs/magician.webp"
+    },
+    {
+      "id": 166,
+      "name": "Marionette",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]",
+      "image": "https://botc-tracker.com/pngs/marionette.webp"
+    },
+    {
+      "id": 13,
+      "name": "Mastermind",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+      "image": "https://botc-tracker.com/pngs/mastermind.webp"
+    },
+    {
+      "id": 52,
+      "name": "Mathematician",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+      "image": "https://botc-tracker.com/pngs/mathematician.webp"
+    },
+    {
+      "id": 76,
+      "name": "Matron",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+      "image": "https://botc-tracker.com/pngs/matron.webp"
+    },
+    {
+      "id": 65,
+      "name": "Mayor",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead.",
+      "image": "https://botc-tracker.com/pngs/mayor.webp"
+    },
+    {
+      "id": 167,
+      "name": "Mezepheles",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night.",
+      "image": "https://botc-tracker.com/pngs/mezepheles.webp"
+    },
+    {
+      "id": 42,
+      "name": "Minstrel",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow",
+      "image": "https://botc-tracker.com/pngs/minstrel.webp"
+    },
+    {
+      "id": 66,
+      "name": "Monk",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+      "image": "https://botc-tracker.com/pngs/monk.webp"
+    },
+    {
+      "id": 24,
+      "name": "Moonchild",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+      "image": "https://botc-tracker.com/pngs/moonchild.webp"
+    },
+    {
+      "id": 28,
+      "name": "Mutant",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "If you are \"mad\" about being an Outsider, you might be executed.",
+      "image": "https://botc-tracker.com/pngs/mutant.webp"
+    },
+    {
+      "id": 206,
+      "name": "Nightwatchman",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",
+      "image": "https://botc-tracker.com/pngs/nightwatchman.webp"
+    },
+    {
+      "id": 6,
+      "name": "No Dashii",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",
+      "image": "https://botc-tracker.com/pngs/nodashii.webp"
+    },
+    {
+      "id": 207,
+      "name": "Noble",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+      "image": "https://botc-tracker.com/pngs/noble.webp"
+    },
+    {
+      "id": 179,
+      "name": "Ogre",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",
+      "image": "https://botc-tracker.com/pngs/ogre.webp"
+    },
+    {
+      "id": 158,
+      "name": "Ojo",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+      "image": "https://botc-tracker.com/pngs/ojo.webp"
+    },
+    {
+      "id": 53,
+      "name": "Oracle",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, you learn how many dead players are evil.",
+      "image": "https://botc-tracker.com/pngs/oracle.webp"
+    },
+    {
+      "id": 168,
+      "name": "Organ Grinder",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk until dusk.",
+      "image": "https://botc-tracker.com/pngs/organgrinder.webp"
+    },
+    {
+      "id": 43,
+      "name": "Pacifist",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Executed good players might not die.",
+      "image": "https://botc-tracker.com/pngs/pacifist.webp"
+    },
+    {
+      "id": 54,
+      "name": "Philosopher",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+      "image": "https://botc-tracker.com/pngs/philosopher.webp"
+    },
+    {
+      "id": 16,
+      "name": "Pit-Hag",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary.",
+      "image": "https://botc-tracker.com/pngs/pithag.webp"
+    },
+    {
+      "id": 208,
+      "name": "Pixie",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
+      "image": "https://botc-tracker.com/pngs/pixie.webp"
+    },
+    {
+      "id": 180,
+      "name": "Plague Doctor",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "When you die, the Storyteller gains a Minion ability.",
+      "image": "https://botc-tracker.com/pngs/plaguedoctor.webp"
+    },
+    {
+      "id": 1,
+      "name": "Po",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+      "image": "https://botc-tracker.com/pngs/po.webp"
+    },
+    {
+      "id": 19,
+      "name": "Poisoner",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+      "image": "https://botc-tracker.com/pngs/poisoner.webp"
+    },
+    {
+      "id": 181,
+      "name": "Politician",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+      "image": "https://botc-tracker.com/pngs/politician.webp"
+    },
+    {
+      "id": 209,
+      "name": "Poppy Grower",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night.",
+      "image": "https://botc-tracker.com/pngs/poppygrower.webp"
+    },
+    {
+      "id": 210,
+      "name": "Preacher",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+      "image": "https://botc-tracker.com/pngs/preacher.webp"
+    },
+    {
+      "id": 216,
+      "name": "Princess",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn’t kill tonight.",
+      "image": "https://botc-tracker.com/pngs/princess.webp"
+    },
+    {
+      "id": 44,
+      "name": "Professor",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+      "image": "https://botc-tracker.com/pngs/professor.webp"
+    },
+    {
+      "id": 169,
+      "name": "Psychopath",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+      "image": "https://botc-tracker.com/pngs/psychopath.webp"
+    },
+    {
+      "id": 2,
+      "name": "Pukka",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+      "image": "https://botc-tracker.com/pngs/pukka.webp"
+    },
+    {
+      "id": 182,
+      "name": "Puzzlemaster",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+      "image": "https://botc-tracker.com/pngs/puzzlemaster.webp"
+    },
+    {
+      "id": 67,
+      "name": "Ravenkeeper",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "If you die at night, you are woken to choose a player: you learn their character.",
+      "image": "https://botc-tracker.com/pngs/ravenkeeper.webp"
+    },
+    {
+      "id": 32,
+      "name": "Recluse",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+      "image": "https://botc-tracker.com/pngs/recluse.webp"
+    },
+    {
+      "id": 159,
+      "name": "Riot",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "On day 3, Minions become Riot & nominees die but nominate an alive player immediately. This must happen.",
+      "image": "https://botc-tracker.com/pngs/riot.webp"
+    },
+    {
+      "id": 55,
+      "name": "Sage",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+      "image": "https://botc-tracker.com/pngs/sage.webp"
+    },
+    {
+      "id": 45,
+      "name": "Sailor",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",
+      "image": "https://botc-tracker.com/pngs/sailor.webp"
+    },
+    {
+      "id": 33,
+      "name": "Saint",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "If you die by execution, your team loses.",
+      "image": "https://botc-tracker.com/pngs/saint.webp"
+    },
+    {
+      "id": 56,
+      "name": "Savant",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+      "image": "https://botc-tracker.com/pngs/savant.webp"
+    },
+    {
+      "id": 86,
+      "name": "Scapegoat",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "If a player of your alignment is executed, you might be executed instead.",
+      "image": "https://botc-tracker.com/pngs/scapegoat.webp"
+    },
+    {
+      "id": 20,
+      "name": "Scarlet Woman",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count.)",
+      "image": "https://botc-tracker.com/pngs/scarletwoman.webp"
+    },
+    {
+      "id": 57,
+      "name": "Seamstress",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+      "image": "https://botc-tracker.com/pngs/seamstress.webp"
+    },
+    {
+      "id": 3,
+      "name": "Shabaloth",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+      "image": "https://botc-tracker.com/pngs/shabaloth.webp"
+    },
+    {
+      "id": 211,
+      "name": "Shugenja",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",
+      "image": "https://botc-tracker.com/pngs/shugenja.webp"
+    },
+    {
+      "id": 68,
+      "name": "Slayer",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+      "image": "https://botc-tracker.com/pngs/slayer.webp"
+    },
+    {
+      "id": 58,
+      "name": "Snake Charmer",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+      "image": "https://botc-tracker.com/pngs/snakecharmer.webp"
+    },
+    {
+      "id": 183,
+      "name": "Snitch",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "Each Minion gets 3 bluffs.",
+      "image": "https://botc-tracker.com/pngs/snitch.webp"
+    },
+    {
+      "id": 69,
+      "name": "Soldier",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You are safe from the Demon.",
+      "image": "https://botc-tracker.com/pngs/soldier.webp"
+    },
+    {
+      "id": 21,
+      "name": "Spy",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+      "image": "https://botc-tracker.com/pngs/spy.webp"
+    },
+    {
+      "id": 212,
+      "name": "Steward",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 1 good player.",
+      "image": "https://botc-tracker.com/pngs/steward.webp"
+    },
+    {
+      "id": 170,
+      "name": "Summoner",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+      "image": "https://botc-tracker.com/pngs/summoner.webp"
+    },
+    {
+      "id": 29,
+      "name": "Sweetheart",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "When you die, 1 player is drunk from now on.",
+      "image": "https://botc-tracker.com/pngs/sweetheart.webp"
+    },
+    {
+      "id": 46,
+      "name": "Tea Lady",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "If both your alive neighbors are good, they can't die.",
+      "image": "https://botc-tracker.com/pngs/tealady.webp"
+    },
+    {
+      "id": 87,
+      "name": "Thief",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+      "image": "https://botc-tracker.com/pngs/thief.webp"
+    },
+    {
+      "id": 25,
+      "name": "Tinker",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "You might die at any time.",
+      "image": "https://botc-tracker.com/pngs/tinker.webp"
+    },
+    {
+      "id": 59,
+      "name": "Town Crier",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, you learn if a Minion nominated today",
+      "image": "https://botc-tracker.com/pngs/towncrier.webp"
+    },
+    {
+      "id": 70,
+      "name": "Undertaker",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night*, you learn which character died by execution today.",
+      "image": "https://botc-tracker.com/pngs/undertaker.webp"
+    },
+    {
+      "id": 7,
+      "name": "Vigormortis",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/vigormortis.webp"
+    },
+    {
+      "id": 213,
+      "name": "Village Idiot",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+      "image": "https://botc-tracker.com/pngs/villageidiot.webp"
+    },
+    {
+      "id": 71,
+      "name": "Virgin",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+      "image": "https://botc-tracker.com/pngs/virgin.webp"
+    },
+    {
+      "id": 171,
+      "name": "Vizier",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately.",
+      "image": "https://botc-tracker.com/pngs/vizier.webp"
+    },
+    {
+      "id": 8,
+      "name": "Vortox",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+      "image": "https://botc-tracker.com/pngs/vortox.webp"
+    },
+    {
+      "id": 77,
+      "name": "Voudon",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",
+      "image": "https://botc-tracker.com/pngs/voudon.webp"
+    },
+    {
+      "id": 72,
+      "name": "Washerwoman",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+      "image": "https://botc-tracker.com/pngs/washerwoman.webp"
+    },
+    {
+      "id": 172,
+      "name": "Widow",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+      "image": "https://botc-tracker.com/pngs/widow.webp"
+    },
+    {
+      "id": 17,
+      "name": "Witch",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+      "image": "https://botc-tracker.com/pngs/witch.webp"
+    },
+    {
+      "id": 173,
+      "name": "Wizard",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature.",
+      "image": "https://botc-tracker.com/pngs/wizard.webp"
+    },
+    {
+      "id": 217,
+      "name": "Wraith",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+      "image": "https://botc-tracker.com/pngs/wraith.webp"
+    },
+    {
+      "id": 174,
+      "name": "Xaan",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]",
+      "image": "https://botc-tracker.com/pngs/xaan.webp"
+    },
+    {
+      "id": 160,
+      "name": "Yaggababble",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die.",
+      "image": "https://botc-tracker.com/pngs/yaggababble.webp"
+    },
+    {
+      "id": 184,
+      "name": "Zealot",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+      "image": "https://botc-tracker.com/pngs/zealot.webp"
+    },
+    {
+      "id": 4,
+      "name": "Zombuul",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+      "image": "https://botc-tracker.com/pngs/zombuul.webp"
+    }
+  ],
+  "scriptCharacters": [
+    {
+      "id": 185,
+      "name": "Acrobat",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: if they are or become drunk or poisoned tonight, you die.",
+      "image": "https://botc-tracker.com/pngs/acrobat.webp"
+    },
+    {
+      "id": 151,
+      "name": "Al-Hadikhia",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, you may choose 3 players (all players learn who): each silently chooses to live or die, but if all live, all die.",
+      "image": "https://botc-tracker.com/pngs/alhadikhia.webp"
+    },
+    {
+      "id": 186,
+      "name": "Alchemist",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You have a Minion ability. When using this, the Storyteller may prompt you to choose differently.",
+      "image": "https://botc-tracker.com/pngs/alchemist.webp"
+    },
+    {
+      "id": 187,
+      "name": "Alsaahir",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each day, if you publicly guess which players are Minion(s) and which are Demon(s), good wins.",
+      "image": "https://botc-tracker.com/pngs/alsaahir.webp"
+    },
+    {
+      "id": 188,
+      "name": "Amnesiac",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You do not know what your ability is. Each day, privately guess what it is: you learn how accurate you are.",
+      "image": "https://botc-tracker.com/pngs/amnesiac.webp"
+    },
+    {
+      "id": 73,
+      "name": "Apprentice",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "On your 1st night, you gain a Townsfolk ability (if good) or a Minion ability (if evil).",
+      "image": "https://botc-tracker.com/pngs/apprentice.webp"
+    },
+    {
+      "id": 47,
+      "name": "Artist",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, during the day, privately ask the Storyteller any yes/no question.",
+      "image": "https://botc-tracker.com/pngs/artist.webp"
+    },
+    {
+      "id": 10,
+      "name": "Assassin",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, at night*, choose a player: they die, even if for some reason they could not.",
+      "image": "https://botc-tracker.com/pngs/assassin.webp"
+    },
+    {
+      "id": 189,
+      "name": "Atheist",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "The Storyteller can break the game rules, and if executed, good wins, even if you are dead. [No evil characters]",
+      "image": "https://botc-tracker.com/pngs/atheist.webp"
+    },
+    {
+      "id": 190,
+      "name": "Balloonist",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, you learn a player of a different character type than last night. [+0 or +1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/balloonist.webp"
+    },
+    {
+      "id": 191,
+      "name": "Banshee",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "If the Demon kills you, all players learn this. From now on, you may nominate twice per day and vote twice per nomination.",
+      "image": "https://botc-tracker.com/pngs/banshee.webp"
+    },
+    {
+      "id": 26,
+      "name": "Barber",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "If you died today or tonight, the Demon may choose 2 players (not another Demon) to swap characters.",
+      "image": "https://botc-tracker.com/pngs/barber.webp"
+    },
+    {
+      "id": 78,
+      "name": "Barista",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Each night, until dusk, 1) a player becomes sober, healthy & gets true info, or 2) their ability works twice. They learn which.",
+      "image": "https://botc-tracker.com/pngs/barista.webp"
+    },
+    {
+      "id": 18,
+      "name": "Baron",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "There are extra Outsiders in play. [+2 Outsiders]",
+      "image": "https://botc-tracker.com/pngs/baron.webp"
+    },
+    {
+      "id": 83,
+      "name": "Beggar",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "You must use a vote token to vote. If a dead player gives you theirs, you learn their alignment. You are sober and healthy.",
+      "image": "https://botc-tracker.com/pngs/beggar.webp"
+    },
+    {
+      "id": 74,
+      "name": "Bishop",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Only the Storyteller can nominate. At least 1 opposing player must be nominated each day.",
+      "image": "https://botc-tracker.com/pngs/bishop.webp"
+    },
+    {
+      "id": 161,
+      "name": "Boffin",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "The Demon (even if drunk or poisoned) has a not-in-play good character's ability. You both know which.",
+      "image": "https://botc-tracker.com/pngs/boffin.webp"
+    },
+    {
+      "id": 79,
+      "name": "Bone Collector",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, at night*, choose a dead player: they regain their ability until dusk.",
+      "image": "https://botc-tracker.com/pngs/bonecollector.webp"
+    },
+    {
+      "id": 162,
+      "name": "Boomdandy",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "If you are executed, all but 3 players die. After a 10 to 1 countdown, the player with the most players pointing at them, dies.",
+      "image": "https://botc-tracker.com/pngs/boomdandy.webp"
+    },
+    {
+      "id": 192,
+      "name": "Bounty Hunter",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 1 evil player. If the player you know dies, you learn another evil player tonight. [1 Townsfolk is evil]",
+      "image": "https://botc-tracker.com/pngs/bountyhunter.webp"
+    },
+    {
+      "id": 84,
+      "name": "Bureaucrat",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player (not yourself): their vote counts as 3 votes tomorrow.",
+      "image": "https://botc-tracker.com/pngs/bureaucrat.webp"
+    },
+    {
+      "id": 80,
+      "name": "Butcher",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Each day, after the 1st execution, you may nominate again.",
+      "image": "https://botc-tracker.com/pngs/butcher.webp"
+    },
+    {
+      "id": 30,
+      "name": "Butler",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too.",
+      "image": "https://botc-tracker.com/pngs/butler.webp"
+    },
+    {
+      "id": 218,
+      "name": "Cacklejack",
+      "role": "Traveller",
+      "edition": "Experimental",
+      "ability": "Each day, choose a player: a different player changes character tonight.",
+      "image": "https://botc-tracker.com/pngs/cacklejack.webp"
+    },
+    {
+      "id": 193,
+      "name": "Cannibal",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You have the ability of the recently killed executee. If they are evil, you are poisoned until a good player dies by execution.",
+      "image": "https://botc-tracker.com/pngs/cannibal.webp"
+    },
+    {
+      "id": 14,
+      "name": "Cerenovus",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose a player & a good character: they are \"mad\" they are this character tomorrow, or might be executed.",
+      "image": "https://botc-tracker.com/pngs/cerenovus.webp"
+    },
+    {
+      "id": 34,
+      "name": "Chambermaid",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose 2 alive players (not yourself): you learn how many woke tonight due to their ability.",
+      "image": "https://botc-tracker.com/pngs/chambermaid.webp"
+    },
+    {
+      "id": 60,
+      "name": "Chef",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing how many pairs of evil players there are.",
+      "image": "https://botc-tracker.com/pngs/chef.webp"
+    },
+    {
+      "id": 194,
+      "name": "Choirboy",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "If the Demon kills the King, you learn which player is the Demon. [+the King]",
+      "image": "https://botc-tracker.com/pngs/choirboy.webp"
+    },
+    {
+      "id": 48,
+      "name": "Clockmaker",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "You start knowing how many steps from the Demon to its nearest Minion.",
+      "image": "https://botc-tracker.com/pngs/clockmaker.webp"
+    },
+    {
+      "id": 35,
+      "name": "Courtier",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, at night, choose a character: they are drunk for 3 nights & 3 days.",
+      "image": "https://botc-tracker.com/pngs/courtier.webp"
+    },
+    {
+      "id": 195,
+      "name": "Cult Leader",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, you become the alignment of an alive neighbor. If all good players choose to join your cult, your team wins.",
+      "image": "https://botc-tracker.com/pngs/cultleader.webp"
+    },
+    {
+      "id": 175,
+      "name": "Damsel",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "All Minions know a Damsel is in play. If a Minion publicly guesses you (once), your team loses.",
+      "image": "https://botc-tracker.com/pngs/damsel.webp"
+    },
+    {
+      "id": 81,
+      "name": "Deviant",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "If you were funny today, you cannot die by exile.",
+      "image": "https://botc-tracker.com/pngs/deviant.webp"
+    },
+    {
+      "id": 11,
+      "name": "Devil's Advocate",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose a living player (different to last night): if executed tomorrow, they don't die.",
+      "image": "https://botc-tracker.com/pngs/devilsadvocate.webp"
+    },
+    {
+      "id": 49,
+      "name": "Dreamer",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose a player (not yourself or Travellers): you learn 1 good & 1 evil character, 1 of which is correct.",
+      "image": "https://botc-tracker.com/pngs/dreamer.webp"
+    },
+    {
+      "id": 31,
+      "name": "Drunk",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not.",
+      "image": "https://botc-tracker.com/pngs/drunk.webp"
+    },
+    {
+      "id": 61,
+      "name": "Empath",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, you learn how many of your 2 alive neighbors are evil.",
+      "image": "https://botc-tracker.com/pngs/empath.webp"
+    },
+    {
+      "id": 196,
+      "name": "Engineer",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, at night, choose which Minions or which Demon is in play.",
+      "image": "https://botc-tracker.com/pngs/engineer.webp"
+    },
+    {
+      "id": 15,
+      "name": "Evil Twin",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "You & an opposing player know each other. If the good player is executed, evil wins. Good can't win if you both live.",
+      "image": "https://botc-tracker.com/pngs/eviltwin.webp"
+    },
+    {
+      "id": 36,
+      "name": "Exorcist",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose a player (different to last night): the Demon, if chosen, learns who you are then doesn't wake tonight.",
+      "image": "https://botc-tracker.com/pngs/exorcist.webp"
+    },
+    {
+      "id": 5,
+      "name": "Fang Gu",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. The 1st Outsider this kills becomes an evil Fang Gu & you die instead. [+1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/fanggu.webp"
+    },
+    {
+      "id": 197,
+      "name": "Farmer",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "When you die at night, an alive good player becomes a Farmer.",
+      "image": "https://botc-tracker.com/pngs/farmer.webp"
+    },
+    {
+      "id": 163,
+      "name": "Fearmonger",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Each night, choose a player: if you nominate & execute them, their team loses. All players know if you choose a new player.",
+      "image": "https://botc-tracker.com/pngs/fearmonger.webp"
+    },
+    {
+      "id": 198,
+      "name": "Fisherman",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, during the day, visit the Storyteller for some advice to help your team win.",
+      "image": "https://botc-tracker.com/pngs/fisherman.webp"
+    },
+    {
+      "id": 50,
+      "name": "Flowergirl",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, you learn if a Demon voted today.",
+      "image": "https://botc-tracker.com/pngs/flowergirl.webp"
+    },
+    {
+      "id": 37,
+      "name": "Fool",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "The 1st time you die, you don't.",
+      "image": "https://botc-tracker.com/pngs/fool.webp"
+    },
+    {
+      "id": 62,
+      "name": "Fortune Teller",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you.",
+      "image": "https://botc-tracker.com/pngs/fortuneteller.webp"
+    },
+    {
+      "id": 38,
+      "name": "Gambler",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose a player & guess their character: if you guess wrong, you die.",
+      "image": "https://botc-tracker.com/pngs/gambler.webp"
+    },
+    {
+      "id": 219,
+      "name": "Gangster",
+      "role": "Traveller",
+      "edition": "Experimental",
+      "ability": "Once per day, you may choose to kill an alive neighbor, if your other alive neighbor agrees.",
+      "image": "https://botc-tracker.com/pngs/gangster.webp"
+    },
+    {
+      "id": 199,
+      "name": "General",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, you learn which alignment the Storyteller believes is winning: good, evil, or neither.",
+      "image": "https://botc-tracker.com/pngs/general.webp"
+    },
+    {
+      "id": 220,
+      "name": "Gnome",
+      "role": "Traveller",
+      "edition": "Experimental",
+      "ability": "All players start knowing a player of your alignment. You may choose to kill anyone who nominates them.",
+      "image": "https://botc-tracker.com/pngs/gnome.webp"
+    },
+    {
+      "id": 164,
+      "name": "Goblin",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "If you publicly claim to be the Goblin when nominated & are executed that day, your team wins.",
+      "image": "https://botc-tracker.com/pngs/goblin.webp"
+    },
+    {
+      "id": 12,
+      "name": "Godfather",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "You start knowing which Outsiders are in play. If 1 died today, choose a player tonight: they die. [-1 or +1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/godfather.webp"
+    },
+    {
+      "id": 176,
+      "name": "Golem",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+      "image": "https://botc-tracker.com/pngs/golem.webp"
+    },
+    {
+      "id": 22,
+      "name": "Goon",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, the 1st player to choose you with their ability is drunk until dusk. You become their alignment.",
+      "image": "https://botc-tracker.com/pngs/goon.webp"
+    },
+    {
+      "id": 39,
+      "name": "Gossip",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each day, you may make a public statement. Tonight, if it was true, a player dies.",
+      "image": "https://botc-tracker.com/pngs/gossip.webp"
+    },
+    {
+      "id": 40,
+      "name": "Grandmother",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "You start knowing a good player & their character. If the Demon kills them, you die too.",
+      "image": "https://botc-tracker.com/pngs/grandmother.webp"
+    },
+    {
+      "id": 85,
+      "name": "Gunslinger",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "Each day, after the 1st vote has been tallied, you may choose a player that voted: they die.",
+      "image": "https://botc-tracker.com/pngs/gunslinger.webp"
+    },
+    {
+      "id": 82,
+      "name": "Harlot",
+      "role": "Traveller",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a living player: if they agree, you learn their character, but you both might die.",
+      "image": "https://botc-tracker.com/pngs/harlot.webp"
+    },
+    {
+      "id": 165,
+      "name": "Harpy",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Each night, choose 2 players: tomorrow, the 1st player is mad that the 2nd is evil, or one or both might die.",
+      "image": "https://botc-tracker.com/pngs/harpy.webp"
+    },
+    {
+      "id": 177,
+      "name": "Hatter",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "If you died today or tonight, the Minion & Demon players may choose new Minion & Demon characters to be.",
+      "image": "https://botc-tracker.com/pngs/hatter.webp"
+    },
+    {
+      "id": 178,
+      "name": "Heretic",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "Whoever wins, loses & whoever loses, wins, even if you are dead.",
+      "image": "https://botc-tracker.com/pngs/heretic.webp"
+    },
+    {
+      "id": 215,
+      "name": "Hermit",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "You have all Outsider abilities. [-0 or -1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/hermit.webp"
+    },
+    {
+      "id": 200,
+      "name": "High Priestess",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, learn which player the Storyteller believes you should talk to most.",
+      "image": "https://botc-tracker.com/pngs/highpriestess.webp"
+    },
+    {
+      "id": 201,
+      "name": "Huntsman",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, at night, choose a living player: the Damsel, if chosen, becomes a not-in-play Townsfolk. [+the Damsel]",
+      "image": "https://botc-tracker.com/pngs/huntsman.webp"
+    },
+    {
+      "id": 9,
+      "name": "Imp",
+      "role": "Demon",
+      "edition": "Trouble Brewing",
+      "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp.",
+      "image": "https://botc-tracker.com/pngs/imp.webp"
+    },
+    {
+      "id": 41,
+      "name": "Innkeeper",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose 2 players: they can't die tonight, but 1 is drunk until dusk.",
+      "image": "https://botc-tracker.com/pngs/innkeeper.webp"
+    },
+    {
+      "id": 63,
+      "name": "Investigator",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing that 1 of 2 players is a particular Minion.",
+      "image": "https://botc-tracker.com/pngs/investigator.webp"
+    },
+    {
+      "id": 75,
+      "name": "Judge",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, if another player nominated, you may choose to force the current execution to pass or fail.",
+      "image": "https://botc-tracker.com/pngs/judge.webp"
+    },
+    {
+      "id": 51,
+      "name": "Juggler",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "On your 1st day, publicly guess up to 5 players' characters. That night, you learn how many you got correct.",
+      "image": "https://botc-tracker.com/pngs/juggler.webp"
+    },
+    {
+      "id": 152,
+      "name": "Kazali",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: they die. [You choose which players are which Minions. -? to +? Outsiders]",
+      "image": "https://botc-tracker.com/pngs/kazali.webp"
+    },
+    {
+      "id": 202,
+      "name": "King",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, if the dead equal or outnumber the living, you learn 1 alive character. The Demon knows you are the King.",
+      "image": "https://botc-tracker.com/pngs/king.webp"
+    },
+    {
+      "id": 27,
+      "name": "Klutz",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "When you learn that you died, publicly choose 1 alive player: if they are evil, your team loses.",
+      "image": "https://botc-tracker.com/pngs/klutz.webp"
+    },
+    {
+      "id": 203,
+      "name": "Knight",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 2 players that are not the Demon.",
+      "image": "https://botc-tracker.com/pngs/knight.webp"
+    },
+    {
+      "id": 153,
+      "name": "Legion",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, a player might die. Executions fail if only evil voted. You register as a Minion too. [Most players are Legion]",
+      "image": "https://botc-tracker.com/pngs/legion.webp"
+    },
+    {
+      "id": 154,
+      "name": "Leviathan",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "If more than 1 good player is executed, evil wins. All players know you are in play. After day 5, evil wins.",
+      "image": "https://botc-tracker.com/pngs/leviathan.webp"
+    },
+    {
+      "id": 64,
+      "name": "Librarian",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)",
+      "image": "https://botc-tracker.com/pngs/librarian.webp"
+    },
+    {
+      "id": 155,
+      "name": "Lil' Monsta",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night, Minions choose who babysits Lil' Monsta & \"is the Demon\". Each night*, a player might die. [+1 Minion]",
+      "image": "https://botc-tracker.com/pngs/lilmonsta.webp"
+    },
+    {
+      "id": 156,
+      "name": "Lleech",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: they die. You start by choosing a player: they are poisoned. You die if & only if they are dead.",
+      "image": "https://botc-tracker.com/pngs/lleech.webp"
+    },
+    {
+      "id": 157,
+      "name": "Lord of Typhon",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a player: they die. [Evil characters are in a line. You are in the middle. +1 Minion. -? to +? Outsiders]",
+      "image": "https://botc-tracker.com/pngs/lordoftyphon.webp"
+    },
+    {
+      "id": 23,
+      "name": "Lunatic",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "You think you are a Demon, but you are not. The Demon knows who you are & who you choose at night.",
+      "image": "https://botc-tracker.com/pngs/lunatic.webp"
+    },
+    {
+      "id": 204,
+      "name": "Lycanthrope",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night*, choose an alive player. If good, they die & the Demon doesn’t kill tonight. One good player registers as evil.",
+      "image": "https://botc-tracker.com/pngs/lycanthrope.webp"
+    },
+    {
+      "id": 205,
+      "name": "Magician",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "The Demon thinks you are a Minion. Minions think you are a Demon.",
+      "image": "https://botc-tracker.com/pngs/magician.webp"
+    },
+    {
+      "id": 166,
+      "name": "Marionette",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You think you are a good character, but you are not. The Demon knows who you are. [You neighbor the Demon]",
+      "image": "https://botc-tracker.com/pngs/marionette.webp"
+    },
+    {
+      "id": 13,
+      "name": "Mastermind",
+      "role": "Minion",
+      "edition": "Bad Moon Rising",
+      "ability": "If the Demon dies by execution (ending the game), play for 1 more day. If a player is then executed, their team loses.",
+      "image": "https://botc-tracker.com/pngs/mastermind.webp"
+    },
+    {
+      "id": 52,
+      "name": "Mathematician",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night, you learn how many players' abilities worked abnormally (since dawn) due to another character's ability.",
+      "image": "https://botc-tracker.com/pngs/mathematician.webp"
+    },
+    {
+      "id": 76,
+      "name": "Matron",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Each day, you may choose up to 3 sets of 2 players to swap seats. Players may not leave their seats to talk in private.",
+      "image": "https://botc-tracker.com/pngs/matron.webp"
+    },
+    {
+      "id": 65,
+      "name": "Mayor",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead.",
+      "image": "https://botc-tracker.com/pngs/mayor.webp"
+    },
+    {
+      "id": 167,
+      "name": "Mezepheles",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You start knowing a secret word. The 1st good player to say this word becomes evil that night.",
+      "image": "https://botc-tracker.com/pngs/mezepheles.webp"
+    },
+    {
+      "id": 42,
+      "name": "Minstrel",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "When a Minion dies by execution, all other players (except Travellers) are drunk until dusk tomorrow",
+      "image": "https://botc-tracker.com/pngs/minstrel.webp"
+    },
+    {
+      "id": 66,
+      "name": "Monk",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight.",
+      "image": "https://botc-tracker.com/pngs/monk.webp"
+    },
+    {
+      "id": 24,
+      "name": "Moonchild",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "When you learn that you died, publicly choose 1 alive player. Tonight, if it was a good player, they die.",
+      "image": "https://botc-tracker.com/pngs/moonchild.webp"
+    },
+    {
+      "id": 28,
+      "name": "Mutant",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "If you are \"mad\" about being an Outsider, you might be executed.",
+      "image": "https://botc-tracker.com/pngs/mutant.webp"
+    },
+    {
+      "id": 206,
+      "name": "Nightwatchman",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Once per game, at night, choose a player: they learn you are the Nightwatchman.",
+      "image": "https://botc-tracker.com/pngs/nightwatchman.webp"
+    },
+    {
+      "id": 6,
+      "name": "No Dashii",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. Your 2 Townsfolk neighbors are poisoned.",
+      "image": "https://botc-tracker.com/pngs/nodashii.webp"
+    },
+    {
+      "id": 207,
+      "name": "Noble",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 3 players, 1 and only 1 of which is evil.",
+      "image": "https://botc-tracker.com/pngs/noble.webp"
+    },
+    {
+      "id": 179,
+      "name": "Ogre",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "On your 1st night, choose a player (not yourself): you become their alignment (you don't know which) even if drunk or poisoned.",
+      "image": "https://botc-tracker.com/pngs/ogre.webp"
+    },
+    {
+      "id": 158,
+      "name": "Ojo",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "Each night*, choose a character: they die. If they are not in play, the Storyteller chooses who dies.",
+      "image": "https://botc-tracker.com/pngs/ojo.webp"
+    },
+    {
+      "id": 53,
+      "name": "Oracle",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, you learn how many dead players are evil.",
+      "image": "https://botc-tracker.com/pngs/oracle.webp"
+    },
+    {
+      "id": 168,
+      "name": "Organ Grinder",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "All players keep their eyes closed when voting and the vote tally is secret. Each night, choose if you are drunk until dusk.",
+      "image": "https://botc-tracker.com/pngs/organgrinder.webp"
+    },
+    {
+      "id": 43,
+      "name": "Pacifist",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Executed good players might not die.",
+      "image": "https://botc-tracker.com/pngs/pacifist.webp"
+    },
+    {
+      "id": 54,
+      "name": "Philosopher",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, at night, choose a good character: gain that ability. If this character is in play, they are drunk.",
+      "image": "https://botc-tracker.com/pngs/philosopher.webp"
+    },
+    {
+      "id": 16,
+      "name": "Pit-Hag",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player & a character they become (if not in play). If a Demon is made, deaths tonight are arbitrary.",
+      "image": "https://botc-tracker.com/pngs/pithag.webp"
+    },
+    {
+      "id": 208,
+      "name": "Pixie",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 1 in-play Townsfolk. If you were mad that you were this character, you gain their ability when they die.",
+      "image": "https://botc-tracker.com/pngs/pixie.webp"
+    },
+    {
+      "id": 180,
+      "name": "Plague Doctor",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "When you die, the Storyteller gains a Minion ability.",
+      "image": "https://botc-tracker.com/pngs/plaguedoctor.webp"
+    },
+    {
+      "id": 1,
+      "name": "Po",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+      "image": "https://botc-tracker.com/pngs/po.webp"
+    },
+    {
+      "id": 19,
+      "name": "Poisoner",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day.",
+      "image": "https://botc-tracker.com/pngs/poisoner.webp"
+    },
+    {
+      "id": 181,
+      "name": "Politician",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "If you were the player most responsible for your team losing, you change alignment & win, even if dead.",
+      "image": "https://botc-tracker.com/pngs/politician.webp"
+    },
+    {
+      "id": 209,
+      "name": "Poppy Grower",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Minions & Demons do not know each other. If you die, they learn who each other are that night.",
+      "image": "https://botc-tracker.com/pngs/poppygrower.webp"
+    },
+    {
+      "id": 210,
+      "name": "Preacher",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, choose a player: a Minion, if chosen, learns this. All chosen Minions have no ability.",
+      "image": "https://botc-tracker.com/pngs/preacher.webp"
+    },
+    {
+      "id": 216,
+      "name": "Princess",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "On your 1st day, if you nominated & executed a player, the Demon doesn’t kill tonight.",
+      "image": "https://botc-tracker.com/pngs/princess.webp"
+    },
+    {
+      "id": 44,
+      "name": "Professor",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Once per game, at night*, choose a dead player: if they are a Townsfolk, they are resurrected.",
+      "image": "https://botc-tracker.com/pngs/professor.webp"
+    },
+    {
+      "id": 169,
+      "name": "Psychopath",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Each day, before nominations, you may publicly choose a player: they die. If executed, you only die if you lose roshambo.",
+      "image": "https://botc-tracker.com/pngs/psychopath.webp"
+    },
+    {
+      "id": 2,
+      "name": "Pukka",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose a player: they are poisoned. The previously poisoned player dies then becomes healthy.",
+      "image": "https://botc-tracker.com/pngs/pukka.webp"
+    },
+    {
+      "id": 182,
+      "name": "Puzzlemaster",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "1 player is drunk, even if you die. If you guess (once) who it is, learn the Demon player, but guess wrong & get false info.",
+      "image": "https://botc-tracker.com/pngs/puzzlemaster.webp"
+    },
+    {
+      "id": 67,
+      "name": "Ravenkeeper",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "If you die at night, you are woken to choose a player: you learn their character.",
+      "image": "https://botc-tracker.com/pngs/ravenkeeper.webp"
+    },
+    {
+      "id": 32,
+      "name": "Recluse",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "You might register as evil & as a Minion or Demon, even if dead.",
+      "image": "https://botc-tracker.com/pngs/recluse.webp"
+    },
+    {
+      "id": 159,
+      "name": "Riot",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "On day 3, Minions become Riot & nominees die but nominate an alive player immediately. This must happen.",
+      "image": "https://botc-tracker.com/pngs/riot.webp"
+    },
+    {
+      "id": 55,
+      "name": "Sage",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "If the Demon kills you, you learn that it is 1 of 2 players.",
+      "image": "https://botc-tracker.com/pngs/sage.webp"
+    },
+    {
+      "id": 45,
+      "name": "Sailor",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night, choose an alive player: either you or they are drunk until dusk. You can't die.",
+      "image": "https://botc-tracker.com/pngs/sailor.webp"
+    },
+    {
+      "id": 33,
+      "name": "Saint",
+      "role": "Outsider",
+      "edition": "Trouble Brewing",
+      "ability": "If you die by execution, your team loses.",
+      "image": "https://botc-tracker.com/pngs/saint.webp"
+    },
+    {
+      "id": 56,
+      "name": "Savant",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each day, you may visit the Storyteller to learn 2 things in private: 1 is true & 1 is false.",
+      "image": "https://botc-tracker.com/pngs/savant.webp"
+    },
+    {
+      "id": 86,
+      "name": "Scapegoat",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "If a player of your alignment is executed, you might be executed instead.",
+      "image": "https://botc-tracker.com/pngs/scapegoat.webp"
+    },
+    {
+      "id": 20,
+      "name": "Scarlet Woman",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don't count.)",
+      "image": "https://botc-tracker.com/pngs/scarletwoman.webp"
+    },
+    {
+      "id": 57,
+      "name": "Seamstress",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Once per game, at night, choose 2 players (not yourself): you learn if they are the same alignment.",
+      "image": "https://botc-tracker.com/pngs/seamstress.webp"
+    },
+    {
+      "id": 3,
+      "name": "Shabaloth",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, choose 2 players: they die. A dead player you chose last night might be regurgitated.",
+      "image": "https://botc-tracker.com/pngs/shabaloth.webp"
+    },
+    {
+      "id": 211,
+      "name": "Shugenja",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing if your closest evil player is clockwise or anti-clockwise. If equidistant, this info is arbitrary.",
+      "image": "https://botc-tracker.com/pngs/shugenja.webp"
+    },
+    {
+      "id": 68,
+      "name": "Slayer",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die.",
+      "image": "https://botc-tracker.com/pngs/slayer.webp"
+    },
+    {
+      "id": 58,
+      "name": "Snake Charmer",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose an alive player: a chosen Demon swaps characters & alignments with you & is then poisoned.",
+      "image": "https://botc-tracker.com/pngs/snakecharmer.webp"
+    },
+    {
+      "id": 183,
+      "name": "Snitch",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "Each Minion gets 3 bluffs.",
+      "image": "https://botc-tracker.com/pngs/snitch.webp"
+    },
+    {
+      "id": 69,
+      "name": "Soldier",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You are safe from the Demon.",
+      "image": "https://botc-tracker.com/pngs/soldier.webp"
+    },
+    {
+      "id": 21,
+      "name": "Spy",
+      "role": "Minion",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead.",
+      "image": "https://botc-tracker.com/pngs/spy.webp"
+    },
+    {
+      "id": 212,
+      "name": "Steward",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "You start knowing 1 good player.",
+      "image": "https://botc-tracker.com/pngs/steward.webp"
+    },
+    {
+      "id": 170,
+      "name": "Summoner",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You get 3 bluffs. On the 3rd night, choose a player: they become an evil Demon of your choice. [No Demon]",
+      "image": "https://botc-tracker.com/pngs/summoner.webp"
+    },
+    {
+      "id": 29,
+      "name": "Sweetheart",
+      "role": "Outsider",
+      "edition": "Sects and Violets",
+      "ability": "When you die, 1 player is drunk from now on.",
+      "image": "https://botc-tracker.com/pngs/sweetheart.webp"
+    },
+    {
+      "id": 46,
+      "name": "Tea Lady",
+      "role": "Townsfolk",
+      "edition": "Bad Moon Rising",
+      "ability": "If both your alive neighbors are good, they can't die.",
+      "image": "https://botc-tracker.com/pngs/tealady.webp"
+    },
+    {
+      "id": 87,
+      "name": "Thief",
+      "role": "Traveller",
+      "edition": "Trouble Brewing",
+      "ability": "Each night, choose a player (not yourself): their vote counts negatively tomorrow.",
+      "image": "https://botc-tracker.com/pngs/thief.webp"
+    },
+    {
+      "id": 25,
+      "name": "Tinker",
+      "role": "Outsider",
+      "edition": "Bad Moon Rising",
+      "ability": "You might die at any time.",
+      "image": "https://botc-tracker.com/pngs/tinker.webp"
+    },
+    {
+      "id": 59,
+      "name": "Town Crier",
+      "role": "Townsfolk",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, you learn if a Minion nominated today",
+      "image": "https://botc-tracker.com/pngs/towncrier.webp"
+    },
+    {
+      "id": 70,
+      "name": "Undertaker",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "Each night*, you learn which character died by execution today.",
+      "image": "https://botc-tracker.com/pngs/undertaker.webp"
+    },
+    {
+      "id": 7,
+      "name": "Vigormortis",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. Minions you kill keep their ability & poison 1 Townsfolk neighbor. [-1 Outsider]",
+      "image": "https://botc-tracker.com/pngs/vigormortis.webp"
+    },
+    {
+      "id": 213,
+      "name": "Village Idiot",
+      "role": "Townsfolk",
+      "edition": "Experimental",
+      "ability": "Each night, choose a player: you learn their alignment. [+0 to +2 Village Idiots. 1 of the extras is drunk]",
+      "image": "https://botc-tracker.com/pngs/villageidiot.webp"
+    },
+    {
+      "id": 71,
+      "name": "Virgin",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately.",
+      "image": "https://botc-tracker.com/pngs/virgin.webp"
+    },
+    {
+      "id": 171,
+      "name": "Vizier",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "All players know you are the Vizier. You cannot die during the day. If good voted, you may choose to execute immediately.",
+      "image": "https://botc-tracker.com/pngs/vizier.webp"
+    },
+    {
+      "id": 8,
+      "name": "Vortox",
+      "role": "Demon",
+      "edition": "Sects and Violets",
+      "ability": "Each night*, choose a player: they die. Townsfolk abilities yield false info. Each day, if no-one is executed, evil wins.",
+      "image": "https://botc-tracker.com/pngs/vortox.webp"
+    },
+    {
+      "id": 77,
+      "name": "Voudon",
+      "role": "Traveller",
+      "edition": "Bad Moon Rising",
+      "ability": "Only you & the dead can vote. They don't need a vote token to do so. A 50% majority isn't required.",
+      "image": "https://botc-tracker.com/pngs/voudon.webp"
+    },
+    {
+      "id": 72,
+      "name": "Washerwoman",
+      "role": "Townsfolk",
+      "edition": "Trouble Brewing",
+      "ability": "You start knowing that 1 of 2 players is a particular Townsfolk.",
+      "image": "https://botc-tracker.com/pngs/washerwoman.webp"
+    },
+    {
+      "id": 172,
+      "name": "Widow",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "On your 1st night, look at the Grimoire & choose a player: they are poisoned. 1 good player knows a Widow is in play.",
+      "image": "https://botc-tracker.com/pngs/widow.webp"
+    },
+    {
+      "id": 17,
+      "name": "Witch",
+      "role": "Minion",
+      "edition": "Sects and Violets",
+      "ability": "Each night, choose a player: if they nominate tomorrow, they die. If just 3 players live, you lose this ability.",
+      "image": "https://botc-tracker.com/pngs/witch.webp"
+    },
+    {
+      "id": 173,
+      "name": "Wizard",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "Once per game, choose to make a wish. If granted, it might have a price & leave a clue as to its nature.",
+      "image": "https://botc-tracker.com/pngs/wizard.webp"
+    },
+    {
+      "id": 217,
+      "name": "Wraith",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "You may choose to open your eyes at night. You wake when other evil players do.",
+      "image": "https://botc-tracker.com/pngs/wraith.webp"
+    },
+    {
+      "id": 174,
+      "name": "Xaan",
+      "role": "Minion",
+      "edition": "Experimental",
+      "ability": "On night X, all Townsfolk are poisoned until dusk. [X Outsiders]",
+      "image": "https://botc-tracker.com/pngs/xaan.webp"
+    },
+    {
+      "id": 160,
+      "name": "Yaggababble",
+      "role": "Demon",
+      "edition": "Experimental",
+      "ability": "You start knowing a secret phrase. For each time you said it publicly today, a player might die.",
+      "image": "https://botc-tracker.com/pngs/yaggababble.webp"
+    },
+    {
+      "id": 184,
+      "name": "Zealot",
+      "role": "Outsider",
+      "edition": "Experimental",
+      "ability": "If there are 5 or more players alive, you must vote for every nomination.",
+      "image": "https://botc-tracker.com/pngs/zealot.webp"
+    },
+    {
+      "id": 4,
+      "name": "Zombuul",
+      "role": "Demon",
+      "edition": "Bad Moon Rising",
+      "ability": "Each night*, if no-one died today, choose a player: they die. The 1st time you die, you live but register as dead.",
+      "image": "https://botc-tracker.com/pngs/zombuul.webp"
+    }
+  ]
+}

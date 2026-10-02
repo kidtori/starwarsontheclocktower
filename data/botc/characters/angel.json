@@ -1,0 +1,44 @@
+{
+  "id": "angel",
+  "name": "Angel",
+  "officialId": "angel",
+  "aliases": [],
+  "team": "fabled",
+  "edition": "Fabled",
+  "officialEdition": "fabled",
+  "ability": "Something bad might happen to whoever is most responsible for the death of a new player.",
+  "mechanics": {},
+  "tags": [],
+  "designRole": [
+    "Storyteller rule supporting accessibility or resolving a game-running issue."
+  ],
+  "explanation": "Storyteller rule supporting accessibility or resolving a game-running issue.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": false,
+  "referenceOnly": true,
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "Announce which players are protected by the Angel. :reminder:",
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

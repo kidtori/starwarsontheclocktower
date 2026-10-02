@@ -1,0 +1,78 @@
+{
+  "id": "the-armorer",
+  "name": "The Armorer",
+  "aliases": [
+    "Armorer"
+  ],
+  "summary": "Mandalorian craftswoman and spiritual leader of Din's covert.",
+  "source": [
+    "Star Wars: The Mandalorian",
+    "Star Wars: The Book of Boba Fett"
+  ],
+  "era": [
+    "New Republic"
+  ],
+  "factions": [
+    "Mandalorians"
+  ],
+  "alignment": [
+    "mixed",
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "The Armorer | Star Wars Databank",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "wisdom",
+    "leadership",
+    "knowledge",
+    "loyalty"
+  ],
+  "archetypes": [
+    "leader"
+  ],
+  "personality": [
+    "wisdom",
+    "loyalty"
+  ],
+  "behaviours": [
+    "Narrative metaphor: wisdom",
+    "Narrative metaphor: leadership",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: loyalty"
+  ],
+  "narrativeFunctions": [
+    "wisdom",
+    "leadership",
+    "knowledge",
+    "loyalty"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: The Armorer | Star Wars Databank",
+      "url": "https://www.starwars.com/databank/the-armorer",
+      "accessedAt": "2026-10-02",
+      "sha256": "26a8f8e555001d5e92c38d774c3987f9d30592b3e05a6d58f1e4082502b006e4"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

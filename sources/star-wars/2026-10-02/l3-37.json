@@ -1,0 +1,18 @@
+{
+  "url": "https://www.starwars.com/databank/l3-37",
+  "title": "L3-37 | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "b3e30dc1504d808bc0ebc58f44ec3c875fdf2b364303d95698ed5843742f612d",
+  "appearances": [
+    "Solo: A Star Wars Story"
+  ],
+  "affiliations": [],
+  "species": [],
+  "linkedEntries": [
+    "l3-37",
+    "millennium-falcon",
+    "lando-calrissian",
+    "tobias-beckett",
+    "kessel"
+  ]
+}

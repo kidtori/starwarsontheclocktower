@@ -1,0 +1,74 @@
+{
+  "id": "bodhi-rook",
+  "name": "Bodhi Rook",
+  "aliases": [
+    "Bodhi"
+  ],
+  "summary": "Imperial cargo pilot who defected with Galen Erso's message.",
+  "source": [
+    "Rogue One: A Star Wars Story"
+  ],
+  "era": [
+    "Reign of the Empire"
+  ],
+  "factions": [
+    "Galactic Empire",
+    "Rebel Alliance"
+  ],
+  "alignment": [
+    "good"
+  ],
+  "canonicalMetadata": {
+    "databankTitle": "Bodhi Rook",
+    "affiliations": [],
+    "species": []
+  },
+  "themes": [
+    "betrayal",
+    "knowledge",
+    "redemption",
+    "sacrifice"
+  ],
+  "archetypes": [
+    "supporting character"
+  ],
+  "personality": [],
+  "behaviours": [
+    "Narrative metaphor: betrayal",
+    "Narrative metaphor: knowledge",
+    "Narrative metaphor: redemption",
+    "Narrative metaphor: sacrifice"
+  ],
+  "narrativeFunctions": [
+    "betrayal",
+    "knowledge",
+    "redemption",
+    "sacrifice"
+  ],
+  "relationships": [],
+  "importance": {
+    "overall": 2,
+    "recognisability": 2,
+    "storyImportance": 2,
+    "thematicImportance": 2
+  },
+  "annotationStatus": "Editable editorial draft: eras, alignment, casting groups, traits, themes and importance are interpretation, not official ratings.",
+  "identityPolicy": "One record per person/droid; aliases cover alternate names. Traits can span different life stages. Review the chosen portrayal before approval.",
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "StarWars.com Databank: Bodhi Rook",
+      "url": "https://www.starwars.com/databank/bodhi-rook",
+      "accessedAt": "2026-10-02",
+      "sha256": "e7787229a76cf6d43801ab6dcfe3fb136f3751a896ca145db14eae49ac33ea5d"
+    },
+    {
+      "type": "interpretation",
+      "description": "Concise factual paraphrase and timeline groups curated for local use; source-linked relationships span the complete narrative."
+    },
+    {
+      "type": "design",
+      "description": "Casting themes, alignment, archetypes, importance (0–3) and faction groups are editable editorial signals in data/design/star-wars-seed.txt. No Galactic Racer facts asserted."
+    }
+  ]
+}

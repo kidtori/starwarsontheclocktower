@@ -1,0 +1,62 @@
+{
+  "id": "mutant",
+  "name": "Mutant",
+  "officialId": "mutant",
+  "aliases": [],
+  "team": "outsider",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "If you are “mad” about being an Outsider, you might be executed.",
+  "mechanics": {
+    "executionInteraction": 3,
+    "playerAgency": 2,
+    "bluffability": 3
+  },
+  "tags": [
+    "executionInteraction",
+    "playerAgency",
+    "bluffability"
+  ],
+  "designRole": [
+    "Risk of execution if mad about being an Outsider; puts pressure on truthful public identity."
+  ],
+  "explanation": "Risk of execution if mad about being an Outsider; puts pressure on truthful public identity.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": null,
+    "otherNights": null
+  },
+  "interactions": {
+    "synergisesWith": [
+      "cerenovus"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 28
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    }
+  ]
+}

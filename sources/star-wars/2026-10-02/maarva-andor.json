@@ -1,0 +1,24 @@
+{
+  "url": "https://www.starwars.com/databank/maarva-andor",
+  "title": "Maarva Andor | Star Wars Databank",
+  "accessedAt": "2026-10-02",
+  "sha256": "6f64f47c773a6cd63ed016e05d57b4769d0c03e4c2c8d866457f455dcbec306c",
+  "appearances": [
+    "Andor A Star Wars Story"
+  ],
+  "affiliations": [
+    "Daughters of Ferrix"
+  ],
+  "species": [],
+  "linkedEntries": [
+    "maarva-andor",
+    "daughters-of-ferrix",
+    "ferrix",
+    "clem-andor",
+    "kenari",
+    "cassian-andor",
+    "brasso",
+    "bix-caleen",
+    "b2emo"
+  ]
+}

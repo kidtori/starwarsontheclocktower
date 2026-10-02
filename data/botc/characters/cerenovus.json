@@ -1,0 +1,76 @@
+{
+  "id": "cerenovus",
+  "name": "Cerenovus",
+  "officialId": "cerenovus",
+  "aliases": [],
+  "team": "minion",
+  "edition": "Sects & Violets",
+  "officialEdition": "snv",
+  "ability": "Each night, choose a player & a good character: they are “mad” they are this character tomorrow, or might be executed.",
+  "mechanics": {
+    "executionInteraction": 2,
+    "evilUtility": 2,
+    "playerAgency": 3
+  },
+  "tags": [
+    "executionInteraction",
+    "evilUtility",
+    "playerAgency"
+  ],
+  "designRole": [
+    "Forces a player to be mad about a selected good character or risk execution."
+  ],
+  "explanation": "Forces a player to be mad about a selected good character or risk execution.",
+  "annotationStatus": "initial editorial draft",
+  "generationEligible": true,
+  "referenceOnly": false,
+  "complexity": "medium",
+  "setup": false,
+  "nightInstructions": {
+    "firstNight": "The Cerenovus chooses a player & a character. :reminder: Put the Cerenovus to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Cerenovus token, then the madness-character token.",
+    "otherNights": "The Cerenovus chooses a player & a character. :reminder: Put the Cerenovus to sleep. Wake the target. Show the *THIS CHARACTER SELECTED YOU* token, the Cerenovus token, then the madness-character token."
+  },
+  "interactions": {
+    "synergisesWith": [
+      "mutant",
+      "pixie"
+    ],
+    "conflictsWith": [],
+    "dangerousCombinations": [],
+    "storytellerNotes": []
+  },
+  "requiresRoles": [],
+  "jinxes": [
+    {
+      "characterId": "goblin",
+      "reason": "The Cerenovus may choose to make a player mad that they are the Goblin.",
+      "sourceOwner": "cerenovus",
+      "source": "https://release.botc.app/resources/data/jinxes.json"
+    }
+  ],
+  "sources": [
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: released character data",
+      "url": "https://raw.githubusercontent.com/ThePandemoniumInstitute/botc-release/main/resources/data/roles.json",
+      "accessedAt": "2026-10-02"
+    },
+    {
+      "type": "reference",
+      "title": "BotC Tracker character catalogue",
+      "url": "https://botc-tracker.com/characters/",
+      "accessedAt": "2026-10-02",
+      "sourceId": 14
+    },
+    {
+      "type": "design",
+      "description": "Initial editable editorial annotations in data/design/botc-annotations.json. Numeric signals and synergy judgements are not official ratings."
+    },
+    {
+      "type": "canonical",
+      "title": "The Pandemonium Institute: official jinx rules",
+      "url": "https://release.botc.app/resources/data/jinxes.json",
+      "accessedAt": "2026-10-02"
+    }
+  ]
+}
