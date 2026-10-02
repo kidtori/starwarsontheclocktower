@@ -7,6 +7,7 @@ $nodeVersion = & $NodePath -p 'process.versions.node'
 $nodeMajor = [int]($nodeVersion.Split('.')[0])
 if ($nodeMajor -lt 22) { throw 'Node.js 22 or newer is required.' }
 $runtime = Join-Path $appRoot 'runtime'
+if (!(Test-Path -LiteralPath (Join-Path $runtime 'laya-model/model.safetensors'))) { throw 'Run scripts/prepare-laya.ps1 first to bundle embedded Laya.' }
 New-Item -ItemType Directory -Force -Path $runtime | Out-Null
 Copy-Item -LiteralPath $NodePath -Destination (Join-Path $runtime 'node.exe') -Force
 Copy-Item -LiteralPath (Join-Path $appRoot 'packaging\NODE-LICENSE.txt') -Destination (Join-Path $runtime 'LICENSE.txt') -Force
@@ -16,21 +17,24 @@ if ($LASTEXITCODE -ne 0) { throw 'Launcher compilation failed.' }
 $packageVersion = (Get-Content -LiteralPath (Join-Path $appRoot 'package.json') -Raw | ConvertFrom-Json).version
 $dist = Join-Path $appRoot 'dist'
 New-Item -ItemType Directory -Force -Path $dist | Out-Null
-$staging = Join-Path $dist ('build-' + [guid]::NewGuid().ToString('N'))
-$bundle = Join-Path $staging 'Clocktower Studio'
-New-Item -ItemType Directory -Path $bundle | Out-Null
-foreach ($name in @('data','examples','lib','public','schemas','sources','runtime')) {
-    Copy-Item -LiteralPath (Join-Path $appRoot $name) -Destination (Join-Path $bundle $name) -Recurse
-}
-$personalSettings = Join-Path $bundle 'data\app-settings.json'
-if (Test-Path -LiteralPath $personalSettings) { Remove-Item -LiteralPath $personalSettings }
-foreach ($name in @('Clocktower Studio.exe','server.js','package.json','README.md','THIRD-PARTY-NOTICES.md','config.example.json','start-studio.cmd')) {
-    Copy-Item -LiteralPath (Join-Path $appRoot $name) -Destination $bundle
-}
-New-Item -ItemType Directory -Path (Join-Path $bundle 'projects') | Out-Null
 $zip = Join-Path $dist "Clocktower-Studio-$packageVersion-windows-x64.zip"
-Compress-Archive -LiteralPath $bundle -DestinationPath $zip -Force
+Add-Type -AssemblyName System.IO.Compression.FileSystem
+if(Test-Path -LiteralPath $zip){Remove-Item -LiteralPath $zip}
+$archive=[System.IO.Compression.ZipFile]::Open($zip,[System.IO.Compression.ZipArchiveMode]::Create)
+try {
+ foreach($directory in @('data','examples','lib','public','schemas','sources','runtime')) {
+  Get-ChildItem -LiteralPath (Join-Path $appRoot $directory) -Recurse -File | ForEach-Object {
+   $relative=[System.IO.Path]::GetRelativePath($appRoot,$_.FullName).Replace('\','/')
+   if($relative -ne 'data/app-settings.json' -and $relative -notmatch '/__pycache__/') {
+    [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive,$_.FullName,('Clocktower Studio/'+$relative),[System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
+   }
+  }
+ }
+ foreach($name in @('Clocktower Studio.exe','server.js','package.json','README.md','THIRD-PARTY-NOTICES.md','config.example.json','start-studio.cmd')) {
+  [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive,(Join-Path $appRoot $name),('Clocktower Studio/'+$name),[System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
+ }
+ $archive.CreateEntry('Clocktower Studio/projects/') | Out-Null
+} finally {$archive.Dispose()}
 @{ version=$packageVersion; node=$nodeVersion; sha256=(Get-FileHash -LiteralPath $zip -Algorithm SHA256).Hash; file=(Split-Path -Leaf $zip) } | ConvertTo-Json | Set-Content -LiteralPath ($zip + '.json') -Encoding utf8
 Write-Output "Executable: $exe"
 Write-Output "Portable ZIP: $zip"
-Write-Output "Staging folder retained: $bundle"

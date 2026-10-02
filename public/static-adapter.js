@@ -1,5 +1,6 @@
 // This adapter is bundled only into the hosted, one-off builder.
 const engine=require('./engine'),knowledge=require('./knowledge'),settings=require('./settings');
+const projectFile=require('./project-markdown');
 const {markdown}=require('./export'),{scriptText}=require('./script-text');
 const initial=fetch('./corpus.json').then(r=>{if(!r.ok)throw Error('Character corpus could not be loaded.');return r.json();});
 const projects=new Map();let base,kb;
@@ -13,13 +14,16 @@ window.StaticApi=async(name,b={})=>{
  if(name==='reload')return {kb:ownedCorpus()};
  if(name==='knowledge')throw Error('Edit the source repository to change the hosted corpus. Local JSON imports are available in the desktop app.');
  if(name==='parse')return knowledge.parseScript(String(b.text||''),kb);
- if(name==='create')return save(await engine.create(kb,b.request,'',b.roleIds,b.supplementalRoleIds),'Created mechanics');
+ if(name==='import-md'){const data=projectFile.parseProjectMarkdown(String(b.text||''),kb);if(!data)throw Error('Missing Clocktower Markdown import block.');projects.clear();return save(await projectFile.importProjectMarkdown(kb,data,'',engine),'Imported Markdown');}
+ if(name==='create'){projects.clear();return save(await engine.create(kb,b.request,'',b.roleIds,b.supplementalRoleIds),'Created mechanics');}
  if(name.startsWith('project/'))return current(name.slice(8));
  const p=current(b.id);if(b.version!==undefined&&b.version!==p.version)throw Error('This script changed. Try again with the current revision.');
  if(name==='export')return markdown(p,b.options);
+ if(name==='markdown')return projectFile.projectMarkdown(p);
  if(name==='text')return scriptText(p);
  if(name==='replacements')return engine.replacementOptions(kb,p,b.roleId,'');
  if(name==='action')return save(engine.mutate(kb,p,b.action,''),b.action.type);
+ if(name==='redesign')return save(await engine.redesign(kb,p,b.request,''),'Applied mechanical preferences');
  if(name==='regenerate')return save(await engine.regenerate(kb,p,''),'Refreshed design / fits');
  if(name==='undo'||name==='redo'){const s=projects.get(p.id),cursor=s.cursor+(name==='undo'?-1:1);if(cursor<0||cursor>=s.history.length)throw Error('No revision in that direction.');s.cursor=cursor;return current(p.id);}
  if(name==='chat'){const reply=await engine.review(kb,p,b.query,b.selectedId,'');p.conversation.push({query:b.query,...reply,at:new Date().toISOString()});return {project:save(p,'Review question'),reply};}

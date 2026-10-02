@@ -8,3 +8,4 @@ dist/
 *.exe
 data/app-settings.json
 *.log
+__pycache__/

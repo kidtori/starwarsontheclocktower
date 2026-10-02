@@ -1,6 +1,6 @@
 # Star Wars Clocktower Studio
 
-A standalone local web application for designing and reviewing Star Wars skins over existing Blood on the Clocktower characters. Node.js 22+ is the only runtime dependency. No package installation, cloud account, live research, Laya service, or graphics pipeline is required.
+A standalone local web application for designing and reviewing Star Wars skins over existing Blood on the Clocktower characters. The desktop package includes Node.js, Python, Laya 0.3.6 and the local Laya decision-model checkpoint. It runs offline without a separate Laya service or API key. Source checkout can also run with corpus rules alone.
 
 The BOTC database now contains **181 released characters** from the 2 October 2026 source snapshots: 69 Townsfolk, 23 Outsiders, 27 Minions, 19 Demons, 18 Travellers, 14 Fabled and 11 Loric. The 138 standard-team roles are available for script design; the other 43 are searchable supplemental references that can be preserved on import. It includes exact official ability text and 131 official jinx rules. See `sources/botc/README.md` for provenance and `data/botc-catalogue.json` for coverage checks, wording differences and backup locations. Initial mechanical annotations are clearly marked editorial drafts.
 
@@ -8,7 +8,7 @@ The BOTC database now contains **181 released characters** from the 2 October 20
 
 ### One-off webpage
 
-The GitHub Pages version runs entirely in your browser, without accounts or a server database. Projects exist only for the current page session. Use **Export TXT** before closing the tab and import the file next time. TXT preserves BOTC roles, supplemental entries and optional identity choices; choose whether to restore those choices after confirming imported mechanics. Markdown export remains available after approval. Desktop projects are not uploaded or synchronized to the website.
+The GitHub Pages version runs entirely in your browser, without accounts or a server database. Projects exist only for the current page session. Use **Export Markdown** before closing the tab and **Import Markdown** next time. The file preserves roles, requirements, supplemental entries, notes, locks and identity choices. Export works during mechanical review or retheming; an approved report is also available. Desktop projects are not uploaded or synchronized to the website.
 
 Build with `npm run build:web`, then preview with `node scripts/preview-web.js`. The Pages workflow deploys `dist/web` from `main`. No credentials, local settings, saved projects or runtime binaries are included in the website.
 
@@ -16,11 +16,12 @@ Character fits compare BOTC mechanic concepts against explicit character themes,
 
 ### Windows executable
 
-Download the Windows ZIP from this repository's Releases page, extract the whole folder to a writable location, and double-click **Clocktower Studio.exe**. Node.js is bundled. The browser opens automatically; the tray icon can reopen the app or stop its server. Keep the executable with the rest of the extracted folder. Existing source installations keep their projects in place.
+Download the Windows ZIP from this repository's Releases page, extract the whole folder to a writable location, and double-click **Clocktower Studio.exe**. Node.js and the complete Laya inference runtime are bundled. The browser opens automatically; the tray icon can reopen the app or stop its server. Keep the executable with the rest of the extracted folder. Each launch starts a new session. Export Markdown to keep the current script. Older project files are left untouched but are not loaded.
 
 To build locally on Windows with Node.js 24.7.0 and .NET Framework installed:
 
 ```powershell
+pwsh -NoProfile -File scripts/prepare-laya.ps1
 pwsh -NoProfile -File scripts/build-windows.ps1
 ```
 
@@ -144,3 +145,21 @@ npm test
 Tests exercise name resolution, composition preservation, constraints, locks, global assignment, replacement consequences, state transitions, storage recovery, retrieval and Markdown options. There is no dependency installation. Standard Node modules provide the server, storage and test runner.
 
 Excluded by design: PDF/image export, portraits, tokens, custom artwork, printable layouts, new BOTC abilities and homebrew generation.
+
+## Embedded Laya
+
+The Windows package loads its own model weights in a private Python child process, communicating over stdin/stdout. No Laya HTTP server, sibling project, cloud endpoint or key is needed. Model loading and inference disable Hugging Face network access. CPU inference works without a GPU; initial loading and large scripts take longer. The package is substantially larger because it contains the roughly 843 MB checkpoint plus PyTorch and Python.
+
+Laya is a typed decision model rather than a text-generating chatbot. For mechanics it chooses among up to four eligible candidates per slot. Explicitly named roles, locked roles, owned sets, exclusions and exact team sizes remain constraints enforced by the app. The design trace records Laya probabilities and confidence. Explicitly requested bespoke roles such as Wizard remain subject to their Storyteller warnings. Imported scripts bypass generation entirely.
+
+After confirming mechanics, select a role and use **Compare fits with embedded Laya**. It compares up to four eligible candidates using character traits and narrative functions, promotes its recommendation and shows shortlist confidence. Essential characters take priority when compatible. You choose the final identity; Laya never changes abilities or automatically replaces your assignment. Mechanical review uses Laya to select a review focus and returns source-backed notes, rather than pretending Laya generates prose. Confidence is a shortlist decision signal, not a balance guarantee.
+
+The GitHub Pages builder remains available with corpus rules, named-role requirements and TXT import/export. It does not execute Laya. Tests isolate deterministic corpus behavior with `STUDIO_LAYA_DISABLED=1`; verify the bundled model separately with `node scripts/smoke-laya.js`.
+
+## One-page, one-off workspace
+
+Each desktop or web launch starts a fresh script. Requirements and the new-script form stay on the left, the full ability script is in the centre, and selected-role information and suggested identities scroll on the right. The collection chooser uses aligned checkbox cards. Turn on Show connections and click a role to highlight official jinxes, curated synergies, tensions and specific shared mechanic signals. Generic agency and evil-utility tags do not create links. Draft requirements survive role selection. Laya compares eligible identity shortlists automatically when selecting a role during retheming.
+
+Use **Export Markdown** at any stage, and **Import Markdown** next time. The readable file includes a machine-readable Clocktower import block that preserves requirements, exact abilities, supplemental roles, selected identities, notes and locks. Imported role lists remain fixed. Keep the block intact; mismatched abilities, missing roles and unowned sets produce an error. No past-project picker or project database is used; undo belongs only to the current app session. Older project files remain untouched on disk but are not loaded. The previous TXT format remains supported by the source parser. The approved-report export is an optional separate review document.
+
+Input to the Python worker uses explicit UTF-8 and normalizes invalid Unicode before tokenization. Generation progress streams to the same viewer as roles are chosen.

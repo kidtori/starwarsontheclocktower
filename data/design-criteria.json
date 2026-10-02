@@ -81,6 +81,10 @@
     ],
     "alignment": [
       "alignmentInformation"
+    ],
+    "wish": [
+      "playerAgency",
+      "evilUtility"
     ]
   },
   "mechanicThemes": {

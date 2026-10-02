@@ -4,12 +4,15 @@ const path=require('node:path');
 const knowledge=require('./lib/knowledge');
 const engine=require('./lib/engine');
 const model=require('./lib/model');
-const {Store,atomic}=require('./lib/storage');
+const laya=require('./lib/laya');
+const {atomic}=require('./lib/storage');
+const {SessionStore}=require('./lib/session-store');
+const projectFile=require('./lib/project-markdown');
 const {markdown}=require('./lib/export');
 const {scriptText}=require('./lib/script-text');
 const settings=require('./lib/settings');
 const ROOT=process.env.STUDIO_ROOT||__dirname;
-let kb=knowledge.load(ROOT);const store=new Store(ROOT);
+let kb=knowledge.load(ROOT);const store=new SessionStore();
 let queue=Promise.resolve();
 const port=Number(process.env.PORT||3210);
 async function body(req){let s='';for await(const chunk of req){s+=chunk;if(Buffer.byteLength(s)>5*1024*1024)throw Error('Request exceeds 5 MB.');}return JSON.parse(s||'{}');}
@@ -20,9 +23,10 @@ async function route(req,res) {
   // Loopback binding plus Host/Origin checks prevent remote websites writing to the local app.
   if(![`127.0.0.1:${port}`,`localhost:${port}`].includes(req.headers.host))return send(res,403,{error:'Invalid local host.'});
   if(req.headers.origin&&!['http://127.0.0.1:'+port,'http://localhost:'+port].includes(req.headers.origin))return send(res,403,{error:'Cross-origin access refused.'});
+  if(req.method==='GET'&&url.pathname==='/api/progress')return send(res,200,laya.getProgress());
   if(req.method==='GET'&&url.pathname==='/api/bootstrap') {
-    let status;try{const c=model.config(ROOT);status=c?`Language model: ${c.model}. Retrieved corpus is sent to ${new URL(c.endpoint).origin}.`:'Offline corpus rules. Configure config.local.json for language-model review.';}catch(e){status=e.message;}
-    return send(res,200,{kb,projects:store.list(),modelStatus:status});
+    let status;try{const c=model.config(ROOT);status=laya.available(ROOT)?'Embedded Laya: local model weights, CPU inference, no external service.':c?`Language model: ${c.model}. Retrieved corpus is sent to ${new URL(c.endpoint).origin}.`:'Offline corpus rules. Configure config.local.json for language-model review.';}catch(e){status=e.message;}
+    return send(res,200,{kb,projects:store.list(),modelStatus:status,layaAvailable:laya.available(ROOT)});
   }
   if(req.method==='GET'&&url.pathname.startsWith('/api/project/'))return send(res,200,engine.adopt(store.current(url.pathname.split('/').at(-1)),kb));
   if(req.method==='POST'&&url.pathname.startsWith('/api/')) {
@@ -47,9 +51,11 @@ async function route(req,res) {
       kb=knowledge.load(ROOT);return send(res,200,{kb});
     }
     assertCorpus();
+    if(name==='import-md'){const data=projectFile.parseProjectMarkdown(String(b.text||''),kb);if(!data)throw Error('This Markdown file has no Clocktower import block.');return send(res,200,store.save(await projectFile.importProjectMarkdown(kb,data,ROOT,engine),'Imported Markdown'));}
     if(name==='parse')return send(res,200,knowledge.parseScript(String(b.text||''),kb));
     if(name==='create'){const p=await engine.create(kb,b.request,ROOT,b.roleIds,b.supplementalRoleIds);return send(res,200,store.save(p,'Created '+b.request.mode+' project'));}
     const p=engine.adopt(store.current(b.id),kb);
+    if(name==='markdown'){if(b.version!==p.version)throw Error('Script changed.');return send(res,200,projectFile.projectMarkdown(p));}
     if(name==='text'){if(b.version!==p.version)throw Error('Reopen the current project first.');return send(res,200,scriptText(p));}
     if(name==='export') {
       if(b.version!==p.version)throw Error('Reopen the current project before export.');
@@ -58,13 +64,15 @@ async function route(req,res) {
     if(name==='undo'||name==='redo')return send(res,200,engine.adopt(store.move(p.id,name==='undo'?-1:1,b.version),kb));
     if(name==='replacements')return send(res,200,engine.replacementOptions(kb,p,b.roleId,ROOT));
     if(b.version!==p.version)throw Error('Project changed in another tab. Reopen it first.');
-    if(name==='action'){const next=engine.mutate(kb,p,b.action,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
+    if(name==='action'){let next=engine.mutate(kb,p,b.action,ROOT);if(b.action.type==='begin-retheme'&&laya.available(ROOT)&&next.entries.length)next=await engine.layaFit(kb,next,next.entries[0].botcRole.id,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
+    if(name==='redesign'){const next=await engine.redesign(kb,p,b.request,ROOT);return send(res,200,store.save(next,'Applied mechanical preferences and rebuilt unlocked roles',b.version));}
+    if(name==='laya-fit'){const next=await engine.layaFit(kb,p,b.roleId,ROOT);return send(res,200,store.save(next,'Laya compared character fits',b.version));}
     if(name==='regenerate'){const next=await engine.regenerate(kb,p,ROOT);return send(res,200,store.save(next,'Regenerated around locks; '+(p.request.mode==='retheme'?'preserved imported composition':'updated mechanical design or candidate fits'),b.version));}
     if(name==='chat'){const reply=await engine.review(kb,p,String(b.query||''),b.selectedId,ROOT);p.conversation.push({query:b.query,...reply,at:new Date().toISOString()});return send(res,200,{project:store.save(p,'Review question: '+String(b.query).slice(0,100),b.version),reply});}
     throw Error('Unknown API operation.');
   }
   if(req.method!=='GET')return send(res,405,{error:'Method not allowed.'});
-  const names={'/':'index.html','/app.js':'app.js','/styles.css':'styles.css'};const file=names[url.pathname];if(!file)return send(res,404,{error:'Not found.'});
+  const names={'/':'index.html','/app.js':'app.js','/connections.js':'connections.js','/styles.css':'styles.css'};const file=names[url.pathname];if(!file)return send(res,404,{error:'Not found.'});
   res.writeHead(200,{'Content-Type':file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'",'X-Content-Type-Options':'nosniff'});res.end(fs.readFileSync(path.join(__dirname,'public',file)));
 }
 function describe(a){return a.type==='mapping'?`Changed ${a.roleId} identity to ${a.characterId}`:a.type==='role'?`Explicit mechanical replacement ${a.roleId} → ${a.newRoleId}`:a.type==='swap'?`Swapped identities on ${a.roleId} and ${a.otherRoleId}`:a.type==='locks'?`Updated ${a.roleId} locks: BOTC ${a.botcRole}, identity ${a.starWarsCharacter}`:a.type==='approve'?'Explicitly approved current script':a.type;}

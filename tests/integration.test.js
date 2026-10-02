@@ -31,7 +31,7 @@ test('configured provider uses bounded mechanics, unique cast proposals, critiqu
     invalid=true;await assert.rejects(()=>engine.createLegacy(kb,req,dir),/violated candidate/);
   }finally{await new Promise(resolve=>model.close(resolve));cleanup(dir);}
 });
-test('HTTP workflow persists, rejects bad imports and stale edits, preserves grouped data, exports only approved Markdown',async()=>{
+test('HTTP session workflow rejects bad imports and stale edits, preserves grouped data, exports only approved Markdown',async()=>{
   const dir=temp();const grouped=JSON.parse(fs.readFileSync(path.join(dir,'data/star-wars/characters/yoda.json'),'utf8'));const leia=JSON.parse(fs.readFileSync(path.join(dir,'data/star-wars/characters/leia-organa.json'),'utf8'));
   fs.unlinkSync(path.join(dir,'data/star-wars/characters/yoda.json'));fs.unlinkSync(path.join(dir,'data/star-wars/characters/leia-organa.json'));fs.writeFileSync(path.join(dir,'data/star-wars/characters/grouped.json'),JSON.stringify([grouped,leia]));
   const portServer=http.createServer();await new Promise(resolve=>portServer.listen(0,'127.0.0.1',resolve));const port=portServer.address().port;await new Promise(resolve=>portServer.close(resolve));
@@ -54,7 +54,7 @@ test('HTTP workflow persists, rejects bad imports and stale edits, preserves gro
     p=(await post('action',{id:p.id,version:p.version,action:{type:'approve'}})).value;assert.equal(p.state,'APPROVED');
     const exported=await post('export',{id:p.id,version:p.version,options:{history:true}});assert.equal(exported.status,200);assert(exported.value.includes('# Mapping Reference'));assert(exported.value.includes('# Revision Notes'));assert(exported.value.includes('sample paraphrase'));
     p=(await post('action',{id:p.id,version:p.version,action:{type:'notes',roleId:'empath',notes:'Change after approval',resolved:true}})).value;assert.equal(p.state,'DRAFT');assert.equal((await post('undo',{id:p.id,version:p.version})).value.state,'APPROVED');
-    const reopened=await (await fetch(base+'/api/project/'+p.id)).json();assert.equal(reopened.state,'APPROVED');assert(fs.existsSync(path.join(dir,'projects',p.id,'approved.json')));
+    const reopened=await (await fetch(base+'/api/project/'+p.id)).json();assert.equal(reopened.state,'APPROVED');assert(!fs.existsSync(path.join(dir,'projects',p.id,'approved.json')));
     const available=(await (await fetch(base+'/api/bootstrap')).json()).kb.botcEditions.map(e=>e.id);
     assert.equal((await post('settings',{ownedEditions:['imaginary-expansion']})).status,400);
     const disabled=await post('settings',{ownedEditions:[]});assert.equal(disabled.status,200);assert.equal(disabled.value.kb.botc.length,0);assert.equal((await post('parse',{text:'Empath'})).value.roles.length,0);
