@@ -20,6 +20,8 @@ jobs:
       - name: Prepare embedded Laya
         shell: pwsh
         run: ./scripts/prepare-laya.ps1
+      - name: Verify embedded Laya
+        run: node scripts/smoke-laya.js
       - name: Build portable executable
         shell: pwsh
         run: ./scripts/build-windows.ps1
@@ -32,4 +34,7 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
         shell: pwsh
-        run: gh release create "${{ github.ref_name }}" dist/Clocktower-Studio-*-windows-x64.zip* --title "Clocktower Studio ${{ github.ref_name }}" --notes-file packaging/RELEASE-NOTES.md
+        run: |
+          gh release view "${{ github.ref_name }}" *> $null
+          if ($LASTEXITCODE -ne 0) { gh release create "${{ github.ref_name }}" --title "Clocktower Studio ${{ github.ref_name }}" --notes-file packaging/RELEASE-NOTES.md }
+          gh release upload "${{ github.ref_name }}" dist/Clocktower-Studio-*-windows-x64.zip* --clobber
