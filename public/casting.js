@@ -8,10 +8,11 @@
   return characters.filter(c=>c.importance?.recognisability===3||c.galacticRacer||assigned.has(c.id)||[c.id,c.name,...(c.aliases||[])].some(x=>named.includes(norm(x))));
  }
  function profile(c){return c.castingProfile||{portrait:c.summary||'No factual summary supplied.',metaphor:(c.narrativeFunctions||[]).join(', '),caution:'Limited character annotation; inspect the source before choosing.'};}
+ function bridge(role,c){return c.castingBridges?.[role.botcRole?.id||role.id]||null;}
  const words=(value,n)=>String(value||'').split(/\s+/).slice(0,n).join(' ');
  function comparisonState(role,request,a,b){
-  const describe=c=>{const p=profile(c);return `${c.name}: ${p.portrait}\nCasting interpretation: ${p.metaphor}\nLimits: ${p.caution}`;};
-  return `BOTC role: ${role.botcRole.name}\nExact ability: ${role.ability}\nTheme: ${words(request.theme,35)}\nTone: ${words(request.tone,12)}\nMechanical purpose: ${words(role.mechanical?.purpose,18)}\n\nCharacter A — ${describe(a)}\n\nCharacter B — ${describe(b)}`;
+  const describe=c=>{const p=profile(c),proposal=bridge(role,c);return proposal?`${c.name}: ${words(p.portrait,35)}\nProposed retheme: ${proposal.proposal}\nLimits: ${words(p.caution,20)}`:`${c.name}: ${p.portrait}\nCasting interpretation: ${p.metaphor}\nLimits: ${p.caution}`;};
+  return `Task: compare playable narrative adaptations, not literal canonical powers. A close ranking does not mean neither adaptation works.\nBOTC role: ${role.botcRole.name}\nExact ability: ${role.ability}\nTheme: ${words(request.theme,20)}\nTone: ${words(request.tone,12)}\nMechanical purpose: ${words(role.mechanical?.purpose,18)}\n\nCharacter A — ${describe(a)}\n\nCharacter B — ${describe(b)}`;
  }
  function assess(answer){
   const confidence=Number(answer?.confidence),probabilities=Object.values(answer?.probabilities||{}).sort((a,b)=>b-a);
@@ -19,6 +20,6 @@
   const clear=Number.isFinite(confidence)&&confidence>=0.15&&confidence<=1&&margin>=0.1&&!answer?.context?.truncated;
   return {status:clear?'clear':'uncertain',confidence:Number.isFinite(confidence)?confidence:0,margin,reason:answer?.context?.truncated?'Some comparison context exceeded the model input limit.':clear?'Laya separates these two options.':'Laya has no clear preference between these options.'};
  }
- function contextKey(project){return JSON.stringify({request:project.request,cast:project.entries.map(e=>[e.botcRole.id,e.starWarsIdentity?.id||null])});}
- return {pool,profile,comparisonState,assess,contextKey};
+ function contextKey(project){return JSON.stringify({castingProtocol:2,request:project.request,cast:project.entries.map(e=>[e.botcRole.id,e.starWarsIdentity?.id||null])});}
+ return {pool,profile,bridge,comparisonState,assess,contextKey};
 });

@@ -9,20 +9,30 @@ test('popular pool has 49 detailed portraits, all five Racers, explicit exceptio
  const exceptions=casting.pool(kb.characters,{essentialCharacters:'Brasso'},[{starWarsIdentity:{id:'dedra-meero'}}]);assert(exceptions.some(c=>c.id==='brasso'));assert(exceptions.some(c=>c.id==='dedra-meero'));
  assert(kb.characters.find(c=>c.id==='poe-dameron').castingProfile.caution.includes('Village Idiot'));
 });
+test('role-specific proposals have valid source-backed characters and describe game adaptations separately from canon',async()=>{
+ let total=0;for(const c of kb.characters)for(const [id,b]of Object.entries(c.castingBridges||{})){total++;assert(kb.botc.some(r=>r.id===id));assert(b.sources.length);assert(b.proposal.length>80);assert.match(b.annotationStatus,/not canonical/);}
+ assert.equal(total,75);const p=await script(),yoda=p.entries[0].candidates.find(c=>c.id==='yoda');assert(yoda.bridge);assert.match(yoda.rationale,/mistaken reading/);assert.equal(yoda.confidence,'supported');
+ assert(!p.entries[0].candidates.slice(0,5).some(c=>c.id==='han-solo'));assert(p.entries[0].candidates.slice(0,5).every(c=>c.bridge));
+});
+test('reversing an option-biased model cancels its artificial ranking preference',async t=>{
+ mock(t,async(_root,_state,options)=>({choice:options[0].id,confidence:0.8,probabilities:Object.fromEntries(options.map((o,i)=>[o.id,i===0?0.99:0.01/(options.length-1)]))}));
+ const p=await script(),out=await engine.layaFit(kb,p,'village-idiot',root),e=out.entries[0];assert.equal(e.layaRecommendation,null);assert(e.layaComparison.rounds.every(r=>r.ballots.length===2&&r.status==='uncertain'));
+ assert.deepEqual(e.candidates.slice(0,5).map(c=>c.id),p.entries[0].candidates.slice(0,5).map(c=>c.id));assert(e.layaSuggestions.every(s=>s.orderStatus==='close'&&s.fitStatus==='specific-proposal'));
+});
 test('uncertain fit does not promote a winner and supplies both full portraits with the exact ability',async t=>{
  const states=[];mock(t,async(_root,input,options)=>{if(options.length===2)states.push(input);return {choice:options[1].id,confidence:0.0001,probabilities:Object.fromEntries(options.map(o=>[o.id,1/options.length]))};});
  const p=await script({essentialCharacters:['Poe Dameron','Han Solo'],tone:'Playful intrigue'}),before=p.entries[0].candidates.map(c=>c.id);const result=await engine.layaFit(kb,p,'village-idiot',root),e=result.entries[0];
- assert(states.every(state=>state.includes(p.entries[0].ability)));assert(states.some(state=>state.includes('Recklessness alone does not justify Village Idiot')&&state.includes('Improvisation')));assert(states.every(state=>state.includes('Playful intrigue')));assert.equal(e.layaComparison.status,'uncertain');assert.equal(e.layaRecommendation,null);assert.deepEqual(e.candidates.map(c=>c.id),before);assert.equal(e.starWarsIdentity,null);assert.equal(e.layaSuggestions.length,5);assert(e.layaSuggestions.every(s=>s.provisional&&s.explanation&&s.limits));
+ assert(states.every(state=>state.includes(p.entries[0].ability)));assert(states.some(state=>state.includes('Recklessness alone does not justify Village Idiot')&&state.includes('Improvisation')));assert(states.every(state=>state.includes('Playful intrigue')));assert.equal(e.layaComparison.status,'uncertain');assert.equal(e.layaRecommendation,null);assert.deepEqual(e.candidates.map(c=>c.id),before);assert.equal(e.starWarsIdentity,null);assert.equal(e.layaSuggestions.length,5);assert(e.layaSuggestions.every(s=>s.explanation&&s.limits&&s.orderStatus==='close'));assert(e.layaSuggestions.some(s=>s.fitStatus==='specific-proposal'&&!s.provisional));
 });
 test('distinct preferences can promote a suggestion without assigning it; changes to the cast invalidate it',async t=>{
  let favourite;mock(t,async(_root,_state,options)=>{const choice=options.some(o=>o.id==='function')?'function':options.some(o=>o.id===favourite)?favourite:options[1].id;return {choice,confidence:0.5,probabilities:Object.fromEntries(options.map(o=>[o.id,o.id===choice?0.95:0.05/(options.length-1)]))};});
- let p=await script({essentialCharacters:['Poe Dameron','Han Solo']});favourite=p.entries[0].candidates[1].id;const original=p.entries.map(e=>[e.botcRole.id,e.ability]);p=await engine.layaFit(kb,p,'village-idiot',root);const e=p.entries[0];assert.equal(e.layaComparison.status,'clear');assert.equal(e.candidates[0].id,e.layaRecommendation.choice);assert.equal(e.starWarsIdentity,null);assert.equal(e.layaSuggestions.length,5);
+ let p=await script({essentialCharacters:['Yoda','Qui-Gon Jinn']});favourite=p.entries[0].candidates[1].id;const original=p.entries.map(e=>[e.botcRole.id,e.ability]);p=await engine.layaFit(kb,p,'village-idiot',root);const e=p.entries[0];assert.equal(e.layaComparison.status,'clear');assert.equal(e.candidates[0].id,e.layaRecommendation.choice);assert.equal(e.starWarsIdentity,null);assert.equal(e.layaSuggestions.length,5);
  const refresh=engine.refresh(kb,structuredClone(p),root);assert.deepEqual(refresh.entries[0].candidates.slice(0,5).map(c=>c.id),e.layaSuggestions.map(s=>s.id));
  const changed=engine.mutate(kb,p,{type:'mapping',roleId:'imp',characterId:e.layaRecommendation.choice},root);assert.equal(changed.entries[0].layaRecommendation,undefined);assert.equal(changed.entries[0].layaSuggestions,undefined);assert.deepEqual(changed.entries.map(e=>[e.botcRole.id,e.ability]),original);
 });
-test('all pairs of eight are ranked and five explanation choices follow; close first preference remains provisional',async t=>{
+test('five concrete proposals are ranked and close ranking never suppresses their explanations',async t=>{
  let calls=0;mock(t,async(_root,_state,options)=>{calls++;return {choice:options[0].id,confidence:calls===1?0:0.5,probabilities:Object.fromEntries(options.map((o,i)=>[o.id,calls===1?0.5:i===0?0.95:0.05/(options.length-1)]))};});
- const p=await script(),result=await engine.layaFit(kb,p,'village-idiot',root),e=result.entries[0];assert.equal(calls,33);assert.equal(e.layaRecommendation,null);assert.equal(e.layaComparison.rounds.length,28);assert.equal(e.layaSuggestions.length,5);assert.deepEqual(e.layaSuggestions.map(s=>s.rank),[1,2,3,4,5]);assert(e.layaSuggestions[0].provisional);
+ const p=await script(),result=await engine.layaFit(kb,p,'village-idiot',root),e=result.entries[0];assert.equal(calls,25);assert.equal(e.layaRecommendation,null);assert.equal(e.layaComparison.rounds.length,10);assert.equal(e.layaSuggestions.length,5);assert.deepEqual(e.layaSuggestions.map(s=>s.rank),[1,2,3,4,5]);assert.equal(e.layaSuggestions[0].orderStatus,'close');assert(e.layaSuggestions.every(s=>s.fitStatus==='specific-proposal'&&!s.provisional&&!s.explanation.includes('no specific')));
 });
 test('input truncation prevents a recommendation even when the reported preference is strong',async t=>{
  mock(t,async(_root,_state,options)=>({choice:options[0].id,confidence:0.8,probabilities:{[options[0].id]:0.99,[options[1].id]:0.01},context:{truncated:true}}));

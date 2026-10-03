@@ -12,6 +12,6 @@ const root=path.join(__dirname,'..');
  const themed=engine.mutate(kb,p,{type:'begin-retheme'},root);
  const compared=await engine.layaFit(kb,themed,'wizard',root);const entry=compared.entries.find(e=>e.botcRole.id==='wizard');assert(entry.layaComparison?.rounds.length);assert(entry.layaComparison.rounds.every(r=>r.context&&!r.context.truncated));assert.equal(entry.starWarsIdentity,null);if(entry.layaRecommendation){assert.equal(entry.layaComparison.status,'clear');assert.equal(entry.candidates[0].id,entry.layaRecommendation.choice);}else assert.equal(entry.layaComparison.status,'uncertain');
  assert.deepEqual(compared.entries.map(e=>[e.botcRole.id,e.ability]),p.entries.map(e=>[e.botcRole.id,e.ability]));
- assert.equal(entry.layaSuggestions.length,5);assert.equal(entry.layaComparison.rounds.length,28);assert(entry.layaSuggestions.every(s=>s.explanation&&s.limits&&!s.reasoning.context?.truncated));
+ assert.equal(entry.layaSuggestions.length,5);assert.equal(entry.layaComparison.rounds.length,10);assert(entry.layaSuggestions.every(s=>s.fitStatus==='specific-proposal'&&s.explanation&&s.limits&&!s.reasoning.context?.truncated));
  console.log(JSON.stringify({engine:review.engine,roles:p.entries.map(e=>e.botcRole.name),decisions:p.designTrace.length,comparison:entry.layaComparison.status,pairComparisons:entry.layaComparison.rounds.length,suggestions:entry.layaSuggestions.map(s=>({name:s.name,rank:s.rank,basis:s.basis,provisional:s.provisional}))}));
 })().catch(e=>{console.error(e.message);process.exitCode=1;}).finally(()=>laya.close());
