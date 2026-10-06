@@ -1,8 +1,8 @@
 {
-  "name": "star-wars-clocktower-studio",
-  "version": "0.4.0",
+  "name": "clocktower-studio",
+  "version": "0.5.0",
   "private": true,
-  "description": "Local, corpus-backed BOTC script design and Star Wars retheming",
+  "description": "Local BOTC mechanics and independent reusable theme libraries",
   "scripts": {
     "start": "node server.js",
     "test": "node scripts/test.js",

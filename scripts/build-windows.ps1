@@ -9,9 +9,14 @@ if ($nodeMajor -lt 22) { throw 'Node.js 22 or newer is required.' }
 $runtime = Join-Path $appRoot 'runtime'
 if (!(Test-Path -LiteralPath (Join-Path $runtime 'laya-model/model.safetensors'))) { throw 'Run scripts/prepare-laya.ps1 first to bundle embedded Laya.' }
 New-Item -ItemType Directory -Force -Path $runtime | Out-Null
-Copy-Item -LiteralPath $NodePath -Destination (Join-Path $runtime 'node.exe') -Force
+$bundledNode=Join-Path $runtime 'node.exe'
+if (!(Test-Path -LiteralPath $bundledNode) -or (Get-FileHash -LiteralPath $NodePath).Hash -ne (Get-FileHash -LiteralPath $bundledNode).Hash) {
+ Copy-Item -LiteralPath $NodePath -Destination $bundledNode -Force
+}
 Copy-Item -LiteralPath (Join-Path $appRoot 'packaging\NODE-LICENSE.txt') -Destination (Join-Path $runtime 'LICENSE.txt') -Force
-$exe = Join-Path $appRoot 'Clocktower Studio.exe'
+$dist = Join-Path $appRoot 'dist'
+New-Item -ItemType Directory -Force -Path $dist | Out-Null
+$exe = Join-Path $dist 'Clocktower Studio.exe'
 & $compiler /nologo /target:winexe /reference:System.Windows.Forms.dll /reference:System.Drawing.dll "/out:$exe" (Join-Path $appRoot 'packaging\Launcher.cs')
 if ($LASTEXITCODE -ne 0) { throw 'Launcher compilation failed.' }
 $packageVersion = (Get-Content -LiteralPath (Join-Path $appRoot 'package.json') -Raw | ConvertFrom-Json).version
@@ -25,12 +30,13 @@ try {
  foreach($directory in @('data','examples','lib','public','schemas','sources','runtime')) {
   Get-ChildItem -LiteralPath (Join-Path $appRoot $directory) -Recurse -File | ForEach-Object {
    $relative=[System.IO.Path]::GetRelativePath($appRoot,$_.FullName).Replace('\','/')
-   if($relative -ne 'data/app-settings.json' -and $relative -notmatch '/__pycache__/|/laya-fits\.json$') {
+   if($relative -notin @('data/app-settings.json','data/theme-settings.json') -and $relative -notmatch '/__pycache__/|/laya-fits\.json$') {
     [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive,$_.FullName,('Clocktower Studio/'+$relative),[System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
    }
   }
  }
- foreach($name in @('Clocktower Studio.exe','server.js','package.json','README.md','THIRD-PARTY-NOTICES.md','config.example.json','start-studio.cmd')) {
+ [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive,$exe,'Clocktower Studio/Clocktower Studio.exe',[System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
+ foreach($name in @('server.js','package.json','README.md','THIRD-PARTY-NOTICES.md','config.example.json','start-studio.cmd')) {
   [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive,(Join-Path $appRoot $name),('Clocktower Studio/'+$name),[System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
  }
  $archive.CreateEntry('Clocktower Studio/projects/') | Out-Null

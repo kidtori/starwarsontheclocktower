@@ -2,7 +2,7 @@ const {test}=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
 function dialog(){
  const source=fs.readFileSync(path.join(__dirname,'../public/app.js'),'utf8');
- const code=source.slice(source.indexOf('function markdownImportDialog(){'),source.indexOf("$('#import-md').onclick=markdownImportDialog;"));
+ const code=source.slice(source.indexOf('function markdownImportDialog(){'),source.indexOf('function botcLibrary(){'));
  const nodes=Object.fromEntries(['markdown-file','markdown-text','markdown-file-state','import-markdown-submit','modal-error'].map(id=>['#'+id,{value:'',textContent:'',disabled:false,files:[]} ]));
  const calls=[];let error='',closed=false,rendered=false;
  const original={title:'Existing unsaved script'};

@@ -1,9 +1,0 @@
-{
-  "id": "star-wars",
-  "name": "Star Wars",
-  "description": "One character library, including Galactic Racer and classic racers. Racing context enriches those identities rather than defining a separate theme.",
-  "characters": "characters",
-  "context": "racing",
-  "profiles": "character-profiles.json",
-  "adaptations": "casting-bridges.json"
-}

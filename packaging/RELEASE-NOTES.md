@@ -1,30 +1,11 @@
-Build and review BOTC mechanics first, then choose Star Wars identities role by role.
+Clocktower Studio now separates BOTC mechanics from reusable theme libraries.
 
-Retheming no longer launches a model sweep when clicking a role or confirming mechanics. Knowledge now provides background assessment of each Star Wars character against owned BOTC roles, with per-character and bulk buttons. Each pairing is saved immediately, can be stopped after the current pairing, resumes without repeating unchanged work, and is invalidated when its evidence changes. Saved fits appear immediately without a top-five limit. Find best fit for this cast optionally compares those saved adaptations against the existing assignments; it never assigns an identity automatically.
+- BOTC menu combines script tools with Roles & expansions: owned-set selection, catalogue search, exact abilities and jinxes.
+- Themes menu creates and selects separate empty libraries, with generic character descriptions, tags, metaphors and JSON editing/import.
+- The app starts with zero themes and zero characters. Previously supplied lore, characters, theme-specific restrictions and archived source material are excluded from the active app and downloads.
+- Theme changes clear character assignments, locks, cached proposals and theme preferences while preserving exact BOTC mechanics. Approved casts return to draft.
+- Background embedded Laya assessments are saved within each theme. Clicking roles reads saved fits immediately. Find best fit considers the current cast.
+- Published-script imports remain exact. Markdown from an unavailable theme restores the BOTC mechanics without old character assignments.
+- Web theme libraries are temporary session data. Embedded Laya remains desktop-only. Export Markdown before closing or updating the app.
 
-All 162 Star Wars identities, including Galactic Racer and classic racers, now belong to one Star Wars theme folder. Racing records enrich the same characters. BOTC mechanics remain separate. Saved assessments are local theme data and are not included in release archives; preserve data/themes/star-wars/laya-fits.json when moving to a new desktop installation.
-
-Desktop Laya now shows live casting progress: completed comparison outcomes, a provisional top-five ranking, and each explanation as it finishes. Mechanical selections also appear immediately during initial design and rebuilds. Decisions, the script viewer and next-unassigned retheming follow Demon → Minions → Townsfolk → Outsiders. Imported composition and abilities remain unchanged. Previews are provisional until the operation completes and do not assign identities automatically.
-
-Selecting Trouble Brewing, Bad Moon Rising or Sects & Violets now loads the published script immediately with its own title and unchanged roles. Published and Markdown-imported scripts skip mechanical brief, tone, complexity, required/excluded role and composition setup. Saved preferences remain intact; renaming a loaded script does not overwrite them. Review the loaded mechanics, then choose identities.
-
-Thematic ranking now compares concrete role-to-story adaptation proposals instead of asking whether a character canonically has a game ability. There are 75 editable proposals across 15 roles; other pairings remain exploratory. Both option orders are tested and combined to reduce positional bias. Close rankings are distinguished from unsupported themes, and specific adaptation explanations remain available without pretending their model weights prove correctness.
-
-Retheming now shows five numbered Laya suggestions per role, with individual explanations and fit limits. Laya compares all pairs in an eight-character shortlist, orders candidates within your essential-character priorities, and chooses an explanation angle from supplied evidence. Close results remain provisional; fewer suggestions are shown only when fewer eligible identities remain. Choosing a character is still manual, and new assignments or requirements invalidate old rankings.
-
-Named BOTC requirements and exclusions now come only from their dedicated fields. The mechanical brief guides role selection without enforcing names, so “drunk” no longer automatically requires Drunk. The character picker also tolerates an unavailable casting helper when updating an older running app, preventing the “reading pool” crash during retheming.
-
-Markdown import now uses a visible file picker with a preview you can edit before importing. You can also paste the complete exported Markdown. File-read failures explain how to make cloud files available locally; rejected imports keep the existing script intact. The embedded model badge now reads “Embedded Laya · running locally”.
-
-Download the Windows x64 ZIP, extract the whole folder somewhere writable, and double-click **Clocktower Studio.exe**. Node.js is bundled; no npm install is needed. The app opens in your default browser. Use the tray icon to reopen it or stop the server.
-
-The executable must stay beside the data, runtime, public and lib folders. Saved projects and configuration are kept inside your extracted folder. This package includes no personal projects or provider credentials.
-
-The launcher is unsigned. Application source and reproducible build instructions are available in this repository. Character content retains its original source attribution and third-party rights.
-
-This release embeds Laya locally for bounded role selection, mechanical review focus and manual character-fit comparison. It includes Python, PyTorch and model weights and requires no separate running Laya app. Roles in the Required BOTC roles field are retained, including explicitly requested Wizard; conflicting or oversized requirements produce actionable errors. Apply and rebuild mechanics now actually regenerates unlocked roles. The web version continues with corpus rules and TXT export/import.
-
-New one-page workspace: permanent requirements form on the left, complete script viewer in the centre, role details and Laya-ranked suggestions on the right. Click roles with Show connections enabled to inspect links. Each launch starts fresh; Markdown export/import carries scripts between sessions. The project wizard and past-project picker are removed. Collection checkbox alignment and Unicode tokenization are repaired.
-The toolbar now uses Script, Library and Review menus. The redundant Project requirements button is removed; Undo/Redo and the main confirm/approve action stay visible.
-The left panel now has one mechanical brief and a restored Tone field. Existing mechanical preferences are included in the combined brief, and Markdown preserves both the brief and tone. Tone also accompanies embedded Laya comparisons. Personal local paths are removed from repository history and release downloads.
-Retheming defaults to 44 recognizable Star Wars characters plus all five documented Galactic Racer characters, with 49 expanded casting portraits and specific fit cautions. Essential and selected identities remain available; Full catalogue restores all 162 characters. Embedded Laya compares pairs using the full portraits and exact role ability, ranks five alternatives and reports close comparisons honestly.
+Exit the existing app from its tray menu and reopen it to load this update. Export any current script first. This release resets active theme data; it does not rewrite Git history or remove older releases.

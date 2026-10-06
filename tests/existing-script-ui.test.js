@@ -8,7 +8,7 @@ function editor(project,kb={botc:[],botcReference:[],characters:[]}){
   $:id=>nodes[id]||null,task:async fn=>{try{return await fn();}catch(e){error=e;}},render:()=>{},
   api:async(name,data)=>{calls.push({name,data});return {...project,id:'loaded',title:data.request?.title||data.action.request.title};}});
  Object.defineProperty(nodes['#project-editor'],'innerHTML',{set(html){this.html=html;for(const match of html.matchAll(/id="([^"]+)"/g))nodes['#'+match[1]]={value:'',textContent:''};},get(){return this.html;}});
- vm.runInContext(source.slice(source.indexOf('function loadPublishedScript('),source.indexOf('function scriptViewer(){'))+'\nworkspaceEditor();',ctx);
+ vm.runInContext(source.slice(source.indexOf('function loadPublishedScript('),source.indexOf('function markdownImportDialog(){'))+'\nworkspaceEditor();',ctx);
  return {ctx,nodes,calls,get error(){return error;}};
 }
 test('published selection loads exact owned composition without draft requirements',async()=>{

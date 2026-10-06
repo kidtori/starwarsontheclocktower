@@ -1,0 +1,1 @@
+{"id":"tyrant","name":"Tyrant","summary":"A synthetic test persona who manipulates others.","alignment":["evil"],"themes":["deception","poisoning","control"],"personality":["ambition"],"narrativeFunctions":["corrupting reliable information"],"importance":{"overall":3,"recognisability":3},"sources":[{"type":"fixture","description":"Synthetic regression persona"}]}

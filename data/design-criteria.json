@@ -6,11 +6,6 @@
       "poisoning",
       "evilUtility"
     ],
-    "sith": [
-      "misinformation",
-      "poisoning",
-      "registration"
-    ],
     "loyalty": [
       "alignmentInformation",
       "confirmation"
@@ -85,6 +80,11 @@
     "wish": [
       "playerAgency",
       "evilUtility"
+    ],
+    "deception": [
+      "misinformation",
+      "poisoning",
+      "registration"
     ]
   },
   "mechanicThemes": {

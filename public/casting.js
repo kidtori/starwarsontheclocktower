@@ -2,10 +2,8 @@
  const norm=s=>String(s||'').normalize('NFKD').replace(/[\u0300-\u036f]/g,'').toLowerCase().trim();
  const split=value=>Array.isArray(value)?value:String(value||'').split(/[,;\n]/).map(x=>x.trim()).filter(Boolean);
  function pool(characters,request={},entries=[]){
-  if(request.characterPool==='all')return characters;
-  const named=[...split(request.requiredCharacters),...split(request.essentialCharacters)].map(norm);
-  const assigned=new Set(entries.map(e=>e.starWarsIdentity?.id).filter(Boolean));
-  return characters.filter(c=>c.importance?.recognisability===3||c.galacticRacer||assigned.has(c.id)||[c.id,c.name,...(c.aliases||[])].some(x=>named.includes(norm(x))));
+  return characters;
+
  }
  function profile(c){return c.castingProfile||{portrait:c.summary||'No factual summary supplied.',metaphor:(c.narrativeFunctions||[]).join(', '),caution:'Limited character annotation; inspect the source before choosing.'};}
  function bridge(role,c){return c.castingBridges?.[role.botcRole?.id||role.id]||null;}
@@ -20,6 +18,6 @@
   const clear=Number.isFinite(confidence)&&confidence>=0.15&&confidence<=1&&margin>=0.1&&!answer?.context?.truncated;
   return {status:clear?'clear':'uncertain',confidence:Number.isFinite(confidence)?confidence:0,margin,reason:answer?.context?.truncated?'Some comparison context exceeded the model input limit.':clear?'Laya separates these two options.':'Laya has no clear preference between these options.'};
  }
- function contextKey(project){return JSON.stringify({castingProtocol:2,request:project.request,cast:project.entries.map(e=>[e.botcRole.id,e.starWarsIdentity?.id||null])});}
+ function contextKey(project){return JSON.stringify({castingProtocol:2,request:project.request,cast:project.entries.map(e=>[e.botcRole.id,e.identity?.id||null])});}
  return {pool,profile,bridge,comparisonState,assess,contextKey};
 });

@@ -2,7 +2,7 @@
   "description": "Editable heuristic design vocabulary. These are editorial signals, not mathematical balance guarantees.",
   "themeMechanics": {
     "manipulation": ["misinformation", "poisoning", "evilUtility"],
-    "sith": ["misinformation", "poisoning", "registration"],
+    "deception": ["misinformation", "poisoning", "registration"],
     "loyalty": ["alignmentInformation", "confirmation"],
     "betrayal": ["registration", "misinformation"],
     "identities": ["characterInformation", "registration"],

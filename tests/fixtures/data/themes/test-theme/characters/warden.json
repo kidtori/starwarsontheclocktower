@@ -1,0 +1,1 @@
+{"id":"warden","name":"Warden","summary":"A synthetic test persona who threatens and punishes others.","alignment":["evil"],"themes":["fear","death","execution"],"personality":["resolve"],"narrativeFunctions":["threatening the group"],"importance":{"overall":3,"recognisability":3},"sources":[{"type":"fixture","description":"Synthetic regression persona"}]}

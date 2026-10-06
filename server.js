@@ -11,6 +11,7 @@ const projectFile=require('./lib/project-markdown');
 const {markdown}=require('./lib/export');
 const {scriptText}=require('./lib/script-text');
 const settings=require('./lib/settings');
+const themes=require('./lib/themes');
 const themeFits=require('./lib/theme-fits');let themeJob=null,themeStop=false;
 const ROOT=process.env.STUDIO_ROOT||__dirname;
 let kb=knowledge.load(ROOT);const store=new SessionStore();
@@ -35,46 +36,44 @@ async function route(req,res) {
     const b=await body(req);const name=url.pathname.slice(5);
     if(name==='reload'){kb=knowledge.load(ROOT);return send(res,200,{kb});}
     if(name==='settings'){const value=settings.validateSettings(b,kb.botcEditions);atomic(path.join(ROOT,'data','app-settings.json'),value);kb=knowledge.load(ROOT);return send(res,200,{kb});}
-    if(name==='knowledge') {
-      if(!['botc','star-wars','galactic-racer'].includes(b.kind))throw Error('Choose a supported knowledge area.');
-      const records=Array.isArray(b.records)?b.records:[b.records];if(!records.length)throw Error('No records to import.');
-      const seen=new Set();const errors=records.flatMap((r,i)=>{const errs=knowledge.validate(b.kind,r),id=r?.id||r?.characterId;if(seen.has(id))errs.push('duplicate ID in batch');seen.add(id);return errs.map(e=>`Record ${i+1}: ${e}`);});
-      if(errors.length)throw Error(errors.join('\n'));
-      const themed=path.join(ROOT,'data','themes','star-wars',...(b.kind==='star-wars'?['characters']:['racing','characters']));
-      const dir=b.kind==='botc'?path.join(ROOT,'data','botc','characters'):fs.existsSync(path.join(ROOT,'data',b.kind,'characters'))&&!fs.existsSync(themed)?path.join(ROOT,'data',b.kind,'characters'):themed;fs.mkdirSync(dir,{recursive:true});
-      const complete=b.kind==='botc'?knowledge.load(ROOT,{includeUnowned:true}):kb;
-      const areaRecords=b.kind==='botc'?[...complete.botc,...complete.botcReference]:b.kind==='star-wars'?kb.characters:kb.racer;
-      for(const r of records){const id=r.id||r.characterId;const existing=areaRecords.find(x=>(x.id||x.characterId)===id);if(existing&&!b.overwrite)throw Error(`${id} already exists. Enable explicit overwrite to replace knowledge records.`);}
-      const writes=new Map();
-      for(const r of records){const id=r.id||r.characterId;const existing=areaRecords.find(x=>(x.id||x.characterId)===id);const file=existing?path.join(ROOT,existing._file):path.join(dir,id+'.json');
-        const previous=writes.has(file)?writes.get(file):fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8').replace(/^\uFEFF/,'')):null;
-        if(Array.isArray(previous)){const idx=previous.findIndex(x=>(x.id||x.characterId)===id);if(idx>=0)previous[idx]=r;else previous.push(r);writes.set(file,previous);}else writes.set(file,r);
-      }
-      for(const[file,records]of writes)atomic(file,records);
+    if(name==='theme-create'||name==='theme-select'){
+      if(themeJob?.state==='running')throw Error('Stop the current assessment before switching themes.');
+      if(name==='theme-create')themes.create(ROOT,b);else themes.select(ROOT,b.themeId||null);
       kb=knowledge.load(ROOT);return send(res,200,{kb});
+    }
+    if(name==='knowledge'){
+      if(!['botc','character'].includes(b.kind))throw Error('Choose BOTC or theme characters.');
+      if(b.kind==='character'&&!kb.theme)throw Error('Create or select a theme first.');
+      const records=Array.isArray(b.records)?b.records:[b.records],seen=new Set();if(!records.length)throw Error('No records to import.');
+      const errors=records.flatMap((r,i)=>{const errors=knowledge.validate(b.kind,r);if(seen.has(r?.id))errors.push('duplicate ID');seen.add(r?.id);return errors.map(e=>'Record '+(i+1)+': '+e);});if(errors.length)throw Error(errors.join('\n'));
+      const complete=b.kind==='botc'?knowledge.load(ROOT,{includeUnowned:true}):kb,area=b.kind==='botc'?[...complete.botc,...complete.botcReference]:kb.characters;
+      const dir=b.kind==='botc'?path.join(ROOT,'data','botc','characters'):path.join(themes.directory(ROOT,kb.theme.id),'characters');
+      if(records.some(r=>area.some(c=>c.id===r.id)&&!b.overwrite))throw Error('Enable overwrite to replace an existing ID.');
+      const writes=new Map();for(const record of records){const existing=area.find(c=>c.id===record.id),file=existing?path.join(ROOT,existing._file):path.join(dir,record.id+'.json');const old=writes.has(file)?writes.get(file):fs.existsSync(file)?JSON.parse(fs.readFileSync(file,'utf8')):null;if(Array.isArray(old)){const i=old.findIndex(c=>c.id===record.id);if(i>=0)old[i]=record;else old.push(record);writes.set(file,old);}else writes.set(file,record);}
+      fs.mkdirSync(dir,{recursive:true});for(const [file,records]of writes)atomic(file,records);kb=knowledge.load(ROOT);return send(res,200,{kb});
     }
     assertCorpus();
     if(name==='theme-assess-stop'){themeStop=true;return send(res,200,{message:'Stopping after the current pairing; completed fits remain saved.'});}
     if(name==='theme-assess'){
       if(!laya.available(ROOT))throw Error('Embedded Laya is required to assess the theme library.');
       if(themeJob?.state==='running')throw Error('A theme assessment is already running.');
-      if(!Array.isArray(b.characterIds)||!b.characterIds.length||new Set(b.characterIds).size!==b.characterIds.length||b.characterIds.some(id=>!kb.characters.some(c=>c.id===id)))throw Error('Choose recognised characters from the Star Wars theme.');
-      themeStop=false;themeJob={state:'running',message:'Starting saved theme assessment…',completed:0,total:0};
+      if(!Array.isArray(b.characterIds)||!b.characterIds.length||new Set(b.characterIds).size!==b.characterIds.length||b.characterIds.some(id=>!kb.characters.some(c=>c.id===id)))throw Error('Choose recognised characters from the selected theme.');
+      themeStop=false;themeJob={themeId:kb.theme?.id,state:'running',message:'Starting saved theme assessment…',completed:0,total:0};
       const snapshot=kb;
-      themeFits.assess(snapshot,ROOT,{characterIds:b.characterIds,force:!!b.force,shouldStop:()=>themeStop,onProgress:value=>{themeJob={state:'running',...value};}}).then(result=>{kb=knowledge.load(ROOT);themeJob={state:result.stopped?'stopped':'complete',message:result.stopped?'Stopped. Completed fits are saved; run again to resume.':'Theme fits saved.',...result};}).catch(e=>{kb=knowledge.load(ROOT);themeJob={...themeJob,state:'error',message:e.message};});
+      themeFits.assess(snapshot,ROOT,{characterIds:b.characterIds,force:!!b.force,shouldStop:()=>themeStop,onProgress:value=>{themeJob={themeId:snapshot.theme?.id,state:'running',...value};}}).then(result=>{kb=knowledge.load(ROOT);themeJob={themeId:snapshot.theme?.id,state:result.stopped?'stopped':'complete',message:result.stopped?'Stopped. Completed fits are saved; run again to resume.':'Theme fits saved.',...result};}).catch(e=>{kb=knowledge.load(ROOT);themeJob={...themeJob,state:'error',message:e.message};});
       return send(res,200,themeJob);
     }
     if(name==='import-md'){const data=projectFile.parseProjectMarkdown(String(b.text||''),kb);if(!data)throw Error('This Markdown file has no Clocktower import block.');return send(res,200,store.save(await projectFile.importProjectMarkdown(kb,data,ROOT,engine),'Imported Markdown'));}
     if(name==='parse')return send(res,200,knowledge.parseScript(String(b.text||''),kb));
     if(name==='create'){const p=await engine.create(kb,b.request,ROOT,b.roleIds,b.supplementalRoleIds);return send(res,200,store.save(p,'Created '+b.request.mode+' project'));}
-    const p=engine.adopt(store.current(b.id),kb);
+    const p=engine.refresh(kb,engine.adopt(store.current(b.id),kb),ROOT);
     if(name==='markdown'){if(b.version!==p.version)throw Error('Script changed.');return send(res,200,projectFile.projectMarkdown(p));}
     if(name==='text'){if(b.version!==p.version)throw Error('Reopen the current project first.');return send(res,200,scriptText(p));}
     if(name==='export') {
       if(b.version!==p.version)throw Error('Reopen the current project before export.');
       const text=markdown(p,b.options);res.writeHead(200,{'Content-Type':'text/markdown; charset=utf-8','Content-Disposition':'attachment; filename="'+p.title.replace(/[^a-z0-9-]/gi,'-')+'.md"','Cache-Control':'no-store'});return res.end(text);
     }
-    if(name==='undo'||name==='redo')return send(res,200,engine.adopt(store.move(p.id,name==='undo'?-1:1,b.version),kb));
+    if(name==='undo'||name==='redo')return send(res,200,engine.refresh(kb,engine.adopt(store.move(p.id,name==='undo'?-1:1,b.version),kb),ROOT));
     if(name==='replacements')return send(res,200,engine.replacementOptions(kb,p,b.roleId,ROOT));
     if(b.version!==p.version)throw Error('Project changed in another tab. Reopen it first.');
     if(name==='action'){const next=engine.mutate(kb,p,b.action,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
@@ -89,7 +88,7 @@ async function route(req,res) {
   const names={'/':'index.html','/app.js':'app.js','/connections.js':'connections.js','/casting.js':'casting.js','/styles.css':'styles.css'};const file=names[url.pathname];if(!file)return send(res,404,{error:'Not found.'});
   res.writeHead(200,{'Content-Type':file.endsWith('.js')?'text/javascript':file.endsWith('.css')?'text/css':'text/html; charset=utf-8','Content-Security-Policy':"default-src 'self'; style-src 'self'; script-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'none'; frame-ancestors 'none'",'X-Content-Type-Options':'nosniff'});res.end(fs.readFileSync(path.join(__dirname,'public',file)));
 }
-function describe(a){return a.type==='mapping'?`Changed ${a.roleId} identity to ${a.characterId}`:a.type==='role'?`Explicit mechanical replacement ${a.roleId} → ${a.newRoleId}`:a.type==='swap'?`Swapped identities on ${a.roleId} and ${a.otherRoleId}`:a.type==='locks'?`Updated ${a.roleId} locks: BOTC ${a.botcRole}, identity ${a.starWarsCharacter}`:a.type==='approve'?'Explicitly approved current script':a.type;}
+function describe(a){return a.type==='mapping'?`Changed ${a.roleId} identity to ${a.characterId}`:a.type==='role'?`Explicit mechanical replacement ${a.roleId} → ${a.newRoleId}`:a.type==='swap'?`Swapped identities on ${a.roleId} and ${a.otherRoleId}`:a.type==='locks'?`Updated ${a.roleId} locks: BOTC ${a.botcRole}, identity ${a.character}`:a.type==='approve'?'Explicitly approved current script':a.type;}
 const server=http.createServer((req,res)=>{const run=()=>route(req,res).catch(e=>send(res,400,{error:e.message}));if(req.method==='POST'){queue=queue.then(run,run);}else run();});
 function openBrowser(){
   const url=`http://127.0.0.1:${port}`;

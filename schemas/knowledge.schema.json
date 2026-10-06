@@ -125,7 +125,7 @@
         }
       }
     },
-    "starWars": {
+    "character": {
       "type": "object",
       "required": [
         "id",
@@ -188,59 +188,6 @@
           "$ref": "#/$defs/sources"
         }
       }
-    },
-    "galacticRacer": {
-      "type": "object",
-      "required": [
-        "characterId"
-      ],
-      "properties": {
-        "characterId": {
-          "$ref": "#/$defs/slug"
-        },
-        "roleInGame": {
-          "$ref": "#/$defs/strings"
-        },
-        "personality": {
-          "$ref": "#/$defs/strings"
-        },
-        "motivations": {
-          "$ref": "#/$defs/strings"
-        },
-        "rivalries": {
-          "$ref": "#/$defs/strings"
-        },
-        "allies": {
-          "$ref": "#/$defs/strings"
-        },
-        "gameplayIdentity": {
-          "$ref": "#/$defs/strings"
-        },
-        "vehicle": {
-          "type": "string"
-        },
-        "racingStyle": {
-          "$ref": "#/$defs/strings"
-        },
-        "strengths": {
-          "$ref": "#/$defs/strings"
-        },
-        "weaknesses": {
-          "$ref": "#/$defs/strings"
-        },
-        "storyImportance": {
-          "type": "string"
-        },
-        "playerPerception": {
-          "$ref": "#/$defs/strings"
-        },
-        "narrativeNotes": {
-          "type": "string"
-        },
-        "sources": {
-          "$ref": "#/$defs/sources"
-        }
-      }
     }
   },
   "anyOf": [
@@ -248,10 +195,7 @@
       "$ref": "#/$defs/botc"
     },
     {
-      "$ref": "#/$defs/starWars"
-    },
-    {
-      "$ref": "#/$defs/galacticRacer"
+      "$ref": "#/$defs/character"
     }
   ]
 }
