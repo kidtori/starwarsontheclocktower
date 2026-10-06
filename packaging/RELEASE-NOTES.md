@@ -1,5 +1,9 @@
 Build and review BOTC mechanics first, then choose Star Wars identities role by role.
 
+Retheming no longer launches a model sweep when clicking a role or confirming mechanics. Knowledge now provides background assessment of each Star Wars character against owned BOTC roles, with per-character and bulk buttons. Each pairing is saved immediately, can be stopped after the current pairing, resumes without repeating unchanged work, and is invalidated when its evidence changes. Saved fits appear immediately without a top-five limit. Find best fit for this cast optionally compares those saved adaptations against the existing assignments; it never assigns an identity automatically.
+
+All 162 Star Wars identities, including Galactic Racer and classic racers, now belong to one Star Wars theme folder. Racing records enrich the same characters. BOTC mechanics remain separate. Saved assessments are local theme data and are not included in release archives; preserve data/themes/star-wars/laya-fits.json when moving to a new desktop installation.
+
 Desktop Laya now shows live casting progress: completed comparison outcomes, a provisional top-five ranking, and each explanation as it finishes. Mechanical selections also appear immediately during initial design and rebuilds. Decisions, the script viewer and next-unassigned retheming follow Demon → Minions → Townsfolk → Outsiders. Imported composition and abilities remain unchanged. Previews are provisional until the operation completes and do not assign identities automatically.
 
 Selecting Trouble Brewing, Bad Moon Rising or Sects & Violets now loads the published script immediately with its own title and unchanged roles. Published and Markdown-imported scripts skip mechanical brief, tone, complexity, required/excluded role and composition setup. Saved preferences remain intact; renaming a loaded script does not overwrite them. Review the loaded mechanics, then choose identities.

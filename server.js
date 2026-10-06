@@ -11,6 +11,7 @@ const projectFile=require('./lib/project-markdown');
 const {markdown}=require('./lib/export');
 const {scriptText}=require('./lib/script-text');
 const settings=require('./lib/settings');
+const themeFits=require('./lib/theme-fits');let themeJob=null,themeStop=false;
 const ROOT=process.env.STUDIO_ROOT||__dirname;
 let kb=knowledge.load(ROOT);const store=new SessionStore();
 let queue=Promise.resolve();
@@ -24,11 +25,12 @@ async function route(req,res) {
   if(![`127.0.0.1:${port}`,`localhost:${port}`].includes(req.headers.host))return send(res,403,{error:'Invalid local host.'});
   if(req.headers.origin&&!['http://127.0.0.1:'+port,'http://localhost:'+port].includes(req.headers.origin))return send(res,403,{error:'Cross-origin access refused.'});
   if(req.method==='GET'&&url.pathname==='/api/progress')return send(res,200,laya.getProgress());
+  if(req.method==='GET'&&url.pathname==='/api/theme-fits-status')return send(res,200,themeJob||{state:'idle'});
   if(req.method==='GET'&&url.pathname==='/api/bootstrap') {
     let status;try{const c=model.config(ROOT);status=laya.available(ROOT)?'Embedded Laya: local model weights, CPU inference, no external service.':c?`Language model: ${c.model}. Retrieved corpus is sent to ${new URL(c.endpoint).origin}.`:'Offline corpus rules. Configure config.local.json for language-model review.';}catch(e){status=e.message;}
     return send(res,200,{kb,projects:store.list(),modelStatus:status,layaAvailable:laya.available(ROOT)});
   }
-  if(req.method==='GET'&&url.pathname.startsWith('/api/project/'))return send(res,200,engine.adopt(store.current(url.pathname.split('/').at(-1)),kb));
+  if(req.method==='GET'&&url.pathname.startsWith('/api/project/'))return send(res,200,engine.refresh(kb,engine.adopt(store.current(url.pathname.split('/').at(-1)),kb),ROOT));
   if(req.method==='POST'&&url.pathname.startsWith('/api/')) {
     const b=await body(req);const name=url.pathname.slice(5);
     if(name==='reload'){kb=knowledge.load(ROOT);return send(res,200,{kb});}
@@ -38,7 +40,8 @@ async function route(req,res) {
       const records=Array.isArray(b.records)?b.records:[b.records];if(!records.length)throw Error('No records to import.');
       const seen=new Set();const errors=records.flatMap((r,i)=>{const errs=knowledge.validate(b.kind,r),id=r?.id||r?.characterId;if(seen.has(id))errs.push('duplicate ID in batch');seen.add(id);return errs.map(e=>`Record ${i+1}: ${e}`);});
       if(errors.length)throw Error(errors.join('\n'));
-      const dir=path.join(ROOT,'data',b.kind,'characters');fs.mkdirSync(dir,{recursive:true});
+      const themed=path.join(ROOT,'data','themes','star-wars',...(b.kind==='star-wars'?['characters']:['racing','characters']));
+      const dir=b.kind==='botc'?path.join(ROOT,'data','botc','characters'):fs.existsSync(path.join(ROOT,'data',b.kind,'characters'))&&!fs.existsSync(themed)?path.join(ROOT,'data',b.kind,'characters'):themed;fs.mkdirSync(dir,{recursive:true});
       const complete=b.kind==='botc'?knowledge.load(ROOT,{includeUnowned:true}):kb;
       const areaRecords=b.kind==='botc'?[...complete.botc,...complete.botcReference]:b.kind==='star-wars'?kb.characters:kb.racer;
       for(const r of records){const id=r.id||r.characterId;const existing=areaRecords.find(x=>(x.id||x.characterId)===id);if(existing&&!b.overwrite)throw Error(`${id} already exists. Enable explicit overwrite to replace knowledge records.`);}
@@ -51,6 +54,16 @@ async function route(req,res) {
       kb=knowledge.load(ROOT);return send(res,200,{kb});
     }
     assertCorpus();
+    if(name==='theme-assess-stop'){themeStop=true;return send(res,200,{message:'Stopping after the current pairing; completed fits remain saved.'});}
+    if(name==='theme-assess'){
+      if(!laya.available(ROOT))throw Error('Embedded Laya is required to assess the theme library.');
+      if(themeJob?.state==='running')throw Error('A theme assessment is already running.');
+      if(!Array.isArray(b.characterIds)||!b.characterIds.length||new Set(b.characterIds).size!==b.characterIds.length||b.characterIds.some(id=>!kb.characters.some(c=>c.id===id)))throw Error('Choose recognised characters from the Star Wars theme.');
+      themeStop=false;themeJob={state:'running',message:'Starting saved theme assessment…',completed:0,total:0};
+      const snapshot=kb;
+      themeFits.assess(snapshot,ROOT,{characterIds:b.characterIds,force:!!b.force,shouldStop:()=>themeStop,onProgress:value=>{themeJob={state:'running',...value};}}).then(result=>{kb=knowledge.load(ROOT);themeJob={state:result.stopped?'stopped':'complete',message:result.stopped?'Stopped. Completed fits are saved; run again to resume.':'Theme fits saved.',...result};}).catch(e=>{kb=knowledge.load(ROOT);themeJob={...themeJob,state:'error',message:e.message};});
+      return send(res,200,themeJob);
+    }
     if(name==='import-md'){const data=projectFile.parseProjectMarkdown(String(b.text||''),kb);if(!data)throw Error('This Markdown file has no Clocktower import block.');return send(res,200,store.save(await projectFile.importProjectMarkdown(kb,data,ROOT,engine),'Imported Markdown'));}
     if(name==='parse')return send(res,200,knowledge.parseScript(String(b.text||''),kb));
     if(name==='create'){const p=await engine.create(kb,b.request,ROOT,b.roleIds,b.supplementalRoleIds);return send(res,200,store.save(p,'Created '+b.request.mode+' project'));}
@@ -64,7 +77,8 @@ async function route(req,res) {
     if(name==='undo'||name==='redo')return send(res,200,engine.adopt(store.move(p.id,name==='undo'?-1:1,b.version),kb));
     if(name==='replacements')return send(res,200,engine.replacementOptions(kb,p,b.roleId,ROOT));
     if(b.version!==p.version)throw Error('Project changed in another tab. Reopen it first.');
-    if(name==='action'){let next=engine.mutate(kb,p,b.action,ROOT);if(b.action.type==='begin-retheme'&&laya.available(ROOT)&&next.entries.length)next=await engine.layaFit(kb,next,['demon','minion','townsfolk','outsider'].flatMap(t=>next.entries.filter(e=>e.team===t))[0].botcRole.id,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
+    if(name==='action'){const next=engine.mutate(kb,p,b.action,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
+    if(name==='theme-best'){if(themeJob?.state==='running')throw Error('The library assessment is still using Laya. Saved fits remain available; use Find best fit after it finishes.');const next=await engine.bestThemeFit(kb,p,b.roleId,ROOT);return send(res,200,store.save(next,'Found best fit for the current cast',b.version));}
     if(name==='redesign'){const next=await engine.redesign(kb,p,b.request,ROOT);return send(res,200,store.save(next,'Applied mechanical preferences and rebuilt unlocked roles',b.version));}
     if(name==='laya-fit'){const next=await engine.layaFit(kb,p,b.roleId,ROOT);return send(res,200,store.save(next,'Laya compared character fits',b.version));}
     if(name==='regenerate'){const next=await engine.regenerate(kb,p,ROOT);return send(res,200,store.save(next,'Regenerated around locks; '+(p.request.mode==='retheme'?'preserved imported composition':'updated mechanical design or candidate fits'),b.version));}

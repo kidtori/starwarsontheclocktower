@@ -18,6 +18,6 @@
   "galacticRacerContexts": 5,
   "backup": "backups\\star-wars-before-import-1790954376103",
   "coreCatalogueTotal": 148,
-  "racingSupplement": "data/racing-catalogue.json",
+  "racingSupplement": "data/themes/star-wars/racing-catalogue.json",
   "coreVerifiedSources": 149
 }

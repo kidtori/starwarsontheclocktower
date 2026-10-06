@@ -7,5 +7,6 @@ runtime/
 dist/
 *.exe
 data/app-settings.json
+data/themes/*/laya-fits.json
 *.log
 __pycache__/

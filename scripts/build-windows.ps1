@@ -25,7 +25,7 @@ try {
  foreach($directory in @('data','examples','lib','public','schemas','sources','runtime')) {
   Get-ChildItem -LiteralPath (Join-Path $appRoot $directory) -Recurse -File | ForEach-Object {
    $relative=[System.IO.Path]::GetRelativePath($appRoot,$_.FullName).Replace('\','/')
-   if($relative -ne 'data/app-settings.json' -and $relative -notmatch '/__pycache__/') {
+   if($relative -ne 'data/app-settings.json' -and $relative -notmatch '/__pycache__/|/laya-fits\.json$') {
     [System.IO.Compression.ZipFileExtensions]::CreateEntryFromFile($archive,$_.FullName,('Clocktower Studio/'+$relative),[System.IO.Compression.CompressionLevel]::Optimal) | Out-Null
    }
   }
