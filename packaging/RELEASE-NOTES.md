@@ -1,5 +1,7 @@
 Build and review BOTC mechanics first, then choose Star Wars identities role by role.
 
+Selecting Trouble Brewing, Bad Moon Rising or Sects & Violets now loads the published script immediately with its own title and unchanged roles. Published and Markdown-imported scripts skip mechanical brief, tone, complexity, required/excluded role and composition setup. Saved preferences remain intact; renaming a loaded script does not overwrite them. Review the loaded mechanics, then choose identities.
+
 Thematic ranking now compares concrete role-to-story adaptation proposals instead of asking whether a character canonically has a game ability. There are 75 editable proposals across 15 roles; other pairings remain exploratory. Both option orders are tested and combined to reduce positional bias. Close rankings are distinguished from unsupported themes, and specific adaptation explanations remain available without pretending their model weights prove correctness.
 
 Retheming now shows five numbered Laya suggestions per role, with individual explanations and fit limits. Laya compares all pairs in an eight-character shortlist, orders candidates within your essential-character priorities, and chooses an explanation angle from supplied evidence. Close results remain provisional; fewer suggestions are shown only when fewer eligible identities remain. Choosing a character is still manual, and new assignments or requirements invalidate old rankings.

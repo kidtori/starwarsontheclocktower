@@ -44,10 +44,10 @@ Open http://127.0.0.1:3210. Leave the terminal running; Ctrl+C stops the server.
 
 ## First walkthrough
 
-1. Choose **New Project → Design a BOTC script**. Set composition, complexity, and mechanical goals such as poisoning, recurring information, protection or execution interactions.
+1. Use **Fresh script** and the left-side setup to design a new script. Set composition, complexity, and mechanical goals such as poisoning, recurring information, protection or execution interactions.
 2. Review abilities, source sets, synergies, tensions and applicable official jinx rules. Compare replacements or regenerate mechanics while keeping selected roles locked.
-3. Alternatively, choose **Import an existing script unchanged**. Pick Trouble Brewing, Bad Moon Rising or Sects & Violets, or import a TXT role list. Resolve unknown lines explicitly. Imported roles and abilities cannot be replaced or regenerated. Travellers, Fabled and Loric entries are preserved separately with their abilities and source sets.
-4. Click **Satisfied with mechanics → Retheme**. This freezes the mechanical foundation and opens candidate classification for each role. No identity is assigned automatically.
+3. Alternatively, select Trouble Brewing, Bad Moon Rising or Sects & Violets under **Start with** to load it immediately, or use **Script → Import Markdown** to reopen an exported script. Existing scripts skip the mechanical brief, tone and role setup. Saved preferences are preserved. Imported roles and abilities cannot be replaced or regenerated. Travellers, Fabled and Loric entries are preserved separately with their abilities and source sets.
+4. Click **Confirm mechanics & retheme**. This freezes the mechanical foundation and opens candidate classification for each role. No identity is assigned automatically.
 5. In **Constraints**, select any number of essential Star Wars or Galactic Racer identities. Compatible priority candidates appear first. Inspect personality, narrative function and mechanical metaphor, then select a character for each role. Refreshing fits preserves all choices and BOTC mechanics.
 6. Resolve review notes, inspect both analyses, and explicitly **Approve** before exporting Markdown. Hard casting requirements are checked at approval.
 7. Reopen saved projects with **Open project…**. Undo/Redo restore full snapshots. Earlier projects retain their chosen cast and open in the retheming stage with a fixed mechanical foundation.
