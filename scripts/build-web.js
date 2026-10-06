@@ -3,6 +3,7 @@ const {load}=require('../lib/knowledge');
 const root=path.join(__dirname,'..'),out=path.join(root,'dist','web');
 fs.mkdirSync(out,{recursive:true});
 const kb=load(root,{includeUnowned:true});
+kb.themeLibraries=Object.fromEntries(kb.themes.map(t=>[t.id,load(root,{includeUnowned:true,themeId:t.id}).characters]));
 kb.settings={ownedEditions:kb.botcEditions.map(e=>e.id)};
 if(kb.errors.length)throw Error('Fix corpus errors before building the website.');
 fs.writeFileSync(path.join(out,'corpus.json'),JSON.stringify(kb));

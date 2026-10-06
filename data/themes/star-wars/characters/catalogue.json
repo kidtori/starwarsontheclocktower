@@ -1,0 +1,3814 @@
+[
+  {
+    "id": "luke-skywalker",
+    "name": "Luke Skywalker",
+    "aliases": [
+      "Luke"
+    ],
+    "summary": "Luke leaves Tatooine to fight the Empire, learns from Obi-Wan and Yoda, and discovers that Vader is his father. His refusal to abandon that relationship helps bring about Vader’s final act of redemption. Later failures make him a fallible mentor rather than an unquestionable oracle.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Jedi",
+      "Rebel Alliance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "hope",
+      "compassion",
+      "impulsiveness"
+    ],
+    "themes": [
+      "hope",
+      "compassion",
+      "impulsiveness",
+      "recognising concealed allegiance",
+      "redemption through personal trust"
+    ],
+    "narrativeFunctions": [
+      "recognising concealed allegiance",
+      "redemption through personal trust"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Luke leaves Tatooine to fight the Empire, learns from Obi-Wan and Yoda, and discovers that Vader is his father. His refusal to abandon that relationship helps bring about Vader’s final act of redemption. Later failures make him a fallible mentor rather than an unquestionable oracle.",
+      "metaphor": "Represent a difficult read of another person, hope sustained under uncertainty, or help that costs the mentor their safety.",
+      "caution": "Force intuition is not infallible; distinguish the young hero from the disillusioned older teacher."
+    },
+    "relationships": [
+      {
+        "characterId": "leia-organa",
+        "type": "siblings",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      },
+      {
+        "characterId": "darth-vader",
+        "type": "family",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "luke-skywalker · official character/story reference",
+        "url": "https://www.starwars.com/databank/luke-skywalker",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "fortune-teller": {
+        "proposal": "Luke’s sensed threat becomes a nightly test of two suspects. One innocent produces the same warning, preserving the red herring rather than making the vision infallible.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "leia-organa",
+    "name": "Leia Organa",
+    "aliases": [
+      "Leia",
+      "Princess Leia",
+      "General Organa"
+    ],
+    "summary": "Leia combines public leadership with covert resistance. She protects the Death Star plans under interrogation, loses Alderaan, and continues organising the rebellion. Her later leadership of the Resistance makes her a rallying point whose commitments outlast personal loss.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Last Jedi (Episode VIII)"
+    ],
+    "era": [
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "resolve",
+      "loyalty",
+      "discipline"
+    ],
+    "themes": [
+      "resolve",
+      "loyalty",
+      "discipline",
+      "organising resistance",
+      "protecting sensitive information"
+    ],
+    "narrativeFunctions": [
+      "organising resistance",
+      "protecting sensitive information"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Leia combines public leadership with covert resistance. She protects the Death Star plans under interrogation, loses Alderaan, and continues organising the rebellion. Her later leadership of the Resistance makes her a rallying point whose commitments outlast personal loss.",
+      "metaphor": "Represent organising trustworthy allies, carrying a decisive secret, or a public commitment that makes the group coordinate.",
+      "caution": "Leadership alone does not explain omniscience or immunity to deception."
+    },
+    "relationships": [
+      {
+        "characterId": "luke-skywalker",
+        "type": "siblings",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "leia-organa · official character/story reference",
+        "url": "https://www.starwars.com/databank/leia-organa",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "nightwatchman": {
+        "proposal": "Leia chooses one trusted contact to receive proof of who she is. This is a once-per-game introduction, not knowledge of everyone else’s allegiance.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "han-solo",
+    "name": "Han Solo",
+    "aliases": [
+      "Han"
+    ],
+    "summary": "Han begins as a self-interested smuggler concerned with payment and survival. His friendship with Chewbacca and growing attachment to Leia and Luke pull him into the rebellion. He repeatedly takes dangerous chances, and eventually confronts his son despite knowing that the encounter could kill him.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Solo: A Star Wars Story",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "bravado",
+      "improvisation",
+      "loyalty"
+    ],
+    "themes": [
+      "bravado",
+      "improvisation",
+      "loyalty",
+      "taking consequential risks",
+      "returning to help allies"
+    ],
+    "narrativeFunctions": [
+      "taking consequential risks",
+      "returning to help allies"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Han begins as a self-interested smuggler concerned with payment and survival. His friendship with Chewbacca and growing attachment to Leia and Luke pull him into the rebellion. He repeatedly takes dangerous chances, and eventually confronts his son despite knowing that the encounter could kill him.",
+      "metaphor": "Represent wagering on a read of another person, opportunistic rescue, or choosing loyalty at a personal cost.",
+      "caution": "Luck is a creative metaphor, not a guarantee that any gamble succeeds."
+    },
+    "relationships": [
+      {
+        "characterId": "chewbacca",
+        "type": "partners",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "han-solo · official character/story reference",
+        "url": "https://www.starwars.com/databank/han-solo",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "film speeder connection",
+      "note": "Film vehicle association; this does not imply a Galactic Racer roster appearance."
+    },
+    "castingBridges": {
+      "gambler": {
+        "proposal": "Han bets his life on reading a chosen person’s character. A wrong guess kills him, so bravado explains the risk without removing its cost.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "chewbacca",
+    "name": "Chewbacca",
+    "aliases": [
+      "Chewie"
+    ],
+    "summary": "Chewbacca is Han’s copilot and dependable partner. He repairs the Falcon, fights beside his friends and helps rescue prisoners rather than seeking political command. His grief and anger reveal how personal bonds matter to a character often reduced to physical strength.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Solo: A Star Wars Story",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Clone Wars",
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "loyalty",
+      "protectiveness",
+      "endurance"
+    ],
+    "themes": [
+      "loyalty",
+      "protectiveness",
+      "endurance",
+      "supporting a chosen partner",
+      "rescuing companions"
+    ],
+    "narrativeFunctions": [
+      "supporting a chosen partner",
+      "rescuing companions"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Chewbacca is Han’s copilot and dependable partner. He repairs the Falcon, fights beside his friends and helps rescue prisoners rather than seeking political command. His grief and anger reveal how personal bonds matter to a character often reduced to physical strength.",
+      "metaphor": "Represent guarding a specific person, reliable partnership, or a retaliatory consequence when a companion is harmed.",
+      "caution": "Strength is not unlimited protection, and loyalty is not automatic knowledge of alignment."
+    },
+    "relationships": [
+      {
+        "characterId": "han-solo",
+        "type": "partners",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "chewbacca · official character/story reference",
+        "url": "https://www.starwars.com/databank/chewbacca",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "monk": {
+        "proposal": "Chewbacca guards one other person each acting night against the Demon. The partnership is selective; he cannot guard himself or protect against every source of death.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "obi-wan-kenobi",
+    "name": "Obi-Wan Kenobi",
+    "aliases": [
+      "Ben Kenobi",
+      "Obi-Wan"
+    ],
+    "summary": "Obi-Wan trains Anakin, survives the destruction of the Jedi and watches over Luke in exile. He reveals important truths gradually and gives up his physical life during the rescue on the Death Star. Mentorship, hidden history and continued guidance after death offer different casting angles.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Jedi"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "patience",
+      "duty",
+      "restraint"
+    ],
+    "themes": [
+      "patience",
+      "duty",
+      "restraint",
+      "mentoring a successor",
+      "concealing dangerous history"
+    ],
+    "narrativeFunctions": [
+      "mentoring a successor",
+      "concealing dangerous history"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Obi-Wan trains Anakin, survives the destruction of the Jedi and watches over Luke in exile. He reveals important truths gradually and gives up his physical life during the rescue on the Death Star. Mentorship, hidden history and continued guidance after death offer different casting angles.",
+      "metaphor": "Represent starting knowledge from an older mentor, selective protection, or a useful message delivered after sacrifice.",
+      "caution": "His selective account of Anakin’s past is not the same as arbitrary false information."
+    },
+    "relationships": [
+      {
+        "characterId": "darth-vader",
+        "type": "former mentor and pupil",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "obi-wan-kenobi · official character/story reference",
+        "url": "https://www.starwars.com/databank/obi-wan-kenobi",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "ravenkeeper": {
+        "proposal": "Obi-Wan’s final sacrifice becomes information delivered after a night death: he chooses one person and learns their character. The trigger is death at night, not every execution.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "yoda",
+    "name": "Yoda",
+    "aliases": [],
+    "summary": "Yoda is an experienced teacher whose judgement is tested by the Jedi Order’s failure to recognise Palpatine’s plan. In exile he trains Luke through demanding lessons about fear and patience. Experience helps him interpret danger, but it does not prevent institutional mistakes.",
+    "source": [
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Jedi"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "patience",
+      "caution",
+      "discipline"
+    ],
+    "themes": [
+      "patience",
+      "caution",
+      "discipline",
+      "teaching judgement",
+      "testing a pupil’s assumptions"
+    ],
+    "narrativeFunctions": [
+      "teaching judgement",
+      "testing a pupil’s assumptions"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Yoda is an experienced teacher whose judgement is tested by the Jedi Order’s failure to recognise Palpatine’s plan. In exile he trains Luke through demanding lessons about fear and patience. Experience helps him interpret danger, but it does not prevent institutional mistakes.",
+      "metaphor": "Represent recurring insight that requires interpretation, or an initial lesson that helps other players reason rather than solves the game.",
+      "caution": "Wisdom must not become universal truth detection; the Jedi were deceived."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "yoda · official character/story reference",
+        "url": "https://www.starwars.com/databank/yoda",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "dreamer": {
+        "proposal": "Yoda interprets a chosen person through two possible identities, one good and one evil. One is correct; the lesson is reasoning about the possibilities rather than receiving perfect certainty.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "qui-gon-jinn",
+    "name": "Qui-Gon Jinn",
+    "aliases": [
+      "Qui-Gon"
+    ],
+    "summary": "Qui-Gon follows his convictions even when they conflict with the Jedi Council. On Tatooine he recognises Anakin’s potential and stakes the boy’s freedom on the podrace. His death leaves Obi-Wan responsible for a promise whose consequences extend beyond the original rescue.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)"
+    ],
+    "era": [
+      "Fall of the Republic"
+    ],
+    "factions": [
+      "Jedi"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "independence",
+      "conviction",
+      "compassion"
+    ],
+    "themes": [
+      "independence",
+      "conviction",
+      "compassion",
+      "trusting an unusual candidate",
+      "making a consequential bargain"
+    ],
+    "narrativeFunctions": [
+      "trusting an unusual candidate",
+      "making a consequential bargain"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Qui-Gon follows his convictions even when they conflict with the Jedi Council. On Tatooine he recognises Anakin’s potential and stakes the boy’s freedom on the podrace. His death leaves Obi-Wan responsible for a promise whose consequences extend beyond the original rescue.",
+      "metaphor": "Represent identifying exceptional potential among uncertain options, or staking something important on a risky choice.",
+      "caution": "Belief in a prophecy is interpretation, not proof of every future event."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "qui-gon-jinn · official character/story reference",
+        "url": "https://www.starwars.com/databank/qui-gon-jinn",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "knight": {
+        "proposal": "Qui-Gon’s trust in promising companions becomes starting knowledge of two people who are not the Demon. Neither is thereby proven Townsfolk or good.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "padme-amidala",
+    "name": "Padmé Amidala",
+    "aliases": [
+      "Padme",
+      "Naboo Queen"
+    ],
+    "summary": "Padmé moves between the roles of queen, senator and private partner. She uses a decoy while resisting the occupation of Naboo and later opposes the Republic’s slide into authoritarianism. Her secret marriage and desire for peace create tensions between public responsibilities and personal trust.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars"
+    ],
+    "factions": [
+      "Galactic Republic"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "diplomacy",
+      "courage",
+      "idealism"
+    ],
+    "themes": [
+      "diplomacy",
+      "courage",
+      "idealism",
+      "negotiating peace",
+      "using a protective decoy"
+    ],
+    "narrativeFunctions": [
+      "negotiating peace",
+      "using a protective decoy"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Padmé moves between the roles of queen, senator and private partner. She uses a decoy while resisting the occupation of Naboo and later opposes the Republic’s slide into authoritarianism. Her secret marriage and desire for peace create tensions between public responsibilities and personal trust.",
+      "metaphor": "Represent a public claim supported by a hidden protector, a careful social choice, or information shaped by private loyalties.",
+      "caution": "Her decoy is deliberate protection, not evidence that she is secretly evil."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "padme-amidala · official character/story reference",
+        "url": "https://www.starwars.com/databank/padme-amidala",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "mayor": {
+        "proposal": "Padmé’s decoy supplies the possibility of another person dying in her place at night. A three-person peaceful ending represents diplomacy; both clauses remain separate and exact.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "mace-windu",
+    "name": "Mace Windu",
+    "aliases": [
+      "Windu"
+    ],
+    "summary": "Mace is a senior Jedi committed to the Order’s responsibilities and wary of Anakin’s judgement. Once Palpatine’s Sith identity is exposed, Mace tries to stop him directly. His fatal confrontation turns on Anakin’s divided loyalties rather than on Mace lacking combat skill.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars"
+    ],
+    "factions": [
+      "Jedi"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "discipline",
+      "suspicion",
+      "decisiveness"
+    ],
+    "themes": [
+      "discipline",
+      "suspicion",
+      "decisiveness",
+      "challenging corrupt authority",
+      "acting on a revealed threat"
+    ],
+    "narrativeFunctions": [
+      "challenging corrupt authority",
+      "acting on a revealed threat"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Mace is a senior Jedi committed to the Order’s responsibilities and wary of Anakin’s judgement. Once Palpatine’s Sith identity is exposed, Mace tries to stop him directly. His fatal confrontation turns on Anakin’s divided loyalties rather than on Mace lacking combat skill.",
+      "metaphor": "Represent a decisive intervention against a suspected enemy, with a limited opportunity and consequences if others interfere.",
+      "caution": "Combat skill does not explain arbitrary immunity or perfect investigation."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "mace-windu · official character/story reference",
+        "url": "https://www.starwars.com/databank/mace-windu",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "slayer": {
+        "proposal": "Mace’s decisive challenge becomes one public shot that kills only a Demon if the right person is chosen. It is a single opportunity, not general combat superiority.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "r2-d2",
+    "name": "R2-D2",
+    "aliases": [
+      "Artoo",
+      "Artoo-Detoo"
+    ],
+    "summary": "R2-D2 carries messages, stores valuable records and interfaces with machinery that others cannot access. He repairs equipment, opens routes and helps companions escape. His importance often comes from a particular piece of information arriving at the right time, not from knowing everything.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Galactic Republic",
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "resourcefulness",
+      "persistence",
+      "loyalty"
+    ],
+    "themes": [
+      "resourcefulness",
+      "persistence",
+      "loyalty",
+      "preserving a vital record",
+      "restoring access"
+    ],
+    "narrativeFunctions": [
+      "preserving a vital record",
+      "restoring access"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "R2-D2 carries messages, stores valuable records and interfaces with machinery that others cannot access. He repairs equipment, opens routes and helps companions escape. His importance often comes from a particular piece of information arriving at the right time, not from knowing everything.",
+      "metaphor": "Represent a starting clue, a recovered identity record, or a technical rescue that enables another person to act.",
+      "caution": "A stored record has a specific scope; it is not an unrestricted view of the whole game."
+    },
+    "relationships": [
+      {
+        "characterId": "c-3po",
+        "type": "complementary companions",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "r2-d2 · official character/story reference",
+        "url": "https://www.starwars.com/databank/r2-d2",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "undertaker": {
+        "proposal": "R2 records the identity of the person executed today and reports it that night. The stored record concerns executions, not every death or an unrestricted map of the cast.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "c-3po",
+    "name": "C-3PO",
+    "aliases": [
+      "Threepio",
+      "See-Threepio"
+    ],
+    "summary": "C-3PO interprets languages and social conventions but is anxious when events leave familiar routines. His translations connect people who cannot otherwise communicate. In the sequel-era mission, reading a forbidden inscription requires a costly intervention in his memory, making knowledge and personal identity intersect.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Galactic Republic",
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "anxiety",
+      "formality",
+      "helpfulness"
+    ],
+    "themes": [
+      "anxiety",
+      "formality",
+      "helpfulness",
+      "translating clues",
+      "mediating communication"
+    ],
+    "narrativeFunctions": [
+      "translating clues",
+      "mediating communication"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "C-3PO interprets languages and social conventions but is anxious when events leave familiar routines. His translations connect people who cannot otherwise communicate. In the sequel-era mission, reading a forbidden inscription requires a costly intervention in his memory, making knowledge and personal identity intersect.",
+      "metaphor": "Represent useful information that must be interpreted carefully, or a message gained at a cost to the messenger.",
+      "caution": "Translation is not truth detection; knowing languages does not reveal secret allegiances."
+    },
+    "relationships": [
+      {
+        "characterId": "r2-d2",
+        "type": "complementary companions",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "c-3po · official character/story reference",
+        "url": "https://www.starwars.com/databank/c-3po",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "artist": {
+        "proposal": "C-3PO translates one carefully phrased query into a private yes/no answer during the day. The single question rewards precise communication, without granting endless translation-based investigation.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "bb-8",
+    "name": "BB-8",
+    "aliases": [
+      "BB8"
+    ],
+    "summary": "BB-8 carries part of the map sought by the Resistance and becomes the link between Poe, Finn and Rey. The small droid communicates urgently, evades capture and supports others in dangerous situations. His value is a limited, protected clue and a network of loyal companions.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "initiative",
+      "loyalty",
+      "alertness"
+    ],
+    "themes": [
+      "initiative",
+      "loyalty",
+      "alertness",
+      "delivering a protected clue",
+      "connecting separated allies"
+    ],
+    "narrativeFunctions": [
+      "delivering a protected clue",
+      "connecting separated allies"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "BB-8 carries part of the map sought by the Resistance and becomes the link between Poe, Finn and Rey. The small droid communicates urgently, evades capture and supports others in dangerous situations. His value is a limited, protected clue and a network of loyal companions.",
+      "metaphor": "Represent one fragment of starting information whose meaning becomes clearer when other players share their own clues.",
+      "caution": "A map fragment cannot identify every enemy or guarantee another player’s trustworthiness."
+    },
+    "relationships": [
+      {
+        "characterId": "poe-dameron",
+        "type": "pilot and astromech",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "bb-8 · official character/story reference",
+        "url": "https://www.starwars.com/databank/bb-8",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "washerwoman": {
+        "proposal": "BB-8 delivers an initial clue that one of two people is a named Townsfolk. Its limited map fragment preserves the two possible carriers and does not identify all good players.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "rey",
+    "name": "Rey",
+    "aliases": [
+      "Rey Skywalker"
+    ],
+    "summary": "Rey survives through scavenging and practical ingenuity before discovering her connection to the Force. Her search for belonging makes family, inherited identity and chosen commitments central to her story. She resists Palpatine’s claim on her future and helps heal Ben Solo despite their conflict.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Jedi",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "resourcefulness",
+      "compassion",
+      "determination"
+    ],
+    "themes": [
+      "resourcefulness",
+      "compassion",
+      "determination",
+      "recovering hidden identity",
+      "choosing a moral inheritance"
+    ],
+    "narrativeFunctions": [
+      "recovering hidden identity",
+      "choosing a moral inheritance"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Rey survives through scavenging and practical ingenuity before discovering her connection to the Force. Her search for belonging makes family, inherited identity and chosen commitments central to her story. She resists Palpatine’s claim on her future and helps heal Ben Solo despite their conflict.",
+      "metaphor": "Represent uncertain information about identity, repairing or protecting a person, or resisting a tempting false explanation of oneself.",
+      "caution": "Her ancestry and her chosen allegiance are different; do not treat bloodline as alignment."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "rey · official character/story reference",
+        "url": "https://www.starwars.com/databank/rey",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "film speeder connection",
+      "note": "Film vehicle association; this does not imply a Galactic Racer roster appearance."
+    },
+    "castingBridges": {
+      "philosopher": {
+        "proposal": "Rey chooses one good character’s ability for herself once. An existing holder becomes drunk, representing disrupted training; this cost is part of the invented adaptation, not a canonical Force power.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "finn",
+    "name": "Finn",
+    "aliases": [
+      "FN-2187"
+    ],
+    "summary": "Finn breaks with the First Order after being ordered to participate in violence. His knowledge of its procedures helps the Resistance, while his fear initially makes escape more attractive than commitment. Returning for friends turns defection into an active choice to oppose his former organisation.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "First Order",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "conscience",
+      "courage",
+      "uncertainty"
+    ],
+    "themes": [
+      "conscience",
+      "courage",
+      "uncertainty",
+      "leaving a harmful allegiance",
+      "sharing insider knowledge"
+    ],
+    "narrativeFunctions": [
+      "leaving a harmful allegiance",
+      "sharing insider knowledge"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Finn breaks with the First Order after being ordered to participate in violence. His knowledge of its procedures helps the Resistance, while his fear initially makes escape more attractive than commitment. Returning for friends turns defection into an active choice to oppose his former organisation.",
+      "metaphor": "Represent concealed insider knowledge, a changed public identity, or a vulnerable ally whose old connections create suspicion.",
+      "caution": "A past defection does not grant an ongoing power to change anyone’s team."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "finn · official character/story reference",
+        "url": "https://www.starwars.com/databank/finn",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "recluse": {
+        "proposal": "Finn’s former uniform makes him appear evil or as an evil character despite being good. False registration represents suspicion about his past, not an actual return to the First Order.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "poe-dameron",
+    "name": "Poe Dameron",
+    "aliases": [
+      "Poe"
+    ],
+    "summary": "Poe is a talented pilot who inspires confidence and takes the initiative under pressure. His refusal to accept limits can endanger others, and he must learn that leadership sometimes means retreating or listening. Recklessness and loyalty work together, creating costs rather than making every bold action correct.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "recklessness",
+      "loyalty",
+      "initiative"
+    ],
+    "themes": [
+      "recklessness",
+      "loyalty",
+      "initiative",
+      "leading a risky operation",
+      "learning restraint"
+    ],
+    "narrativeFunctions": [
+      "leading a risky operation",
+      "learning restraint"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Poe is a talented pilot who inspires confidence and takes the initiative under pressure. His refusal to accept limits can endanger others, and he must learn that leadership sometimes means retreating or listening. Recklessness and loyalty work together, creating costs rather than making every bold action correct.",
+      "metaphor": "Represent a consequential guess or an assertive intervention that can help the group but carries a real failure cost.",
+      "caution": "Pilot skill and popularity do not make him a reliable oracle or an automatic leader mechanic."
+    },
+    "relationships": [
+      {
+        "characterId": "bb-8",
+        "type": "pilot and astromech",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "poe-dameron · official character/story reference",
+        "url": "https://www.starwars.com/databank/poe-dameron",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "gambler": {
+        "proposal": "Poe commits to a character guess about a chosen person. If wrong he dies; the analogy centres on one costly reckless judgement, rather than suggesting that pilot skill predicts alignment.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "jyn-erso",
+    "name": "Jyn Erso",
+    "aliases": [
+      "Jyn"
+    ],
+    "summary": "Jyn’s distrust of organised authority changes when she learns what her father placed inside the Death Star project. She brings evidence to the rebels, then commits to stealing the plans when official support is uncertain. Her success is inseparable from a mission whose participants do not return.",
+    "source": [
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Rebel Alliance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "defiance",
+      "resolve",
+      "sacrifice"
+    ],
+    "themes": [
+      "defiance",
+      "resolve",
+      "sacrifice",
+      "turning a private clue into collective action",
+      "completing a fatal mission"
+    ],
+    "narrativeFunctions": [
+      "turning a private clue into collective action",
+      "completing a fatal mission"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Jyn’s distrust of organised authority changes when she learns what her father placed inside the Death Star project. She brings evidence to the rebels, then commits to stealing the plans when official support is uncertain. Her success is inseparable from a mission whose participants do not return.",
+      "metaphor": "Represent a decisive clue recovered through sacrifice, or a final action that remains useful even if its owner dies.",
+      "caution": "Her sacrifice does not mean she can alter official abilities or guarantee a victory alone."
+    },
+    "relationships": [
+      {
+        "characterId": "cassian-andor",
+        "type": "mission partners",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "jyn-erso · official character/story reference",
+        "url": "https://www.starwars.com/databank/jyn-erso",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "sage": {
+        "proposal": "Jyn’s fatal encounter with the main enemy leaves a bounded clue naming two possible Demons. Only a Demon kill triggers this information, preserving the condition on her sacrifice.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "cassian-andor",
+    "name": "Cassian Andor",
+    "aliases": [
+      "Cassian"
+    ],
+    "summary": "Cassian works through covert intelligence, false presentations and difficult choices made for the rebellion. On Scarif he joins a mission where collecting and transmitting the plans matters more than personal survival. His secrecy serves an anti-Imperial cause, distinguishing concealed work from malicious misinformation.",
+    "source": [
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Rebel Alliance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "pragmatism",
+      "secrecy",
+      "commitment"
+    ],
+    "themes": [
+      "pragmatism",
+      "secrecy",
+      "commitment",
+      "infiltrating an enemy organisation",
+      "obtaining actionable intelligence"
+    ],
+    "narrativeFunctions": [
+      "infiltrating an enemy organisation",
+      "obtaining actionable intelligence"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Cassian works through covert intelligence, false presentations and difficult choices made for the rebellion. On Scarif he joins a mission where collecting and transmitting the plans matters more than personal survival. His secrecy serves an anti-Imperial cause, distinguishing concealed work from malicious misinformation.",
+      "metaphor": "Represent investigation performed under a misleading public identity, or useful knowledge gained by taking personal risks.",
+      "caution": "A secretive good character is not automatically false-registering; define the particular analogy."
+    },
+    "relationships": [
+      {
+        "characterId": "jyn-erso",
+        "type": "mission partners",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "cassian-andor · official character/story reference",
+        "url": "https://www.starwars.com/databank/cassian-andor",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "bounty-hunter": {
+        "proposal": "Cassian begins with one identified evil contact and learns another when that contact dies. A compromised Townsfolk explains the explicit evil-Townsfolk setup cost, keeping useful intelligence distinct from a safe network.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "chirrut-imwe",
+    "name": "Chirrut Îmwe",
+    "aliases": [
+      "Chirrut"
+    ],
+    "summary": "Chirrut is a blind Guardian of the Whills who relies on discipline, faith and practiced combat rather than Jedi powers. His trust in the Force sustains him when crossing exposed ground on Scarif. His partnership with Baze combines conviction with a companion’s practical protection.",
+    "source": [
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Guardians of the Whills",
+      "Rebel Alliance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "faith",
+      "discipline",
+      "courage"
+    ],
+    "themes": [
+      "faith",
+      "discipline",
+      "courage",
+      "acting despite uncertainty",
+      "trusting a protective partner"
+    ],
+    "narrativeFunctions": [
+      "acting despite uncertainty",
+      "trusting a protective partner"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Chirrut is a blind Guardian of the Whills who relies on discipline, faith and practiced combat rather than Jedi powers. His trust in the Force sustains him when crossing exposed ground on Scarif. His partnership with Baze combines conviction with a companion’s practical protection.",
+      "metaphor": "Represent commitment when information is incomplete, or a risky action made possible by another player’s protection.",
+      "caution": "He is not a Jedi and faith is not perfect supernatural knowledge."
+    },
+    "relationships": [
+      {
+        "characterId": "baze-malbus",
+        "type": "companions",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "chirrut-imwe · official character/story reference",
+        "url": "https://www.starwars.com/databank/chirrut-imwe",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "empath": {
+        "proposal": "Chirrut’s disciplined attention becomes a count of evil among his two living neighbours each night. Faith supplies a metaphor for interpreting nearby danger; it is not claimed as a canonical Jedi power.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "baze-malbus",
+    "name": "Baze Malbus",
+    "aliases": [
+      "Baze"
+    ],
+    "summary": "Baze is a heavily armed fighter whose scepticism contrasts with Chirrut’s faith. He remains close to his companion and protects him with direct action. The loss of Chirrut changes Baze’s final choices, making personal loyalty and retaliation more useful themes than generic combat prowess.",
+    "source": [
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Guardians of the Whills",
+      "Rebel Alliance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "scepticism",
+      "loyalty",
+      "protectiveness"
+    ],
+    "themes": [
+      "scepticism",
+      "loyalty",
+      "protectiveness",
+      "protecting a partner",
+      "responding to a companion’s death"
+    ],
+    "narrativeFunctions": [
+      "protecting a partner",
+      "responding to a companion’s death"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Baze is a heavily armed fighter whose scepticism contrasts with Chirrut’s faith. He remains close to his companion and protects him with direct action. The loss of Chirrut changes Baze’s final choices, making personal loyalty and retaliation more useful themes than generic combat prowess.",
+      "metaphor": "Represent guarding a selected ally, or a limited action whose meaning changes after someone close to the character dies.",
+      "caution": "A blaster cannot explain protection from every kind of death or misleading information."
+    },
+    "relationships": [
+      {
+        "characterId": "chirrut-imwe",
+        "type": "companions",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "baze-malbus · official character/story reference",
+        "url": "https://www.starwars.com/databank/baze-malbus",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "innkeeper": {
+        "proposal": "Baze guards two people against death for the night, but one is drunk until dusk. The impaired judgement is a creative cost of pressured protection, not a canonical effect of his weapon.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "mon-mothma",
+    "name": "Mon Mothma",
+    "aliases": [],
+    "summary": "Mon Mothma builds opposition to authoritarian rule through political organisation and coordination. Her public position makes discretion necessary, while her leadership encourages disparate groups to pursue a common cause. In Rogue One she weighs evidence and the risks of open action rather than charging into battle.",
+    "source": [
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Clone Wars",
+      "Reign of the Empire",
+      "New Republic"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "New Republic"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "restraint",
+      "resolve",
+      "diplomacy"
+    ],
+    "themes": [
+      "restraint",
+      "resolve",
+      "diplomacy",
+      "coordinating a coalition",
+      "weighing evidence before action"
+    ],
+    "narrativeFunctions": [
+      "coordinating a coalition",
+      "weighing evidence before action"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Mon Mothma builds opposition to authoritarian rule through political organisation and coordination. Her public position makes discretion necessary, while her leadership encourages disparate groups to pursue a common cause. In Rogue One she weighs evidence and the risks of open action rather than charging into battle.",
+      "metaphor": "Represent a public pledge, a coordinated social decision, or guidance that makes other players’ independent information useful.",
+      "caution": "Political influence is not a licence to know the entire cast or control every vote."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "mon-mothma · official character/story reference",
+        "url": "https://www.starwars.com/databank/mon-mothma",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "general": {
+        "proposal": "Mon Mothma evaluates the coalition’s position each night: good, evil or neither is winning in the Storyteller’s judgement. Strategic assessment does not reveal particular player identities.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "wedge-antilles",
+    "name": "Wedge Antilles",
+    "aliases": [
+      "Wedge"
+    ],
+    "summary": "Wedge is a dependable Rebel pilot who survives the attacks on both Death Stars. He works within squadrons and completes a dangerous task alongside others, rather than receiving the story’s prophetic role. Reliability, teamwork and returning from repeated danger make him a distinct support figure.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "discipline",
+      "reliability",
+      "courage"
+    ],
+    "themes": [
+      "discipline",
+      "reliability",
+      "courage",
+      "supporting a squadron",
+      "completing a difficult shared objective"
+    ],
+    "narrativeFunctions": [
+      "supporting a squadron",
+      "completing a difficult shared objective"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Wedge is a dependable Rebel pilot who survives the attacks on both Death Stars. He works within squadrons and completes a dangerous task alongside others, rather than receiving the story’s prophetic role. Reliability, teamwork and returning from repeated danger make him a distinct support figure.",
+      "metaphor": "Represent dependable protection or corroboration that helps the group succeed without replacing everyone else’s abilities.",
+      "caution": "Surviving battles is not the same as an unconditional extra life."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "wedge-antilles · official character/story reference",
+        "url": "https://www.starwars.com/databank/wedge-antilles",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "soldier": {
+        "proposal": "Wedge’s survival under enemy fire represents safety from the Demon. The adaptation preserves that specific protection and does not extend it to executions or every other lethal effect.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "admiral-ackbar",
+    "name": "Admiral Ackbar",
+    "aliases": [
+      "Ackbar"
+    ],
+    "summary": "Ackbar commands the Rebel fleet at Endor and recognises that the apparent opportunity is a trap. He must respond to incomplete information while keeping forces coordinated. His distinctive story contribution is identifying a dangerous pattern and deciding how a group should react.",
+    "source": [
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)"
+    ],
+    "era": [
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "caution",
+      "decisiveness",
+      "responsibility"
+    ],
+    "themes": [
+      "caution",
+      "decisiveness",
+      "responsibility",
+      "recognising an ambush",
+      "coordinating a response"
+    ],
+    "narrativeFunctions": [
+      "recognising an ambush",
+      "coordinating a response"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Ackbar commands the Rebel fleet at Endor and recognises that the apparent opportunity is a trap. He must respond to incomplete information while keeping forces coordinated. His distinctive story contribution is identifying a dangerous pattern and deciding how a group should react.",
+      "metaphor": "Represent bounded information about a dangerous arrangement, or a warning whose interpretation depends on what others know.",
+      "caution": "Recognising one trap does not mean he sees every hidden threat."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "admiral-ackbar · official character/story reference",
+        "url": "https://www.starwars.com/databank/admiral-ackbar",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "chef": {
+        "proposal": "Ackbar recognises a dangerous formation: the number of adjacent evil pairs at the start. Recognising the trap produces a count, not a list of names or repeated nightly information.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "darth-vader",
+    "name": "Darth Vader",
+    "aliases": [
+      "Anakin Skywalker",
+      "Anakin",
+      "Lord Vader"
+    ],
+    "summary": "Anakin Skywalker, once a gifted pilot and Jedi, becomes the Emperor’s feared enforcer after his fall. Vader conceals the history behind his armour, hunts opposition and coerces subordinates. His final choice to save Luke shows that a chosen life stage matters: young podracer, fallen enforcer and redeemed father are one person.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Rogue One: A Star Wars Story",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Sith",
+      "Galactic Empire",
+      "Jedi"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "fear",
+      "control",
+      "conflicted loyalty"
+    ],
+    "themes": [
+      "fear",
+      "control",
+      "conflicted loyalty",
+      "enforcing another ruler’s will",
+      "concealing a former identity"
+    ],
+    "narrativeFunctions": [
+      "enforcing another ruler’s will",
+      "concealing a former identity"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Anakin Skywalker, once a gifted pilot and Jedi, becomes the Emperor’s feared enforcer after his fall. Vader conceals the history behind his armour, hunts opposition and coerces subordinates. His final choice to save Luke shows that a chosen life stage matters: young podracer, fallen enforcer and redeemed father are one person.",
+      "metaphor": "Represent a central destructive threat, coercion through fear, or a hidden identity with a costly final reversal.",
+      "caution": "Choose one life stage. Anakin and Vader must not occupy two cast slots as different people."
+    },
+    "relationships": [
+      {
+        "characterId": "luke-skywalker",
+        "type": "family",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      },
+      {
+        "characterId": "obi-wan-kenobi",
+        "type": "former mentor and pupil",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      },
+      {
+        "characterId": "emperor-palpatine",
+        "type": "master and apprentice",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "darth-vader · official character/story reference",
+        "url": "https://www.starwars.com/databank/darth-vader",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      },
+      {
+        "type": "canonical",
+        "title": "Boonta Eve Classic and Anakin’s podracer",
+        "url": "https://www.starwars.com/databank/boonta-eve-classic-podracer-pilots",
+        "accessedAt": "2026-10-06"
+      }
+    ],
+    "racingContext": {
+      "kind": "film podracing",
+      "note": "Anakin’s Boonta Eve victory is film context, not a claim that Vader is a Galactic Racer participant."
+    },
+    "castingBridges": {
+      "po": {
+        "proposal": "Vader can attack one person, or build pressure by choosing no-one so his following attack targets three. Pausing and the exact three-victim consequence distinguish this from unrestricted Force violence.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "emperor-palpatine",
+    "name": "Emperor Palpatine",
+    "aliases": [
+      "Palpatine",
+      "Darth Sidious",
+      "Sheev Palpatine",
+      "The Emperor"
+    ],
+    "summary": "Palpatine presents himself as a legitimate politician while secretly directing a Sith plan. He exploits conflict, recruits an apprentice through fear of loss and converts emergency authority into Imperial rule. His threat comes from hidden responsibility and the ability to make others serve a project they misunderstand.",
+    "source": [
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Sith",
+      "Galactic Empire"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "manipulation",
+      "patience",
+      "ambition"
+    ],
+    "themes": [
+      "manipulation",
+      "patience",
+      "ambition",
+      "concealing ultimate responsibility",
+      "corrupting a dependent agent"
+    ],
+    "narrativeFunctions": [
+      "concealing ultimate responsibility",
+      "corrupting a dependent agent"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Palpatine presents himself as a legitimate politician while secretly directing a Sith plan. He exploits conflict, recruits an apprentice through fear of loss and converts emergency authority into Imperial rule. His threat comes from hidden responsibility and the ability to make others serve a project they misunderstand.",
+      "metaphor": "Represent the hidden central enemy, deceptive public registration, or a controller whose apparently helpful promises undermine others.",
+      "caution": "Political manipulation needs a particular rules analogy; it does not explain every evil ability."
+    },
+    "relationships": [
+      {
+        "characterId": "darth-vader",
+        "type": "master and apprentice",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "emperor-palpatine · official character/story reference",
+        "url": "https://www.starwars.com/databank/emperor-palpatine-darth-sidious",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "imp": {
+        "proposal": "Palpatine operates as the hidden central killer. A self-kill passes that threat to a Minion, representing an apprentice taking over the plan while retaining the exact transfer rule.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "darth-maul",
+    "name": "Maul",
+    "aliases": [
+      "Darth Maul"
+    ],
+    "summary": "In The Phantom Menace, Maul is the concealed Sith apprentice sent to attack the Jedi and support his master’s plan. His appearance exposes a threat thought absent for generations. This profile emphasises the film’s hunter and violent agent, rather than merging in later television-era criminal leadership.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Solo: A Star Wars Story"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Sith",
+      "Shadow Collective"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "aggression",
+      "focus",
+      "obedience"
+    ],
+    "themes": [
+      "aggression",
+      "focus",
+      "obedience",
+      "pursuing a target",
+      "revealing a hidden threat"
+    ],
+    "narrativeFunctions": [
+      "pursuing a target",
+      "revealing a hidden threat"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "In The Phantom Menace, Maul is the concealed Sith apprentice sent to attack the Jedi and support his master’s plan. His appearance exposes a threat thought absent for generations. This profile emphasises the film’s hunter and violent agent, rather than merging in later television-era criminal leadership.",
+      "metaphor": "Represent a precise destructive intervention or an agent whose sudden appearance changes what the good team believes is possible.",
+      "caution": "Use the film-era apprentice here; later survival stories do not imply unlimited resurrection."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "darth-maul · official character/story reference",
+        "url": "https://www.starwars.com/databank/darth-maul",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "assassin": {
+        "proposal": "Maul delivers one lethal strike at night that can bypass protection. The film assassin supplies a targeted, once-per-game intervention, not a general power to break all defences.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "count-dooku",
+    "name": "Count Dooku",
+    "aliases": [
+      "Darth Tyranus",
+      "Dooku"
+    ],
+    "summary": "Dooku’s public identity as a former Jedi and Separatist leader hides his allegiance as Darth Tyranus. He organises opposition while serving the same Sith master who manipulates the Republic. His apparent independence therefore conceals a shared controller and a larger deception.",
+    "source": [
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars"
+    ],
+    "factions": [
+      "Sith",
+      "Separatist Alliance"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "authority",
+      "calculation",
+      "elitism"
+    ],
+    "themes": [
+      "authority",
+      "calculation",
+      "elitism",
+      "leading a deceptive opposition",
+      "serving a concealed master"
+    ],
+    "narrativeFunctions": [
+      "leading a deceptive opposition",
+      "serving a concealed master"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Dooku’s public identity as a former Jedi and Separatist leader hides his allegiance as Darth Tyranus. He organises opposition while serving the same Sith master who manipulates the Republic. His apparent independence therefore conceals a shared controller and a larger deception.",
+      "metaphor": "Represent an enemy with a persuasive public identity, or a subordinate who redirects attention while supporting the real threat.",
+      "caution": "The two sides of a political war do not map directly onto BOTC teams."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "count-dooku · official character/story reference",
+        "url": "https://www.starwars.com/databank/count-dooku",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "spy": {
+        "proposal": "Dooku’s apparently independent public identity conceals allegiance to the same Sith controller. The creative adaptation adds Grimoire access and possible good registration; those are game metaphors, not literal film powers.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "general-grievous",
+    "name": "General Grievous",
+    "aliases": [
+      "Grievous"
+    ],
+    "summary": "Grievous commands Separatist droid forces and collects the lightsabers of defeated Jedi. His intimidating presentation combines military authority with repeated attacks and the ability to disengage from danger. He provides a direct destructive contrast to villains whose power depends on political deceit.",
+    "source": [
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Clone Wars"
+    ],
+    "factions": [
+      "Separatist Alliance"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "intimidation",
+      "aggression",
+      "opportunism"
+    ],
+    "themes": [
+      "intimidation",
+      "aggression",
+      "opportunism",
+      "commanding destructive agents",
+      "hunting skilled opponents"
+    ],
+    "narrativeFunctions": [
+      "commanding destructive agents",
+      "hunting skilled opponents"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Grievous commands Separatist droid forces and collects the lightsabers of defeated Jedi. His intimidating presentation combines military authority with repeated attacks and the ability to disengage from danger. He provides a direct destructive contrast to villains whose power depends on political deceit.",
+      "metaphor": "Represent repeated attacks, pressure from multiple victims, or a dangerous agent with a narrowly defined escape route.",
+      "caution": "Many limbs or weapons do not automatically justify an arbitrary number of kills."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "general-grievous · official character/story reference",
+        "url": "https://www.starwars.com/databank/general-grievous",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "shabaloth": {
+        "proposal": "Grievous directs a two-person attack each acting night. A previously attacked victim might return, interpreted as an incomplete military casualty; the return is a creative rule analogy, not resurrection in the film.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "grand-moff-tarkin",
+    "name": "Grand Moff Tarkin",
+    "aliases": [
+      "Wilhuff Tarkin",
+      "Tarkin"
+    ],
+    "summary": "Tarkin uses the Death Star as an instrument of public intimidation. The destruction of Alderaan demonstrates that his threats carry catastrophic consequences, but his confidence in Imperial superiority prevents him from accepting the station’s vulnerability. Authority and hubris operate together.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: Revenge of the Sith (Episode III)",
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Galactic Empire"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "arrogance",
+      "cruelty",
+      "control"
+    ],
+    "themes": [
+      "arrogance",
+      "cruelty",
+      "control",
+      "coercing through public threats",
+      "ignoring a hidden weakness"
+    ],
+    "narrativeFunctions": [
+      "coercing through public threats",
+      "ignoring a hidden weakness"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Tarkin uses the Death Star as an instrument of public intimidation. The destruction of Alderaan demonstrates that his threats carry catastrophic consequences, but his confidence in Imperial superiority prevents him from accepting the station’s vulnerability. Authority and hubris operate together.",
+      "metaphor": "Represent an overwhelming visible threat with a precise vulnerability, or a punishment that pressures the group’s social choices.",
+      "caution": "His command is institutional; it is not a supernatural ability to control players."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "grand-moff-tarkin · official character/story reference",
+        "url": "https://www.starwars.com/databank/grand-moff-tarkin",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "leviathan": {
+        "proposal": "Tarkin supplies a publicly known catastrophic deadline. Evil wins after day five or after more than one good execution; his coercion pressures choices without adding ordinary nightly kills.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "jabba-the-hutt",
+    "name": "Jabba the Hutt",
+    "aliases": [
+      "Jabba"
+    ],
+    "summary": "Jabba rules through debts, bounty hunters, captivity and the threat of violent punishment. Han’s obligations give him leverage long before direct confrontation. His palace and the Boonta Eve race connect criminal power with public entertainment, making him a strong bridge between the films and a racing celebration.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: The Phantom Menace (Episode I)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Hutt Cartel"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "greed",
+      "vengefulness",
+      "entitlement"
+    ],
+    "themes": [
+      "greed",
+      "vengefulness",
+      "entitlement",
+      "holding people through debts",
+      "controlling a criminal network"
+    ],
+    "narrativeFunctions": [
+      "holding people through debts",
+      "controlling a criminal network"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Jabba rules through debts, bounty hunters, captivity and the threat of violent punishment. Han’s obligations give him leverage long before direct confrontation. His palace and the Boonta Eve race connect criminal power with public entertainment, making him a strong bridge between the films and a racing celebration.",
+      "metaphor": "Represent dangerous bargains, social pressure or a patron whose agents carry out punishment for him.",
+      "caution": "Criminal sponsorship is not evidence that he personally pilots a Galactic Racer vehicle."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "jabba-the-hutt · official character/story reference",
+        "url": "https://www.starwars.com/databank/jabba-the-hutt",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "godfather": {
+        "proposal": "Jabba knows which vulnerable Outsiders are present and orders a killing when one dies during the day. His leverage over the population also explains the permitted one-Outsider setup adjustment.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "boba-fett",
+    "name": "Boba Fett",
+    "aliases": [
+      "Boba"
+    ],
+    "summary": "In the films Boba is a professional bounty hunter who tracks Han’s escape and delivers him to Jabba. He profits by reading an opponent’s intentions and working with powerful employers. This profile concentrates on the hunter’s methods rather than his later television-era role as a ruler.",
+    "source": [
+      "Star Wars: A New Hope (Episode IV)",
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "era": [
+      "Clone Wars",
+      "Reign of the Empire",
+      "New Republic"
+    ],
+    "factions": [
+      "Bounty Hunters"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "patience",
+      "pragmatism",
+      "professionalism"
+    ],
+    "themes": [
+      "patience",
+      "pragmatism",
+      "professionalism",
+      "tracking a concealed target",
+      "serving a paying patron"
+    ],
+    "narrativeFunctions": [
+      "tracking a concealed target",
+      "serving a paying patron"
+    ],
+    "archetypes": [
+      "ambiguous ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "In the films Boba is a professional bounty hunter who tracks Han’s escape and delivers him to Jabba. He profits by reading an opponent’s intentions and working with powerful employers. This profile concentrates on the hunter’s methods rather than his later television-era role as a ruler.",
+      "metaphor": "Represent targeted pursuit, knowledge of a particular person, or a contracted intervention against one chosen victim.",
+      "caution": "A bounty hunter’s role depends on employer and life stage; do not assume universal villainy or perfect tracking."
+    },
+    "relationships": [
+      {
+        "characterId": "jango-fett",
+        "type": "father and son",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "boba-fett · official character/story reference",
+        "url": "https://www.starwars.com/databank/boba-fett",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "bounty-hunter": {
+        "proposal": "Boba starts with one known evil target and receives another if that person dies. One Townsfolk becomes evil: a paid contract is a creative explanation for compromised allegiance, not a removed setup cost.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "jango-fett",
+    "name": "Jango Fett",
+    "aliases": [
+      "Jango"
+    ],
+    "summary": "Jango works as a bounty hunter, hires Zam for an assassination attempt and becomes the genetic template for the Republic’s clone army. His relationship with Boba links copied identity with a deliberately raised son. A professional operative can connect a visible attack to a hidden sponsor.",
+    "source": [
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "era": [
+      "Fall of the Republic"
+    ],
+    "factions": [
+      "Bounty Hunters"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "calculation",
+      "independence",
+      "protectiveness"
+    ],
+    "themes": [
+      "calculation",
+      "independence",
+      "protectiveness",
+      "commissioning an attack",
+      "providing a copied identity"
+    ],
+    "narrativeFunctions": [
+      "commissioning an attack",
+      "providing a copied identity"
+    ],
+    "archetypes": [
+      "ambiguous ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Jango works as a bounty hunter, hires Zam for an assassination attempt and becomes the genetic template for the Republic’s clone army. His relationship with Boba links copied identity with a deliberately raised son. A professional operative can connect a visible attack to a hidden sponsor.",
+      "metaphor": "Represent an intermediary who directs another agent, or an identity-copying metaphor with a clear limit on who is copied.",
+      "caution": "Clone origins do not make every clone the same person or share Jango’s allegiance."
+    },
+    "relationships": [
+      {
+        "characterId": "boba-fett",
+        "type": "father and son",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "jango-fett · official character/story reference",
+        "url": "https://www.starwars.com/databank/jango-fett",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "summoner": {
+        "proposal": "Jango’s recruitment work becomes selecting a person who turns into an evil Demon on night three. No Demon begins in play; the three bluffs and delayed creation are retained as game rules.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "kylo-ren",
+    "name": "Kylo Ren",
+    "aliases": [
+      "Ben Solo",
+      "Kylo"
+    ],
+    "summary": "Ben Solo adopts Kylo Ren’s identity after turning against his family and teacher. He seeks power while struggling with the ties he is trying to deny, eventually killing Snoke and taking command. His later return to Ben’s commitments makes identity, temptation and costly redemption distinct casting choices.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "First Order",
+      "Jedi"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "anger",
+      "ambition",
+      "conflict"
+    ],
+    "themes": [
+      "anger",
+      "ambition",
+      "conflict",
+      "rejecting a former identity",
+      "usurping a master"
+    ],
+    "narrativeFunctions": [
+      "rejecting a former identity",
+      "usurping a master"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Ben Solo adopts Kylo Ren’s identity after turning against his family and teacher. He seeks power while struggling with the ties he is trying to deny, eventually killing Snoke and taking command. His later return to Ben’s commitments makes identity, temptation and costly redemption distinct casting choices.",
+      "metaphor": "Represent a changing threat, concealed past or a replacement ruler who inherits power after another figure falls.",
+      "caution": "Choose Kylo or redeemed Ben as the narrative focus; a story reversal is not an ongoing team-switching power."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "kylo-ren · official character/story reference",
+        "url": "https://www.starwars.com/databank/kylo-ren",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "scarlet-woman": {
+        "proposal": "Kylo takes over the central threat when its leader dies, provided at least five non-Traveller players remain alive. The succession metaphor preserves the size threshold rather than triggering on every defeat.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "supreme-leader-snoke",
+    "name": "Supreme Leader Snoke",
+    "aliases": [
+      "Snoke"
+    ],
+    "summary": "Snoke rules the First Order and manipulates Kylo’s insecurity, presenting himself as a superior master. His confidence in reading Kylo’s intentions proves misplaced when the apprentice turns against him. The later revelation of Palpatine’s involvement reframes this apparent ultimate ruler as part of someone else’s design.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "First Order"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "arrogance",
+      "manipulation",
+      "dominance"
+    ],
+    "themes": [
+      "arrogance",
+      "manipulation",
+      "dominance",
+      "controlling a dependent apprentice",
+      "masking a deeper controller"
+    ],
+    "narrativeFunctions": [
+      "controlling a dependent apprentice",
+      "masking a deeper controller"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Snoke rules the First Order and manipulates Kylo’s insecurity, presenting himself as a superior master. His confidence in reading Kylo’s intentions proves misplaced when the apprentice turns against him. The later revelation of Palpatine’s involvement reframes this apparent ultimate ruler as part of someone else’s design.",
+      "metaphor": "Represent an apparent source of evil whose position can be inherited, or a powerful front concealing the true organiser.",
+      "caution": "His narrative origin does not imply any arbitrary resurrection or cloning mechanic."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "supreme-leader-snoke · official character/story reference",
+        "url": "https://www.starwars.com/databank/supreme-leader-snoke",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "lleech": {
+        "proposal": "Snoke’s apparent supremacy depends on a selected host. The host is poisoned and the Demon dies if and only if the host is dead; this is a dependency adaptation, not a claim about literal film anatomy.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "general-hux",
+    "name": "General Hux",
+    "aliases": [
+      "Armitage Hux",
+      "Hux"
+    ],
+    "summary": "Hux directs First Order military operations while competing with Kylo for status. His resentment eventually leads him to leak information to the Resistance because he wants Kylo to lose. The leak is real but its motive is vindictive rivalry, not a conversion to the Resistance’s ideals.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "First Order"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "resentment",
+      "ambition",
+      "rigidity"
+    ],
+    "themes": [
+      "resentment",
+      "ambition",
+      "rigidity",
+      "betraying a rival from inside",
+      "providing information for selfish reasons"
+    ],
+    "narrativeFunctions": [
+      "betraying a rival from inside",
+      "providing information for selfish reasons"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Hux directs First Order military operations while competing with Kylo for status. His resentment eventually leads him to leak information to the Resistance because he wants Kylo to lose. The leak is real but its motive is vindictive rivalry, not a conversion to the Resistance’s ideals.",
+      "metaphor": "Represent reliable-looking information from a morally hostile source, or a subordinate who undermines the current leader.",
+      "caution": "A useful leak is not proof of good allegiance; distinguish motive from the information’s accuracy."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "general-hux · official character/story reference",
+        "url": "https://www.starwars.com/databank/general-hux",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "politician": {
+        "proposal": "Hux can gain an opposing-team victory only if most responsible for his own team losing. Vindictive sabotage explains the conditional outcome; it does not make every leaked clue a team change.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "captain-phasma",
+    "name": "Captain Phasma",
+    "aliases": [
+      "Phasma"
+    ],
+    "summary": "Phasma is a visible commander of First Order stormtroopers. Her disciplined public image contrasts with self-preservation when she is forced to lower Starkiller Base’s shields. That gap between claimed authority and actual conduct makes her useful for themes of pressure, reputation and compromised protection.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "First Order"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "authority",
+      "self-preservation",
+      "pragmatism"
+    ],
+    "themes": [
+      "authority",
+      "self-preservation",
+      "pragmatism",
+      "enforcing discipline",
+      "abandoning a defence under pressure"
+    ],
+    "narrativeFunctions": [
+      "enforcing discipline",
+      "abandoning a defence under pressure"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Phasma is a visible commander of First Order stormtroopers. Her disciplined public image contrasts with self-preservation when she is forced to lower Starkiller Base’s shields. That gap between claimed authority and actual conduct makes her useful for themes of pressure, reputation and compromised protection.",
+      "metaphor": "Represent a public-looking protector who can be compromised, or an authoritative claim that fails at a critical moment.",
+      "caution": "Chromium armour is not invulnerability, and betrayal under duress is not a new moral identity."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "captain-phasma · official character/story reference",
+        "url": "https://www.starwars.com/databank/captain-phasma",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "devils-advocate": {
+        "proposal": "Phasma supplies a selected person with execution protection for tomorrow. The target cannot be the same as last night; a narrow protective arrangement is more specific than declaring her armour invincible.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "orson-krennic",
+    "name": "Director Orson Krennic",
+    "aliases": [
+      "Krennic",
+      "Orson Krennic"
+    ],
+    "summary": "Krennic manages the Death Star project and coerces Galen Erso into working for it. He seeks personal recognition while competing with Tarkin, and fails to understand the sabotage embedded in his achievement. Ambition makes him depend on a specialist whose private loyalties contradict the project’s public purpose.",
+    "source": [
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Galactic Empire"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "ambition",
+      "vanity",
+      "coercion"
+    ],
+    "themes": [
+      "ambition",
+      "vanity",
+      "coercion",
+      "exploiting a reluctant specialist",
+      "overlooking internal sabotage"
+    ],
+    "narrativeFunctions": [
+      "exploiting a reluctant specialist",
+      "overlooking internal sabotage"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Krennic manages the Death Star project and coerces Galen Erso into working for it. He seeks personal recognition while competing with Tarkin, and fails to understand the sabotage embedded in his achievement. Ambition makes him depend on a specialist whose private loyalties contradict the project’s public purpose.",
+      "metaphor": "Represent recruitment or control of another agent, with a vulnerability hidden inside an apparently powerful achievement.",
+      "caution": "His project authority is not scientific omniscience; Galen’s sabotage is a separate person’s action."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "orson-krennic · official character/story reference",
+        "url": "https://www.starwars.com/databank/director-orson-krennic",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "marionette": {
+        "proposal": "A coerced specialist thinks they have a good role but unknowingly serve the neighbouring Demon. Krennic supplies the theme of hidden sponsorship; the selected identity represents the compromised project agent.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "nute-gunray",
+    "name": "Nute Gunray",
+    "aliases": [],
+    "summary": "Gunray uses trade power and military blockade to pressure Naboo while depending on Sidious’s secret guidance. He also seeks Padmé’s death, involving intermediaries rather than acting personally. His position combines public commercial authority with fearful reliance on a more dangerous hidden patron.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars"
+    ],
+    "factions": [
+      "Separatist Alliance",
+      "Trade Federation"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "greed",
+      "cowardice",
+      "opportunism"
+    ],
+    "themes": [
+      "greed",
+      "cowardice",
+      "opportunism",
+      "pressuring through resources",
+      "outsourcing a dangerous act"
+    ],
+    "narrativeFunctions": [
+      "pressuring through resources",
+      "outsourcing a dangerous act"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Gunray uses trade power and military blockade to pressure Naboo while depending on Sidious’s secret guidance. He also seeks Padmé’s death, involving intermediaries rather than acting personally. His position combines public commercial authority with fearful reliance on a more dangerous hidden patron.",
+      "metaphor": "Represent a subordinate imposing social or numerical pressure, or a patron whose scheme requires another agent to carry out the harm.",
+      "caution": "Trade blockades are a metaphor for pressure, not literal changes to the game’s rules."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "nute-gunray · official character/story reference",
+        "url": "https://www.starwars.com/databank/nute-gunray",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "baron": {
+        "proposal": "Gunray’s coercive trade regime changes the population: two additional Outsiders enter play. The harm is a setup burden, not a new blockade rule or an extra nightly action.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "zam-wesell",
+    "name": "Zam Wesell",
+    "aliases": [],
+    "summary": "Zam is a Clawdite assassin who uses changing appearance and indirect attacks in the attempt on Padmé. A speeder pursuit exposes her, and Jango kills her before she can identify her employer. Disguise, targeted harm and silencing a witness make three concrete casting functions.",
+    "source": [
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "era": [
+      "Fall of the Jedi"
+    ],
+    "factions": [
+      "Bounty hunters"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "deception",
+      "adaptability",
+      "professionalism"
+    ],
+    "themes": [
+      "deception",
+      "adaptability",
+      "professionalism",
+      "concealing identity",
+      "carrying out a targeted assassination"
+    ],
+    "narrativeFunctions": [
+      "concealing identity",
+      "carrying out a targeted assassination"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Zam is a Clawdite assassin who uses changing appearance and indirect attacks in the attempt on Padmé. A speeder pursuit exposes her, and Jango kills her before she can identify her employer. Disguise, targeted harm and silencing a witness make three concrete casting functions.",
+      "metaphor": "Represent false registration or targeted interference, while the pursuit and silencing explain limits on what she can disclose.",
+      "caution": "Changing appearance is not the same as changing a BOTC role or possessing another player’s ability."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "zam-wesell · official character/story reference",
+        "url": "https://www.starwars.com/databank/zam-wesell",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "film speeder connection",
+      "note": "Film vehicle association; this does not imply a Galactic Racer roster appearance."
+    },
+    "castingBridges": {
+      "spy": {
+        "proposal": "Zam’s appearance conceals an evil operative who can register as good. Grimoire access represents reconnaissance for the assassination; both features are explicit game adaptations rather than additional canonical powers.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "lando-calrissian",
+    "name": "Lando Calrissian",
+    "aliases": [
+      "Lando"
+    ],
+    "summary": "Lando runs Cloud City and makes a deal with Vader in an effort to protect the settlement. When the terms are broken he helps his friends escape, later joining the attack at Endor. His charm and gambling history matter, but compromise followed by corrective action gives him greater depth.",
+    "source": [
+      "Star Wars: The Empire Strikes Back (Episode V)",
+      "Star Wars: Return of the Jedi (Episode VI)",
+      "Solo: A Star Wars Story",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Reign of the Empire",
+      "New Republic",
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Rebel Alliance",
+      "Resistance"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "charm",
+      "calculation",
+      "loyalty"
+    ],
+    "themes": [
+      "charm",
+      "calculation",
+      "loyalty",
+      "making a compromised bargain",
+      "repairing a betrayal"
+    ],
+    "narrativeFunctions": [
+      "making a compromised bargain",
+      "repairing a betrayal"
+    ],
+    "archetypes": [
+      "ambiguous ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Lando runs Cloud City and makes a deal with Vader in an effort to protect the settlement. When the terms are broken he helps his friends escape, later joining the attack at Endor. His charm and gambling history matter, but compromise followed by corrective action gives him greater depth.",
+      "metaphor": "Represent a wager, a publicly suspicious ally or a deal whose consequences must be accounted for by the group.",
+      "caution": "Do not flatten his coerced bargain into permanent evil or mistake charm for trustworthy information."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "lando-calrissian · official character/story reference",
+        "url": "https://www.starwars.com/databank/lando-calrissian",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "gambler": {
+        "proposal": "Lando makes a nightly character wager about another player. A wrong call costs his own life, preserving the gamble’s consequence rather than treating charm as reliable information.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "saw-gerrera",
+    "name": "Saw Gerrera",
+    "aliases": [
+      "Saw"
+    ],
+    "summary": "Saw resists the Empire through extreme methods and deep suspicion. In Rogue One his treatment of an Imperial defector puts useful information at risk, while his relationship with Jyn connects militancy to personal care. He is opposed to the Empire without always being safe for its opponents.",
+    "source": [
+      "Rogue One: A Star Wars Story"
+    ],
+    "era": [
+      "Clone Wars",
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Partisans",
+      "Rebel Alliance"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "paranoia",
+      "determination",
+      "extremism"
+    ],
+    "themes": [
+      "paranoia",
+      "determination",
+      "extremism",
+      "testing a suspect destructively",
+      "harming allies while pursuing a cause"
+    ],
+    "narrativeFunctions": [
+      "testing a suspect destructively",
+      "harming allies while pursuing a cause"
+    ],
+    "archetypes": [
+      "ambiguous ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Saw resists the Empire through extreme methods and deep suspicion. In Rogue One his treatment of an Imperial defector puts useful information at risk, while his relationship with Jyn connects militancy to personal care. He is opposed to the Empire without always being safe for its opponents.",
+      "metaphor": "Represent a well-intentioned but disruptive test, information made unreliable by the method used to obtain it, or costly suspicion.",
+      "caution": "Anti-Imperial allegiance does not make every action helpful to the good team."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "saw-gerrera · official character/story reference",
+        "url": "https://www.starwars.com/databank/saw-gerrera",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "puzzlemaster": {
+        "proposal": "Saw’s destructive suspicion compromises one person’s information. A single correct identification reveals the Demon; a wrong guess gives false information, making the method’s risk explicit.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "watto",
+    "name": "Watto",
+    "aliases": [],
+    "summary": "Watto’s junk business and ownership of enslaved people make bargains on Tatooine coercive rather than harmless games. He values money, resists Qui-Gon’s attempted mind trick and loses Anakin through a racing wager. His role links exploitation, betting and the costs hidden behind a deal.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)"
+    ],
+    "era": [
+      "Fall of the Republic"
+    ],
+    "factions": [
+      "Independent"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "greed",
+      "stubbornness",
+      "calculation"
+    ],
+    "themes": [
+      "greed",
+      "stubbornness",
+      "calculation",
+      "bargaining from an unequal position",
+      "wagering another person’s future"
+    ],
+    "narrativeFunctions": [
+      "bargaining from an unequal position",
+      "wagering another person’s future"
+    ],
+    "archetypes": [
+      "antagonist"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Watto’s junk business and ownership of enslaved people make bargains on Tatooine coercive rather than harmless games. He values money, resists Qui-Gon’s attempted mind trick and loses Anakin through a racing wager. His role links exploitation, betting and the costs hidden behind a deal.",
+      "metaphor": "Represent a risky bargain or a hostile patron who profits when others accept a tempting arrangement.",
+      "caution": "His resistance to one mind trick does not mean universal immunity to game effects."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "watto · official character/story reference",
+        "url": "https://www.starwars.com/databank/watto",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "fearmonger": {
+        "proposal": "Watto places a publicly signalled threat on a chosen person. If he nominates and executes that target their team loses; changes of target are announced, so the bargain creates visible social pressure.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "jar-jar-binks",
+    "name": "Jar Jar Binks",
+    "aliases": [
+      "Jar Jar"
+    ],
+    "summary": "Jar Jar is an awkward outsider who helps bridge the Gungans and Naboo’s human population. His unexpected contribution to the battle contrasts with the later political consequences of proposing emergency powers for Palpatine. Good intentions can therefore enable harm without making the character a secret villain.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Attack of the Clones (Episode II)",
+      "Star Wars: Revenge of the Sith (Episode III)"
+    ],
+    "era": [
+      "Fall of the Republic",
+      "Clone Wars"
+    ],
+    "factions": [
+      "Galactic Republic"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "good intentions",
+      "clumsiness",
+      "loyalty"
+    ],
+    "themes": [
+      "good intentions",
+      "clumsiness",
+      "loyalty",
+      "connecting divided communities",
+      "enabling an unintended consequence"
+    ],
+    "narrativeFunctions": [
+      "connecting divided communities",
+      "enabling an unintended consequence"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 3,
+      "recognisability": 3
+    },
+    "castingProfile": {
+      "portrait": "Jar Jar is an awkward outsider who helps bridge the Gungans and Naboo’s human population. His unexpected contribution to the battle contrasts with the later political consequences of proposing emergency powers for Palpatine. Good intentions can therefore enable harm without making the character a secret villain.",
+      "metaphor": "Represent a good player whose presence or mistaken action creates trouble for allies, with the penalty kept explicit and bounded.",
+      "caution": "Do not use the fan theory that he is a hidden Sith as canonical evidence."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "jar-jar-binks · official character/story reference",
+        "url": "https://www.starwars.com/databank/jar-jar-binks",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "sweetheart": {
+        "proposal": "Jar Jar’s well-intentioned involvement becomes a lasting penalty after his death: one person is drunk from then on. The consequence harms good without implying that Jar Jar is secretly Sith.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "maz-kanata",
+    "name": "Maz Kanata",
+    "aliases": [
+      "Maz"
+    ],
+    "summary": "Maz’s castle welcomes travellers, smugglers and resistance contacts. She recognises the importance of the lightsaber found by Rey and encourages her to face the future rather than wait for lost family. Her long experience and connections make her a guide, not an all-purpose prophet.",
+    "source": [
+      "Star Wars: The Force Awakens (Episode VII)",
+      "Star Wars: The Last Jedi (Episode VIII)",
+      "Star Wars: The Rise of Skywalker (Episode IX)"
+    ],
+    "era": [
+      "Rise of the First Order"
+    ],
+    "factions": [
+      "Independent",
+      "Resistance"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "perception",
+      "independence",
+      "warmth"
+    ],
+    "themes": [
+      "perception",
+      "independence",
+      "warmth",
+      "recognising a meaningful object",
+      "connecting people through past knowledge"
+    ],
+    "narrativeFunctions": [
+      "recognising a meaningful object",
+      "connecting people through past knowledge"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Maz’s castle welcomes travellers, smugglers and resistance contacts. She recognises the importance of the lightsaber found by Rey and encourages her to face the future rather than wait for lost family. Her long experience and connections make her a guide, not an all-purpose prophet.",
+      "metaphor": "Represent a specific starting clue, an interpreted identity or a social link that helps other information make sense.",
+      "caution": "Long experience does not give perfect knowledge of every player or future choice."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "maz-kanata · official character/story reference",
+        "url": "https://www.starwars.com/databank/maz-kanata",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "castingBridges": {
+      "steward": {
+        "proposal": "Maz’s experience provides one known good person at the start. This concrete connection is narrower than prophecy and gives the group a clue without exposing the entire cast.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "enfys-nest",
+    "name": "Enfys Nest",
+    "aliases": [],
+    "summary": "Enfys leads masked Cloud-Riders whose attacks initially make them appear to be simple marauders. Their opposition to criminal exploitation changes Han’s understanding once their purpose is explained. Speeder action, hidden presentation and an unexpectedly sympathetic cause connect this film character to the racing tone.",
+    "source": [
+      "Solo: A Star Wars Story"
+    ],
+    "era": [
+      "Reign of the Empire"
+    ],
+    "factions": [
+      "Cloud-Riders"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "defiance",
+      "resolve",
+      "protectiveness"
+    ],
+    "themes": [
+      "defiance",
+      "resolve",
+      "protectiveness",
+      "concealing a resistance cause",
+      "reframing an apparent enemy"
+    ],
+    "narrativeFunctions": [
+      "concealing a resistance cause",
+      "reframing an apparent enemy"
+    ],
+    "archetypes": [
+      "ally"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 2
+    },
+    "castingProfile": {
+      "portrait": "Enfys leads masked Cloud-Riders whose attacks initially make them appear to be simple marauders. Their opposition to criminal exploitation changes Han’s understanding once their purpose is explained. Speeder action, hidden presentation and an unexpectedly sympathetic cause connect this film character to the racing tone.",
+      "metaphor": "Represent a good identity that looks suspicious, or information that forces players to reconsider a hostile-looking claim.",
+      "caution": "A mask alone does not justify false registration; define what the mistaken presentation changes."
+    },
+    "relationships": [],
+    "celebrationReference": false,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "enfys-nest · official character/story reference",
+        "url": "https://www.starwars.com/databank/enfys-nest",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "film speeder connection",
+      "note": "Film vehicle association; this does not imply a Galactic Racer roster appearance."
+    },
+    "castingBridges": {
+      "recluse": {
+        "proposal": "Enfys appears threatening while pursuing a sympathetic cause. Possible registration as evil or as a Minion/Demon turns the mistaken first impression into an explicit information caveat.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "shade",
+    "name": "Shade",
+    "aliases": [],
+    "summary": "Shade enters the Galactic League to challenge Kestar Bool and has a personal grievance against the Bool family. This challenger relies on help rather than acting as an established champion. The available official story places rivalry and revenge at the centre of his campaign.",
+    "source": [
+      "Star Wars: Galactic Racer"
+    ],
+    "era": [
+      "New Republic"
+    ],
+    "factions": [
+      "Galactic League"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "determination",
+      "secrecy",
+      "rivalry"
+    ],
+    "themes": [
+      "determination",
+      "secrecy",
+      "rivalry",
+      "challenging a dominant competitor"
+    ],
+    "narrativeFunctions": [
+      "challenging a dominant competitor"
+    ],
+    "archetypes": [
+      "Galactic League reference"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 1
+    },
+    "castingProfile": {
+      "portrait": "Shade enters the Galactic League to challenge Kestar Bool and has a personal grievance against the Bool family. This challenger relies on help rather than acting as an established champion. The available official story places rivalry and revenge at the centre of his campaign.",
+      "metaphor": "Represent a risky challenge or a targeted judgement with consequences for the challenger.",
+      "caution": "A game adaptation; official material does not specify moral allegiance or supernatural powers."
+    },
+    "relationships": [
+      {
+        "characterId": "hibi",
+        "type": "racer and mechanic",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      },
+      {
+        "characterId": "kestar-bool",
+        "type": "rivals",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      },
+      {
+        "characterId": "darius-pax",
+        "type": "recruited challenger and league founder",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      },
+      {
+        "characterId": "sebulba",
+        "type": "challenger and veteran adviser",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": true,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "shade · official character/story reference",
+        "url": "https://starwarsgalacticracer.com/news/official-star-wars-galactic-racer-story-trailer/",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "Galactic Racer reference",
+      "note": "Core celebration pool; priority is editable and inclusion is never mandatory for every character."
+    },
+    "castingBridges": {
+      "gambler": {
+        "proposal": "Shade stakes survival on identifying one rival’s character each acting night. An incorrect judgement kills him; racing risk is the analogy, not an invented game power.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      },
+      "huntsman": {
+        "proposal": "Shade gets one attempt to identify and help a particular vulnerable person. Choosing the Damsel grants a not-in-play Townsfolk identity; this rescue is an invented celebration adaptation.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "hibi",
+    "name": "Hibi",
+    "aliases": [],
+    "summary": "Hibi is Shade’s Ardennian mechanic and a practical source of support between races. Her workshop fits parts and helps prepare the vehicle for the next attempt. Her distinctive contribution is technical help tailored to a challenger’s choices.",
+    "source": [
+      "Star Wars: Galactic Racer"
+    ],
+    "era": [
+      "New Republic"
+    ],
+    "factions": [
+      "Galactic League"
+    ],
+    "alignment": [
+      "good"
+    ],
+    "personality": [
+      "ingenuity",
+      "enthusiasm",
+      "helpfulness"
+    ],
+    "themes": [
+      "ingenuity",
+      "enthusiasm",
+      "helpfulness",
+      "preparing a chosen ally"
+    ],
+    "narrativeFunctions": [
+      "preparing a chosen ally"
+    ],
+    "archetypes": [
+      "Galactic League reference"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 1
+    },
+    "castingProfile": {
+      "portrait": "Hibi is Shade’s Ardennian mechanic and a practical source of support between races. Her workshop fits parts and helps prepare the vehicle for the next attempt. Her distinctive contribution is technical help tailored to a challenger’s choices.",
+      "metaphor": "Represent a selected player receiving limited protection or an interpreted technical clue.",
+      "caution": "Support is an editorial good-alignment choice, not an official BOTC ability."
+    },
+    "relationships": [
+      {
+        "characterId": "shade",
+        "type": "racer and mechanic",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": true,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "hibi · official character/story reference",
+        "url": "https://starwarsgalacticracer.com/news/sounds-of-the-galactic-league-hibi/",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "Galactic Racer reference",
+      "note": "Core celebration pool; priority is editable and inclusion is never mandatory for every character."
+    },
+    "castingBridges": {
+      "alchemist": {
+        "proposal": "Hibi equips a good person with a tool usually associated with an enemy Minion. The Minion ability and Storyteller’s power to prompt a different choice remain intact; the workshop is a metaphor.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      },
+      "monk": {
+        "proposal": "Hibi prepares one other person’s defences for the night, protecting them from the Demon. Repairs explain selected support without granting universal immunity or self-protection.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "kestar-bool",
+    "name": "Kestar Bool",
+    "aliases": [],
+    "summary": "Kestar Bool holds the Galactic League championship and uses that position to intimidate competitors and extend his influence. Shade’s challenge threatens an established advantage that is sustained through power as well as racing skill.",
+    "source": [
+      "Star Wars: Galactic Racer"
+    ],
+    "era": [
+      "New Republic"
+    ],
+    "factions": [
+      "Galactic League"
+    ],
+    "alignment": [
+      "evil"
+    ],
+    "personality": [
+      "arrogance",
+      "control",
+      "intimidation"
+    ],
+    "themes": [
+      "arrogance",
+      "control",
+      "intimidation",
+      "preserving an unfair advantage"
+    ],
+    "narrativeFunctions": [
+      "preserving an unfair advantage"
+    ],
+    "archetypes": [
+      "Galactic League reference"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 1
+    },
+    "castingProfile": {
+      "portrait": "Kestar Bool holds the Galactic League championship and uses that position to intimidate competitors and extend his influence. Shade’s challenge threatens an established advantage that is sustained through power as well as racing skill.",
+      "metaphor": "Represent a dominant threat protected by leverage or an agent that pressures rivals into poor choices.",
+      "caution": "Editorial villain casting; do not invent unannounced attacks, powers or vehicle statistics."
+    },
+    "relationships": [
+      {
+        "characterId": "shade",
+        "type": "rivals",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": true,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "kestar-bool · official character/story reference",
+        "url": "https://www.starwars.com/news/star-wars-galactic-racer-story-trailer",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "Galactic Racer reference",
+      "note": "Core celebration pool; priority is editable and inclusion is never mandatory for every character."
+    },
+    "castingBridges": {
+      "leviathan": {
+        "proposal": "Kestar’s publicly dominant reign becomes a five-day deadline: evil wins after day five or more than one good execution. Intimidation pressures the table without inventing nightly attacks.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      },
+      "fearmonger": {
+        "proposal": "Kestar threatens a selected rival; successfully nominating and executing that target makes the rival’s team lose. Target changes are announced, so championship intimidation becomes a visible social constraint.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "darius-pax",
+    "name": "Darius Pax",
+    "aliases": [],
+    "summary": "Darius Pax founded the Galactic League and recruits Shade to challenge Kestar’s dominance. He also brought skim speeders into the competition. As organiser he influences the contest by creating opportunities and recruiting someone else to change its outcome.",
+    "source": [
+      "Star Wars: Galactic Racer"
+    ],
+    "era": [
+      "New Republic"
+    ],
+    "factions": [
+      "Galactic League"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "initiative",
+      "ambition",
+      "resourcefulness"
+    ],
+    "themes": [
+      "initiative",
+      "ambition",
+      "resourcefulness",
+      "recruiting a challenger",
+      "organising a contest"
+    ],
+    "narrativeFunctions": [
+      "recruiting a challenger",
+      "organising a contest"
+    ],
+    "archetypes": [
+      "Galactic League reference"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 1
+    },
+    "castingProfile": {
+      "portrait": "Darius Pax founded the Galactic League and recruits Shade to challenge Kestar’s dominance. He also brought skim speeders into the competition. As organiser he influences the contest by creating opportunities and recruiting someone else to change its outcome.",
+      "metaphor": "Represent changing who participates, introducing an agent or coordinating a social opportunity.",
+      "caution": "Recruitment is documented; moral motives and BOTC effects are creative interpretation."
+    },
+    "relationships": [
+      {
+        "characterId": "shade",
+        "type": "recruited challenger and league founder",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": true,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "darius-pax · official character/story reference",
+        "url": "https://www.starwars.com/news/star-wars-galactic-racer-vehicle-guide",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "Galactic Racer reference",
+      "note": "Core celebration pool; priority is editable and inclusion is never mandatory for every character."
+    },
+    "castingBridges": {
+      "summoner": {
+        "proposal": "Darius recruits a challenger on the third night who becomes an evil Demon of his choice. No Demon starts in play; this villain-side league-patron adaptation is interpretation, not an assertion that Darius is canonically evil.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      },
+      "baron": {
+        "proposal": "Darius changes the field of competitors by adding two Outsiders. Recruitment becomes a one-time population change, with no invented nightly power or requirement to include every racing character.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "sebulba",
+    "name": "Sebulba",
+    "aliases": [],
+    "summary": "Sebulba is the aggressive podracing champion defeated by Anakin on Tatooine. His film tactics include sabotage and intimidation. Galactic Racer adds a veteran’s relationship with Shade: useful guidance does not erase a history of cheating, making mentorship and dangerous rivalry distinct versions of the same identity.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Galactic Racer"
+    ],
+    "era": [
+      "Fall of the Republic"
+    ],
+    "factions": [
+      "Independent"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "arrogance",
+      "competitiveness",
+      "pragmatism"
+    ],
+    "themes": [
+      "arrogance",
+      "competitiveness",
+      "pragmatism",
+      "sabotaging a rival",
+      "mentoring a challenger"
+    ],
+    "narrativeFunctions": [
+      "sabotaging a rival",
+      "mentoring a challenger"
+    ],
+    "archetypes": [
+      "Galactic League reference"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 1
+    },
+    "castingProfile": {
+      "portrait": "Sebulba is the aggressive podracing champion defeated by Anakin on Tatooine. His film tactics include sabotage and intimidation. Galactic Racer adds a veteran’s relationship with Shade: useful guidance does not erase a history of cheating, making mentorship and dangerous rivalry distinct versions of the same identity.",
+      "metaphor": "Represent disruption aimed at a competitor, a dangerous wager, or experienced advice with a clear limitation.",
+      "caution": "Use one identity for both appearances; mentoring Shade does not erase the film-era sabotage."
+    },
+    "relationships": [
+      {
+        "characterId": "shade",
+        "type": "challenger and veteran adviser",
+        "description": "Narrative relationship for cast coordination; it does not require both identities in a script."
+      }
+    ],
+    "celebrationReference": true,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "sebulba · official character/story reference",
+        "url": "https://www.starwars.com/databank/sebulba",
+        "accessedAt": "2026-10-02"
+      },
+      {
+        "type": "canonical",
+        "title": "Official Galactic Racer character appearance",
+        "url": "https://www.starwars.com/news/star-wars-galactic-racer-story-trailer",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "Galactic Racer reference",
+      "note": "Core celebration pool; priority is editable and inclusion is never mandatory for every character."
+    },
+    "castingBridges": {
+      "poisoner": {
+        "proposal": "Sebulba sabotages one selected competitor’s effective ability each night. Poisoning is a racing metaphor; it need not literally involve toxins, and the impairment lasts only for the stated duration.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      },
+      "gambler": {
+        "proposal": "Sebulba wagers his own survival on correctly identifying a rival’s character. Bravado explains the wager, while the fatal wrong answer preserves a real personal cost.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  },
+  {
+    "id": "ben-quadinaros",
+    "name": "Ben Quadinaros",
+    "aliases": [],
+    "summary": "Ben is an inexperienced Boonta Eve competitor whose engines fail to start, then break loose when the couplings fail. Official Galactic Racer footage also includes him. His recognisable mishap supplies a comic but concrete contrast to elite pilots and deliberate saboteurs.",
+    "source": [
+      "Star Wars: The Phantom Menace (Episode I)",
+      "Star Wars: Galactic Racer"
+    ],
+    "era": [
+      "Fall of the Republic"
+    ],
+    "factions": [
+      "Podracing competitors"
+    ],
+    "alignment": [
+      "mixed"
+    ],
+    "personality": [
+      "nervousness",
+      "inexperience",
+      "persistence"
+    ],
+    "themes": [
+      "nervousness",
+      "inexperience",
+      "persistence",
+      "suffering a disastrous malfunction"
+    ],
+    "narrativeFunctions": [
+      "suffering a disastrous malfunction"
+    ],
+    "archetypes": [
+      "Galactic League reference"
+    ],
+    "importance": {
+      "overall": 2,
+      "recognisability": 1
+    },
+    "castingProfile": {
+      "portrait": "Ben is an inexperienced Boonta Eve competitor whose engines fail to start, then break loose when the couplings fail. Official Galactic Racer footage also includes him. His recognisable mishap supplies a comic but concrete contrast to elite pilots and deliberate saboteurs.",
+      "metaphor": "Represent a good role that does not work as expected, or a disruption caused by accident rather than malicious intent.",
+      "caution": "A mechanical mishap is an analogy for impaired function, not proof of drunkenness or secret evil."
+    },
+    "relationships": [],
+    "celebrationReference": true,
+    "sources": [
+      {
+        "type": "canonical",
+        "title": "ben-quadinaros · official character/story reference",
+        "url": "https://www.starwars.com/databank/ben-quadinaros",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "canonical",
+        "title": "Official Galactic Racer character appearance",
+        "url": "https://www.starwars.com/news/star-wars-galactic-racer-gameplay-trailer",
+        "accessedAt": "2026-10-06"
+      },
+      {
+        "type": "design",
+        "description": "Original editorial casting guidance. Alignment, traits, role proposals and popularity tiers are design interpretation, not official abilities or calibrated Laya confidence."
+      }
+    ],
+    "racingContext": {
+      "kind": "Galactic Racer reference",
+      "note": "Core celebration pool; priority is editable and inclusion is never mandatory for every character."
+    },
+    "castingBridges": {
+      "drunk": {
+        "proposal": "Ben believes the vehicle and his role are functioning normally, but their capability is absent. The breakdown represents a player who thinks they are Townsfolk while actually being the Drunk.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      },
+      "golem": {
+        "proposal": "Ben’s single attempted launch becomes one allowed nomination. It kills a non-Demon target but spares a Demon, translating an uncontrolled malfunction into the exact restricted consequence.",
+        "annotation": "Editorial creative adaptation; not a saved Laya assessment or canonical character power."
+      }
+    }
+  }
+]

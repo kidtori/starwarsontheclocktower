@@ -11,7 +11,7 @@ const root=path.join(__dirname,'..');
  const review=await engine.review(kb,p,'How do these wishes work?', 'wizard',root);assert.equal(review.engine,'embedded Laya + corpus review');
  const themed=engine.mutate(kb,p,{type:'begin-retheme'},root);
  assert(themed.entries.every(e=>e.identity===null));
- assert.equal(kb.theme,null);assert.equal(kb.characters.length,0);
+ assert.equal(load(root,{themeId:'star-wars',includeUnowned:true}).characters.length,50);
  assert.deepEqual(themed.entries.map(e=>[e.botcRole.id,e.ability]),p.entries.map(e=>[e.botcRole.id,e.ability]));
  console.log(JSON.stringify({engine:review.engine,roles:p.entries.map(e=>e.botcRole.name),decisions:p.designTrace.length,themes:kb.themes.length}));
 })().catch(e=>{console.error(e.message);process.exitCode=1;}).finally(()=>laya.close());

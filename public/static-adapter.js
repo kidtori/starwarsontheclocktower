@@ -8,7 +8,7 @@ function ownedCorpus(){kb=structuredClone(base);const owned=new Set(base.setting
 function current(id){const s=projects.get(id);if(!s)throw Error('Import your TXT or create a script to begin.');return {...structuredClone(s.history[s.cursor].snapshot),version:s.cursor+1,canUndo:s.cursor>0,canRedo:s.cursor<s.history.length-1,history:s.history.map((h,i)=>({version:i+1,note:h.note,state:h.snapshot.state,at:h.at})),archive:[]};}
 function save(p,note){const old=projects.get(p.id)||{history:[],cursor:-1};const snapshot=structuredClone(p);for(const key of ['version','canUndo','canRedo','history','archive'])delete snapshot[key];old.history=old.history.slice(0,old.cursor+1);old.history.push({snapshot,note,at:new Date().toISOString()});old.cursor++;projects.set(p.id,old);return current(p.id);}
 window.StaticApi=async(name,b={})=>{
- if(!base){base=await initial;ownedCorpus();}
+ if(!base){base=await initial;for(const [id,characters]of Object.entries(base.themeLibraries||{}))themeLibraries.set(id,structuredClone(characters));if(base.theme)themeLibraries.set(base.theme.id,structuredClone(base.characters));ownedCorpus();}
  if(name==='bootstrap')return {kb,projects:[...projects.keys()].map(id=>{const p=current(id);return {id,title:p.title,state:p.state};}),modelStatus:'One-off web builder. Nothing is saved online. Export TXT before closing this page.'};
  if(name==='settings'){base.settings=settings.validateSettings(b,base.botcEditions);return {kb:ownedCorpus()};}
  if(name==='reload')return {kb:ownedCorpus()};

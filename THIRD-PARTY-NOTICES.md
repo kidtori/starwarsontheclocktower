@@ -4,6 +4,8 @@ Blood on the Clocktower characters, ability wording and official jinx rules are 
 
 Individual corpus records and the `sources` directory preserve source attribution. Publishing this repository does not grant a new license to third-party character content.
 
+Star Wars characters, film stories and Galactic Racer references belong to Lucasfilm and their respective rights holders. The supplied celebration theme is unofficial fan material. Individual records link to official Star Wars Databank and game references. Casting descriptions and BOTC role analogies are original editorial adaptations, not canonical powers or publisher endorsements.
+
 The Windows portable package includes an unmodified Node.js runtime. Its license and dependency notices are reproduced in `runtime/LICENSE.txt`, from the official Node.js v24.7.0 release. The build uses that pinned runtime in GitHub Actions. When changing runtime versions, update `packaging/NODE-LICENSE.txt` to the corresponding official release license.
 
 ## Embedded Laya desktop runtime

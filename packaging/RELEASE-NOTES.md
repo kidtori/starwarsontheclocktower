@@ -1,11 +1,10 @@
-Clocktower Studio now separates BOTC mechanics from reusable theme libraries.
+Clocktower Studio 0.5.1 adds an optional Star Wars celebration theme.
 
-- BOTC menu combines script tools with Roles & expansions: owned-set selection, catalogue search, exact abilities and jinxes.
-- Themes menu creates and selects separate empty libraries, with generic character descriptions, tags, metaphors and JSON editing/import.
-- The app starts with zero themes and zero characters. Previously supplied lore, characters, theme-specific restrictions and archived source material are excluded from the active app and downloads.
-- Theme changes clear character assignments, locks, cached proposals and theme preferences while preserving exact BOTC mechanics. Approved casts return to draft.
-- Background embedded Laya assessments are saved within each theme. Clicking roles reads saved fits immediately. Find best fit considers the current cast.
-- Published-script imports remain exact. Markdown from an unavailable theme restores the BOTC mechanics without old character assignments.
-- Web theme libraries are temporary session data. Embedded Laya remains desktop-only. Export Markdown before closing or updating the app.
+- One library combines 50 film and Galactic Racer characters: 26 good, 16 evil and 8 mixed figures.
+- Shade, Hibi, Kestar Bool, Darius Pax, Sebulba and Ben Quadinaros seed editable priority preferences. No character quota is mandatory.
+- Character portraits, specific narrative traits, adaptation limits, relationships and official sources are available in Themes → Manage themes.
+- 56 editorial role analogies give embedded Laya concrete proposals to assess. They are not precomputed model results. Background assessments remain saved per theme.
+- Provided themes work in the web builder as well as the desktop app; embedded Laya remains desktop-only.
+- BOTC mechanics, owned expansions and exact script imports stay independent of theme choices.
 
-Exit the existing app from its tray menu and reopen it to load this update. Export any current script first. This release resets active theme data; it does not rewrite Git history or remove older releases.
+Export any current script, exit the existing app through its tray menu and reopen to load this update. Portable installations can select Star Wars from Themes → Manage themes.

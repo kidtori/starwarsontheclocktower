@@ -1,6 +1,6 @@
 # Clocktower Studio
 
-A local BOTC script builder with independent reusable theme libraries. Build or import the mechanics first, then cast the roles using a theme of your choice. New installations include the BOTC catalogue and start with no themes or characters.
+A local BOTC script builder with independent reusable theme libraries. Build or import the mechanics first, then cast the roles using a theme of your choice. New installations include the BOTC catalogue and an optional 50-character Star Wars theme. Select it in the Themes menu, or create an empty library for another retheme.
 
 ## Run
 
@@ -27,7 +27,7 @@ Scripts are one-off sessions. **BOTC → Export Markdown** saves a portable draf
 
 **Themes → Manage themes** creates and selects named libraries. Add characters using the description, tags and narrative metaphor form, or import a JSON record/array. Each library lives in data/themes/<theme-id>/ and contains theme.json plus characters/*.json. IDs need only be unique within that theme. Editing records invalidates affected cached fits.
 
-Changing themes clears the cast and theme preferences while retaining BOTC roles and abilities. No predefined lore, faction restrictions or character quotas are supplied. Theme character JSON supports id, name, summary, aliases, themes, personality, narrativeFunctions, castingProfile, castingBridges, relationships and attributed sources. See schemas/knowledge.schema.json#/$defs/character.
+Changing themes clears the cast and theme preferences while retaining BOTC roles and abilities. The supplied Star Wars celebration library combines the films and Galactic Racer in one theme: 26 good, 16 evil and 8 mixed characters. Shade, Hibi, Kestar Bool, Darius Pax, Sebulba and Ben Quadinaros are editable priority suggestions, with no mandatory character quotas. Each character has a descriptive portrait, narrative traits, adaptation limits and attributed sources. The 56 proposed role analogies are editorial suggestions, not precomputed Laya assessments. Theme character JSON supports id, name, summary, aliases, themes, personality, narrativeFunctions, castingProfile, castingBridges, relationships and attributed sources. See schemas/knowledge.schema.json#/$defs/character.
 
 The desktop **Assess missing role fits** button uses embedded Laya to assess the selected theme against your owned BOTC roles. It runs in the background, saves each pairing and resumes unchanged work. Stop finishes the current pairing. Role clicks read saved fits immediately. **Find best fit for this cast** compares those fits against choices already made; assignments remain manual. Explanations describe supplied character evidence and creative metaphors; they are not model reasoning transcripts or calibrated confidence percentages.
 
