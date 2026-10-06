@@ -44,6 +44,8 @@ Open http://127.0.0.1:3210. Leave the terminal running; Ctrl+C stops the server.
 
 ## First walkthrough
 
+Work proceeds Demon → Minions → Townsfolk → Outsiders. Desktop generation shows selected roles as they finish; casting shows completed comparisons, the current provisional ranking and finished explanations while Laya is still working. Final results replace the preview when the operation completes. These are decision outcomes, not an internal reasoning transcript, and identities remain manually selected. Published and imported role lists retain their original composition and abilities.
+
 1. Use **Fresh script** and the left-side setup to design a new script. Set composition, complexity, and mechanical goals such as poisoning, recurring information, protection or execution interactions.
 2. Review abilities, source sets, synergies, tensions and applicable official jinx rules. Compare replacements or regenerate mechanics while keeping selected roles locked.
 3. Alternatively, select Trouble Brewing, Bad Moon Rising or Sects & Violets under **Start with** to load it immediately, or use **Script → Import Markdown** to reopen an exported script. Existing scripts skip the mechanical brief, tone and role setup. Saved preferences are preserved. Imported roles and abilities cannot be replaced or regenerated. Travellers, Fabled and Loric entries are preserved separately with their abilities and source sets.

@@ -2,6 +2,15 @@ const {test}=require('node:test');const assert=require('node:assert/strict');con
 const engine=require('../lib/engine');const {load}=require('../lib/knowledge');const laya=require('../lib/laya');
 const root=path.join(__dirname,'..'),kb=load(root,{includeUnowned:true});
 const request={mode:'create',complexity:'high',requiredBotcRoles:'Wizard, Alchemist, Plague Doctor',mechanicalBrief:'Wizard wishes with alchemist wishes, plague doctor for storyteller wishes and other ways to make wishes.',size:{townsfolk:2,outsider:1,minion:2,demon:1}};
+test('mechanical decisions run Demon, Minions, Townsfolk, Outsiders and publish each completed choice',async t=>{
+ const original={choose:laya.choose,progress:laya.progress},events=[],decisions=[];t.after(()=>Object.assign(laya,original));
+ laya.choose=async(_root,_state,options)=>{const role=kb.botc.find(r=>r.id===options[0].id);decisions.push(role.team);return {choice:role.id};};
+ laya.progress=(_root,event)=>events.push(event);
+ const p=await engine.create(kb,{mode:'create',size:{demon:1,minion:1,townsfolk:2,outsider:1}},root);
+ assert.deepEqual(decisions,['demon','minion','townsfolk','townsfolk','outsider']);
+ assert.deepEqual(p.entries.map(e=>e.team),decisions);
+ const completed=events.filter(e=>e.kind==='mechanics');assert.equal(completed.length,5);assert.equal(completed.at(-1).roles.length,5);
+});
 test('dedicated required roles retain Wizard, Alchemist and Plague Doctor, including the bespoke caution',async()=>{
  const p=await engine.create(kb,request,root);for(const id of ['wizard','alchemist','plague-doctor'])assert(p.entries.some(e=>e.botcRole.id===id));
  assert(p.analysis.warnings.some(w=>w.includes('Wizard')));for(const e of p.entries)assert.equal(e.ability,kb.botc.find(r=>r.id===e.botcRole.id).ability);
@@ -15,7 +24,7 @@ test('requirements reject capacity conflicts, unavailable roles and exclusions',
 test('brief mentions and negations never become required or excluded roles at 15 Townsfolk',async()=>{
  const p=await engine.create(kb,{mode:'create',mechanicalBrief:'Townsfolk become drunk; Wizard wishes without Poisoner',size:{townsfolk:15,outsider:4,minion:4,demon:4}},root);
  assert.deepEqual(p.goals.requiredRoles,[]);assert.deepEqual(p.goals.excludedRoles,[]);
- assert.equal(p.entries[0].team,'townsfolk');assert.equal(p.entries.filter(e=>e.team==='townsfolk').length,15);
+ assert.equal(p.entries[0].team,'demon');assert.equal(p.entries.filter(e=>e.team==='townsfolk').length,15);
  const explicit=await engine.create(kb,{mode:'create',mechanicalBrief:'Townsfolk become drunk; avoid Drunk',requiredBotcRoles:'Drunk',size:{townsfolk:15,outsider:4,minion:4,demon:4}},root);
  assert.deepEqual(explicit.goals.requiredRoles,['drunk']);assert.deepEqual(explicit.goals.excludedRoles,[]);assert.equal(explicit.entries.find(e=>e.botcRole.id==='drunk').team,'outsider');
 });

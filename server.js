@@ -64,7 +64,7 @@ async function route(req,res) {
     if(name==='undo'||name==='redo')return send(res,200,engine.adopt(store.move(p.id,name==='undo'?-1:1,b.version),kb));
     if(name==='replacements')return send(res,200,engine.replacementOptions(kb,p,b.roleId,ROOT));
     if(b.version!==p.version)throw Error('Project changed in another tab. Reopen it first.');
-    if(name==='action'){let next=engine.mutate(kb,p,b.action,ROOT);if(b.action.type==='begin-retheme'&&laya.available(ROOT)&&next.entries.length)next=await engine.layaFit(kb,next,next.entries[0].botcRole.id,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
+    if(name==='action'){let next=engine.mutate(kb,p,b.action,ROOT);if(b.action.type==='begin-retheme'&&laya.available(ROOT)&&next.entries.length)next=await engine.layaFit(kb,next,['demon','minion','townsfolk','outsider'].flatMap(t=>next.entries.filter(e=>e.team===t))[0].botcRole.id,ROOT);return send(res,200,store.save(next,b.note||describe(b.action),b.version));}
     if(name==='redesign'){const next=await engine.redesign(kb,p,b.request,ROOT);return send(res,200,store.save(next,'Applied mechanical preferences and rebuilt unlocked roles',b.version));}
     if(name==='laya-fit'){const next=await engine.layaFit(kb,p,b.roleId,ROOT);return send(res,200,store.save(next,'Laya compared character fits',b.version));}
     if(name==='regenerate'){const next=await engine.regenerate(kb,p,ROOT);return send(res,200,store.save(next,'Regenerated around locks; '+(p.request.mode==='retheme'?'preserved imported composition':'updated mechanical design or candidate fits'),b.version));}

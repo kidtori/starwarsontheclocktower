@@ -1,5 +1,7 @@
 Build and review BOTC mechanics first, then choose Star Wars identities role by role.
 
+Desktop Laya now shows live casting progress: completed comparison outcomes, a provisional top-five ranking, and each explanation as it finishes. Mechanical selections also appear immediately during initial design and rebuilds. Decisions, the script viewer and next-unassigned retheming follow Demon → Minions → Townsfolk → Outsiders. Imported composition and abilities remain unchanged. Previews are provisional until the operation completes and do not assign identities automatically.
+
 Selecting Trouble Brewing, Bad Moon Rising or Sects & Violets now loads the published script immediately with its own title and unchanged roles. Published and Markdown-imported scripts skip mechanical brief, tone, complexity, required/excluded role and composition setup. Saved preferences remain intact; renaming a loaded script does not overwrite them. Review the loaded mechanics, then choose identities.
 
 Thematic ranking now compares concrete role-to-story adaptation proposals instead of asking whether a character canonically has a game ability. There are 75 editable proposals across 15 roles; other pairings remain exploratory. Both option orders are tested and combined to reduce positional bias. Close rankings are distinguished from unsupported themes, and specific adaptation explanations remain available without pretending their model weights prove correctness.

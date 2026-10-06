@@ -3,6 +3,16 @@ const engine=require('../lib/engine');const laya=require('../lib/laya');const ca
 const root=path.join(__dirname,'..'),kb=load(root,{includeUnowned:true});
 async function script(request={}){let p=await engine.create(kb,{mode:'retheme',...request},root,['village-idiot','imp']);return engine.mutate(kb,p,{type:'begin-retheme'},root);}
 function mock(t,choose){const original={available:laya.available,choose:laya.choose};t.after(()=>Object.assign(laya,original));laya.available=()=>true;laya.choose=choose;}
+test('live casting progress publishes accumulating comparison outcomes and completed explanations without committing mappings',async t=>{
+ const events=[],original=laya.progress;t.after(()=>{laya.progress=original;});laya.progress=(_root,event)=>events.push(JSON.parse(JSON.stringify(event)));
+ mock(t,async(_root,_state,options)=>({choice:options[0].id,confidence:0.01,probabilities:Object.fromEntries(options.map(o=>[o.id,1/options.length]))}));
+ const p=await script(),out=await engine.layaFit(kb,p,'village-idiot',root);
+ assert(events.every(e=>e.kind==='casting'&&e.projectId===p.id&&e.roleId==='village-idiot'));
+ assert.equal(events[0].completed,0);assert.equal(events[0].suggestions.length,0);
+ assert(events.some(e=>e.completed===1&&e.outcomes.length===1&&e.ranking.length===5));
+ const last=events.at(-1);assert.equal(last.completed,last.total);assert.equal(last.suggestions.length,5);assert.equal(last.outcomes.length,last.total);
+ assert.equal(events[0].suggestions.length,0);assert.equal(p.entries[0].layaSuggestions,undefined);assert.equal(out.entries[0].starWarsIdentity,null);
+});
 test('popular pool has 49 detailed portraits, all five Racers, explicit exceptions and a full-catalogue option',()=>{
  const pool=casting.pool(kb.characters);assert.equal(pool.length,49);assert.equal(pool.filter(c=>c.galacticRacer).length,5);assert(pool.every(c=>c.castingProfile&&c.castingProfile.portrait.length>150&&c.castingProfile.caution&&c.castingProfile.sources.length));assert(!pool.some(c=>c.id==='brasso'));
  assert.equal(casting.pool(kb.characters,{characterPool:'all'}).length,162);
